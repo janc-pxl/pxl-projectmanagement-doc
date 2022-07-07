@@ -1,5 +1,5 @@
 ---
-share: true
+share: True
 ---
 # Kwaliteitsmanagement
 
@@ -66,15 +66,15 @@ Kwaliteitsmanagement richt zich op het voorkomen van fouten. Door toepassing van
 ### Kwaliteit versus Uitwerking
 Het is belangrijk de  verschillen tussen enerzijds de **kwaliteit** en anderzijds de **uitwerking** (of mogelijkheden) van een product te begrijpen
 
-> [!NOTE] Definitie: KWALITEIT
-> Drukt uit hoe nauwkeurig een oplevering de verwachtingen en de te leveren functionaliteiten inlost. Het is noodzakelijk te bekijken of er mogelijke gebreken of prestatieproblemen zijn.
-> - **hoge kwaliteit**: de oplevering voldoet aan de omschreven verwachtingen. Er zijn geen gebreken en alles werkt naar behoren.
-> - **lage kwaliteit**: de oplevering voldoet niet aan de omschreven verwachtingen. Er zijn gebreken of het werkt niet of niet correct.
+!!! note "Definitie: KWALITEIT"
+	Drukt uit hoe nauwkeurig een oplevering de verwachtingen en de te leveren functionaliteiten inlost. Het is noodzakelijk te bekijken of er mogelijke gebreken of prestatieproblemen zijn.
+	- **hoge kwaliteit**: de oplevering voldoet aan de omschreven verwachtingen. Er zijn geen gebreken en alles werkt naar behoren.
+	- **lage kwaliteit**: de oplevering voldoet niet aan de omschreven verwachtingen. Er zijn gebreken of het werkt niet of niet correct.
 
-> [!NOTE] Definitie: UITWERKING
-> Categoriseert de gewenste kenmerken of karakteristieken van een oplevering. Men kan het zien als een maatstaf van wat een klant waardevol vind in een product.
-> - **hoge uitwerking**: veel waardevolle of gewenste kenmerken
-> - **lage uitwerking**: beperkte of ongewenste kenmerken
+!!! note "Definitie: UITWERKING"
+	Categoriseert de gewenste kenmerken of karakteristieken van een oplevering. Men kan het zien als een maatstaf van wat een klant waardevol vind in een product.
+	- **hoge uitwerking**: veel waardevolle of gewenste kenmerken
+	- **lage uitwerking**: beperkte of ongewenste kenmerken
 
 Vanuit het oogpunt van kwaliteit en uitwerking zijn er vier mogelijke combinaties wanneer je kijkt naar een een product of oplevering. Kijken we bij voorbeeld naar het opleveren van een simpele hamburger.
 
@@ -88,9 +88,9 @@ Vanuit het oogpunt van kwaliteit en uitwerking zijn er vier mogelijke combinatie
 ### Nauwkeurigheid versus Reproduceerbaarheid
 Veelal worden de begrippen **nauwkeurigheid** en **precisie** door elkaar gebruikt en worden ze als synoniemen beschouwd. deze twee termen hebben echter een verschillende betekenis. de nauwkeurigheid geeft aan hoe accuraat de meting is, ofwel hoe groot de afwijking is tussen de gemeten en werkelijke waarde. de precisie heeft betrekking op de spreiding van de gemeten waarden uit een serie metingen. 
 
-> [!NOTE] Definitie
-> - **nauwkeurigheid** of **accuratesse** is de graad van overeenstemming van een gemeten of berekende hoeveelheid met haar daadwerkelijke (ware) waarde. hoe groter de nauwkeurigheid, hoe kleiner de totale fout. 
-> - **reproduceerbaarheid**, **herhaalnauwkeurigheid** of **precisie** van een meting geeft, bij gelijke omstandigheden, aan hoe goed eenzelfde uitkomst wordt gehaald. bij afstandmeetsystemen wordt de maximale afwijking in mm aangegeven, waarmee een meting onder gelijke omstandigheden kan afwijken. reproduceerbaarheid is dus niet te verwarren met absolute nauwkeurigheid.
+!!! note "Definitie"
+	- **nauwkeurigheid** of **accuratesse** is de graad van overeenstemming van een gemeten of berekende hoeveelheid met haar daadwerkelijke (ware) waarde. hoe groter de nauwkeurigheid, hoe kleiner de totale fout. 
+	- **reproduceerbaarheid**, **herhaalnauwkeurigheid** of **precisie** van een meting geeft, bij gelijke omstandigheden, aan hoe goed eenzelfde uitkomst wordt gehaald. bij afstandmeetsystemen wordt de maximale afwijking in mm aangegeven, waarmee een meting onder gelijke omstandigheden kan afwijken. reproduceerbaarheid is dus niet te verwarren met absolute nauwkeurigheid.
 
 #### Voorbeeld
 Kijken we ter illustratie van het verschil tussen nauwkeurigheid en reproduceerbaarheid naar het voorbeeld met een schietschijf. doel is om met een aantal schoten minimaal in het groene vlak terecht te komen.
@@ -202,7 +202,7 @@ De ISO 9001:2008-norm is één van de documenten van de ISO 9000-"familie" van I
 
 De ISO 9001 is de internationale norm voor kwaliteitsmanagementsystemen. De organisatie ISO (Genève) staat in voor het opstellen en beheren van duizenden verschillende normen. De meeste hiervan zijn productgericht, maar enkele normen slaan op generieke managementsystemen. Verreweg de bekendste is de ISO 9001, welke slaat op het managementsysteem voor kwaliteit. Voor kennisintensieve organisaties, zoals organisatie adviesbureaus, trainings- en opleidingsbedrijven, overheden, ingenieurs, architecten et cetera is een interpretatie gemaakt van ISO 9001, die beter aansluit op de zakelijke diensten, namelijk het Certified Model.
 
-> [!INFO] Geschiedenis
+!!! info "Geschiedenis"
 De eerste officiële ISO-norm voor kwaliteitsmanagement dateert van 15 maart 1987 en is ontstaan uit de Allied Quality Assurance Publications (AQAP) uit 1969. De AQAP is een Amerikaanse norm voor kwaliteitsborging die zijn oorsprong vindt in de militaire industrie. De NAVO ontwikkelde in 1959 kwaliteitsnormen voor zijn leveranciers om zeker te zijn van juiste en kwalitatief goede materialen op het juiste moment aan het front. Alleen leveranciers die aan deze kwaliteitsnormen voldeden mochten aan de NAVO leveren. Deze normen werden in 1969 herzien en opgesteld onder de naam AQAP.
 
 ##### Van AQAP naar ISO
@@ -312,8 +312,8 @@ Het voordeel van deze methode is dat alle energie en alle creativiteit van het b
 
 Omdat alle energie op het maken en het verbeteren van het bestaande product wordt gericht, neemt bij het toepassen van deze methode de kans op het ontdekken van innovatieve nieuwe technieken af. Het invoeren van een succesvol systeem vereist een vérgaande voorbereiding, terwijl resultaten niet op de korte termijn merkbaar zullen worden. Bovendien moeten de deelnemers omschakelen van kortetermijndenken naar langetermijndenken. Vaak wordt onderschat hoeveel moeite en tijd de omschakeling van de hele organisatie op een andere houding tegenover werk en bedrijf kost.
 
-> [!INFO] Geschiedenis
-> TPS werd grotendeels ontwikkeld door drie mensen, de stichter van Toyota, Sakichi Toyoda, zijn zoon Kiichiro Toyoda en ingenieur Taiichi Ohno. Het werd verder uitgewerkt door Shigeo Shingo. Toyota slaagde erin door toepassing van TPS zijn kosten te reduceren en zo uit te groeien tot de top tien van grootste bedrijven in de wereld. TPS is een klassiek voorbeeld van de Kaizen-aanpak voor productieverbetering, die door andere productiebedrijven vaak overgenomen is.
+!!! info "Geschiedenis"
+	TPS werd grotendeels ontwikkeld door drie mensen, de stichter van Toyota, Sakichi Toyoda, zijn zoon Kiichiro Toyoda en ingenieur Taiichi Ohno. Het werd verder uitgewerkt door Shigeo Shingo. Toyota slaagde erin door toepassing van TPS zijn kosten te reduceren en zo uit te groeien tot de top tien van grootste bedrijven in de wereld. TPS is een klassiek voorbeeld van de Kaizen-aanpak voor productieverbetering, die door andere productiebedrijven vaak overgenomen is.
 
 In 1996 wordt door Womack & Jones in de westerse wereld aandacht en naamsbekendheid gegeven aan het gedachtegoed door de publicatie van het boek "Lean Thinking: Banish Waste and Create Wealth in Your Corporation". Hier worden de vijf fasen om tot een leane organisatie te komen beschreven: Value, Value stream, Flow, Pull, Perfection.
 

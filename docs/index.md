@@ -1,9 +1,9 @@
 ---
-title: '42TIN1250 Projectmanagement'
-author:
+title: 42TIN1250 Projectmanagement
+author: 
 - Lowie Vangaal
 - Jan Castermans
-share: true
+share: True
 ---
 # 42TIN1250 Projectmanagement
 

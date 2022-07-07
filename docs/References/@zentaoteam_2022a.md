@@ -1,11 +1,10 @@
 ---
-share: true
-title: What Are The Complete Scrum Artifacts? - Agile - ZenTao
-authors: ZenTao team,
-year: 2022 
-url: https://www.zentao.pm/blog/What-are-the-complete-Scrum-artifacts-1102.html
+share: True
+title: "What Are The Complete Scrum Artifacts? - Agile - ZenTao"
+authors: "ZenTao team,"
+year: 2022
+url: "https://www.zentao.pm/blog/What-are-the-complete-Scrum-artifacts-1102.html"
 ---
-
 # What Are The Complete Scrum Artifacts? - Agile - ZenTao
 
 ```ad-info
@@ -16,6 +15,7 @@ title: Metadata
 - **Author**: ZenTao team,
 - **Year**: 2022 
 ```
+
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://www.zentao.pm/blog/What-are-the-complete-Scrum-artifacts-1102.html](https://www.zentao.pm/blog/What-are-the-complete-Scrum-artifacts-1102.html)
@@ -23,10 +23,12 @@ title: Files and Links
 - **File**: [What Are The Complete Scrum Artifacts? - Agile - ZenTao](file:///Users/jan/Zotero/storage/2YVBWSJ6/What-are-the-complete-Scrum-artifacts-1102.html)
 - **Local Library**: [Zotero]((zotero://select/library/items/8ZCN4II5))
 ```
+
 ```ad-note
 title: Tags and Collections
 - **Collections**: Project Management
 ```
+
 
 ----
 
@@ -37,4 +39,3 @@ title: Tags and Collections
 ----
 
 ## Extracted Annotations
-
