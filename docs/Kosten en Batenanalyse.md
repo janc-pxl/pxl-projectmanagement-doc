@@ -385,7 +385,7 @@ Dit is het verschil tussen de cumulatieve-contante-waarde der baten enerzijds en
 Uitgeschreven in symbolen wordt dit:
 
 $$
-NCW=\sum_{n=1}^N
+NCW=\sum_{n=1} ^N
 $$
 
 > [!important] Formule Netto Contante Waarde
