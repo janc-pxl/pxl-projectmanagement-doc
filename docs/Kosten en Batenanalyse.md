@@ -1,5 +1,5 @@
 ---
-share: true
+share: True
 ---
 # Kosten- en batenanalyse
 
@@ -201,9 +201,9 @@ Opbrengsten zijn ingaande geldstromen zoals verkoopopbrengsten. Kosten zijn uitg
 
 De baten worden door Yourdon ingedeeld in tactische en strategische baten
 
-> [!NOTE] Definitie
-> - **Tactische baten** zijn baten die de organisatie in staat stellen dezelfde zaken tegen lagere kosten voort te zetten
-> - **Strategische baten** zijn de mogelijkheden om de organisatie dingen te laten doen die met het huidige systeem niet mogelijk zijn.
+!!! note "Definitie"
+	- **Tactische baten** zijn baten die de organisatie in staat stellen dezelfde zaken tegen lagere kosten voort te zetten
+	- **Strategische baten** zijn de mogelijkheden om de organisatie dingen te laten doen die met het huidige systeem niet mogelijk zijn.
 
 #### Besparingen werkingskosten
 
@@ -231,11 +231,11 @@ Enkele voorbeelden:
 
 Om deze opbrengsten af te wegen : oud tegenover het nieuwe systeem :
 
-> [!INFO] formule voor opbrengsten
-> 
-> $O = O_n - O_o$
-> - $O_n$ : de opbrengsten van het nieuwe systeem
-> - $O_o$ : de opbrengsten van het oude systeem
+!!! info "formule voor opbrengsten"
+	
+	$O = O_n - O_o$
+	- $O_n$ : de opbrengsten van het nieuwe systeem
+	- $O_o$ : de opbrengsten van het oude systeem
 
  
 
@@ -253,8 +253,8 @@ Wanneer men deze niet-meetbare opbrengsten toch meetbaar wil maken, zou men op z
 
 De netto-opbrengst (Z) wordt enerzijds gevormd door besparingen in werkingskosten van het nieuwe tegenover het oude systeem en anderzijds door andere meeropbrengsten van het nieuwe systeem. In een formule wordt dit:
 
-> [!INFO] formule voor netto-opbrengst
-> $$Z = (K_o - K_n) + (O_n - O_o)$$
+!!! info "formule voor netto-opbrengst"
+	$$Z = (K_o - K_n) + (O_n - O_o)$$
 
 De manier waarop de analist de kosten en opbrengsten gaat schatten is niet eenvoudig.
 
@@ -312,15 +312,15 @@ $$
 P_n = P_o(1 + i)^n
 $$
 
-> [!IMPORTANT] Formule van de samengestelde interest
-> Dit wordt de formule van de samengestelde interest genoemd omdat we veronderstellen dat de interesten die jaarlijks vrijkomen opnieuw geïnvesteerd worden tegen dezelfde interestvoet i.
-> 
-> $P_n = P_o(1 + i)^n$
-> 
-> P$_n$ : kapitaal of waarde van de investering na n jaren
-> P$_o$ : huidige waarde van de investering ( op tijdstip 0)
-> i: rentepercentage
-> n: n-periode
+!!! important "Formule van de samengestelde interest"
+	Dit wordt de formule van de samengestelde interest genoemd omdat we veronderstellen dat de interesten die jaarlijks vrijkomen opnieuw geïnvesteerd worden tegen dezelfde interestvoet i.
+	
+	$P_n = P_o(1 + i)^n$
+	
+	P$_n$ : kapitaal of waarde van de investering na n jaren
+	P$_o$ : huidige waarde van de investering ( op tijdstip 0)
+	i: rentepercentage
+	n: n-periode
 
 Wanneer we €10.000 voor een periode van 5 jaar tegen 10% uitlenen, dan is de waarde van die €10.000 na vijf jaar opgelopen tot:
 
@@ -381,14 +381,14 @@ Dit is het verschil tussen de cumulatieve-contante-waarde der baten enerzijds en
 
 Uitgeschreven in symbolen wordt dit:
 
-> [!important] Formule Netto Contante Waarde
-> $$
-> NCW=\sum_{n=1}^N \frac{Z_n}{(1 + i)^n} - C
-> $$
-> - $Z_n$ = Netto-opbrengsten van het project in jaar n
-> - C = het kapitaal geïnvesteerd op tijdstip 0
-> - N = de levensduur van het project
-> - i = de discontovoet.
+!!! important "Formule Netto Contante Waarde"
+	$$
+	NCW=\sum_{n=1}^N \frac{Z_n}{(1 + i)^n} - C
+	$$
+	- $Z_n$ = Netto-opbrengsten van het project in jaar n
+	- C = het kapitaal geïnvesteerd op tijdstip 0
+	- N = de levensduur van het project
+	- i = de discontovoet.
 
 Voor ons voorbeeld wordt dit €18.953,925 - €10.000 = €8.953,925.
 
@@ -406,14 +406,14 @@ De bedoeling van dit kengetal is een rentepercentage uit te rekenen dat vergelij
 
 De interne rendementsgraad (*Internal Rate of Return = IRR*) van een project is die waarde van de actualiseringsfactor waarvoor de netto-contante-waarde gelijk wordt aan nul.
 
-> [!important] Formule interne rentabiliteit
-> $$
-> O = NCW=\sum_{n=1}^N \frac{Z_n}{(1 + IRR)^n} - C
-> $$
-> - $Z_n$ = Netto-opbrengsten van het project in jaar n
-> - C = het kapitaal geïnvesteerd op tijdstip 0
-> - N = de levensduur van het project
-> - IRR = de discontovoet.
+!!! important "Formule interne rentabiliteit"
+	$$
+	O = NCW=\sum_{n=1}^N \frac{Z_n}{(1 + IRR)^n} - C
+	$$
+	- $Z_n$ = Netto-opbrengsten van het project in jaar n
+	- C = het kapitaal geïnvesteerd op tijdstip 0
+	- N = de levensduur van het project
+	- IRR = de discontovoet.
 [[@cfi_2022]]
 
 Rangschikken we de termen, dan krijgen we :
