@@ -1,11 +1,10 @@
 ---
-share: true
-title: The 3 Scrum Roles and Responsibilities, Explained
-authors: Coursera,
-year: 2022 
-url: https://www.coursera.org/articles/scrum-roles-and-responsibilities
+share: True
+title: "The 3 Scrum Roles and Responsibilities, Explained"
+authors: "Coursera,"
+year: 2022
+url: "https://www.coursera.org/articles/scrum-roles-and-responsibilities"
 ---
-
 # The 3 Scrum Roles and Responsibilities, Explained
 
 ```ad-info
@@ -17,10 +16,12 @@ title: Metadata
 - **Journal**: Coursera 
 - **Year**: 2022 
 ```
+
 ```ad-quote
 title: Abstract
 A Scrum team is made up of three roles: the Scrum master, the product owner, and development team members.
 ```
+
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://www.coursera.org/articles/scrum-roles-and-responsibilities](https://www.coursera.org/articles/scrum-roles-and-responsibilities)
@@ -29,10 +30,12 @@ title: Files and Links
 - **File**: [Snapshot](file:///Users/jan/Zotero/storage/2UZSGQQE/scrum-roles-and-responsibilities.html)
 - **Local Library**: [Zotero]((zotero://select/library/items/DHI8ZHUM))
 ```
+
 ```ad-note
 title: Tags and Collections
 - **Collections**: Project Management
 ```
+
 
 ----
 
@@ -43,4 +46,3 @@ title: Tags and Collections
 ----
 
 ## Extracted Annotations
-

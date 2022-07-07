@@ -1,12 +1,10 @@
 ---
-share: true
-title: "LEAN management"
+share: True
 title: LEAN management
-authors: Janse, B.
-year: 2020 
-url: https://www.toolshero.nl/kwaliteitsmanagement/lean-management/
+authors: "Janse, B."
+year: 2020
+url: "https://www.toolshero.nl/kwaliteitsmanagement/lean-management/"
 ---
-
 # LEAN management
 
 ```ad-info
@@ -18,10 +16,12 @@ title: Metadata
 - **Journal**: Toolshero, 
 - **Year**: 2020 
 ```
+
 ```ad-quote
 title: Abstract
 De Lean methode is een managementfilosofie die zich richt op het tegenhouden en elimineren van verspillingen.
 ```
+
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://www.toolshero.nl/kwaliteitsmanagement/lean-management/](https://www.toolshero.nl/kwaliteitsmanagement/lean-management/)
@@ -32,10 +32,12 @@ title: Files and Links
 - **File**: [Snapshot](file://C:%5CUsers%5C20003936%5CZotero%5Cstorage%5CFB3WBXT7%5Clean-management.html)
 - **Local Library**: [Zotero]((zotero://select/library/items/KK6E2F9X))
 ```
+
 ```ad-note
 title: Tags and Collections
 - **Collections**: Project Management
 ```
+
 
 ----
 
@@ -46,4 +48,3 @@ title: Tags and Collections
 ----
 
 ## Extracted Annotations
-

@@ -1,11 +1,10 @@
 ---
-share: true
-title: Why Fixed Length Sprints in Scrum?
-authors: visual-paradigm,
-year: 2022 
-url: https://www.visual-paradigm.com/scrum/why-fixed-length-of-sprints-in-scrum/
+share: True
+title: "Why Fixed Length Sprints in Scrum?"
+authors: "visual-paradigm,"
+year: 2022
+url: "https://www.visual-paradigm.com/scrum/why-fixed-length-of-sprints-in-scrum/"
 ---
-
 # Why Fixed Length Sprints in Scrum?
 
 ```ad-info
@@ -16,6 +15,7 @@ title: Metadata
 - **Author**: visual-paradigm,
 - **Year**: 2022 
 ```
+
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://www.visual-paradigm.com/scrum/why-fixed-length-of-sprints-in-scrum/](https://www.visual-paradigm.com/scrum/why-fixed-length-of-sprints-in-scrum/)
@@ -24,10 +24,12 @@ title: Files and Links
 - **File**: [Why Fixed Length Sprints in Scrum?](file:///Users/jan/Zotero/storage/MKDQWMK2/why-fixed-length-of-sprints-in-scrum.html)
 - **Local Library**: [Zotero]((zotero://select/library/items/YR55R9AG))
 ```
+
 ```ad-note
 title: Tags and Collections
 - **Collections**: Project Management
 ```
+
 
 ----
 
@@ -38,4 +40,3 @@ title: Tags and Collections
 ----
 
 ## Extracted Annotations
-

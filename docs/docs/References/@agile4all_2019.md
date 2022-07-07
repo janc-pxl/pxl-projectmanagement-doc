@@ -1,11 +1,10 @@
 ---
-share: true
-title: "Sprint Planning"
-authors: agile4all,
-year: 2019 
-url: https://www.agile4all.nl/sprint-planning/
+share: True
+title: Sprint Planning
+authors: "agile4all,"
+year: 2019
+url: "https://www.agile4all.nl/sprint-planning/"
 ---
-
 # Sprint Planning
 
 ```ad-info
@@ -17,10 +16,12 @@ title: Metadata
 - **Journal**: agile4all 
 - **Year**: 2019 
 ```
+
 ```ad-quote
 title: Abstract
 Sprint Planning is een Scrum Event aan het begin van een Sprint. Het team bepaalt aan welke Product Backlog items ze gaan werken. Lees meer.
 ```
+
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://www.agile4all.nl/sprint-planning/](https://www.agile4all.nl/sprint-planning/)
@@ -28,6 +29,7 @@ title: Files and Links
 - **File**: [Snapshot](file:///Users/jan/Zotero/storage/3L5T9Y6X/sprint-planning.html)
 - **Local Library**: [Zotero]((zotero://select/groups/4724240/items/NMQI5JGS))
 ```
+
 
 ----
 
@@ -38,4 +40,3 @@ title: Files and Links
 ----
 
 ## Extracted Annotations
-
