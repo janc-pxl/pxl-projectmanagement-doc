@@ -4,7 +4,7 @@ site_url: https://janc-pxl.github.io/pxl-projectmanagement-doc/
 
 theme:
     name: 'material'
-    logo: assets/logo/favicons.png
+    logo: assets/logo/logo_pxl_bol.png
     favicon: assets/logo/favicons.png
     custom_dir: overrides
     font:
@@ -35,7 +35,7 @@ theme:
         - navigation.top
         # - navigation.tabs
         # - navigation.tabs.sticky
-        - navigation.expand
+        # - navigation.expand
         - navigation.instant
         - search.suggest
         - search.highlight
