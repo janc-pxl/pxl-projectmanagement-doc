@@ -1,10 +1,12 @@
 ---
-share: True
+share: true
+title: "House of Control"
 title: House of Control
 authors: Sjoerd Olde Bijvank
-year: 2010
-url: "https://www.house-of-control.nl/duivelsdriehoek-duivelsvierkant.html"
+year: 2010 
+url: https://www.house-of-control.nl/duivelsdriehoek-duivelsvierkant.html
 ---
+
 # House of Control
 
 ```ad-info
@@ -15,7 +17,6 @@ title: Metadata
 - **Author**: Sjoerd Olde Bijvank;  
 - **Year**: 2010 
 ```
-
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://www.house-of-control.nl/duivelsdriehoek-duivelsvierkant.html](https://www.house-of-control.nl/duivelsdriehoek-duivelsvierkant.html)
@@ -25,12 +26,10 @@ title: Files and Links
 - **File**: [House of Control](file://C:%5CUsers%5C20003936%5CZotero%5Cstorage%5C2V562RXL%5Cduivelsdriehoek-duivelsvierkant.html)
 - **Local Library**: [Zotero]((zotero://select/library/items/IDWT3ECV))
 ```
-
 ```ad-note
 title: Tags and Collections
 - **Collections**: Project Management
 ```
-
 
 ----
 
@@ -41,3 +40,4 @@ De duivelsdriehoek laat op eenvoudige wijze zien hoe de drie belangrijkste proj
 ----
 
 ## Extracted Annotations
+
