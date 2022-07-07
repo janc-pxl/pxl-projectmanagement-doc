@@ -1,5 +1,5 @@
 ---
-share: True
+share: true
 ---
 # Wat is projectmanagement?
 
@@ -19,16 +19,16 @@ share: True
 ## Definitie van een project
 ![](https://i.imgur.com/thaNoeW.png)
 
-In een organisatie heeft iedereen bepaalde taken. Indien er iets nieuws van de grond  moet komen (een systeem, een nieuw product, de bouw en inrichting van een nieuwe vleugel) en het hoort tot niemands taakgebied. Dan is het tijd voor een **project**.
+In een organisatie heeft iedereen bepaalde taken. Indien er iets nieuws van de grond moet komen (een systeem, een nieuw product, de bouw en inrichting van een nieuwe vleugel) en het hoort tot niemands taakgebied. Dan is het tijd voor een **project**.
 
 Een project heeft als doel binnen een bepaalde tijd iets nieuws van de grond te krijgen. Een project is altijd tijdelijk en de mensen die in een projectgroep zitten zijn ook maar voor een bepaalde tijdsduur bij het project betrokken. Het resultaat van het project (het nieuwe systeem, het nieuwe product, de nieuw aangebouwde vleugel) wordt na afloop in de bestaande organisatie opgenomen.
 
-Een heel volledige definitie van een project is:
+De definitie van een project is:
 
-!!! note "Definitie van een project"
-	*“Een project is een geheel van activiteiten buiten de gewone bedrijfsvoering om waarbij het gaat om het realiseren van iets nieuws voor een duidelijke opdrachtgever binnen duidelijke kaders door een team van meerdere verschillende specialisten.”*
-	
-	Dus een project is een tijdelijke constructie voor het afleveren van een uniek product of dienst, rekening houdend met beschikbare materialen, budget, tijd en gewenste kwaliteit.
+> [!note] Definitie van een project
+> *“Een project is een geheel van activiteiten buiten de gewone bedrijfsvoering om waarbij het gaat om het realiseren van iets nieuws voor een duidelijke opdrachtgever binnen duidelijke kaders door een team van meerdere verschillende specialisten.”*
+> 
+> Dus een project is een tijdelijke constructie voor het afleveren van een uniek product of dienst, rekening houdend met beschikbare materialen, budget, tijd en gewenste kwaliteit.
 
 De 'duidelijke kaders' in deze definitie zijn met name: de hoeveelheid tijd en de hoeveelheid geld. Het maken van een planning en het in de gaten houden van de kosten zijn daarom erg belangrijke taken van een projectleider. Ook hoort bij een project altijd een opdrachtgever. Die bepaalt hoe het resultaat eruit moet komen te zien. De projectleider en de projectgroep zijn de uitvoerders.
 
@@ -67,8 +67,8 @@ Veel organisaties gebruiken een bepaalde projectmanagementmethodiek als ze proje
 
 **Duivelsdriehoek** 
 
-!!! note "De Duivelsdriehoek"
-	De duivelsdriehoek laat op eenvoudige wijze zien hoe de drie belangrijkste projectvariabelen zich tot elkaar verhouden. De variabelen waarover het gaat zijn **tijd, geld** en **kwaliteit**. Het managen van projecten gaat dus om het managen van deze drie variabelen. [[@sjoerdoldebijvank_2010]]
+> [!note] De Duivelsdriehoek
+> De duivelsdriehoek laat op eenvoudige wijze zien hoe de drie belangrijkste projectvariabelen zich tot elkaar verhouden. De variabelen waarover het gaat zijn **tijd, geld** en **kwaliteit**. Het managen van projecten gaat dus om het managen van deze drie variabelen. [[@sjoerdoldebijvank_2010]]
 
 
 Het bewegen in het voordeel van geld (dus een besparing) betekent onvermijdelijk een beweging in het nadeel van kwaliteit (minder kwaliteit in het eindproduct) of tijd (het zal langer gaan duren) of een combinatie ervan. Ook kan men zich bedenken dat binnen een project slechts twee van de drie aspecten tegelijk benadrukt kunnen worden. Iets kan alleen goedkoper en sneller als de kwaliteit daaronder lijdt.
