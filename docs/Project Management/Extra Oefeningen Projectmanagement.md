@@ -1,5 +1,5 @@
 ---
-share: True
+share: true
 ---
 # Extra oefeningen Projectmanagement
 
@@ -20,17 +20,17 @@ share: True
 
 ![](https://i.imgur.com/KFSuBRb.png)
 
-!!! quote ""
-	“Maar deze keer gaan we het ècht goed aanpakken.” 
-	-- John Hammond
+> [!quote] 
+> “Maar deze keer gaan we het ècht goed aanpakken.” 
+> -- John Hammond
 
 *John Hammond (CEO InGen) zit in de Mc Donalds te genieten van een lekker menu, samen met Dr. Alan Grant (paleontoloog) , Ian Malcolm (consultant), Dennis Nedry (programmeur) en Ray Arnold (hoofd ingenieur). Ze plannen om opnieuw een park te openen om nieuwe dino’s te kweken en aan een groot publiek te tonen. Met de juiste campagne èn veiligheidsvoorschriften zijn ze er zeker van dat er geen drama’s kunnen voorvallen op het eiland.*
 
 Om de opening van het park goed te organiseren, werken ze eerst een planning uit op een dienblad in de Mc Donalds. 
 
-!!! quote ""
-	“Wat kan er fout gaan?” 
-	-- Dennis Nedry
+> [!quote] 
+> “Wat kan er fout gaan?” 
+> -- Dennis Nedry
 
 ## Chapter 1: A new PERT-o-saurus
 
@@ -52,9 +52,9 @@ Gebruik de formule uit de cursus voor de T<sub>e</sub> (expected time) te bereke
 | H          | Verkoop tickets            | D,F         | 5    | 5   | 5      |
 | I          | Veiligheid park testen     |             |      |     |        |
 
-!!! remark "Opmerkingen"
-	 - ingeschatte duur in **weken**
-	 - De totale inschatte duur van **activiteit I** bedraagt: 2 weken. Je dient de formule in deze activiteit niet toe te passen.
+> [!REMARK] Opmerkingen
+>  - ingeschatte duur in **weken**
+>  - De totale inschatte duur van **activiteit I** bedraagt: 2 weken. Je dient de formule in deze activiteit niet toe te passen.
 
 ### Opdracht
 
@@ -110,8 +110,8 @@ Twee taken dienen nog uitgevoerd te worden:
 -   Update het project als op 1 januari 2023
 -   Maak een notitie bij de laatste mijlpaal met volgende gegevens:
 
-!!! quote ""
-	“Te weinig tijd en zekerheid of er voldoende stroom staat op de schrikdraad. We bekijken dit volgend jaar wel!”
+> [!QUOTE] 
+> “Te weinig tijd en zekerheid of er voldoende stroom staat op de schrikdraad. We bekijken dit volgend jaar wel!”
 
 ### Extra stappen
 
