@@ -302,15 +302,14 @@ $$
 
 of
 
-$$
-P_2 = P_o (1 + i) ^2
-$$
+$P_2 = P_o (1 + i)$ <sup>2</sup>
+
 
 n jaar na tijdstip 0 is het kapitaal geworden,
 
-$$
-P_n = P_o(1 + i) ^n
-$$
+
+$P_n = P_o(1 + i)$ <sup>n</sup>
+
 
 !!! important "Formule van de samengestelde interest"
 	Dit wordt de formule van de samengestelde interest genoemd omdat we veronderstellen dat de interesten die jaarlijks vrijkomen opnieuw geïnvesteerd worden tegen dezelfde interestvoet i.
@@ -326,22 +325,22 @@ $$
 
 Wanneer we €10.000 voor een periode van 5 jaar tegen 10% uitlenen, dan is de waarde van die €10.000 na vijf jaar opgelopen tot:
 
-$$
-P_5 = €10.000 * (1 + 0.10)^5 = €16.105
-$$
+
+$P_5$ = 10.000 EUR * $(1 + 0.10)^5$ = 16.105 EUR
+
 
 In figuur 1 kennen we de investering van dit jaar. M.a.w. we kennen de contante waarde ervan. De contante waarde van de baten kunnen we niet berekenen zonder de tijdswaarde van het geld te bekijken. We moeten dus de baten ‘contant maken’.
 
 Welk bedrag willen we nu investeren als we daarvoor gerekend met de huidige rentestand over vijf jaar €5.000 voor terug krijgen. Het antwoord hierop luidt: de contante waarde van de baten. Bij het berekenen van de contante waarde van deze baten gaan we uit van de formule van de samengestelde interest.
 
-$$
-P_n = P_o(1 + i)^n
-$$
+
+$P_n = P_o(1 + i)$<sup>n</sup>
+
 
 Uit deze vergelijking halen we P<sub>o</sub> en we krijgen
 
 $$
-P_o=\frac{P_n}{(1 + i)^n}
+P_o=\frac{ P_n }{ (1 + i)^n }
 $$
 
 In ons voorbeeld krijgen we dus 
