@@ -1,10 +1,11 @@
 ---
-share: True
+share: true
 title: "Het Scrumteam: uitleg en tips bij de verantwoordelijkheid | Scrumguide.nl"
-authors: "scrumguide,"
-year: 2022
-url: "https://scrumguide.nl/scrumteam/"
+authors: scrumguide,
+year: 2022 
+url: https://scrumguide.nl/scrumteam/
 ---
+
 # Het Scrumteam: uitleg en tips bij de verantwoordelijkheid | Scrumguide.nl
 
 ```ad-info
@@ -16,12 +17,10 @@ title: Metadata
 - **Journal**: Scrumguide 
 - **Year**: 2022 
 ```
-
 ```ad-quote
 title: Abstract
 Het Scrumteam bestaat uit de professionals die werken aan uitvoerende projecttaken in een scrumproject. Het Scrum team gemakkelijk uitgelegd.
 ```
-
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://scrumguide.nl/scrumteam/](https://scrumguide.nl/scrumteam/)
@@ -29,7 +28,6 @@ title: Files and Links
 - **File**: [Snapshot](file:///Users/jan/Zotero/storage/LMM58I4J/scrumteam.html)
 - **Local Library**: [Zotero]((zotero://select/groups/4724240/items/P8EMVPDV))
 ```
-
 
 ----
 
@@ -40,3 +38,4 @@ title: Files and Links
 ----
 
 ## Extracted Annotations
+
