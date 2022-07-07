@@ -1,10 +1,11 @@
 ---
-share: True
-title: "What is Product portfolio management ?"
-authors: "Hitesh Bhasin,"
-year: 2015
-url: "https://www.marketing91.com/product-portfolio/"
+share: true
+title: What is Product portfolio management ?
+authors: Hitesh Bhasin,
+year: 2015 
+url: https://www.marketing91.com/product-portfolio/
 ---
+
 # What is Product portfolio management ?
 
 ```ad-info
@@ -16,12 +17,10 @@ title: Metadata
 - **Journal**: Marketing91, 
 - **Year**: 2015 
 ```
-
 ```ad-quote
 title: Abstract
 A product portfolio is comprised of all the products which an organization has. A product portfolio may comprise of different categories
 ```
-
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://www.marketing91.com/product-portfolio/](https://www.marketing91.com/product-portfolio/)
@@ -32,12 +31,10 @@ title: Files and Links
 - **File**: [Snapshot](file://C:%5CUsers%5C20003936%5CZotero%5Cstorage%5CGCASRP8H%5Cproduct-portfolio.html)
 - **Local Library**: [Zotero]((zotero://select/library/items/AJ3BB5S6))
 ```
-
 ```ad-note
 title: Tags and Collections
 - **Collections**: Project Management
 ```
-
 
 ----
 
@@ -48,3 +45,4 @@ title: Tags and Collections
 ----
 
 ## Extracted Annotations
+
