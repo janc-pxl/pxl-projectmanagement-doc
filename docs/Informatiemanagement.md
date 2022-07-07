@@ -1,5 +1,5 @@
 ---
-share: True
+share: true
 ---
 # Informatiemanagement
 
@@ -422,5 +422,5 @@ Meer info : [www.bislfoundation.nl](http://www.bislfoundation.nl)
 
 ```dataview 
 list  "_'" + title + "'_ -  **" + authors  + "(" + year + ")** "  + url + "<br/><br/>"
-from "500 Reading notes" AND (outgoing([[Informatiemanagement]])) sort authors 
+from "500 Reading notes" AND (outgoing([](Informatiemanagement%5D))) sort authors 
 ```
