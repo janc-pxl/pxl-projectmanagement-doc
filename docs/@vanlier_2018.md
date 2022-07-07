@@ -1,11 +1,10 @@
 ---
-share: true
-title: "Stakeholdermanagement in projecten met Scrum"
-authors: van Lier, Willemijn
-year: 2018 
-url: https://agilescrumgroup.nl/stakeholder-management-matrix-model/
+share: True
+title: Stakeholdermanagement in projecten met Scrum
+authors: "van Lier, Willemijn"
+year: 2018
+url: "https://agilescrumgroup.nl/stakeholder-management-matrix-model/"
 ---
-
 # Stakeholdermanagement in projecten met Scrum
 
 ```ad-info
@@ -17,10 +16,12 @@ title: Metadata
 - **Journal**: Agile Scrum Group 
 - **Year**: 2018 
 ```
+
 ```ad-quote
 title: Abstract
 Om als Product Owner de waarde van een project of product te maximaliseren, is goed stakeholdermanagement vereist. Dit is hoe dat moet.
 ```
+
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://agilescrumgroup.nl/stakeholder-management-matrix-model/](https://agilescrumgroup.nl/stakeholder-management-matrix-model/)
@@ -28,6 +29,7 @@ title: Files and Links
 - **File**: [Snapshot](file:///Users/jan/Zotero/storage/EFHY7B3L/stakeholder-management-matrix-model.html)
 - **Local Library**: [Zotero]((zotero://select/groups/4724240/items/3UVWTTWC))
 ```
+
 
 ----
 
@@ -38,4 +40,3 @@ title: Files and Links
 ----
 
 ## Extracted Annotations
-

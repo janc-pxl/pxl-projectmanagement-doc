@@ -1,11 +1,10 @@
 ---
-share: true
+share: True
 title: "De Sprint Review uitgelegd. Waarom deze meeting? (+ Checklist & Valkuilen)"
-authors: Agile Scrum Group,
-year: 2018 
-url: https://agilescrumgroup.nl/sprint-review/
+authors: "Agile Scrum Group,"
+year: 2018
+url: "https://agilescrumgroup.nl/sprint-review/"
 ---
-
 # De Sprint Review uitgelegd. Waarom deze meeting? (+ Checklist & Valkuilen)
 
 ```ad-info
@@ -17,16 +16,19 @@ title: Metadata
 - **Journal**: Agile Scrum Group 
 - **Year**: 2018 
 ```
+
 ```ad-quote
 title: Abstract
 Wat is de Sprint Review? Waarom is deze meeting belangrijk? Wat zijn valkuilen voor deze meeting? Lees alles hierover in deze blog.
 ```
+
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://agilescrumgroup.nl/sprint-review/](https://agilescrumgroup.nl/sprint-review/)
 - **Uri**: [http://zotero.org/groups/4724240/items/CRVEWZAV](http://zotero.org/groups/4724240/items/CRVEWZAV)
 - **Local Library**: [Zotero]((zotero://select/groups/4724240/items/CRVEWZAV))
 ```
+
 
 ----
 
@@ -37,4 +39,3 @@ title: Files and Links
 ----
 
 ## Extracted Annotations
-

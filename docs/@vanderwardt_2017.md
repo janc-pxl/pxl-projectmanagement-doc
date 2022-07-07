@@ -1,11 +1,10 @@
 ---
-share: true
+share: True
 title: "Daily Stand-up: 5 tips voor een goede meeting (+checklist download)"
-authors: van der Wardt, Rik
-year: 2017 
-url: https://agilescrumgroup.nl/5-tips-goede-daily-stand-up-meeting/
+authors: "van der Wardt, Rik"
+year: 2017
+url: "https://agilescrumgroup.nl/5-tips-goede-daily-stand-up-meeting/"
 ---
-
 # Daily Stand-up: 5 tips voor een goede meeting (+checklist download)
 
 ```ad-info
@@ -17,10 +16,12 @@ title: Metadata
 - **Journal**: Agile Scrum Group 
 - **Year**: 2017 
 ```
+
 ```ad-quote
 title: Abstract
 Lees hier onze 5 tips voor een goede Daily Stand-up meeting. Wat wel doen? En wat niet? Ook de 4 valkuilen hebben we voor je opgesomd!
 ```
+
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://agilescrumgroup.nl/5-tips-goede-daily-stand-up-meeting/](https://agilescrumgroup.nl/5-tips-goede-daily-stand-up-meeting/)
@@ -29,10 +30,12 @@ title: Files and Links
 - **File**: [Snapshot](file:///Users/jan/Zotero/storage/45UJMHDE/5-tips-goede-daily-stand-up-meeting.html)
 - **Local Library**: [Zotero]((zotero://select/library/items/QVYPYNPI))
 ```
+
 ```ad-note
 title: Tags and Collections
 - **Collections**: Project Management
 ```
+
 
 ----
 
@@ -43,4 +46,3 @@ title: Tags and Collections
 ----
 
 ## Extracted Annotations
-

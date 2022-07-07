@@ -1,5 +1,5 @@
 ---
-share: true
+share: True
 ---
 # Agile Projectmanagement
 
@@ -40,8 +40,8 @@ De uitvoering van projectwerk gebeurt voortdurend doorheen de levensduur van het
 
 Deze methode wordt alsmaar populairder en wordt gebruikt om voor het managen van het proces om software te maken. Het spitst zich toe op teamwerk en op een 1-op-1 afhandelen van softwarefeatures. Men gaat 1 feature volledig afwerken voordat naar een volgende feature wordt overgegaan.
 
-> [!goal] Samengevat
-> Agile is een manier van projectmanagement die zich toespitst op het verdelen van taken in korte werkfases, met veelvuldige reviews (controles) van het project en mogelijke aanpassingen tijdens het uitvoeren. Een Agile aanpak is flexibel en minder strak dan sommige andere manieren van projectmanagement.
+!!! goal "Samengevat"
+	Agile is een manier van projectmanagement die zich toespitst op het verdelen van taken in korte werkfases, met veelvuldige reviews (controles) van het project en mogelijke aanpassingen tijdens het uitvoeren. Een Agile aanpak is flexibel en minder strak dan sommige andere manieren van projectmanagement.
 
 [](Agile%20Projectmanagement%5D)
 
@@ -50,8 +50,8 @@ We bekeken enkele van de belangrijkste gegevens en termen die slaan op projectma
 ## Incrementele ontwikkeling
 ![](https://i.imgur.com/jWB3oST.jpg)
 [](Agile%20Projectmanagement%5D)
-> [!infobox] Definitie
-> Een 'increment' is een kleine stap. **Incrementeel** slaat op het voorwaarts bewegen in fasen.
+!!! infobox "Definitie"
+	Een 'increment' is een kleine stap. **Incrementeel** slaat op het voorwaarts bewegen in fasen.
 
 Een van de eigenschappen van Agile is dat het **incrementeel** is. Laten we kijken wat dat betekent.
 
@@ -63,8 +63,8 @@ Incrementele ontwikkeling is een praktijk waar software progressief *(synoniem: 
 
 Een andere eigenschap van Agile is dat het iteratief is. Laten we dat in meer detail bekijken.
 
-> [!infobox] Definitie
-> **Iteratief** betekent dat we het herhaald gaan uitvoeren.
+!!! infobox "Definitie"
+	**Iteratief** betekent dat we het herhaald gaan uitvoeren.
 
 Iteratieve ontwikkeling slaat op de development van software door herhaalde cyclussen *(synoniem: iteraties)*. Elk van deze cyclussen voltooit een of andere minimum bruikbaar product *(vert. Engels: minimum viable product)*.
 
@@ -84,8 +84,8 @@ Op het eind van elke cyclus is er een afgewerkt product beschikbaar en kan men h
 ![](https://i.imgur.com/lbKcBA7.png) 
 [](Agile%20Projectmanagement%5D)
 
-> [!infobox] definitie
-> **Daily Standup:** een dagelijks event, met een time-box van 15 minuten of minder, om het Development-werk voor de volgende 24 uur binnen een Sprint te plannen en de best mogelijke voortgang richting Sprint-doelstelling te realiseren. Het resultaat is een bijgewerkte [](#Sprint%20Backlog%5D). [](Agile%20Projectmanagement%5D)
+!!! infobox "definitie"
+	**Daily Standup:** een dagelijks event, met een time-box van 15 minuten of minder, om het Development-werk voor de volgende 24 uur binnen een Sprint te plannen en de best mogelijke voortgang richting Sprint-doelstelling te realiseren. Het resultaat is een bijgewerkte [](#Sprint%20Backlog%5D). [](Agile%20Projectmanagement%5D)
 
 Een van de activiteiten in Agile is een wederkerende bijeenkomst die we de daily *(dagelijkse)* standup noemen.
 
@@ -110,8 +110,8 @@ Je hebt zeker al het woord 'backlog' horen vallen wanneer het gaat over achterst
 
 In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elke taak die nog veronderstelt wordt te gebeuren, beschouwen we als backlog. Het slaat op het aankomend werk dat nog niet aan een persoon toegewezen is of waarvan de afwerkingsdatum nog niet is vastgelegd.
 
-> [!infobox] definitie
-> **Product Backlog:** een evoluerende, geordende lijst die alle items bevat die noodzakelijk worden geacht door de [](#Product%20Owner%5D) om een product te creëren, te wijzigen, te onderhouden en onderhoudbaar te houden. [](Agile%20Projectmanagement%5D)
+!!! infobox "definitie"
+	**Product Backlog:** een evoluerende, geordende lijst die alle items bevat die noodzakelijk worden geacht door de [](#Product%20Owner%5D) om een product te creëren, te wijzigen, te onderhouden en onderhoudbaar te houden. [](Agile%20Projectmanagement%5D)
 
 Als je, bijvoorbeeld, software aan het schrijven bent waarmee je de leden, locaties en rooster van een jeugdbeweging wil vastleggen, zou je wat je moet doen om deze functionaliteit werkelijk te bouwen, opsplitsen in verscheidene individuele taken. Deze lijst is je product backlog. Telkens je een taak afwerkt hebt, zal die verdwijnen van de backlog. 
 
@@ -124,8 +124,8 @@ Een **sprint** is een vastgelegde tijdsperiode (gebruikelijk kiest men 1 week, 2
 
 Sprints beginnen en eindigen met vergaderingen waar men taken toewijst en reviews *(synoniem: het inspecteren)* van de voorbije uitvoering bekijkt en bespreekt.
 
-> [!infobox] definitie
-> **Sprint:** een event dat als een zogenaamd ‘container event’ de overige Scrum-events omvat, met een time-box van niet meer dan vier weken. De overige events in Scrum zijn: Sprint Planning, Daily Scrum, Sprint Review en Sprint Retrospective.[](Agile%20Projectmanagement%5D)
+!!! infobox "definitie"
+	**Sprint:** een event dat als een zogenaamd ‘container event’ de overige Scrum-events omvat, met een time-box van niet meer dan vier weken. De overige events in Scrum zijn: Sprint Planning, Daily Scrum, Sprint Review en Sprint Retrospective.[](Agile%20Projectmanagement%5D)
 
 Agile gaat de projecten in sprints opdelen. Gedurende elke dag van een sprint hebben de daily standups plaats waar de vooruitgang van het project wordt behoed.
 
@@ -147,16 +147,16 @@ In de technologiewereld is Scrum een manier van projectmanagement die bestaat ui
 Het gros van de huidige development projecten gebruikt Scrum. Ondanks de verzameling termen en technieken gebruikt in Scrum, draait het allemaal rond teamwerk, het samenspel tussen de leden van het team.
 
 Waar we Agile beschouwen als een methodologie, spreken we bij Scrum over een framework. De reden dat we dat vermelden is zodat je weet dat er technisch een verschil is tussen beide termen.
-> [!info]
-> Een **methodologie** is een verzameling regels, methoden en gereedschappen die men kan gebruiken om een bepaald doel te bereiken.
-> Spreken we over een **framework**, dan denken we aan een "lossere", meer flexibele structuur waar we toelaten andere gereedschappen te gebruiken.
+!!! info
+	Een **methodologie** is een verzameling regels, methoden en gereedschappen die men kan gebruiken om een bepaald doel te bereiken.
+	Spreken we over een **framework**, dan denken we aan een "lossere", meer flexibele structuur waar we toelaten andere gereedschappen te gebruiken.
 
 Methodologieën definieert men over het algemeen genomen strak, frameworks eerder tolerant.
 
 Alhoewel men frameworks minder strikt beschouwt tegenover methodologieën, is Scrum nu naar een punt geëvolueerd waar het welbepaalde werkwijzen bevat. 
 
-> [!infobox] definitie
-> **Scrum (n):** een eenvoudig framework voor complexe productontwikkeling (1); een eenvoudig framework om complexe uitdagingen te adresseren (2); een eenvoudig framework dat mensen helpt om waarde te genereren uit complexe uitdagingen (3). [](Agile%20Projectmanagement%5D)
+!!! infobox "definitie"
+	**Scrum (n):** een eenvoudig framework voor complexe productontwikkeling (1); een eenvoudig framework om complexe uitdagingen te adresseren (2); een eenvoudig framework dat mensen helpt om waarde te genereren uit complexe uitdagingen (3). [](Agile%20Projectmanagement%5D)
 
 
 Alle termen en concepten die we tot nu toe bespraken voor Agile, passen we toe in Scrum, zoals:
@@ -177,8 +177,8 @@ Of, om het met een analogie te bekijken.
 In dit voorbeeld bekijk je “sports” als projectmanagement, “basketbal” als Agile en “NBA” (de populairste uitvoering van basketbal) is Scrum.
 
 ### Empirische procescontrole
-> [!infobox] definitie 
-> **Empirische procescontrole** (in het Engels vaak afgekort tot ‘Empiricism’): de vorm van procescontrole waar beslissingen voor aanpassingen gebaseerd zijn op observatie, ervaring en effectieve realisaties. Empirische procescontrole behoeft en creëert transparantie als noodzakelijke ondergrond voor regelmatige inspectie (evaluatie) en aanpassing. [](Agile%20Projectmanagement%5D)
+!!! infobox "definitie"
+	**Empirische procescontrole** (in het Engels vaak afgekort tot ‘Empiricism’): de vorm van procescontrole waar beslissingen voor aanpassingen gebaseerd zijn op observatie, ervaring en effectieve realisaties. Empirische procescontrole behoeft en creëert transparantie als noodzakelijke ondergrond voor regelmatige inspectie (evaluatie) en aanpassing. [](Agile%20Projectmanagement%5D)
 
 ![](https://i.imgur.com/F5ySO0e.png)
 [](Agile%20Projectmanagement%5D)
@@ -194,9 +194,9 @@ De drie pilaren ondersteunen de ontwikkeling van elke empirisch proces: **transp
 - **Aanpassing**: Aanpassing beschouwen we in deze context als alle voortdurende verbeteringen die we aanbrengen. Als de mogelijkheid om aan te passen, kijkend naar de resultaten van de Inspectie. Iedereen in de organisatie moet op geregelde tijdstippen zich de vraag stellen: *"Staan we er beter voor dan gisteren?"* Bij bedrijven met doel om winst te maken, is waarde uitgedrukt in termen van winst. De aanpassing zou terug komen naar een van de redenen waarom men Agile ooit ingevoerd heeft, zoals een snellere marktintroductietijd, een hoger rendement op investeringen door op te leveren met waarde of verminderde eigendomskosten door een verhoogde kwaliteit van software en een verbeterde klanten- en medewerkerstevredenheid.
 [](Agile%20Projectmanagement%5D)
 
-> [!tip] tip
-> Later, in de [](#Scrum%20Values%5D), gaan we dieper in op de manier waarop de Empirisch gedachte in Scrum uitgewerkt is. 
-> Het kan geen kwaad deze uit te printen, ze op je nachtkastje te leggen, ze af en toe te lezen en een traantje weg te pinken. Beschouw ze als mogelijk de waardevolste lessen die je via Scrum kan leren.
+!!! tip "tip"
+	Later, in de [](#Scrum%20Values%5D), gaan we dieper in op de manier waarop de Empirisch gedachte in Scrum uitgewerkt is. 
+	Het kan geen kwaad deze uit te printen, ze op je nachtkastje te leggen, ze af en toe te lezen en een traantje weg te pinken. Beschouw ze als mogelijk de waardevolste lessen die je via Scrum kan leren.
 
 Nu dat je weet wat Scrum is, laten we verder gaan met enkele andere Scrum-gerelateerde woorden en onderwerpen.
 
@@ -206,8 +206,8 @@ Nu dat je weet wat Scrum is, laten we verder gaan met enkele andere Scrum-gerela
 ## Product Owner
 
 
-> [!infobox] definitie
-> **Product Owner:** de persoon die aansprakelijk is om de waardecreatie te maximaliseren, voornamelijk door het beheren en toelichten van de ideeën en functionele en eindgebruikersverwachtingen opgenomen in de [](#Product%20Backlog%5D). [](Agile%20Projectmanagement%5D)
+!!! infobox "definitie"
+	**Product Owner:** de persoon die aansprakelijk is om de waardecreatie te maximaliseren, voornamelijk door het beheren en toelichten van de ideeën en functionele en eindgebruikersverwachtingen opgenomen in de [](#Product%20Backlog%5D). [](Agile%20Projectmanagement%5D)
 
 In Agile en Scrum is de **Product Owner** de persoon die het gezag heeft de belangen van de klant te vertegenwoordigen.
 De Product Owner is altijd beschikbaar voor het projectteam (al is die zelf niet betrokken in het ontwikkelen van het project) en is aanwezig bij het merendeel van de vergaderingen. Ze zijn de "baas" *(maar neem dat zeker niet letterlijk)* van het project, maar ze laten de teamleden toe hun eigen doelen te bepalen en zichzelf te managen.
@@ -231,8 +231,8 @@ De Product Owner bekijkt projecten vanuit het perspectief van de klant en verzek
 ### Stakeholders
 #### Wat is een stakeholder?
 
-> [!infobox] definitie
-> **Stakeholder:** een persoon van buiten het Scrum Team met een specifiek belang in het product of kennis ervan die noodzakelijk is voor de verdere ontwikkeling van het product. [](Agile%20Projectmanagement%5D)
+!!! infobox "definitie"
+	**Stakeholder:** een persoon van buiten het Scrum Team met een specifiek belang in het product of kennis ervan die noodzakelijk is voor de verdere ontwikkeling van het product. [](Agile%20Projectmanagement%5D)
 
 Stakeholders beschouwen we als alle partijen die interesse hebben in een op te leveren product of project. Ze beïnvloeden het project of het project beïnvloedt hen, ze hebben (in)direct invloed en interesse in je Scrum project. 
 Door deze afhankelijkheid zijn ze in staat het project te maken of te breken. Aan de ene kant beschouwen we Stakeholders als mensen die dicht bij je Scrum project staan, zoals je belangrijkste klanten, managers en interne opdrachtgevers. Aan de andere kant als de personen die verder van je af staan, zoals de CEO of de Board of Directors. Wat te denken van de dame achter je in de kassa-rij of de medewerker in het gemeentehuis?
@@ -264,16 +264,16 @@ Sommige van de taken van deze rol omvatten:
 - de teamleden opleiden in [](#Scrum%5D) en er op toezien dat de uitvoering van de processen correct loopt.
 - een goede relatie onderhouden tussen de ontwikkelaars en de [](#Product%20Owner%5D), evenals met anderen buiten het team.
 - het ontwikkelingsteam behoeden voor verstoringen van buitenaf en andere afleidingen.
-> [!infobox] definitie
-> **Scrum Master:** de persoon die aansprakelijk is voor een correct begrip en effectief gebruik van Scrum door Scrum Teams en hun bredere omgeving door technieken als coaching, facilitering, lesgeven en stilzwijgende observatie. [](Agile%20Projectmanagement%5D)
+!!! infobox "definitie"
+	**Scrum Master:** de persoon die aansprakelijk is voor een correct begrip en effectief gebruik van Scrum door Scrum Teams en hun bredere omgeving door technieken als coaching, facilitering, lesgeven en stilzwijgende observatie. [](Agile%20Projectmanagement%5D)
 
 De term *"master"* kenmerkt in deze context niet iemand die anderen voor zich laat werken. Het is eerder te verstaan als *"een specialist van een bepaald onderwerp"*. Waar we de Scrum Master hebben als iemand die het beste (of zeker een sterk) begrip van Scrum heeft, vergeleken met de rest van de mensen betrokken bij het project. Men beschouwt hen als de *'masters van het Scrum framework'*.
 
 ### Impediment
 ![](https://i.imgur.com/NN6ydC2.png)
 
-> [!infobox] definitie
-> **Impediment:** elke hindernis of obstakel dat het ontwikkelwerk blokkeert of vertraagt, maar niet kan weggenomen worden via zelf-sturing. De verwijdering ervan is onderdeel van de aansprakelijkheid van de Scrum Master. [](Agile%20Projectmanagement%5D).
+!!! infobox "definitie"
+	**Impediment:** elke hindernis of obstakel dat het ontwikkelwerk blokkeert of vertraagt, maar niet kan weggenomen worden via zelf-sturing. De verwijdering ervan is onderdeel van de aansprakelijkheid van de Scrum Master. [](Agile%20Projectmanagement%5D).
 
 Een **impediment** *(synoniem: belemmering, hindernis of obstakel)* is iets wat vooruitgang blokkeert of vertraagd.
 
@@ -356,8 +356,8 @@ Bij de start van elke sprint, is er een planningssessie binnen het team: de **Sp
 ![](https://i.imgur.com/gVPiokj.png)
 [](Agile%20Projectmanagement%5D)
 
-> [!infobox] definitie: 
-> **Sprint Planning:** het event dat het begin van een Sprint uitmaakt, met een time-box van acht uur of minder. Tijdens dit event bepaalt het Scrum Team welke selectie van de [](#Product%20Backlog%5D) in een Sprint wordt opgenomen en identificeert de Sprint Goal en de ontwikkelactiviteiten ervoor. [](Agile%20Projectmanagement%5D)
+!!! infobox "definitie:"
+	**Sprint Planning:** het event dat het begin van een Sprint uitmaakt, met een time-box van acht uur of minder. Tijdens dit event bepaalt het Scrum Team welke selectie van de [](#Product%20Backlog%5D) in een Sprint wordt opgenomen en identificeert de Sprint Goal en de ontwikkelactiviteiten ervoor. [](Agile%20Projectmanagement%5D)
 
 Tijdens de Sprint Planning gaan we de [](#Sprint%20Backlog%5D) plannen. Meer bepaald gaat het team dan beslissen welke [](#Product%20Backlog%20item%5D)s (PBIs) ze aanpakt tijdens de volgende sprint. Ze gaan uit de Product Backlog items nemen die ze plaatsen in de [](#Sprint%20Backlog%5D). Hier kiezen ze, naargelang de belangrijkheid en rekening houdend met de capaciteit van het team, de onderwerpen die ze denken af te ronden in 1 sprint. Belangrijk is hier de capaciteit van het team goed in te schatten. Dat kan door het bekijken van de [](#Velocity%5D), en door rekening te houden met verlofdagen en opleidingen van leden van het team. 
 De[](#Sprint%20Backlog%5D) wordt tijdens de Sprint Planning bepaald, en er wordt een duidelijke [](#Sprint%20Goal%5D) vastgelegd.
@@ -378,18 +378,18 @@ Een **User Story** is een Agile en Scrum werkinstrument dat als doel heeft softw
 
 We schrijven ze vanuit het oogpunt van de gebruiker en we gebruiken ze om de taken die de ontwikkelaars uitvoeren te documenteren, door de specifieke features te beschrijven.
 
-> [!important] User Story
-> User Stories bevatten **het type gebruiker**, **wat ze willen** en **waarom**.
+!!! important "User Story"
+	User Stories bevatten **het type gebruiker**, **wat ze willen** en **waarom**.
 
 We schrijven ze als volgt: 
 
-> [!important] Vorm
-> "**als** (type gebruiker), **wil ik** (een bepaald doel) **zo dat** (een bepaalde reden)"
+!!! important "Vorm"
+	"**als** (type gebruiker), **wil ik** (een bepaald doel) **zo dat** (een bepaalde reden)"
 
 voorbeeld:
 
-> [!example] Voorbeeld
-> "**Als** een gebruiker, **wil ik** in mijn account kunnen inloggen met een gebruikersnaam en wachtwoord, **zo dat** ik toegang kan krijgen tot mijn account informatie"
+!!! example "Voorbeeld"
+	"**Als** een gebruiker, **wil ik** in mijn account kunnen inloggen met een gebruikersnaam en wachtwoord, **zo dat** ik toegang kan krijgen tot mijn account informatie"
 
 Agile en Scrum laten typisch ontwikkelaars werken aan taken beschreven door User Stories.
 
@@ -402,11 +402,11 @@ Criteria beschrijven de standaarden waartegen iets wordt beoordeeld, de requirem
 
 **Acceptance criteria** geven een duidelijke beschrijving van wat men verstaat onder "done" (gedaan) in de terminologie van User Stories. 
 
-> [!example] Voorbeeld
-> User story: **Als** een gebruiker van deze website, **wil ik** dat de plaatjes vergroten wanneer ik er met de muis over beweeg, **zo dat** ik onder de indruk ben van de interactiviteit van de site
+!!! example "Voorbeeld"
+	User story: **Als** een gebruiker van deze website, **wil ik** dat de plaatjes vergroten wanneer ik er met de muis over beweeg, **zo dat** ik onder de indruk ben van de interactiviteit van de site
 
-> [!example] Voorbeeld
-> Acceptance criteria: Alle beelden worden 25% groter wanneer men er met de muis over komt.
+!!! example "Voorbeeld"
+	Acceptance criteria: Alle beelden worden 25% groter wanneer men er met de muis over komt.
 
 
 ### Product Backlog Item
@@ -419,14 +419,14 @@ De [](#Product%20Owner%5D) verzamelt en prioritiseert de [](#Product%20Backlog%5
 Bijvoorbeeld, wanneer men een website gaat maken van 10 pagina's, kun je elke webpagina als een PBI omschrijven.
 
 ### Sprint Goal
-> [!info] definitie
-> **Sprint Goal:** een korte omschrijving van de overkoepelende doelstelling van een Sprint. [](Agile%20Projectmanagement%5D)
+!!! info "definitie"
+	**Sprint Goal:** een korte omschrijving van de overkoepelende doelstelling van een Sprint. [](Agile%20Projectmanagement%5D)
 
 De Sprint Goal (of Sprint Doel) is een korte zin van een of twee regels die beschrijft wat het Team wil bereiken in deze [](#Sprint%5D). Deze zin wordt door de [](#Product%20Owner%5D) en het Team gezamenlijk opgesteld.
 
-> [!example] Voorbeeld
-> - Implementeer een ‘winkelwagen’ functionaliteit met toevoegen, verwijderen en update mogelijkheid.
-> - Ontwikkel een ‘check out’ mogelijkheid: betalen voor de order, verzending etc.
+!!! example "Voorbeeld"
+	- Implementeer een ‘winkelwagen’ functionaliteit met toevoegen, verwijderen en update mogelijkheid.
+	- Ontwikkel een ‘check out’ mogelijkheid: betalen voor de order, verzending etc.
 
 Het Sprint Doel is handig om [](#Stakeholders%5D) op de hoogte te houden. Stakeholders hebben geen behoefte aan alle gedetailleerde items, het doel van de komende Sprint te weten is al genoeg.
 
@@ -435,11 +435,11 @@ Het succes van deze Sprint wordt beoordeeld in de [](#Sprint%20Review%5D). Het o
 
 ### Sprint Backlog
 Een **“sprint backlog”** is de taak (of zijn de taken) die een team hoopt af te ronden tijdens een bepaalde sprint.
-> [!info] definitie
-> **Sprint Backlog:** het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. [](Agile%20Projectmanagement%5D)
+!!! info "definitie"
+	**Sprint Backlog:** het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. [](Agile%20Projectmanagement%5D)
 
-> [!info] definitie
-> **Forecast:** het anticiperen van toekomstige evoluties door projecties (verwachtingen) te maken op basis van observaties van het verleden, zoals de verwachting van de implementatie van Product Backlog items voor een huidige of een toekomstige Sprint. [](Agile%20Projectmanagement%5D)
+!!! info "definitie"
+	**Forecast:** het anticiperen van toekomstige evoluties door projecties (verwachtingen) te maken op basis van observaties van het verleden, zoals de verwachting van de implementatie van Product Backlog items voor een huidige of een toekomstige Sprint. [](Agile%20Projectmanagement%5D)
 
 #### Verschil tussen Product Backlog en Sprint Backlog
 Ten slotte, voor wie het nog niet duidelijk is, hier een overzicht van de verschillen tussen de [](#Product%20Backlog%5D) en de Sprint Backlog
@@ -466,8 +466,8 @@ Product Backlog refinement is een meeting gedurende de sprint waarin we items va
 
 Backlog Refinement noemt men "Backlog Grooming" of "Story Time".
 
-> [!infobox] definitie
-> **Product Backlog refinement:** de regelmatige activiteit om gradueel verfijndere inzichten te creëren in de [](#Product%20Backlog%5D). [](Agile%20Projectmanagement%5D)
+!!! infobox "definitie"
+	**Product Backlog refinement:** de regelmatige activiteit om gradueel verfijndere inzichten te creëren in de [](#Product%20Backlog%5D). [](Agile%20Projectmanagement%5D)
 
 Een belangrijk aspect hierin waarover je zeker van moet leren is de inschatting van moeilijkheid om een taak af te ronden. De twee gebruikelijkste zijn "T-shirt grootte" en "Fibonacci reeks". Beide methodes duiden aan hoeveel werk er nodig is voor een bepaalde taak.
 
@@ -495,8 +495,8 @@ Kijkend naar de burndown chart kun je zien of een project nog "on target" is, vo
 Meerdere mogelijke varianten, of manieren waarop je een burndown chart kan opstellen bestaan. Daar je in Scrum eerder in storypunten inschat, kiest men dan de verticale as af te zetten tegen de overgebleven storypunten i.p.v. de uren.
 
 ### Velocity
-> [!infobox] definitie 
-> **Velocity:** een veelgebruikte aanduiding van de gemiddelde hoeveelheid [](#Product%20Backlog%5D) die een specifiek team met zijn specifieke samenstelling tijdens een Sprint omgezet heeft in één of meerdere Incrementen. [](Agile%20Projectmanagement%5D)
+!!! infobox "definitie"
+	**Velocity:** een veelgebruikte aanduiding van de gemiddelde hoeveelheid [](#Product%20Backlog%5D) die een specifiek team met zijn specifieke samenstelling tijdens een Sprint omgezet heeft in één of meerdere Incrementen. [](Agile%20Projectmanagement%5D)
 
 Velocity is de snelheid waartegen teams werk afronden. Meer bepaald, de hoeveelheid items (moeilijkheid meegenomen) van de product backlog welke het team kan succesvol afronden in 1 sprint,
 
@@ -550,8 +550,8 @@ Story points zijn een relatieve waarde die je samen met je scrumteam creëert. Z
 [](Agile%20Projectmanagement%5D)
 
 ### Definition of Done
-> [!infobox] definitie
-> **Definition of Done:** de verzameling kwaliteiten, verwachtingen en criteria waaraan een Increment moet voldoen om te kunnen worden vrijgegeven naar de eindgebruikers – met respect voor overkoepelende organisatierichtlijnen indien beschikbaar. [](Agile%20Projectmanagement%5D)
+!!! infobox "definitie"
+	**Definition of Done:** de verzameling kwaliteiten, verwachtingen en criteria waaraan een Increment moet voldoen om te kunnen worden vrijgegeven naar de eindgebruikers – met respect voor overkoepelende organisatierichtlijnen indien beschikbaar. [](Agile%20Projectmanagement%5D)
 
 Een Definition of Done geeft een duidelijke omschrijving van hoe een opgeleverde Product Backlog item er uit moet zien. Het is een manier om de kwaliteit van opgeleverde producten binnen [](#Scrum%5D) te borgen. Het zorgt voor transparantie en duidelijkheid. Developers geven commitment op het volgen van de Definition of Done.
 
@@ -564,12 +564,12 @@ Je bereikt onder andere het volgende met een goede Definition of Done:
 
 De Definition of Done wordt tijdens de start van iedere [sprint](#Sprints) in de [](#Sprint%20Planning%5D) herhaald. Daarnaast wordt de Definition of Done aangescherpt op basis van voortschrijdend inzicht.
 
-> [!example] Voorbeeld van een DoD (Definition of Done)
-> - Alle code is geschreven (alle ‘to do’ items in de code zijn gedaan).
-> - Relevante gebruikersdocumentatie is gemaakt en beschikbaar gesteld.
-> - Er is een installatiehandleiding voor de installatie van de software.
-> - Alle functionele testen zijn gedraaid.
-> - Code heeft een peer review ondergaan.
+!!! example "Voorbeeld van een DoD (Definition of Done)"
+	- Alle code is geschreven (alle ‘to do’ items in de code zijn gedaan).
+	- Relevante gebruikersdocumentatie is gemaakt en beschikbaar gesteld.
+	- Er is een installatiehandleiding voor de installatie van de software.
+	- Alle functionele testen zijn gedraaid.
+	- Code heeft een peer review ondergaan.
 
 [](Agile%20Projectmanagement%5D)
 
@@ -591,8 +591,8 @@ Wanneer de sprint is afgelopen en niet alle taken staat onder ‘Done’ dan pla
  Sprints en vaste vergaderingen sturen Agile en Scrum projecten. Laten we nog kijken naar een meeting die plaatsheeft op het einde van elke sprint.
 
 ## Sprint Review
-> [!infobox] definitie 
-> **Sprint Review:** het event dat het einde van de ontwikkelactiviteiten van een Sprint uitmaakt, met een time-box van vier uur of minder. Tijdens dit event bespreken het Scrum Team en uitgenodigde belanghebbenden de resultaten van de [](#Sprint%5D), de huidige inhoud van de [](#Product%20Backlog%5D) en de voortgang op productniveau. Het doel is om potentieel belangrijk werk voor de nabije, of verdere, toekomst te identificeren. Het resultaat is een bijgewerkte Product Backlog. [](Agile%20Projectmanagement%5D)
+!!! infobox "definitie"
+	**Sprint Review:** het event dat het einde van de ontwikkelactiviteiten van een Sprint uitmaakt, met een time-box van vier uur of minder. Tijdens dit event bespreken het Scrum Team en uitgenodigde belanghebbenden de resultaten van de [](#Sprint%5D), de huidige inhoud van de [](#Product%20Backlog%5D) en de voortgang op productniveau. Het doel is om potentieel belangrijk werk voor de nabije, of verdere, toekomst te identificeren. Het resultaat is een bijgewerkte Product Backlog. [](Agile%20Projectmanagement%5D)
 
 De Sprint Review is bedoeld als het officiële moment tijdens elke sprint waarin het Scrum Team aan de [](#Stakeholders%5D) het gemaakte (deel)product toont. De Stakeholders geven hun terugkoppeling op het (deel)product dat gedemonstreerd is.
 
@@ -604,8 +604,8 @@ Het laatste onderdeel van de Sprint Review is het bespreken van de [](#Product%
 
 ## Sprint Retrospective
 "Retrospect" (terugblik) betekent het reviseren of bevragen van voorbije gebeurtenissen of tijdsperioden.
-> [!infobox] definitie
-> **Sprint Retrospective:** het event dat het einde van een Sprint uitmaakt, met een time-box van drie uur of minder. Tijdens dit event kijkt het Scrum Team terug op de aflopende Sprint, met als doel om op basis van de ervaringen in de huidige Sprint het proces en de manier van werken, in brede zin, voor de volgende Sprint te bepalen. [](Agile%20Projectmanagement%5D)
+!!! infobox "definitie"
+	**Sprint Retrospective:** het event dat het einde van een Sprint uitmaakt, met een time-box van drie uur of minder. Tijdens dit event kijkt het Scrum Team terug op de aflopende Sprint, met als doel om op basis van de ervaringen in de huidige Sprint het proces en de manier van werken, in brede zin, voor de volgende Sprint te bepalen. [](Agile%20Projectmanagement%5D)
 
 Een **Sprint Retrospective** (of kort: een Sprint Retro) is de meeting op het einde van een sprint waar het team bepaald wat men kan wijzigen zodat de volgende sprint meer productief wordt. Sprint Retrospectives verzamelen feedback en geven informatie over hoe de voortgang van een project verloopt.
 
@@ -640,8 +640,8 @@ De Sprint begint met de Sprint Planning waarin we plannen wat we gaan maken, we 
 Merk op dat de [](#Product%20Backlog%20Refinement%5D) – al is het een gebruikelijk event, en zeker geen onbelangrijk – niet tussen de vijf officiële Scrum Events staat.  
 
 ## Scrum Values
-> [!info] definitie
-> **Scrum Values:** een verzameling van vijf kernwaarden die het Scrum framework schragen: commitment, focus, openheid *(Engels: ‘openness’)*, respect en moed *(Engels: ‘courage’)*. [](Agile%20Projectmanagement%5D)
+!!! info "definitie"
+	**Scrum Values:** een verzameling van vijf kernwaarden die het Scrum framework schragen: commitment, focus, openheid *(Engels: ‘openness’)*, respect en moed *(Engels: ‘courage’)*. [](Agile%20Projectmanagement%5D)
 
 ![](https://i.imgur.com/ASHoG3J.png)
 
