@@ -1,5 +1,5 @@
 ---
-share: True
+share: true
 ---
 # Projectplanning
 
@@ -19,8 +19,8 @@ share: True
 ## Inleiding
 ![](https://i.imgur.com/humdHtI.png)
 
-!!! note "Definitie"
-	Projectplanning is het organiseren van alle aspecten van een project.
+> [!note] Definitie
+> Projectplanning is het organiseren van alle aspecten van een project.
 
 Aspecten waar een projectplanning op kan zien zijn bijvoorbeeld:
 
@@ -35,8 +35,8 @@ Om het project goed te kunnen plannen kan gebruik gemaakt worden van programmatu
 ## PERT
 ![](https://i.imgur.com/7khHgSS.png)
 
-!!! note "Definitie"
-	PERT (Program Evaluation and Review Technique) is een hulpmiddel voor de bedrijfsleiding bij de analyse en planning van projecten. Hierbij wordt gebruik gemaakt van een grafische voorstelling, het netwerk, om de samenhang tussen de verschillende werkzaamheden aan te geven. [[@schegget.hamelink_1993]]
+> [!note] Definitie
+> PERT (Program Evaluation and Review Technique) is een hulpmiddel voor de bedrijfsleiding bij de analyse en planning van projecten. Hierbij wordt gebruik gemaakt van een grafische voorstelling, het netwerk, om de samenhang tussen de verschillende werkzaamheden aan te geven. [[@schegget.hamelink_1993]]
 
 Projecten zijn opgebouwd uit een aantal activiteiten. Sommige activiteiten dienen achter elkaar te worden uitgevoerd, andere mogen gelijktijdig worden uitgevoerd. Meestal is het zo dat de duur van het project globaal genomen afhankelijk is van een aantal op elkaar aansluitende activiteiten. Indien de tijd voorzien voor de uitvoering van deze activiteiten kan ingekort worden, kan heel het project vroeger klaar zijn. Van andere activiteiten mag de uitvoeringstijd variëren zonder de duur van het project te beïnvloeden.
 
@@ -46,8 +46,8 @@ Belangrijke voordelen van netwerkplanning zijn:
 - Verbetering van de communicatie via het netwerk
 - Het opsporen van bottlenecks
 
-!!! info "Geschiedenis"
-	De PERT methode is uitgevonden door de United States Department of Defense's US Navy Special Projects Office in 1958 als een onderdeel van het Polaris project. De PERT methode lijkt sterk op de kritieke pad methode. Bij de kritische pad methode wordt uitgegaan van de gesommeerde duur van het kritieke pad, terwijl in de PERT methode een kansberekening wordt toegepast.*
+> [!INFO] Geschiedenis
+> De PERT methode is uitgevonden door de United States Department of Defense's US Navy Special Projects Office in 1958 als een onderdeel van het Polaris project. De PERT methode lijkt sterk op de kritieke pad methode. Bij de kritische pad methode wordt uitgegaan van de gesommeerde duur van het kritieke pad, terwijl in de PERT methode een kansberekening wordt toegepast.*
 
 
 ### Hoofdbegrippen
@@ -105,7 +105,7 @@ Voor het berekenen van de verwachte tijd van een activiteit gebruiken we drie sc
 2. t$_l$ = gemiddelde schatting (most likely time)
 3. t$_p$ = pessimistische schatting (most pessimistic time)
 
-!!! important "ten slotte"
+> [!important] ten slotte
 t$_e$ = verwachte tijd (*expected time*) $$t_e= \frac{(t_o+ 4t_l + t_p)}{6}$$
 
 ### Verwachte tijdstippen
@@ -274,8 +274,8 @@ Op vraag van de zender stelt het bedrijf een planning op om een overzicht te kri
 | Act 10: Testen software      | 4         | 10                        | 20                         | 30                         |
 | Act 11: Regressietesten      | 7,8,9     | 3                         | 10                         | 11                         |
 | Act 12: Afwerking/oplevering | 10,11     | 6                         | 15                         | 18                         |
-!!! remark "Opmerking"
-	Ingeschatte duur per projectmanager in **dagen**
+> [!remark] Opmerking
+> Ingeschatte duur per projectmanager in **dagen**
 
 
 **Gevraagd:**
@@ -304,7 +304,7 @@ Een schuine stippellijn duidt op het feit dat er een speling bestaat. Een vertic
 
 Onder elke activiteit kan de werkelijke voortgang van de werken aangeduid worden door een gearceerde strook. Op die manier kan er gecontroleerd worden of alle activiteiten nog binnen het vooropgestelde schema zitten of niet.
 
-!!! info "Geschiedenis"
+> [!info] Geschiedenis
 Henry Laurence Gantt ontwikkelde in 1917 de Gantt-grafiek. In zijn werk als mechanisch engineer, management consultant en industry advisor werd de Gantt-grafiek gebruikt als een visueel hulpmiddel om de planning en voortgang van een project te laten zien. Op dit moment is het een wereldwijd geaccepteerde standaard, destijds een opzienbarende innovatie. De Gantt-grafiek werd onder andere gebruikt bij grote bouwprojecten als de Hoover Dam in 1931 en het interstate highway network in 1956.
 
 ### Lay-out
@@ -662,7 +662,7 @@ De volgende handelingen verlopen gelijktijdig:
 
 - FASE 3: …
 
-!!! remark "Algemene opmerking"
+> [!remark] Algemene opmerking
 Uitgenomen waar het uitdrukkelijk vermeld is, moeten alle handelingen van een fase beëindigd zijn vooraleer de volgende kan beginnen. De eind- en beginknooppunten van de fase vormen aldus de “mijlpalen”, waarvan de “beëindiging” een belangrijke aanwijzing is voor de buitenstaander.
 
 Gevraagd
