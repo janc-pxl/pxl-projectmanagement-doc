@@ -1,10 +1,11 @@
 ---
-share: True
-title: "What is Velocity in Agile? Charts & Examples | Adobe Workfront"
-authors: "Adobe Workfront,"
-year: 2022
-url: "https://www.workfront.com/project-management/methodologies/agile/velocity"
+share: true
+title: What is Velocity in Agile? Charts & Examples | Adobe Workfront
+authors: Adobe Workfront,
+year: 2022 
+url: https://www.workfront.com/project-management/methodologies/agile/velocity
 ---
+
 # What is Velocity in Agile? Charts & Examples | Adobe Workfront
 
 ```ad-info
@@ -15,7 +16,6 @@ title: Metadata
 - **Author**: Adobe Workfront,
 - **Year**: 2022 
 ```
-
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://www.workfront.com/project-management/methodologies/agile/velocity](https://www.workfront.com/project-management/methodologies/agile/velocity)
@@ -24,12 +24,10 @@ title: Files and Links
 - **File**: [What is Velocity in Agile? Charts & Examples | Adobe Workfront](file:///Users/jan/Zotero/storage/EACPRE9L/velocity.html)
 - **Local Library**: [Zotero]((zotero://select/library/items/7ATEI54D))
 ```
-
 ```ad-note
 title: Tags and Collections
 - **Collections**: Project Management
 ```
-
 
 ----
 
@@ -40,3 +38,4 @@ title: Tags and Collections
 ----
 
 ## Extracted Annotations
+

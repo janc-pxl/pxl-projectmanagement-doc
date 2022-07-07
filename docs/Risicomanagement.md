@@ -1,5 +1,5 @@
 ---
-share: True
+share: true
 ---
 # Risicomanagement
 
@@ -193,5 +193,5 @@ Het spreekt vanzelf, dat niet ieder risico is afgedekt en iedere schade kan word
 
 ```dataview 
 list  "_'" + title + "'_ -  **" + authors  + "(" + year + ")** "  + url + "<br/><br/>"
-from "500 Reading notes" AND (outgoing([[Risicomanagement]])) sort authors 
+from "500 Reading notes" AND (outgoing([](Risicomanagement%5D))) sort authors 
 ```

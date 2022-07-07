@@ -1,10 +1,11 @@
 ---
-share: True
+share: true
 title: Product Backlog Refinement explained (1/3)
-authors: "van Rooden, Stephan"
-year: 2015
-url: "https://www.scrum.org/resources/blog/product-backlog-refinement-explained-13"
+authors: van Rooden, Stephan
+year: 2015 
+url: https://www.scrum.org/resources/blog/product-backlog-refinement-explained-13
 ---
+
 # Product Backlog Refinement explained (1/3)
 
 ```ad-info
@@ -16,12 +17,10 @@ title: Metadata
 - **Journal**: Scrum.org 
 - **Year**: 2015 
 ```
-
 ```ad-quote
 title: Abstract
 One of the most challenging activities in Scrum is Product Backlog Refinement. During training courses I get many questions on this activity. What do you do during Product Backlog refinement? How do you prevent discussions going off track or in too much detail? Who should be there? When do you estimate? In this blog series, you will get some good practices and guidelines for having better, more effective and more vivid Product Backlog refinement. This series will consist of three posts:
 ```
-
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://www.scrum.org/resources/blog/product-backlog-refinement-explained-13](https://www.scrum.org/resources/blog/product-backlog-refinement-explained-13)
@@ -31,12 +30,10 @@ title: Files and Links
 - **File**: [Snapshot](file:///Users/jan/Zotero/storage/YJNDK2J5/product-backlog-refinement-explained-13.html)
 - **Local Library**: [Zotero]((zotero://select/library/items/9RAVF38W))
 ```
-
 ```ad-note
 title: Tags and Collections
 - **Collections**: Project Management
 ```
-
 
 ----
 
@@ -47,3 +44,4 @@ title: Tags and Collections
 ----
 
 ## Extracted Annotations
+

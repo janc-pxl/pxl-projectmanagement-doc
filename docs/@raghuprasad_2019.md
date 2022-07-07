@@ -1,10 +1,11 @@
 ---
-share: True
-title: "Basics of Sprint Planning - WHAT"
-authors: "Raghuprasad,"
-year: 2019
-url: "https://agilebatech.com/what-is-sprint-planning/"
+share: true
+title: Basics of Sprint Planning - WHAT
+authors: Raghuprasad,
+year: 2019 
+url: https://agilebatech.com/what-is-sprint-planning/
 ---
+
 # Basics of Sprint Planning - WHAT
 
 ```ad-info
@@ -16,12 +17,10 @@ title: Metadata
 - **Journal**: AgileBAtech 
 - **Year**: 2019 
 ```
-
 ```ad-quote
 title: Abstract
 Sprint Planning is held on the first day of the Sprint. This key Scrum event is designed to provide the Team and the Product Owner an opportunity to
 ```
-
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://agilebatech.com/what-is-sprint-planning/](https://agilebatech.com/what-is-sprint-planning/)
@@ -30,12 +29,10 @@ title: Files and Links
 - **File**: [Snapshot](file:///Users/jan/Zotero/storage/HMHENKD8/what-is-sprint-planning.html)
 - **Local Library**: [Zotero]((zotero://select/library/items/D47QT5F5))
 ```
-
 ```ad-note
 title: Tags and Collections
 - **Collections**: Project Management
 ```
-
 
 ----
 
@@ -46,3 +43,4 @@ title: Tags and Collections
 ----
 
 ## Extracted Annotations
+

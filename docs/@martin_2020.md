@@ -1,10 +1,11 @@
 ---
-share: True
+share: true
 title: "Incremental Model in SDLC: Use, Advantage & Disadvantage"
-authors: "Martin, Matthew"
-year: 2020
-url: "https://www.guru99.com/what-is-incremental-model-in-sdlc-advantages-disadvantages.html"
+authors: Martin, Matthew
+year: 2020 
+url: https://www.guru99.com/what-is-incremental-model-in-sdlc-advantages-disadvantages.html
 ---
+
 # Incremental Model in SDLC: Use, Advantage & Disadvantage
 
 ```ad-info
@@ -15,12 +16,10 @@ title: Metadata
 - **Author**: Martin, Matthew
 - **Year**: 2020 
 ```
-
 ```ad-quote
 title: Abstract
 Incremental Methodology is a process of software engineering development where requrements are broken down into multiple standalone modules of software development cycle. Incremental development is done in steps from analysis design, implementation, testing/verification, maintenance.
 ```
-
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://www.guru99.com/what-is-incremental-model-in-sdlc-advantages-disadvantages.html](https://www.guru99.com/what-is-incremental-model-in-sdlc-advantages-disadvantages.html)
@@ -29,12 +28,10 @@ title: Files and Links
 - **File**: [Snapshot](file:///Users/jan/Zotero/storage/JPNWMVUN/what-is-incremental-model-in-sdlc-advantages-disadvantages.html)
 - **Local Library**: [Zotero]((zotero://select/library/items/DL9DZNFE))
 ```
-
 ```ad-note
 title: Tags and Collections
 - **Collections**: Project Management
 ```
-
 
 ----
 
@@ -45,3 +42,4 @@ title: Tags and Collections
 ----
 
 ## Extracted Annotations
+

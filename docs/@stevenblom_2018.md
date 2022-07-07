@@ -1,10 +1,11 @@
 ---
-share: True
-title: "Moeten we kiezen tussen de klant en de medewerker?"
+share: true
+title: Moeten we kiezen tussen de klant en de medewerker?
 authors: Steven Blom
-year: 2018
-url: "https://www.blomconsultancy.nl/kiezen-tussen-klant-en-medewerker/"
+year: 2018 
+url: https://www.blomconsultancy.nl/kiezen-tussen-klant-en-medewerker/
 ---
+
 # Moeten we kiezen tussen de klant en de medewerker?
 
 ```ad-info
@@ -16,14 +17,12 @@ title: Metadata
 - **Journal**: Blom Consultancy, 
 - **Year**: 2018 
 ```
-
 ```ad-quote
 title: Abstract
 Wie op korte termijn winst wil boeken, zal proberen om klanten binnen te halen, uit te wringen en dan maar zien wat er gebeurt. Wie een klantvriendelijk bedrijf wil worden en ook op lange termijn winstgevend wil blijven, moet het anders doen, en zorgen dat de klanten blijven terugkomen.
 
 Klanten vinden het belangrijk dat hun product
 ```
-
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://www.blomconsultancy.nl/kiezen-tussen-klant-en-medewerker/](https://www.blomconsultancy.nl/kiezen-tussen-klant-en-medewerker/)
@@ -34,12 +33,10 @@ title: Files and Links
 - **File**: [Snapshot](file://C:%5CUsers%5C20003936%5CZotero%5Cstorage%5CJ3AET7UI%5Ckiezen-tussen-klant-en-medewerker.html)
 - **Local Library**: [Zotero]((zotero://select/library/items/PQ4FF8ES))
 ```
-
 ```ad-note
 title: Tags and Collections
 - **Collections**: Project Management
 ```
-
 
 ----
 
@@ -50,3 +47,4 @@ title: Tags and Collections
 ----
 
 ## Extracted Annotations
+

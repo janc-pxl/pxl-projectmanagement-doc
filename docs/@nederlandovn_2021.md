@@ -1,10 +1,11 @@
 ---
-share: True
-title: "Kwaliteitskringen | Optometristen Vereniging Nederland (OVN)"
-authors: "Nederland (OVN), Optometristen Vereniging"
-year: 2021
-url: "https://www.optometrie.nl/optometrist/organisatie-beleid/ovn-organisatie/kwaliteitskringen"
+share: true
+title: Kwaliteitskringen | Optometristen Vereniging Nederland (OVN)
+authors: Nederland (OVN), Optometristen Vereniging
+year: 2021 
+url: https://www.optometrie.nl/optometrist/organisatie-beleid/ovn-organisatie/kwaliteitskringen
 ---
+
 # Kwaliteitskringen | Optometristen Vereniging Nederland (OVN)
 
 ```ad-info
@@ -15,12 +16,10 @@ title: Metadata
 - **Author**: Nederland (OVN), Optometristen Vereniging;  
 - **Year**: 2021 
 ```
-
 ```ad-quote
 title: Abstract
 Kwaliteitskringen met info over activiteiten, KP punten, accreditatie en voorbeelden
 ```
-
 ```ad-abstract
 title: Files and Links
 - **Uri**: [http://zotero.org/groups/4724240/items/EQWNPKZ5](http://zotero.org/groups/4724240/items/EQWNPKZ5)
@@ -30,12 +29,10 @@ title: Files and Links
 - **File**: [Snapshot](file://C:%5CUsers%5C20003936%5CZotero%5Cstorage%5CE6TZMKN6%5Ckwaliteitskringen.html)
 - **Local Library**: [Zotero]((zotero://select/library/items/EJMG96XP))
 ```
-
 ```ad-note
 title: Tags and Collections
 - **Collections**: Project Management
 ```
-
 
 ----
 
@@ -46,3 +43,4 @@ title: Tags and Collections
 ----
 
 ## Extracted Annotations
+

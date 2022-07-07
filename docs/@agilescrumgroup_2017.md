@@ -1,10 +1,11 @@
 ---
-share: True
+share: true
 title: "Wat is Definition of Done? Check de uitleg en voorbeelden (IT & non-IT)"
-authors: "Agile Scrum Group,"
-year: 2017
-url: "https://agilescrumgroup.nl/wat-is-definition-of-done/"
+authors: Agile Scrum Group,
+year: 2017 
+url: https://agilescrumgroup.nl/wat-is-definition-of-done/
 ---
+
 # Wat is Definition of Done? Check de uitleg en voorbeelden (IT & non-IT)
 
 ```ad-info
@@ -16,19 +17,16 @@ title: Metadata
 - **Journal**: Agile Scrum Group 
 - **Year**: 2017 
 ```
-
 ```ad-quote
 title: Abstract
 In dit artikel lees je wat een Definition of Done is en worden voorbeelden gegeven. Zowel voor IT Scrumteams als non-IT Scrumteams.
 ```
-
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://agilescrumgroup.nl/wat-is-definition-of-done/](https://agilescrumgroup.nl/wat-is-definition-of-done/)
 - **Uri**: [http://zotero.org/groups/4724240/items/RNZLMPBC](http://zotero.org/groups/4724240/items/RNZLMPBC)
 - **Local Library**: [Zotero]((zotero://select/groups/4724240/items/RNZLMPBC))
 ```
-
 
 ----
 
@@ -39,3 +37,4 @@ title: Files and Links
 ----
 
 ## Extracted Annotations
+

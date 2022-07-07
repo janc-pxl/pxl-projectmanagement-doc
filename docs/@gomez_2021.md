@@ -1,10 +1,11 @@
 ---
-share: True
+share: true
 title: The Difference Between Product and Project Management
-authors: "Gomez, Jose"
-year: 2021
-url: "https://www.koombea.com/blog/the-difference-between-product-and-project-management/"
+authors: Gomez, Jose
+year: 2021 
+url: https://www.koombea.com/blog/the-difference-between-product-and-project-management/
 ---
+
 # The Difference Between Product and Project Management
 
 ```ad-info
@@ -16,14 +17,12 @@ title: Metadata
 - **Journal**: Koombea 
 - **Year**: 2021 
 ```
-
 ```ad-quote
 title: Abstract
 In today’s competitive business world, you need steady and experienced management to guide your strategies. Project management and product management are very important yet distinct positions, and they are often interchangeably confused by all levels of business executives.
 
 In this article, you will learn about the definitions and differences between Product Management and its counterpart Project Management, and the responsibilities of Product Managers and Project Managers. Hopefully, it will help you understand the Product Manager vs Project Manager debate.
 ```
-
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://www.koombea.com/blog/the-difference-between-product-and-project-management/](https://www.koombea.com/blog/the-difference-between-product-and-project-management/)
@@ -32,12 +31,10 @@ title: Files and Links
 - **File**: [Snapshot](file://C:%5CUsers%5C20003936%5CZotero%5Cstorage%5CTKBHY9MM%5Cthe-difference-between-product-and-project-management.html)
 - **Local Library**: [Zotero]((zotero://select/library/items/AX4EQQM9))
 ```
-
 ```ad-note
 title: Tags and Collections
 - **Collections**: Project Management
 ```
-
 
 ----
 
@@ -50,3 +47,4 @@ A **project** is a temporary endeavor that is undertaken to create a unique pr
 ----
 
 ## Extracted Annotations
+

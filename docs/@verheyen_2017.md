@@ -1,10 +1,11 @@
 ---
-share: True
-title: De kernwaarden van Scrum
-authors: "Verheyen, Gunther"
-year: 2017
-url: "https://guntherverheyen.com/2017/02/15/de-kernwaarden-van-scrum/"
+share: true
+title: "De kernwaarden van Scrum"
+authors: Verheyen, Gunther
+year: 2017 
+url: https://guntherverheyen.com/2017/02/15/de-kernwaarden-van-scrum/
 ---
+
 # De kernwaarden van Scrum
 
 ```ad-info
@@ -16,12 +17,10 @@ title: Metadata
 - **Journal**: Ullizee-Inc 
 - **Year**: 2017 
 ```
-
 ```ad-quote
 title: Abstract
 Scrum is een samenhangend framework van regels, rollen en principes die mensen en organisaties ondersteunen, maar dat afhankelijk van de exacte situatie en context ingevuld kan worden. Scrum is een…
 ```
-
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://guntherverheyen.com/2017/02/15/de-kernwaarden-van-scrum/](https://guntherverheyen.com/2017/02/15/de-kernwaarden-van-scrum/)
@@ -29,7 +28,6 @@ title: Files and Links
 - **File**: [Snapshot](file:///Users/jan/Zotero/storage/R2FLVHSB/de-kernwaarden-van-scrum.html)
 - **Local Library**: [Zotero]((zotero://select/groups/4724240/items/H5SJKHRX))
 ```
-
 
 ----
 
@@ -40,3 +38,4 @@ title: Files and Links
 ----
 
 ## Extracted Annotations
+

@@ -1,10 +1,12 @@
 ---
-share: True
+share: true
+title: "Business Case"
 title: Business Case
-authors: "vlaanderen intern,"
-year: 2014
-url: "https://overheid.vlaanderen.be/organisatie/projectmanagement/business-case"
+authors: vlaanderen intern,
+year: 2014 
+url: https://overheid.vlaanderen.be/organisatie/projectmanagement/business-case
 ---
+
 # Business Case
 
 ```ad-info
@@ -16,7 +18,6 @@ title: Metadata
 - **Journal**: Vlaanderen Intern, 
 - **Year**: 2014 
 ```
-
 ```ad-abstract
 title: Files and Links
 - **Uri**: [http://zotero.org/groups/4724240/items/8GVAZ6EM](http://zotero.org/groups/4724240/items/8GVAZ6EM)
@@ -26,12 +27,10 @@ title: Files and Links
 - **File**: [Snapshot](file://C:%5CUsers%5C20003936%5CZotero%5Cstorage%5CVDQBNQMS%5Cbusiness-case.html)
 - **Local Library**: [Zotero]((zotero://select/library/items/XNGVH8MZ))
 ```
-
 ```ad-note
 title: Tags and Collections
 - **Collections**: Project Management
 ```
-
 
 ----
 
@@ -42,3 +41,4 @@ title: Tags and Collections
 ----
 
 ## Extracted Annotations
+

@@ -1,10 +1,12 @@
 ---
-share: True
+share: true
+title: "Kwaliteitsmanagement"
 title: Kwaliteitsmanagement
-authors: "Wikipedia kwaliteitsmanagement,"
-year: 2020
-url: "https://nl.wikipedia.org/w/index.php?title=Kwaliteitsmanagement&oldid=55870333"
+authors: Wikipedia kwaliteitsmanagement,
+year: 2020 
+url: https://nl.wikipedia.org/w/index.php?title=Kwaliteitsmanagement&oldid=55870333
 ---
+
 # Kwaliteitsmanagement
 
 ```ad-info
@@ -16,12 +18,10 @@ title: Metadata
 - **Journal**: Wikipedia
 - **Year**: 2020
 ```
-
 ```ad-quote
 title: Abstract
 Kwaliteitsmanagement is de tak van het management die streeft naar een zo hoog mogelijke kwaliteit van een product, productieproces, dienst of organisatie. Kwaliteitsmanagement is geen afgebakend vakgebied, maar komt terug in alle delen van het management van een onderneming.
 ```
-
 ```ad-abstract
 title: Files and Links
 - **Uri**: [http://zotero.org/groups/4724240/items/JWSVKEC6](http://zotero.org/groups/4724240/items/JWSVKEC6)
@@ -31,12 +31,10 @@ title: Files and Links
 - **File**: [Snapshot](file://C:%5CUsers%5C20003936%5CZotero%5Cstorage%5C2N6UDILG%5CKwaliteitsmanagement.html)
 - **Local Library**: [Zotero]((zotero://select/library/items/SV5FYFQU))
 ```
-
 ```ad-note
 title: Tags and Collections
 - **Collections**: Project Management
 ```
-
 
 ----
 
@@ -47,3 +45,4 @@ title: Tags and Collections
 ----
 
 ## Extracted Annotations
+

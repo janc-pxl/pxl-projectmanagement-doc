@@ -1,5 +1,5 @@
 ---
-share: True
+share: true
 ---
 # Wat is projectmanagement?
 
@@ -25,10 +25,10 @@ Een project heeft als doel binnen een bepaalde tijd iets nieuws van de grond te 
 
 Een heel volledige definitie van een project is:
 
-!!! note "Definitie van een project"
-	*“Een project is een geheel van activiteiten buiten de gewone bedrijfsvoering om waarbij het gaat om het realiseren van iets nieuws voor een duidelijke opdrachtgever binnen duidelijke kaders door een team van meerdere verschillende specialisten.”*
-	
-	Dus een project is een tijdelijke constructie voor het afleveren van een uniek product of dienst, rekening houdend met beschikbare materialen, budget, tijd en gewenste kwaliteit.
+> [!note] Definitie van een project
+> *“Een project is een geheel van activiteiten buiten de gewone bedrijfsvoering om waarbij het gaat om het realiseren van iets nieuws voor een duidelijke opdrachtgever binnen duidelijke kaders door een team van meerdere verschillende specialisten.”*
+> 
+> Dus een project is een tijdelijke constructie voor het afleveren van een uniek product of dienst, rekening houdend met beschikbare materialen, budget, tijd en gewenste kwaliteit.
 
 De 'duidelijke kaders' in deze definitie zijn met name: de hoeveelheid tijd en de hoeveelheid geld. Het maken van een planning en het in de gaten houden van de kosten zijn daarom erg belangrijke taken van een projectleider. Ook hoort bij een project altijd een opdrachtgever. Die bepaalt hoe het resultaat eruit moet komen te zien. De projectleider en de projectgroep zijn de uitvoerders.
 
@@ -67,16 +67,16 @@ Veel organisaties gebruiken een bepaalde projectmanagementmethodiek als ze proje
 
 **Duivelsdriehoek** 
 
-!!! note "De Duivelsdriehoek"
-	De duivelsdriehoek laat op eenvoudige wijze zien hoe de drie belangrijkste projectvariabelen zich tot elkaar verhouden. De variabelen waarover het gaat zijn **tijd, geld** en **kwaliteit**. Het managen van projecten gaat dus om het managen van deze drie variabelen. [[@sjoerdoldebijvank_2010]]
+> [!note] De Duivelsdriehoek
+> De duivelsdriehoek laat op eenvoudige wijze zien hoe de drie belangrijkste projectvariabelen zich tot elkaar verhouden. De variabelen waarover het gaat zijn **tijd, geld** en **kwaliteit**. Het managen van projecten gaat dus om het managen van deze drie variabelen. [](Wat%20is%20Projectmanagement%5D)
 
 
 Het bewegen in het voordeel van geld (dus een besparing) betekent onvermijdelijk een beweging in het nadeel van kwaliteit (minder kwaliteit in het eindproduct) of tijd (het zal langer gaan duren) of een combinatie ervan. Ook kan men zich bedenken dat binnen een project slechts twee van de drie aspecten tegelijk benadrukt kunnen worden. Iets kan alleen goedkoper en sneller als de kwaliteit daaronder lijdt.
 ![](https://i.imgur.com/602iRyY.png)
-[[@stevenblom_2018]]
+[](Wat%20is%20Projectmanagement%5D)
 
 ![](https://i.imgur.com/Dww0uEV.png)
-[[@sjoerdoldebijvank_2010]]
+[](Wat%20is%20Projectmanagement%5D)
 
 In de Duivelsdriehoek is echter een belangrijke variabele 'vergeten'. De Duivelsdriehoek gaat er impliciet vanuit dat 'de oorspronkelijke opdracht' een vast gegeven is. In de praktijk blijkt echter dat de oorspronkelijke opdracht allerminst een gegeven is. En daarmee vormt de opdracht de vierde belangrijke projectvariabele. De duivelsdriehoek wordt een duivelsvierkant.
 
@@ -99,7 +99,7 @@ Wat is de uitdaging voor een bedrijf:
 
 De **business Case** vormt de rechtvaardiging van het project. Het bevat al de nodige informatie om te kunnen vaststellen of een project levensvatbaar/haalbaar is en ook blijft. Daarmee samenhangend onderzoekt men of het de moeite loont om te investeren of te blijven investeren in het project. Het vormt de basis voor de opstart van het project, maar moet gedurende het project voortdurend geactualiseerd worden met de actuele inschattingen van de te realiseren baten.
 
-De Business Case stelt u op tijdens de fase 'Opstart'. De input voor de Business Case komt van alle betrokkenen van het project. Het initiëren of opstarten van een project wil ook zeggen dat men het kader moet omlijnen, de **scope** vastleggen. [[@vlaanderenintern_2014]]
+De Business Case stelt u op tijdens de fase 'Opstart'. De input voor de Business Case komt van alle betrokkenen van het project. Het initiëren of opstarten van een project wil ook zeggen dat men het kader moet omlijnen, de **scope** vastleggen. [](Wat%20is%20Projectmanagement%5D)
 
 In het bedrijfsleven wordt dat vaak omschreven als de ‘battery limits’ vastleggen. Een heel belangrijke deliverable is het uitwerken van het projectcharter. Dit charter is het officiële startpunt en het contract tussen alle betrokken partijen (=opdrachtgever, projectteam, sponsors, …). Het beschrijft op een abstract niveau de krijtlijnen waarbinnen het project uitgevoerd moet worden. Het charter verwoordt vanuit het perspectief van de projectsponsor de verwachtingen en is op die manier een eerste aanwijzing van de scope. De inhoud wordt vastgelegd via een intense communicatie tussen alle betrokken partijen opdat er voor 100 % duidelijkheid bestaat over de eisen, de functionaliteiten (met een prioriteitenlijst), de aanpak, de timing, de financiering en opvolging van het project.
 
@@ -131,9 +131,9 @@ Het is belangrijk op te merken dat een product alleen kan worden ontwikkeld binn
 
 Anders dan bij een project, is er bij een product geen duidelijke definitie van wat er geleverd moet worden. De behoeften van de klant evolueren van nature in de loop van de tijd, en producten moeten evolueren om aan deze behoeften van de klant te voldoen.
 
-Bij producten zijn er geen duidelijke deadlines. Een klant verwacht dat een product nu aan zijn behoeften voldoet, niet ergens in de toekomst. Productontwikkeling is dus geen tijdelijke of incidentele onderneming. Het is een continu proces waarbij nieuwe functies worden geleverd en een bepaald product in de loop van de tijd wordt verbeterd. [[@gomez_2021]]
+Bij producten zijn er geen duidelijke deadlines. Een klant verwacht dat een product nu aan zijn behoeften voldoet, niet ergens in de toekomst. Productontwikkeling is dus geen tijdelijke of incidentele onderneming. Het is een continu proces waarbij nieuwe functies worden geleverd en een bepaald product in de loop van de tijd wordt verbeterd. [](Wat%20is%20Projectmanagement%5D)
 
-Het **productportfolio** kan worden gedefinieerd als de compilatie van producten en diensten die door het bedrijf aan de doelmarkt worden aangeboden. Het omvat alle producten die worden aangeboden vanaf de producten die werden gelanceerd en aangeboden tijdens het begin van het merk tot de producten die momenteel worden gelanceerd, samen met de producten die in de pijplijn zitten. [[@hiteshbhasin_2015]]
+Het **productportfolio** kan worden gedefinieerd als de compilatie van producten en diensten die door het bedrijf aan de doelmarkt worden aangeboden. Het omvat alle producten die worden aangeboden vanaf de producten die werden gelanceerd en aangeboden tijdens het begin van het merk tot de producten die momenteel worden gelanceerd, samen met de producten die in de pijplijn zitten. [](Wat%20is%20Projectmanagement%5D)
 
 ![](https://i.imgur.com/pBi8aFH.png)
 
@@ -363,7 +363,7 @@ Levenscycli van projecten kunnen variëren van voorspellende of plangestuurde be
 
 ### Karakteristieken van de Project Life Cycle
 
-Hoewel projecten uniek en zeer onvoorspelbaar zijn, bestaat hun standaardkader uit dezelfde generieke levenscyclusstructuur (zie [[#^d502ca|Figuur Generieke levenscyclusstructuur]]), bestaande uit de volgende fasen:
+Hoewel projecten uniek en zeer onvoorspelbaar zijn, bestaat hun standaardkader uit dezelfde generieke levenscyclusstructuur (zie [Figuur Generieke levenscyclusstructuur](#%5Ed502ca)), bestaande uit de volgende fasen:
 
 - De initiatiefase: start van het project
 	- De initiatiefase heeft tot doel het project te definiëren en te autoriseren (goedkeuren). De projectmanager neemt de gegeven informatie en stelt een projectcharter op (plan van aanpak).
@@ -460,5 +460,5 @@ Het is essentieel dat professionele projectmanagers bekend zijn met de praktijk 
 
 ```dataview 
 list  "_'" + title + "'_ -  **" + authors  + "(" + year + ")** "  + url + "<br/><br/>"
-from "500 Reading notes" AND (outgoing([[Wat is Projectmanagement]])) sort authors 
+from "500 Reading notes" AND (outgoing([](Wat%20is%20Projectmanagement%5D))) sort authors 
 ```
