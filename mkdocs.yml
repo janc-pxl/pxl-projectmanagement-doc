@@ -119,3 +119,14 @@ extra_css:
     - assets/css/admonition.css
 extra:
   generator: false
+  copyright: Copyright &copy; 2022 Hogeschool PXL
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/school/hogeschoolpxl/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/HogeschoolPXL/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/hogeschoolpxl
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/hogeschoolpxl
+
