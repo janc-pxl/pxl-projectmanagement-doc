@@ -1,12 +1,10 @@
 ---
-share: true
-title: "User Story"
+share: True
 title: User Story
-authors: productplan,
-year: 2022 
-url: https://www.productplan.com/glossary/user-story/
+authors: "productplan,"
+year: 2022
+url: "https://www.productplan.com/glossary/user-story/"
 ---
-
 # User Story
 
 ```ad-info
@@ -17,10 +15,12 @@ title: Metadata
 - **Author**: productplan,
 - **Year**: 2022 
 ```
+
 ```ad-quote
 title: Abstract
 What is a user story and who is responsible for them? Learn how to write user stories—plus get a free user story template.
 ```
+
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://www.productplan.com/glossary/user-story/](https://www.productplan.com/glossary/user-story/)
@@ -29,10 +29,12 @@ title: Files and Links
 - **File**: [Snapshot](file:///Users/jan/Zotero/storage/RXGJPTQF/user-story.html)
 - **Local Library**: [Zotero]((zotero://select/library/items/DG75SWYS))
 ```
+
 ```ad-note
 title: Tags and Collections
 - **Collections**: Project Management
 ```
+
 
 ----
 
@@ -43,4 +45,3 @@ title: Tags and Collections
 ----
 
 ## Extracted Annotations
-
