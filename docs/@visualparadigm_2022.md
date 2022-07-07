@@ -1,10 +1,11 @@
 ---
-share: True
+share: true
 title: "What are Time-boxed Events in Scrum?"
-authors: "Visual Paradigm,"
-year: 2022
-url: "https://www.visual-paradigm.com/scrum/what-are-scrum-time-boxed-events/"
+authors: Visual Paradigm,
+year: 2022 
+url: https://www.visual-paradigm.com/scrum/what-are-scrum-time-boxed-events/
 ---
+
 # What are Time-boxed Events in Scrum?
 
 ```ad-info
@@ -15,7 +16,6 @@ title: Metadata
 - **Author**: Visual Paradigm,
 - **Year**: 2022 
 ```
-
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://www.visual-paradigm.com/scrum/what-are-scrum-time-boxed-events/](https://www.visual-paradigm.com/scrum/what-are-scrum-time-boxed-events/)
@@ -23,7 +23,6 @@ title: Files and Links
 - **File**: [What are Time-boxed Events in Scrum?](file:///Users/jan/Zotero/storage/6BXHRL27/what-are-scrum-time-boxed-events.html)
 - **Local Library**: [Zotero]((zotero://select/groups/4724240/items/U69W97VV))
 ```
-
 
 ----
 
@@ -34,3 +33,4 @@ title: Files and Links
 ----
 
 ## Extracted Annotations
+
