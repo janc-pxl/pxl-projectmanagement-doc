@@ -7,30 +7,23 @@ url: "https://www.house-of-control.nl/duivelsdriehoek-duivelsvierkant.html"
 ---
 # House of Control
 
-```ad-info
-title: Metadata
-- **CiteKey**: sjoerdoldebijvank_2010
-- **Type**: webpage
-- **Title**: House of Control, 
-- **Author**: Sjoerd Olde Bijvank;  
-- **Year**: 2010 
-```
+!!! info "Metadata"
+	- **CiteKey**: sjoerdoldebijvank_2010
+	- **Type**: webpage
+	- **Title**: House of Control, 
+	- **Author**: Sjoerd Olde Bijvank;  
+	- **Year**: 2010 
 
-```ad-abstract
-title: Files and Links
-- **Url**: [https://www.house-of-control.nl/duivelsdriehoek-duivelsvierkant.html](https://www.house-of-control.nl/duivelsdriehoek-duivelsvierkant.html)
-- **Uri**: [http://zotero.org/groups/4724240/items/EUVCPBPX](http://zotero.org/groups/4724240/items/EUVCPBPX)
-- **File**: [House of Control](file:///Users/jan/Zotero/storage/TJGWJC7F/duivelsdriehoek-duivelsvierkant.html)
-- **Uri**: [http://zotero.org/users/9685140/items/IDWT3ECV](http://zotero.org/users/9685140/items/IDWT3ECV)
-- **File**: [House of Control](file://C:%5CUsers%5C20003936%5CZotero%5Cstorage%5C2V562RXL%5Cduivelsdriehoek-duivelsvierkant.html)
-- **Local Library**: [Zotero]((zotero://select/library/items/IDWT3ECV))
-```
+!!! abstract "Files and Links"
+	- **Url**: [https://www.house-of-control.nl/duivelsdriehoek-duivelsvierkant.html](https://www.house-of-control.nl/duivelsdriehoek-duivelsvierkant.html)
+	- **Uri**: [http://zotero.org/groups/4724240/items/EUVCPBPX](http://zotero.org/groups/4724240/items/EUVCPBPX)
+	- **File**: [House of Control](file:///Users/jan/Zotero/storage/TJGWJC7F/duivelsdriehoek-duivelsvierkant.html)
+	- **Uri**: [http://zotero.org/users/9685140/items/IDWT3ECV](http://zotero.org/users/9685140/items/IDWT3ECV)
+	- **File**: [House of Control](file://C:%5CUsers%5C20003936%5CZotero%5Cstorage%5C2V562RXL%5Cduivelsdriehoek-duivelsvierkant.html)
+	- **Local Library**: [Zotero]((zotero://select/library/items/IDWT3ECV))
 
-```ad-note
-title: Tags and Collections
-- **Collections**: Project Management
-```
-
+!!! note "Tags and Collections"
+	- **Collections**: Project Management
 
 ----
 

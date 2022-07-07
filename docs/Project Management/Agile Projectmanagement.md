@@ -196,7 +196,7 @@ De drie pilaren ondersteunen de ontwikkeling van elke empirisch proces: **transp
 
 !!! tip "tip"
 	Later, in de [[#Scrum Values]], gaan we dieper in op de manier waarop de Empirisch gedachte in Scrum uitgewerkt is. 
-	Het kan geen kwaad deze uit te printen, ze op je nachtkastje te leggen, ze af en toe te lezen en een traantje weg te pinken. Beschouw ze als mogelijk de waardevolste lessen die je via Scrum kan leren.
+	Het kan geen kwaad deze uit te printen, ze op je nachtkastje te leggen, ze af en toe te lezen en een traantje weg te pinken. Beschouw ze als mogelijk de waardevolste lessen die je dankzij Scrum kan leren.
 
 Nu dat je weet wat Scrum is, laten we verder gaan met enkele andere Scrum-gerelateerde woorden en onderwerpen.
 

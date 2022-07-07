@@ -7,37 +7,28 @@ url: "https://www.koombea.com/blog/the-difference-between-product-and-project-ma
 ---
 # The Difference Between Product and Project Management
 
-```ad-info
-title: Metadata
-- **CiteKey**: gomez_2021
-- **Type**: webpage
-- **Title**: The Difference Between Product and Project Management, 
-- **Author**: Gomez, Jose
-- **Journal**: Koombea 
-- **Year**: 2021 
-```
+!!! info "Metadata"
+	- **CiteKey**: gomez_2021
+	- **Type**: webpage
+	- **Title**: The Difference Between Product and Project Management, 
+	- **Author**: Gomez, Jose
+	- **Journal**: Koombea 
+	- **Year**: 2021 
 
-```ad-quote
-title: Abstract
-In today’s competitive business world, you need steady and experienced management to guide your strategies. Project management and product management are very important yet distinct positions, and they are often interchangeably confused by all levels of business executives.
+!!! quote "Abstract"
+	In today’s competitive business world, you need steady and experienced management to guide your strategies. Project management and product management are very important yet distinct positions, and they are often interchangeably confused by all levels of business executives.
+	
+	In this article, you will learn about the definitions and differences between Product Management and its counterpart Project Management, and the responsibilities of Product Managers and Project Managers. Hopefully, it will help you understand the Product Manager vs Project Manager debate.
 
-In this article, you will learn about the definitions and differences between Product Management and its counterpart Project Management, and the responsibilities of Product Managers and Project Managers. Hopefully, it will help you understand the Product Manager vs Project Manager debate.
-```
+!!! abstract "Files and Links"
+	- **Url**: [https://www.koombea.com/blog/the-difference-between-product-and-project-management/](https://www.koombea.com/blog/the-difference-between-product-and-project-management/)
+	- **Uri**: [http://zotero.org/groups/4724240/items/F9XC7PHS](http://zotero.org/groups/4724240/items/F9XC7PHS)
+	- **Uri**: [http://zotero.org/users/9685140/items/AX4EQQM9](http://zotero.org/users/9685140/items/AX4EQQM9)
+	- **File**: [Snapshot](file://C:%5CUsers%5C20003936%5CZotero%5Cstorage%5CTKBHY9MM%5Cthe-difference-between-product-and-project-management.html)
+	- **Local Library**: [Zotero]((zotero://select/library/items/AX4EQQM9))
 
-```ad-abstract
-title: Files and Links
-- **Url**: [https://www.koombea.com/blog/the-difference-between-product-and-project-management/](https://www.koombea.com/blog/the-difference-between-product-and-project-management/)
-- **Uri**: [http://zotero.org/groups/4724240/items/F9XC7PHS](http://zotero.org/groups/4724240/items/F9XC7PHS)
-- **Uri**: [http://zotero.org/users/9685140/items/AX4EQQM9](http://zotero.org/users/9685140/items/AX4EQQM9)
-- **File**: [Snapshot](file://C:%5CUsers%5C20003936%5CZotero%5Cstorage%5CTKBHY9MM%5Cthe-difference-between-product-and-project-management.html)
-- **Local Library**: [Zotero]((zotero://select/library/items/AX4EQQM9))
-```
-
-```ad-note
-title: Tags and Collections
-- **Collections**: Project Management
-```
-
+!!! note "Tags and Collections"
+	- **Collections**: Project Management
 
 ----
 
