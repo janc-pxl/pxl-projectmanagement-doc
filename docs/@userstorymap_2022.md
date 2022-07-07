@@ -1,10 +1,11 @@
 ---
-share: True
+share: true
 title: How to Be An Effective Product Owner
-authors: "userstorymap,"
-year: 2022
-url: "https://www.userstorymap.io/being-an-effective-product-owner/"
+authors: userstorymap,
+year: 2022 
+url: https://www.userstorymap.io/being-an-effective-product-owner/
 ---
+
 # How to Be An Effective Product Owner
 
 ```ad-info
@@ -16,12 +17,10 @@ title: Metadata
 - **Journal**: User Story Map for Jira 
 - **Year**: 2022 
 ```
-
 ```ad-quote
 title: Abstract
 See what is Product Owner role and how to become an effective one and deliver great products.
 ```
-
 ```ad-abstract
 title: Files and Links
 - **Url**: [https://www.userstorymap.io/being-an-effective-product-owner/](https://www.userstorymap.io/being-an-effective-product-owner/)
@@ -30,12 +29,10 @@ title: Files and Links
 - **File**: [Snapshot](file:///Users/jan/Zotero/storage/BPQZKMNM/being-an-effective-product-owner.html)
 - **Local Library**: [Zotero]((zotero://select/library/items/ZDXYY3L7))
 ```
-
 ```ad-note
 title: Tags and Collections
 - **Collections**: Project Management
 ```
-
 
 ----
 
@@ -46,3 +43,4 @@ title: Tags and Collections
 ----
 
 ## Extracted Annotations
+
