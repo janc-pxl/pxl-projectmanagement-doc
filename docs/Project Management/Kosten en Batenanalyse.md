@@ -337,7 +337,7 @@ $$P_o=\frac{ P_n }{ (1 + i)^n }$$
 
 In ons voorbeeld krijgen we dus 
 
-$$\frac{€ 5.000}{(1 + 0.10)^5}=€ 3.104.60$$
+$$\frac{5.000}{(1 + 0.10)^5}= 3.104.60 EUR$$
 
 Indien we nu €3.104.60 investeren, ontvangen we over 5 jaar €5.000.
 
@@ -360,7 +360,7 @@ Dit is de periode waarin de cumulatieve baten (contant gemaakt) gelijk zijn aan 
 
 Wanneer we naar tabel 2 kijken, merken we bij de cumulatieve contante waarde dat van de initiële investering na 2 jaar is teruggewonnen: €8.677,675. Dit betekent dat we gedurende het derde jaar nog €1.322,325 moeten terugverdienen. Tijdens dat derde jaar winnen we €3.756,575 terug.
 
-$$\frac{€ 1322,325}{€ 3756,575}=0,352$$ 
+$$\frac{1322,325}{3756,575}=0,352$$ 
 
 Dit zijn 0,352\*365 = 128,48 dagen.
 
@@ -390,7 +390,7 @@ Is de netto-contante-waarde gelijk aan nul, dan levert het project ons hetzelfde
 
 Proberen we de alternatieve investeringsmogelijkheden te vergelijken, dan kunnen we de netto-contante-waarde uitdrukken als percentage van het geïnvesteerde bedrag.
 
-$$\frac{€ 8.953,925}{€ 10.000}=89,54\%$$
+$$\frac{8.953,925}{10.000}=89,54\%$$
 
 ### Interne rentabiliteit
 
