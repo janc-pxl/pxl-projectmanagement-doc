@@ -26,18 +26,18 @@
     filter: saturate(200%);
 }
 
-.md-footer {
+/*.md-footer {
     display: none;
 }
-
+*/
 .dataview {
     display: none !important;
 }
 
-.tooltip_templates {
+/*.tooltip_templates {
     display: none;
 }
-
+*/
 [data-md-color-scheme="slate"] .tooltipster-sidetip .tooltipster-box {
     background-color: #00000063 !important;
     border: none;
