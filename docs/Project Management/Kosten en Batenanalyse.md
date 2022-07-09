@@ -315,7 +315,7 @@ $$P_n = P_o(1 + i)^n$$
 Wanneer we €10.000 voor een periode van 5 jaar tegen 10% uitlenen, dan is de waarde van die €10.000 na vijf jaar opgelopen tot:
 
 
-$$P_5 = 10.000 EUR * (1 + 0.10)^5 = 16.105 EUR$$
+$$P_5 = 10000 EUR * (1 + 0.10)^5 = 16105 EUR$$
 
 
 In figuur 1 kennen we de investering van dit jaar. M.a.w. we kennen de contante waarde ervan. De contante waarde van de baten kunnen we niet berekenen zonder de tijdswaarde van het geld te bekijken. We moeten dus de baten ‘contant maken’.
@@ -332,7 +332,7 @@ $$P_o=\frac{ P_n }{ (1 + i)^n }$$
 
 In ons voorbeeld krijgen we dus 
 
-$$\frac{5.000}{(1 + 0.10)^5}= 3.104.60 EUR$$
+$$\frac{5000}{(1 + 0.10)^5}= 3104.60 EUR$$
 
 Indien we nu €3.104.60 investeren, ontvangen we over 5 jaar €5.000.
 
@@ -355,7 +355,7 @@ Dit is de periode waarin de cumulatieve baten (contant gemaakt) gelijk zijn aan 
 
 Wanneer we naar tabel 2 kijken, merken we bij de cumulatieve contante waarde dat van de initiële investering na 2 jaar is teruggewonnen: €8.677,675. Dit betekent dat we gedurende het derde jaar nog €1.322,325 moeten terugverdienen. Tijdens dat derde jaar winnen we €3.756,575 terug.
 
-$$\frac{1322,325}{3756,575}=0,352$$ 
+$$\frac{1322.325}{3756.575}=0.352$$ 
 
 Dit zijn 0,352\*365 = 128,48 dagen.
 
@@ -385,7 +385,7 @@ Is de netto-contante-waarde gelijk aan nul, dan levert het project ons hetzelfde
 
 Proberen we de alternatieve investeringsmogelijkheden te vergelijken, dan kunnen we de netto-contante-waarde uitdrukken als percentage van het geïnvesteerde bedrag.
 
-$$\frac{8.953,925}{10.000}=89,54\%$$
+$$\frac{8953.925}{10000}=89.54\%$$
 
 ### Interne rentabiliteit
 
@@ -410,7 +410,7 @@ Rangschikken we de termen, dan krijgen we :
 
 $$\frac{Z_1}{(1+IRR)} + \frac{Z_1}{(1+IRR)^2} + \frac{Z_1}{(1+IRR)^3} + \frac{Z_1}{(1+IRR)^4} + \frac{Z_1}{(1+IRR)^5}–C=0$$
 
-$$\frac{5.000}{(1,41)^1}+\frac{5.000}{(1,41)^2}+\frac{5.000}{(1,41)^3}+\frac{5.000}{(1,41)^4}+\frac{5.000}{(1,41)^5}–10.000=0$$
+$$\frac{5000}{(1.41)^1}+\frac{5000}{(1.41)^2}+\frac{5000}{(1.41)^3}+\frac{5000}{(1.41)^4}+\frac{5000}{(1.41)^5}–10000=0$$
 
 Dit is een polynoom. De meeste elektronische werkbladen bevatten een IRR-functie waarmee de gebruiker zeer snel de interne rendabiliteit kan berekenen.
 
