@@ -17,7 +17,7 @@ share: true
 **Agile** betekent letterlijk *"de behendigheid om snel en makkelijk te bewegen"*. 
 In projectmanagement is Agile een methodiek die populair is in de computer industrie.
 
-Een *"methodiek"* is eenvoudigweg een manier om iets uit te voeren. Het bestaat uit de methodes, technieken en de aanpak om iets daadwerkelijk af te krijgen. In projectmanagement is Agile is een van de meest gebruikte methodiek.
+Een *"methodiek"* is eenvoudigweg een manier om iets uit te voeren. Het bestaat uit de methodes, technieken en de aanpak om iets daadwerkelijk af te krijgen. In projectmanagement is Agile is een van de meest gebruikte methodieken.
 
 Agile begrijp je het best door te kijken hoe het verschilt van de eerder traditionele manieren waarop je projectmanagement uitvoert.
 
@@ -135,6 +135,7 @@ Nu dat je een basisbegrip van Agile projectmanagement hebt, kijken we naar de po
 De term 'Scrum' komt van een uitdrukking uit de rugbysport waar de teamleden elkaars armen laten ineengrijpen en zo voorwaarts richting de tegenstander drukken.
 
 In de technologiewereld is Scrum een manier van projectmanagement die bestaat uit:
+
 - strak gecoördineerd teamwerk.
 - een sterke organisatie.
 - het afwerken van project volgens de vraag van de klant.
@@ -178,7 +179,7 @@ In dit voorbeeld bekijk je “sports” als projectmanagement, “basketbal” a
 ![](https://i.imgur.com/F5ySO0e.png)
 [[@zentaoteam_2022a]]
 
-Scrum is gebaseerd op de filosofie van het empirisme, net als empirisch onderzoek in de wetenschappen. Een stevige basis. Binnen het empirisme gaat men ervan uit dat kennis alleen kan voortkomen uit ervaring. Kennis is gestoeld op (objectieve) observaties en niet op ideeën. Er is een verschil tussen ‘denken’ en ‘weten’. Met andere woorden: je kunt wel denken dat je weet wat de klant wenst, maar daarmee weet je het nog niet zeker.
+Scrum is gebaseerd op de filosofie van het empirisme, net als empirisch onderzoek in de wetenschappen. Een stevige basis. Binnen het empirisme gaat men ervan uit dat kennis alleen kan voortkomen uit ervaring. Kennis is gestoeld op (objectieve) observaties en niet op ideeën. Er is een verschil tussen ‘denken’ en ‘weten’. Met andere woorden: je kunt denken dat je weet wat de klant wenst, maar daarmee weet je het nog niet zeker.
 
 De drie pilaren ondersteunen de ontwikkeling van elke empirisch proces: **transparantie**, **inspectie** en **aanpassing**. Maar wat wil dat nu in mensentaal zeggen?
 
