@@ -33,7 +33,7 @@ Agile projectmanagement, voor het eerst gebruikt in de late jaren 80, is gekenme
 
 De uitvoering van projectwerk gebeurt voortdurend doorheen de levensduur van het project. Agile methoden behandelen adaptieve *(synoniem: aanpasbare)* planning, evolutionaire *(synoniem: "op een geleidelijke manier")* ontwikkeling en continue verbetering *(vert. Engels "continuous improvement")*. Agile moedigt een snelle en flexibele reactie op verandering aan.
 
-Deze methode wordt alsmaar populairder en wordt gebruikt om voor het managen van het proces om software te maken. Het spitst zich toe op teamwerk en op een 1-op-1 afhandelen van softwarefeatures. Men gaat 1 feature volledig afwerken voordat naar een volgende feature wordt overgegaan.
+Deze methode wordt alsmaar populairder en wordt gebruikt voor het managen van het proces om software te maken. Het spitst zich toe op teamwerk en op een 1-op-1 afhandelen van softwarefeatures. Men gaat 1 feature volledig afwerken voordat naar een volgende feature wordt overgegaan.
 
 > [!goal] Samengevat
 > Agile is een manier van projectmanagement die zich toespitst op het verdelen van taken in korte werkfases, met veelvuldige reviews (controles) van het project en mogelijke aanpassingen tijdens het uitvoeren. Een Agile aanpak is flexibel en minder strak dan sommige andere manieren van projectmanagement.
