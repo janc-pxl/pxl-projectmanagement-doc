@@ -15,7 +15,7 @@ share: true
 ![](https://i.imgur.com/roA9YqQ.png)
 
 **Agile** betekent letterlijk *"de behendigheid om snel en makkelijk te bewegen"*. 
-In projectmanagement is Agile een methodiek die populair is in de computer industrie.
+In projectmanagement is Agile een methodiek die populair is in de computer industrie, maar het wordt veelvuldig in financiële dienstverlening, marketing, industrie, retail en talloze andere branches toegepast.
 
 Een *"methodiek"* is eenvoudigweg een manier om iets uit te voeren. Het bestaat uit de methodes, technieken en de aanpak om iets daadwerkelijk af te krijgen. In projectmanagement is Agile is een van de meest gebruikte methodieken.
 
@@ -141,6 +141,7 @@ In de technologiewereld is Scrum een manier van projectmanagement die bestaat ui
 - het afwerken van project volgens de vraag van de klant.
 
 Het gros van de huidige development projecten gebruikt Scrum. Ondanks de verzameling termen en technieken gebruikt in Scrum, draait het allemaal rond teamwerk, het samenspel tussen de leden van het team.
+Hoewel Scrum oorspronkelijk is bedacht voor softwareontwikkeling, wordt het toegepast in vele andere sectoren, zoals gezondheidszorg, marketing, rechtshandhaving, productontwikkeling en de publieke sector op alle niveaus.
 
 Waar we Agile beschouwen als een methodologie, spreken we bij Scrum over een framework. De reden dat we dat vermelden is zodat je weet dat er technisch een verschil is tussen beide termen.
 > [!info]
@@ -682,5 +683,5 @@ De spelers tonen moed als ze Scrum correct toelichten als een empirisch proces, 
 
 ```dataview 
 list  "_'" + title + "'_ -  **" + authors  + "(" + year + ")** "  + url + "<br/><br/>"
-from "500 Reading notes" AND (outgoing([[Agile Projectmanagement]])) sort authors 
+from "docs/References" AND (outgoing([[Agile Projectmanagement]])) sort authors 
 ```
