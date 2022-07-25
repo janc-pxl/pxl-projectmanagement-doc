@@ -1,0 +1,1346 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="nl">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Projectmanagement 2TIN" name="description"/>
+<link href="https://janc-pxl.github.io/pxl-projectmanagement-doc/Project%20Management/Informatiemanagement/" rel="canonical"/>
+<link href="../../assets/logo/favicons.png" rel="icon"/>
+<meta content="mkdocs-1.3.1, mkdocs-material-8.3.9" name="generator"/>
+<title>Informatiemanagement - PXL Projectmanagement</title>
+<link href="../../assets/stylesheets/main.1d29e8d0.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Karla:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Karla";--md-code-font:"Ubuntu Mono"}</style>
+<link href="../../assets/css/img-grids-floats.css" rel="stylesheet"/>
+<link href="../../assets/css/utils.css" rel="stylesheet"/>
+<link href="../../assets/css/custom_attributes.css" rel="stylesheet"/>
+<link href="../../assets/css/tooltipster.bundle.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+<link href="../../assets/css/grid.css" rel="stylesheet"/>
+<link href="../../assets/css/admonition.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+                $(document).ready(function() {
+                    $('.link-tooltip').tooltipster();
+                });
+        </script>
+<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" referrerpolicy="no-referrer" rel="stylesheet"/>
+<meta content="Informatiemanagement" property="og:title"/>
+<meta content="Informatiemanagement" name="twitter:title"/>
+<meta content="Projectmanagement 2TIN" name="og:description"/>
+<meta content="Projectmanagement 2TIN" name="twitter:description"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="" property="og:image"/>
+<meta content="" name="twitter:image"/>
+</head>
+<body data-md-color-accent="light-blue" data-md-color-primary="teal" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#informatiemanagement">
+          Ga naar inhoud
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="PXL Projectmanagement" class="md-header__button md-logo" data-md-component="logo" href="../.." title="PXL Projectmanagement">
+<img alt="logo" src="../../assets/logo/logo_pxl_bol.png"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            PXL Projectmanagement
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Informatiemanagement
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="light-blue" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="teal" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="blue" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"></path></svg>
+</label>
+</form>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Zoeken" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Zoeken" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="PXL Projectmanagement" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="PXL Projectmanagement">
+<img alt="logo" src="../../assets/logo/logo_pxl_bol.png"/>
+</a>
+    PXL Projectmanagement
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+        42TIN1250 Projectmanagement
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2">
+          Project Management
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Project Management" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          Project Management
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Agile%20Projectmanagement/">
+        Agile Projectmanagement
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Extra%20Oefeningen%20Projectmanagement/">
+        Extra oefeningen Projectmanagement
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Informatiemanagement
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Informatiemanagement
+      </a>
+<nav aria-label="Inhoudsopgave" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Inhoudsopgave
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wat-is-informatiemanagement">
+    Wat is informatiemanagement?
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wat-zijn-informatievoorzieningen">
+    Wat zijn Informatievoorzieningen?
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#informatiemanager">
+    Informatiemanager
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#het-9-vlaksmodel">
+    Het 9-vlaksmodel
+  </a>
+<nav aria-label="Het 9-vlaksmodel" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#relatie-9-vlaksmodel-en-het-besturingsframe">
+    Relatie 9-vlaksmodel en het besturingsframe
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#informatiemanagementprocessen-ict-regie">
+    Informatiemanagementprocessen : ICT-regie
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#bisl">
+    BiSL
+  </a>
+<nav aria-label="BiSL" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#bisl-framework-in-detail">
+    BiSL framework in detail
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#opstellen-iv-organisatiestrategie">
+    Opstellen IV-organisatiestrategie
+  </a>
+<nav aria-label="Opstellen IV-organisatiestrategie" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#leveranciersmanagement">
+    Leveranciersmanagement
+  </a>
+<nav aria-label="Leveranciersmanagement" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#doel-proces-leveranciersmanagement">
+    Doel proces Leveranciersmanagement
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#activiteiten-proces-leveranciersmanagement">
+    Activiteiten proces Leveranciersmanagement
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resultaten-proces-leveranciersmanagement">
+    Resultaten proces Leveranciersmanagement
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kpis-rapportage-items-proces-leveranciersmanagement">
+    KPI's / rapportage items proces Leveranciersmanagement
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#relaties-met-andere-processen">
+    Relaties met andere processen
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#in-de-praktijk-enkele-handvatten">
+    In de praktijk - Enkele handvatten
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#relatiemanagement-gebruikersorganisatie">
+    Relatiemanagement gebruikersorganisatie
+  </a>
+<nav aria-label="Relatiemanagement gebruikersorganisatie" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#doel-proces-relatiemanagement-gebruikersorganisatie">
+    Doel proces Relatiemanagement gebruikersorganisatie
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#activiteiten-proces-relatiemanagement-gebruikersorganisatie">
+    Activiteiten proces Relatiemanagement gebruikersorganisatie
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resultaten-proces-relatiemanagement-gebruikersorganisatie">
+    Resultaten proces Relatiemanagement gebruikersorganisatie
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kpis-rapportage-items-proces-relatiemanagement-gebruikersorganisatie">
+    KPI's / rapportage items proces Relatiemanagement gebruikersorganisatie
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#relaties-met-andere-processen_1">
+    Relaties met andere processen
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#in-de-praktijk-de-iv-functie-binnen-buiten-de-gebruikersorganisatie">
+    In de praktijk - De IV-functie binnen / buiten de gebruikersorganisatie
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ketenpartners-management">
+    Ketenpartners management
+  </a>
+<nav aria-label="Ketenpartners management" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#doel-proces-ketenpartners-management">
+    Doel proces Ketenpartners management
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#activiteiten-proces-ketenpartners-management">
+    Activiteiten proces Ketenpartners management
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resultaten-proces-ketenpartners-management">
+    Resultaten proces Ketenpartners management
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kpis-rapportage-items-proces-ketenpartners-management">
+    KPI's / rapportage items proces Ketenpartners management
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#relaties-met-andere-processen_2">
+    Relaties met andere processen
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#in-de-praktijk-eerst-organisatie-dan-techniek">
+    In de praktijk - Eerst organisatie, dan techniek
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#strategie-inrichting-iv-functie">
+    Strategie inrichting IV-functie
+  </a>
+<nav aria-label="Strategie inrichting IV-functie" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#doel-proces-strategie-inrichting-iv-functie">
+    Doel proces Strategie inrichting IV-functie
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#activiteiten-proces-strategie-inrichting-iv-functie">
+    Activiteiten proces Strategie inrichting IV-functie
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resultaten-proces-strategie-inrichting-iv-functie">
+    Resultaten proces Strategie inrichting IV-functie
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kpis-rapportage-items-proces-strategie-inrichting-iv-functie">
+    KPI's / rapportage items proces Strategie inrichting IV-functie
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#relaties-met-andere-processen_3">
+    Relaties met andere processen
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#in-de-praktijk-onderdeel-van-een-breder-organisatieplan">
+    In de praktijk - Onderdeel van een breder organisatieplan
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#de-positie-van-bisl">
+    De positie van BiSL
+  </a>
+<nav aria-label="De positie van BiSL" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#technisch-beheer-itil">
+    Technisch Beheer (ITIL)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#applicatiebeheer-sla-en-itil">
+    Applicatiebeheer (SLA en ITIL)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#functioneel-beheer-bisl">
+    Functioneel beheer (BiSL)
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#indeling">
+    Indeling
+  </a>
+<nav aria-label="Indeling" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#strategisch-richtinggevend-niveau">
+    Strategisch / Richtinggevend niveau
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sturend-niveau">
+    Sturend niveau
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#uitvoerend-niveau">
+    Uitvoerend niveau
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Kosten%20en%20Batenanalyse/">
+        Kosten- en batenanalyse
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Kwaliteitsmanagement/">
+        Kwaliteitsmanagement
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Projectplanning/">
+        Projectplanning
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Risicomanagement/">
+        Risicomanagement
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Wat%20is%20Projectmanagement/">
+        Wat is projectmanagement?
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3">
+          References
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="References" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          References
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40adobeworkfront_2022/">
+        What is Velocity in Agile? Charts &amp; Examples | Adobe Workfront
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40agile4all_2019/">
+        Sprint Planning
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40agilescrumgroup_2017/">
+        Wat is Definition of Done? Check de uitleg en voorbeelden (IT &amp; non-IT)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40agilescrumgroup_2018/">
+        De Sprint Review uitgelegd. Waarom deze meeting? (+ Checklist &amp; Valkuilen)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40cfi_2022/">
+        Internal Rate of Return (IRR)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40coursera_2022/">
+        The 3 Scrum Roles and Responsibilities, Explained
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40cspo_2021/">
+        Quality vs. Grade for PMP
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40doshi_2016/">
+        The Three Pillars of Empiricism (Scrum)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40eby_2016/">
+        Product Backlog 101 Top Advice from Agile ExpertsSmartsheet
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40gomez_2021/">
+        The Difference Between Product and Project Management
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40hiteshbhasin_2015/">
+        What is Product portfolio management ?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40janse_2020/">
+        LEAN management
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40martin_2020/">
+        Incremental Model in SDLC: Use, Advantage &amp; Disadvantage
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40nederlandovn_2021/">
+        Kwaliteitskringen | Optometristen Vereniging Nederland (OVN)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40productplan_2022/">
+        User Story
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40qframe_2021/">
+        @qframe 2021
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40raghuprasad_2019/">
+        Basics of Sprint Planning - WHAT
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40schegget.hamelink_1993/">
+        Netwerkplanning volgens PERT
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40scrumguide_2022/">
+        Het Scrumteam: uitleg en tips bij de verantwoordelijkheid | Scrumguide.nl
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40scrumguide_2022a/">
+        Scrum takenbord | Scrumguide.nl
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40sickipedia_2021/">
+        Het verschil tussen nauwkeurigheid en reproduceerbaarheid
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40sjoerdoldebijvank_2010/">
+        House of Control
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40stanley.etal_2020/">
+        Project management handbook: simplified Agile, Scrum, and DevOps for beginners
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40stevenblom_2018/">
+        Moeten we kiezen tussen de klant en de medewerker?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40userstorymap_2022/">
+        How to Be An Effective Product Owner
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40vanderwardt_2017/">
+        Daily Stand-up: 5 tips voor een goede meeting (+checklist download)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40vanlier_2018/">
+        Stakeholdermanagement in projecten met Scrum
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40vanrooden_2015/">
+        Product Backlog Refinement explained (1/3)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40vanrooden_2015a/">
+        Product Backlog Refinement explained (3/3)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40verheyen_2017/">
+        De kernwaarden van Scrum
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40verheyen_2022/">
+        Scrum Glossary
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40visual-paradigm_2022/">
+        Why Fixed Length Sprints in Scrum?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40visualparadigm_2022/">
+        What are Time-boxed Events in Scrum?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40vlaanderenintern_2014/">
+        Business Case
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40vrielink_2020/">
+        Hoe werken story points?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40wikipediakwaliteitsmanagement_2020/">
+        Kwaliteitsmanagement
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40zentaoteam_2022a/">
+        What Are The Complete Scrum Artifacts? - Agile - ZenTao
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Inhoudsopgave" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Inhoudsopgave
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wat-is-informatiemanagement">
+    Wat is informatiemanagement?
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wat-zijn-informatievoorzieningen">
+    Wat zijn Informatievoorzieningen?
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#informatiemanager">
+    Informatiemanager
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#het-9-vlaksmodel">
+    Het 9-vlaksmodel
+  </a>
+<nav aria-label="Het 9-vlaksmodel" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#relatie-9-vlaksmodel-en-het-besturingsframe">
+    Relatie 9-vlaksmodel en het besturingsframe
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#informatiemanagementprocessen-ict-regie">
+    Informatiemanagementprocessen : ICT-regie
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#bisl">
+    BiSL
+  </a>
+<nav aria-label="BiSL" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#bisl-framework-in-detail">
+    BiSL framework in detail
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#opstellen-iv-organisatiestrategie">
+    Opstellen IV-organisatiestrategie
+  </a>
+<nav aria-label="Opstellen IV-organisatiestrategie" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#leveranciersmanagement">
+    Leveranciersmanagement
+  </a>
+<nav aria-label="Leveranciersmanagement" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#doel-proces-leveranciersmanagement">
+    Doel proces Leveranciersmanagement
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#activiteiten-proces-leveranciersmanagement">
+    Activiteiten proces Leveranciersmanagement
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resultaten-proces-leveranciersmanagement">
+    Resultaten proces Leveranciersmanagement
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kpis-rapportage-items-proces-leveranciersmanagement">
+    KPI's / rapportage items proces Leveranciersmanagement
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#relaties-met-andere-processen">
+    Relaties met andere processen
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#in-de-praktijk-enkele-handvatten">
+    In de praktijk - Enkele handvatten
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#relatiemanagement-gebruikersorganisatie">
+    Relatiemanagement gebruikersorganisatie
+  </a>
+<nav aria-label="Relatiemanagement gebruikersorganisatie" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#doel-proces-relatiemanagement-gebruikersorganisatie">
+    Doel proces Relatiemanagement gebruikersorganisatie
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#activiteiten-proces-relatiemanagement-gebruikersorganisatie">
+    Activiteiten proces Relatiemanagement gebruikersorganisatie
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resultaten-proces-relatiemanagement-gebruikersorganisatie">
+    Resultaten proces Relatiemanagement gebruikersorganisatie
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kpis-rapportage-items-proces-relatiemanagement-gebruikersorganisatie">
+    KPI's / rapportage items proces Relatiemanagement gebruikersorganisatie
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#relaties-met-andere-processen_1">
+    Relaties met andere processen
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#in-de-praktijk-de-iv-functie-binnen-buiten-de-gebruikersorganisatie">
+    In de praktijk - De IV-functie binnen / buiten de gebruikersorganisatie
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ketenpartners-management">
+    Ketenpartners management
+  </a>
+<nav aria-label="Ketenpartners management" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#doel-proces-ketenpartners-management">
+    Doel proces Ketenpartners management
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#activiteiten-proces-ketenpartners-management">
+    Activiteiten proces Ketenpartners management
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resultaten-proces-ketenpartners-management">
+    Resultaten proces Ketenpartners management
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kpis-rapportage-items-proces-ketenpartners-management">
+    KPI's / rapportage items proces Ketenpartners management
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#relaties-met-andere-processen_2">
+    Relaties met andere processen
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#in-de-praktijk-eerst-organisatie-dan-techniek">
+    In de praktijk - Eerst organisatie, dan techniek
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#strategie-inrichting-iv-functie">
+    Strategie inrichting IV-functie
+  </a>
+<nav aria-label="Strategie inrichting IV-functie" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#doel-proces-strategie-inrichting-iv-functie">
+    Doel proces Strategie inrichting IV-functie
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#activiteiten-proces-strategie-inrichting-iv-functie">
+    Activiteiten proces Strategie inrichting IV-functie
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resultaten-proces-strategie-inrichting-iv-functie">
+    Resultaten proces Strategie inrichting IV-functie
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kpis-rapportage-items-proces-strategie-inrichting-iv-functie">
+    KPI's / rapportage items proces Strategie inrichting IV-functie
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#relaties-met-andere-processen_3">
+    Relaties met andere processen
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#in-de-praktijk-onderdeel-van-een-breder-organisatieplan">
+    In de praktijk - Onderdeel van een breder organisatieplan
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#de-positie-van-bisl">
+    De positie van BiSL
+  </a>
+<nav aria-label="De positie van BiSL" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#technisch-beheer-itil">
+    Technisch Beheer (ITIL)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#applicatiebeheer-sla-en-itil">
+    Applicatiebeheer (SLA en ITIL)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#functioneel-beheer-bisl">
+    Functioneel beheer (BiSL)
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#indeling">
+    Indeling
+  </a>
+<nav aria-label="Indeling" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#strategisch-richtinggevend-niveau">
+    Strategisch / Richtinggevend niveau
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sturend-niveau">
+    Sturend niveau
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#uitvoerend-niveau">
+    Uitvoerend niveau
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="informatiemanagement">Informatiemanagement<a class="headerlink" href="#informatiemanagement" title="Permanent link">¶</a></h1>
+<p><img alt="Image|600" src="https://i.imgur.com/hxGs2TC.jpg"/></p>
+<p><strong>Hogeschool PXL PXL-Digital:</strong> Professionele bachelor in de toegepaste informatica<br/>
+<strong>42TIN1250 Projectmanagement</strong><br/>
+<strong>Lectoren:</strong> Dhr. Lowie Vangaal, Dhr. Jan Castermans</p>
+<div style="page-break-after: always;"></div>
+<h2 id="wat-is-informatiemanagement">Wat is informatiemanagement?<a class="headerlink" href="#wat-is-informatiemanagement" title="Permanent link">¶</a></h2>
+<p><img alt="" src="https://i.imgur.com/EiZ8E25.png"/></p>
+<p>Informatiemanagement is een proces dat er voor zorgt dat de informatiebehoeften die vanuit verschillende werk- en bedrijfsprocessen van een organisatie ontstaan worden vertaald in <a href="http://nl.wikipedia.org/wiki/Informatievoorziening">informatievoorziening</a>. Informatiemanagement professionaliseert de vraagkant van ICT en valt daarom in de regel niet onder een ICT-afdeling maar onder de gebruikersorganisatie. Informatiemanagement functioneert hierbij als opdrachtgever voor de ICT-leverancier en vertegenwoordigt de gebruikersorganisatie als afnemer van de informatievoorziening.</p>
+<p>In praktijk wordt de term informatiemanagement alleen gebruikt voor strategische en sturende activiteiten. Voor operationele activiteiten wordt meestal de term <a href="http://nl.wikipedia.org/wiki/Functioneel_beheer">functioneel beheer</a> gebruikt. Een de facto standaard voor informatiemanagement en functioneel beheer is <a href="http://nl.wikipedia.org/wiki/BiSL">BiSL</a> (=Business Information Services Library), een framework voor business informatie management (= functioneel beheer + informatiemanagement).</p>
+<p>De doelstelling van informatiemanagement is het zorgdragen voor de beschikbaarheid van de gevraagde informatievoorzieningen, zodat de organisatie de geplande resultaten kan leveren. Een informatievoorziening is, net zoals personeel of andere faciliteiten, te beschouwen als een resource. Vanuit alle processen bestaat er een vraag naar informatievoorzieningen. De bundeling van deze vraagfunctie wordt informatiemanagement genoemd. Alle overige processen rondom ICT noemt men ICT-serviceprocessen. Deze processen betreffen het aanbod, de ontwikkeling en het technisch beheer van informatievoorzieningen.</p>
+<p><img alt="" src="https://i.imgur.com/DnHfhJc.png"/></p>
+<p>Informatiemanagement is namens de gebruikersorganisatie verantwoordelijk voor de aanwezige informatievoorziening en daarbij ingezette informatiesystemen.</p>
+<p>Op strategisch niveau is informatiemanagement verantwoordelijk voor het opstellen van de informatiestrategie, voor het opstellen van de strategie voor de informatievoorzieningsorganisatie en voor de informatiecoördinatie (het coördineren en afstemmen tussen deze strategieën en andere beleidsplannen).</p>
+<p>Daarnaast is informatiemanagement verantwoordelijk voor een aantal sturende processen:</p>
+<ul>
+<li>Financieel management: Het bewaken van de kosten van de informatievoorziening</li>
+<li>Planning &amp; Control: Aansturing van de tijds- en capaciteitsaspecten van de informatievoorziening</li>
+<li>Behoeftenmanagement: Bewaken van de kwaliteit van de informatievoorziening, en vertalen van ontwikkelingen in de behoeften vanuit werk- en bedrijfsprocessen in aanpassingen aan de informatievoorziening</li>
+<li>Contractmanagement: Het maken van goede afspraken met de ICT-leverancier</li>
+<li>Tenslotte voert informatiemanagement vaak regie over projecten om te zorgen dat nieuwe ontwikkelingen aansluiten op doelstellingen voor de lange termijn.</li>
+</ul>
+<p>Operationele taken als het ondersteunen van gebruikers, het specificeren van wijzigingen, het specificeren van nieuwe functionaliteiten, het testen van wijzigingen worden meestal uitgevoerd door functioneel beheerders of senior gebruikers.</p>
+<p>Technisch applicatiebeheer en andere ICT-processen vallen niet onder de gebruikersorganisatie maar onder de ICT-leverancier. Informatiemanagement en functioneel beheer verstrekken hieraan opdrachten, maar informatiemanagement is niet hiërarchisch verantwoordelijk voor dergelijke afdelingen. ICT kan worden ondergebracht bij een interne afdeling, of worden uitbesteed. Ook functioneel beheer kan worden uitbesteed, maar Informatiemanagement dat op dergelijke uitbestedingen de regie voert kan nooit worden uitbesteed.</p>
+<h2 id="wat-zijn-informatievoorzieningen">Wat zijn Informatievoorzieningen?<a class="headerlink" href="#wat-zijn-informatievoorzieningen" title="Permanent link">¶</a></h2>
+<p><img alt="" src="https://i.imgur.com/nNvRcGr.png"/></p>
+<p>Een tekstverwerker, e-mail, het personeelsinformatiesysteem. Voorbeelden van informatievoorzieningen zijn makkelijk te geven. ICT is alomtegenwoordig in organisaties. Processen en ICT raken ook steeds meer verweven. In onderstaande figuur is dit verband schematisch weergegeven. Processen of processtappen worden ondersteund door Informatie Diensten, zoals een polis administratie of een klantenservicesysteem (CRM, customer relationship management). Informatie Diensten maken ‘onder water’ gebruik van Infrastructuur Diensten zoals een database of een netwerk.</p>
+<p><img alt="" src="https://i.imgur.com/wenEaY0.png"/></p>
+<p>Het begrip Dienst verwijst naar de dienstverlening die meegeleverd wordt rondom de ‘losse’ applicatie of toepassing. Deze extra’s zijn bijvoorbeeld een helpdesk waar storingen gemeld kunnen worden en voorzieningen voor opleiding en instructie. Rondom diensten worden ook afspraken gemaakt (SLA’s, service level agreements) waarin geregeld wordt hoe snel een storing hersteld wordt, wanneer de helpdesk open is en welke faciliteiten en garanties de klant heeft bij schade, onderhoud en herstel.</p>
+<p><img alt="" src="https://i.imgur.com/WMFgk5B.png"/></p>
+<p>Sinds de opkomst van het internet hebben informatievoorzieningen een complete transformatie ondergaan. Media zoals televisie, telefonie en ‘klassieke’ ICT zijn in een soort mengvorm voor iedereen beschikbaar gekomen. Mobiel en meestal gratis bovendien. Ook de PC als device wordt in hoog tempo vervangen door smartphones, iPads en inbouw in gebruiksvoorwerpen zoals auto’s en koelkasten. Deze ontwikkeling heeft grote invloed op het gebruik en op de waarde van informatievoorzieningen voor organisaties.</p>
+<h2 id="informatiemanager">Informatiemanager<a class="headerlink" href="#informatiemanager" title="Permanent link">¶</a></h2>
+<p><img alt="" src="https://i.imgur.com/Uy5pakq.png"/></p>
+<p>Naarmate een organisatie groter wordt, neemt de kans toe dat de informatiemanager bovenstaande rol niet zelf uitvoert, maar dat hij verantwoordelijk is voor het team dat hem hierin ondersteunt. Vaak bestaat zo’n team uit één of meerdere functioneel beheerders, beleidsmedewerkers en organisatieadviseurs. Lijkt de rol van een informatiemanager in kleine organisaties nog op die van organisatieadviseur of beleidsmedewerker, in grote organisaties komen hier dus leidinggevende verantwoordelijkheden bij. Soms gebruikt men voor de leidinggevende functie een andere benaming, bijvoorbeeld teamleider informatiemanagement. In zo’n organisatie is een informatiemanager een soort beleidsmedewerker.</p>
+<p>Informatiemanagement is een relatief jong vakgebied. Er bestaan inmiddels ook opleidingen informatiemanagement, zowel op het hbo als op de universiteit, maar omdat het vakgebied nog niet zolang bestaat en omdat informatiemanager doorgaans enige jaren werkervaring vereist, hebben maar weinig informatiemanagers een dergelijke opleiding gevolgd. Veel informatiemanagers hebben een hbo- of universitaire achtergrond en hebben die doorgaans aangevuld met andere cursussen en trainingen. Als inhoudelijk fundament wordt daarbij vaak het certificaat BiSL-Foundation behaald. Andere cursussen en trainingen die zij vaak volgen zijn gericht op het ontwikkelen van zogenaamde soft skills, bijvoorbeeld adviesvaardigheden en beïnvloedingstechnieken.</p>
+<p>De informatiemanager zorgt in zijn werk voor verbinding tussen verschillende afdelingen en organisaties en tussen verschillende werkzaamheden. Competenties die hierbij passen zijn bijvoorbeeld adviseren, analytisch vermogen, bestuurs- en organisatiesensitiviteit, informatieanalyse, draagvlak creëren, luisteren, netwerkvaardigheid, plannen en organiseren, strategisch handelen, tactisch handelen en toekomstvisie. Wanneer een informatiemanager leiding geeft aan een team is leidinggeven uiteraard ook een voor de hand liggende competentie. Van programmeertalen of bepaalde softwarepakketten hoeft de informatiemanager daarentegen geen diepgaande kennis te hebben, hij moet slechts in staat zijn om met de verantwoordelijke ICT-specialisten te praten in een taal die zij begrijpen.</p>
+<h2 id="het-9-vlaksmodel">Het 9-vlaksmodel<a class="headerlink" href="#het-9-vlaksmodel" title="Permanent link">¶</a></h2>
+<p><img alt="" src="https://i.imgur.com/0bQmdCA.png"/></p>
+<p>Informatiemanagementprocessen zijn in meerdere referentiemodellen beschreven. In onderstaande figuur is het negenvlaksmodel afgebeeld, zoals ontwikkeld door Rik Maes.</p>
+<p>Het model onderscheidt drie besturingsdomeinen :</p>
+<ol>
+<li>
+<p>Bedrijfsvoering (bedrijfsdomein) : in dit domein bevindt zich de reguliere bedrijfsvoering met al haar facetten, zoals mensen, middelen, processen etc.</p>
+</li>
+<li>
+<p>Informatie en communicatie voorziening (Informatie domein) : in dit domein gaat het specifiek om informatie als ondersteunend middel voor het bedrijfsdomein. Hier wordt de vraag naar informatievoorziening vanuit het bedrijfsdomein vertaald in een vraag naar ICT(technologie).</p>
+</li>
+<li>
+<p>Informatie en communicatie technologie (ICT-domein) : in dit domein gaat het specifiek om de ontwikkeling en exploitatie van ICT(technologie).</p>
+</li>
+</ol>
+<p>Op de verticale as zien we de besturingsniveaus zoals men die kent uit het besturingsframe: strategisch(richten), tactisch(inrichten) en operationeel(verrichten). Dit model is afgeleid van het Strategic Alignment-model van Henderson en Venkatraman (IBM, 1993).</p>
+<p><img alt="" src="https://i.imgur.com/Z8DwrDM.png"/></p>
+<h3 id="relatie-9-vlaksmodel-en-het-besturingsframe">Relatie 9-vlaksmodel en het besturingsframe<a class="headerlink" href="#relatie-9-vlaksmodel-en-het-besturingsframe" title="Permanent link">¶</a></h3>
+<p>Wanneer men het negenvlaksmodel wat algemener beschouwt, ziet men dat het een gecomprimeerde versie is van het besturingsframe. Het model plaatst de vraag naar een middel voor informatievoorziening centraal. De aanbodkant bevindt zich in de rechterkolom. Alle overige aspecten zoals resultaten, mensen en middelen (exclusief informatie) zijn in de linkerkolom afgebeeld. Op dezelfde wijze kan men ook ‘modellen’ maken voor facilitaire voorzieningen.</p>
+<p>Het negenvlaksmodel is geen procesmodel, noch wetenschappelijk onderbouwd. Het is vooral een handig model om over processen, functies en rollen van ICT en informatiemanagement binnen een organisatie te praten.</p>
+<p>Het negenvlaksmodel is minder geschikt om nieuwe ontwikkelingen zoals ICT-regie en uit besteding te duiden. Daarvoor dient men ook, in termen van het besturingsframe, de ketenaspecten mee te nemen.</p>
+<p><img alt="" src="https://i.imgur.com/oN4FKmo.png"/></p>
+<h3 id="informatiemanagementprocessen-ict-regie">Informatiemanagementprocessen : ICT-regie<a class="headerlink" href="#informatiemanagementprocessen-ict-regie" title="Permanent link">¶</a></h3>
+<p>Door de toenemende verwevenheid van ICT en bedrijfsvoering zullen de organisatie eenheden een steeds prominentere rol claimen in de besturing. Informatiemanagement steeds belangrijker en daarom ingebed in de organisatie eenheden. Aan de andere kan zal ICT steeds meer uitbesteed worden aan externe service providers. We zien deze trends weergegeven in het onderstaande IS Lite model van Gartner.</p>
+<p><img alt="" src="https://i.imgur.com/n1I8ym3.png"/></p>
+<p>Dit stelt organisaties voor een grote uitdaging omdat zowel informatiemanagement “het managen van de vraag” als uitbesteding “het managen van de levering” een steeds hoger niveau van professionaliteit vragen, terwijl de uitvoering steeds meer binnen de reguliere operatie moet worden aangestuurd.</p>
+<p>Om hieraan tegemoet te komen worden ICT-service organisaties een <strong>Demand-Supply</strong> <strong>Organisatie</strong> (DSO) ingericht met een centrale ICT-regie functie die alle processen op strategisch en tactisch niveau coördineert. De besturingskant van Informatiemanagement evolueert daarmee in grotere organisaties naar ICT-regie (ICT-governance) en integreert ook de Enterprise Architectuur functie (ICTRA). Bedrijfsstrategie, Informatiestrategie én ICT-strategie worden in de strategische besturingsprocessen van de organisatie geïntegreerd.</p>
+<p>Deze ontwikkeling heeft ook invloed op de belangrijkste ICT-rollen zoals weergegeven in onderstaande figuur.</p>
+<p><img alt="" src="https://i.imgur.com/RLlur4R.png"/></p>
+<p><img alt="" src="https://i.imgur.com/pjzOZMp.png"/></p>
+<h2 id="bisl">BiSL<a class="headerlink" href="#bisl" title="Permanent link">¶</a></h2>
+<p>Business Information Services Library, voorheen Business Information Service Management Library, is een framework voor het uitvoeren van functioneel beheer en informatiemanagement.</p>
+<p>Het is een framework dat een beschrijving geeft van werkzaamheden die aan de klantzijde moeten worden uitgevoerd in een organisatie om de informatievoorziening te krijgen die zij verdient. We hebben het hier dan meer concreet over functioneel beheer en informatiemanagement. Deze 2 termen worden tegenwoordig ook wel samengevat in de term: business informatiemanagement. De rollen, of als u wilt functies, die daar vervolgens veelal bij worden genoemd zijn respectievelijk de key-user of super user, de functioneel beheerder en de informatie manager. Ook de informatie analist of business analist kunnen hier een grote rol spelen en binnen BiSL zijn veel activiteiten te vinden die bij deze rollen / functies aansluiten.</p>
+<p><img alt="" src="https://i.imgur.com/xg2FzKv.jpg"/></p>
+<p>Aan de onderzijde is aan de linkerkant een procescluster te vinden waarin de focus ligt op ondersteuning van het (dagelijks) gebruik. De bestaande informatievoorziening wordt hier slechts in stand gehouden. Omdat informatievoorziening met de nodige regelmaat moet worden aangepast is rechtsonder daartoe het procescluster Functionaliteitenbeheer gedefinieerd. Ook in de verbinding tussen deze 2 clusters, in het model de Verbindende processen, zijn de nodige taken te vinden die te maken hebben met aanpassing van informatievoorziening.</p>
+<p>Bovenin het onderstaande model vinden we procesclusters op richtinggevend niveau. Linksboven gaat het om de toekomst van de informatievoorzieningsorganisatie. Rechtsboven gaat het om de toekomstige inhoud van de informatievoorziening. Daartussen zit een coördinerend proces die deze twee procesclusters op elkaar afstemt.</p>
+<p>Tot slot is in het midden een cluster van processen te vinden die te maken hebben met operationeel management. Aspecten die hier in de diverse processen worden afgedekt zijn tijd, geld, kwaliteit en afspraken.</p>
+<h3 id="bisl-framework-in-detail">BiSL framework in detail<a class="headerlink" href="#bisl-framework-in-detail" title="Permanent link">¶</a></h3>
+<p><img alt="" src="https://i.imgur.com/CRg9HFh.png"/></p>
+<p>Het cluster Opstellen IV-organisatiestrategie is een cluster dat vier processen op strategisch niveau omvat. Doel van dit procescluster is het opstellen van een strategie rondom de organisatie van informatievoorziening. Centraal staat hier de vraag hoe de organisatie van de informatievoorziening er binnen 3-5 jaar uit gaat zien.</p>
+<h3 id="opstellen-iv-organisatiestrategie">Opstellen IV-organisatiestrategie<a class="headerlink" href="#opstellen-iv-organisatiestrategie" title="Permanent link">¶</a></h3>
+<p><img alt="" src="https://i.imgur.com/dWeVjCy.png"/></p>
+<h4 id="leveranciersmanagement">Leveranciersmanagement<a class="headerlink" href="#leveranciersmanagement" title="Permanent link">¶</a></h4>
+<p>Het proces Leveranciersmanagement maakt onderdeel uit van het procescluster Opstellen IV-organisatiestrategie. Binnen dit proces is de focus er op gericht dat precies de juiste groep leveranciers wordt gekozen en in stand wordt gehouden.</p>
+<p>Opmerking: Hieronder worden doel, activiteiten, resultaten en relaties van dit proces kort samengevat.</p>
+<h5 id="doel-proces-leveranciersmanagement">Doel proces Leveranciersmanagement<a class="headerlink" href="#doel-proces-leveranciersmanagement" title="Permanent link">¶</a></h5>
+<p>Het proces Leveranciersmanagement heeft als doelstelling te bepalen welke leveranciers het meest geschikt zijn voor de gewenste informatievoorziening en ook de rol en verantwoordelijkheden van die leveranciers te bepalen.</p>
+<p>Het is goed om te benadrukken dat het in dit proces niet gaat om concrete contracten en SLA’s. Deze zijn onderwerp van het proces Contractmanagement. In Leveranciersmanagement wordt het bovenliggende niveau geraakt: hoe kunnen we precies de juiste groep leveranciers in huis halen en houden? Kernbegrip hier is: richtlijnen. Een goede set richtlijnen kan gebruikt worden om de huidige groep leveranciers te evalueren, en vooral: eventueel toekomstige leveranciers aan de hand van deze richtlijnen in beeld te laten komen of laten afvallen.</p>
+<h5 id="activiteiten-proces-leveranciersmanagement">Activiteiten proces Leveranciersmanagement<a class="headerlink" href="#activiteiten-proces-leveranciersmanagement" title="Permanent link">¶</a></h5>
+<p>Het proces Leveranciersmanagement kent samengevat de volgende activiteiten:</p>
+<ol>
+<li>Opstellen beleid</li>
+</ol>
+<p>het bepalen van de behoefte aan diensten en producten (assortiment) en ook de gewenste relatie (bijv. levert een leverancier software of een werkend systeem?). Ook het inkoop beleid van de gehele organisatie kan hier veel invloed op hebben</p>
+<ol start="2">
+<li>Selectie en evaluatie</li>
+</ol>
+<p>Het evalueren van bestaande leveranciers. Vaak zijn er langdurige relaties, wat des te meer reden is voor een zorgvuldige selectie, en indien er afscheid genomen moet worden van een leverancier moet dat lang van te voren worden geïnitieerd.</p>
+<ol start="3">
+<li>Beheer</li>
+</ol>
+<p>Het beheer van de relaties met de leveranciers.</p>
+<h5 id="resultaten-proces-leveranciersmanagement">Resultaten proces Leveranciersmanagement<a class="headerlink" href="#resultaten-proces-leveranciersmanagement" title="Permanent link">¶</a></h5>
+<p>De resultaten van het proces Leveranciersmanagement zijn:</p>
+<ul>
+<li>Leveranciersbeleid</li>
+<li>Leveranciersinformatie</li>
+<li>Diensten en assortiment</li>
+</ul>
+<h5 id="kpis-rapportage-items-proces-leveranciersmanagement">KPI’s / rapportage items proces Leveranciersmanagement<a class="headerlink" href="#kpis-rapportage-items-proces-leveranciersmanagement" title="Permanent link">¶</a></h5>
+<p>Voorbeelden van Key Performance Indicatoren (KPI’s) voor het proces Leveranciersmanagement zijn:</p>
+<ul>
+<li>Mutaties in beleid t.o.v. vorig jaar (dynamiek)</li>
+<li>Aantal leveranciers die niet aan huidige beleid voldoen</li>
+<li>Aantal afgevallen leveranciers versus nieuwe</li>
+</ul>
+<h5 id="relaties-met-andere-processen">Relaties met andere processen<a class="headerlink" href="#relaties-met-andere-processen" title="Permanent link">¶</a></h5>
+<p>De sterkste relatie vanuit het proces Leveranciersmanagement is met het proces Contractmanagement. Aan de hand van het beleid dat in Leveranciersmanagement is ontwikkeld kunnen in Contractmanagement concrete contracten en SLA’s met leveranciers overeen worden gekomen. Andersom kunnen ervaringen met leveranciers input zijn voor bijstellingen in het beleid.</p>
+<h5 id="in-de-praktijk-enkele-handvatten">In de praktijk - Enkele handvatten<a class="headerlink" href="#in-de-praktijk-enkele-handvatten" title="Permanent link">¶</a></h5>
+<p>Vanwege het feit dat van dit proces nauwelijks Best Practices beschikbaar zijn, hebben veel mensen moeite dit wat meer concreet voor zich te zien. Om op deze plaats enig licht op het proces te werpen worden hier wat concrete voorbeelden gegeven.</p>
+<p>In de vorm van richtlijnen/beleid kan bijvoorbeeld worden gedacht aan:</p>
+<ul>
+<li>Elke leverancier moet al x jaar bestaan</li>
+<li>Elke leverancier moet aantoonbaar financieel gezond zijn</li>
+<li>Elke leverancier moet een bepaalde omvang hebben (bijvoorbeeld softwareleverancier: geen eenmanszaken)</li>
+<li>Elke leverancier moet een aantal referenties kunnen overleggen</li>
+<li>…</li>
+</ul>
+<p>In het assortiment/aanbod kan worden gedacht aan:</p>
+<ul>
+<li>Er worden geen losse items geleverd, maar geïntegreerde onderdelen. Bijvoorbeeld dus geen software, maar een werkend systeem waar ook updates bij zijn inbegrepen</li>
+<li>Leveranciers moeten ook bereid zijn verantwoordelijkheid te nemen voor koppelingen met andere hard- en software</li>
+</ul>
+<p>En in de relatie kan worden gedacht aan:</p>
+<ul>
+<li>Van leveranciers wordt verwacht dat ze proactief meedenken met de bedrijfsprocessen in de eigen organisatie.</li>
+</ul>
+<h4 id="relatiemanagement-gebruikersorganisatie">Relatiemanagement gebruikersorganisatie<a class="headerlink" href="#relatiemanagement-gebruikersorganisatie" title="Permanent link">¶</a></h4>
+<p>Het proces Relatiemanagement gebruikersorganisatie maakt onderdeel uit van het procescluster Opstellen IV-organisatiestrategie. Het proces is er op gericht de relatie tussen de gebruikersorganisatie en de IV-organisatie vorm te geven.</p>
+<p>Opmerking: Hieronder worden doel, activiteiten, resultaten en relaties van dit proces kort samengevat.</p>
+<h5 id="doel-proces-relatiemanagement-gebruikersorganisatie">Doel proces Relatiemanagement gebruikersorganisatie<a class="headerlink" href="#doel-proces-relatiemanagement-gebruikersorganisatie" title="Permanent link">¶</a></h5>
+<p>Het proces Relatiemanagement gebruikersorganisatie heeft als doelstelling het vormgeven en bewaken van de consistentie, samenhang en communicatie tussen de IV-functie en de gebruikersorganisatie.</p>
+<p>Hoewel de doelstelling wellicht wat abstract is, is het wel een proces dat een essentieel punt van de organisatie van informatievoorziening raakt. Hier wordt namelijk uitgewerkt hoe en waar met name key users, functioneel beheerders en informatiemanagers (om maar de 3 meest gebruikte te benoemen) werken. Het blijkt voor met name key users en functioneel beheerders die decentraal, dus binnen een gebruikersafdeling, werken, heel lastig om hun positie ten opzichte van die afdeling goed te bepalen. Takenpakketten zijn vaak onduidelijk, verantwoordelijkheden en bevoegdheden al helemaal niet bekend… en ondertussen moet er toch veel gebeuren op IT-gebied. In het proces Relatiemanagement gebruikersorganisatie wordt de gewenste organisatie uitgewerkt en in de loop van de tijd kan dan een goed functionerende organisatie worden gerealiseerd.</p>
+<h5 id="activiteiten-proces-relatiemanagement-gebruikersorganisatie">Activiteiten proces Relatiemanagement gebruikersorganisatie<a class="headerlink" href="#activiteiten-proces-relatiemanagement-gebruikersorganisatie" title="Permanent link">¶</a></h5>
+<p>Het proces Relatiemanagement gebruikersorganisatie kent samengevat de volgende activiteiten:</p>
+<ol>
+<li>Evaluatie:</li>
+</ol>
+<p>Het evalueren van bestaande relaties met de gebruikersorganisatie.</p>
+<ol start="2">
+<li>Opstellen beleid:</li>
+</ol>
+<p>Het bepalen van de gewenste relatie met de gebruikersorganisatie. Bijvoorbeeld het uitwerken van de rollen met bijbehorende taken, bevoegdheden en verantwoordelijkheden, de gewenste communicatielijnen en werkwijzen zijn hier onderwerpen.</p>
+<ol start="3">
+<li>Beheer:</li>
+</ol>
+<p>Het beheer van de relaties met de gebruikersorganisatie.</p>
+<h5 id="resultaten-proces-relatiemanagement-gebruikersorganisatie">Resultaten proces Relatiemanagement gebruikersorganisatie<a class="headerlink" href="#resultaten-proces-relatiemanagement-gebruikersorganisatie" title="Permanent link">¶</a></h5>
+<p>Het resultaat van dit proces wordt binnen BiSL het structuurplan genoemd. In de praktijk worden ook wel termen als organisatieplan of blauwdruk gebruikt. Daarnaast kunnen ook concrete afspraken met de gebruikersorganisatie zijn gemaakt.</p>
+<h5 id="kpis-rapportage-items-proces-relatiemanagement-gebruikersorganisatie">KPI’s / rapportage items proces Relatiemanagement gebruikersorganisatie<a class="headerlink" href="#kpis-rapportage-items-proces-relatiemanagement-gebruikersorganisatie" title="Permanent link">¶</a></h5>
+<p>Voorbeelden van Key Performance Indicatoren (KPI’s) voor het proces Relatiemanagement gebruikersorganisatie zijn:</p>
+<ul>
+<li>Afwijking huidige organisatiestructuur t.o.v. gedefinieerde structuur in het structuurplan (% afwijking)</li>
+<li>Aantal en omvang afwijkingen die in de evaluatie zijn geconstateerd</li>
+</ul>
+<h5 id="relaties-met-andere-processen_1">Relaties met andere processen<a class="headerlink" href="#relaties-met-andere-processen_1" title="Permanent link">¶</a></h5>
+<p>Hoewel binnen het sturende proces Behoeftemanagement vaak de nadruk ligt op de inhoud van de informatievoorziening, moet hier ook wel degelijk ook de behoefte aan een bepaalde organisatie worden meegenomen. Hier is dan ook een directe relatie tussen Relatiemanagement gebruikersorganisatie en Behoeftemanagement te onderkennen.</p>
+<p>Verder wordt in Strategie inrichting IV-functie het complete plaatje ingevuld. Vanuit Relatiemanagement gebruikersorganisatie kan informatie uit het hier uitgewerkte onderdeel worden doorgegeven.</p>
+<h5 id="in-de-praktijk-de-iv-functie-binnen-buiten-de-gebruikersorganisatie">In de praktijk - De IV-functie binnen / buiten de gebruikersorganisatie<a class="headerlink" href="#in-de-praktijk-de-iv-functie-binnen-buiten-de-gebruikersorganisatie" title="Permanent link">¶</a></h5>
+<p>Informatievoorziening hoort uiteraard thuis aan de gebruikerszijde. En de organisatie van informatievoorziening ook, tenminste, dat wordt steeds vaker zo gezien. Nog steeds zijn functioneel beheerders ook wel binnen IT-organisaties te vinden, en soms is het ook werkelijk de beste oplossing. Over het algemeen zijn echter alle rollen die te maken hebben met informatievoorziening aan de gebruikerszijde te vinden. Daar zijn ze echter toch nog wel eens een buitenbeentje. Stel dat je als functioneel beheerder bij een gemeente decentraal op de afdeling Sociale Zaken zit, dan heb je een geheel ander takenpakket dan je collega’s op de afdeling, hebt met heel andere afdelingen te maken… het leidt al snel tot groot onbegrip.</p>
+<p>Met de komst van BiSL is in ieder geval duidelijker geworden welk takenpakket op het terrein van informatievoorziening moet worden ingevuld. Daarbij hoort ook een goede organisatie en de laatste jaren wordt steeds duidelijker wanneer het handig is taken organisatorisch te vervlechten met de gebruikersorganisatie (bijv. bij het ondersteunen van gebruikers, hoe dichterbij hoe beter), en wanneer het beter is wat meer scheiding aan te brengen (bijvoorbeeld bij informatievoorziening die bedrijfsbreed wordt gebruikt). Op deze manier ontstaat een inrichting van de IV-functie die aan de gebruikerszijde is vormgegeven, maar er soms ook letterlijk “binnen” zit, en soms wat meer centraal, als losstaande eenheid (afdeling) is vormgegeven.</p>
+<h4 id="ketenpartners-management">Ketenpartners management<a class="headerlink" href="#ketenpartners-management" title="Permanent link">¶</a></h4>
+<p>Het proces Ketenpartners management maakt onderdeel uit van het procescluster Opstellen IV-organisatiestrategie. Binnen dit proces worden de samenwerkingsverbanden tussen de eigen organisatie en de ketenpartners gedefinieerd en onderhouden.</p>
+<p>Opmerking: Hieronder worden doel, activiteiten, resultaten en relaties van dit proces kort samengevat.</p>
+<h5 id="doel-proces-ketenpartners-management">Doel proces Ketenpartners management<a class="headerlink" href="#doel-proces-ketenpartners-management" title="Permanent link">¶</a></h5>
+<p>Het proces Ketenpartners management heeft als doelstelling zodanige samenwerkingsverbanden met andere organisaties (ketenpartners) te organiseren dat op basis hiervan informatie-uitwisseling met deze organisaties kan plaatsvinden.</p>
+<p>Informatie wordt op steeds groter schaal met de buitenwereld uitgewisseld. Naast de inhoudelijke aspecten spelen hierbij ook organisatorische aspecten een rol. Een bijzonderheid hier is dat er in de keten geen hiërarchie bestaat, zodat bijvoorbeeld bij wijzigingen in de keten er samengewerkt moet worden om overal de juiste aanpassingen door te voeren.</p>
+<h5 id="activiteiten-proces-ketenpartners-management">Activiteiten proces Ketenpartners management<a class="headerlink" href="#activiteiten-proces-ketenpartners-management" title="Permanent link">¶</a></h5>
+<p>Het proces Ketenpartners management kent samengevat de volgende activiteiten:</p>
+<ol>
+<li>Evaluatie</li>
+</ol>
+<p>Het evalueren van bestaande relaties met de ketenpartners en het onderkennen van gewenste veranderingen.</p>
+<ol start="2">
+<li>Opstellen beleid</li>
+</ol>
+<p>Vormgeven gewenste organisatie rondom de eigen organisatie in relatie tot de ketenpartners.</p>
+<ol start="3">
+<li>Beheer</li>
+</ol>
+<p>Het beheer van de ketenorganisatie.</p>
+<h5 id="resultaten-proces-ketenpartners-management">Resultaten proces Ketenpartners management<a class="headerlink" href="#resultaten-proces-ketenpartners-management" title="Permanent link">¶</a></h5>
+<p>Het binnen BiSL terug te vinden resultaat is beleid over informatieketens. In dit beleid wordt aangegeven op welke wijze de eigen organisatie de relatie met de ketenpartners wil organiseren.</p>
+<h5 id="kpis-rapportage-items-proces-ketenpartners-management">KPI’s / rapportage items proces Ketenpartners management<a class="headerlink" href="#kpis-rapportage-items-proces-ketenpartners-management" title="Permanent link">¶</a></h5>
+<p>Voorbeelden van Key Performance Indicatoren (KPI’s) voor het proces Relatiemanagement gebruikersorganisatie zijn:</p>
+<ul>
+<li>Afwijking huidige organisatiestructuur t.o.v. gedefinieerde structuur in het beleidsplan (% afwijking)</li>
+<li>Aantal en omvang huidige en toekomstige ketenpartners</li>
+</ul>
+<h5 id="relaties-met-andere-processen_2">Relaties met andere processen<a class="headerlink" href="#relaties-met-andere-processen_2" title="Permanent link">¶</a></h5>
+<p>In Strategie inrichting IV-functie wordt het complete plaatje ingevuld. Vanuit Ketenpartners management kan informatie uit het hier uitgewerkte onderdeel worden doorgegeven.</p>
+<p>Vanuit Behoeftemanagement worden ervaringen met bestaande ketens doorgegeven, en andersom worden op basis van het hier geformuleerde beleid nieuwe behoeften uitgewerkt in Behoeftemanagement.</p>
+<h5 id="in-de-praktijk-eerst-organisatie-dan-techniek">In de praktijk - Eerst organisatie, dan techniek<a class="headerlink" href="#in-de-praktijk-eerst-organisatie-dan-techniek" title="Permanent link">¶</a></h5>
+<p>Informatie-uitwisseling tussen organisaties heeft zonder meer een technische component. Helaas krijgt deze technische component nog wel eens de overhand. Dan worden wijzigingen niet meer aan de gebruikerskant, door bijvoorbeeld functioneel beheerders van de verschillende ketenpartners opgepakt, maar gaan de diverse IT-afdelingen met elkaar bellen. En dat is natuurlijk niet de bedoeling. Informatievoorziening, ook over verschillende organisaties heen, is in eerste instantie een zaak aan de gebruikerszijde, en daar van de IV-functie. Pas nadat duidelijk is wat waar op welk moment gewenst is, komt IT in beeld. Natuurlijk kan IT wel assisteren met de best mogelijke technische oplossing, en soms voorstellen doen voor een optimale oplossing. Maar toch, de volgorde mag nimmer zo zijn dat eerst IT, en dan pas de gebruikerszijde aan bod komt.</p>
+<h4 id="strategie-inrichting-iv-functie">Strategie inrichting IV-functie<a class="headerlink" href="#strategie-inrichting-iv-functie" title="Permanent link">¶</a></h4>
+<p>Het proces Strategie inrichting IV-functie maakt onderdeel uit van het procescluster Opstellen IV-organisatiestrategie. Binnen dit proces wordt de gewenste inrichting van de gehele IV-functie gedefinieerd.</p>
+<p>Opmerking: Hieronder worden doel, activiteiten, resultaten en relaties van dit proces kort samengevat.</p>
+<h5 id="doel-proces-strategie-inrichting-iv-functie">Doel proces Strategie inrichting IV-functie<a class="headerlink" href="#doel-proces-strategie-inrichting-iv-functie" title="Permanent link">¶</a></h5>
+<p>Het proces Strategie inrichting IV-functie heeft als doelstelling het definiëren van de gewenste inrichting van de IV-functie: organisatievorm, verantwoordelijkheden, uitvoering en samenwerking.</p>
+<p>In de andere processen in dit cluster zijn de deelgebieden leveranciers, gebruikersorganisatie en ketenpartners uitgewerkt. In het proces Strategie inrichting IV-functie komt alles samen en wordt een samenhangend organisatiemodel voor de IV-functie beschreven.</p>
+<h5 id="activiteiten-proces-strategie-inrichting-iv-functie">Activiteiten proces Strategie inrichting IV-functie<a class="headerlink" href="#activiteiten-proces-strategie-inrichting-iv-functie" title="Permanent link">¶</a></h5>
+<p>Het proces Strategie inrichting IV-functie kent samengevat de volgende activiteiten:</p>
+<ol>
+<li>Evaluatie</li>
+</ol>
+<p>Het evalueren van bestaande IV-organisatie.</p>
+<ol start="2">
+<li>Opstellen beleid</li>
+</ol>
+<p>Bepalen beleid, opstellen structuur, taken, bevoegdheden en verantwoordelijkheden, werkprocessen en communicatiestructuren.</p>
+<ol start="3">
+<li>Sturing IV-organisatie</li>
+</ol>
+<p>Controle op inrichting conform afspraken en waar nodig het bijsturen indien afwijkingen zijn geconstateerd.</p>
+<h5 id="resultaten-proces-strategie-inrichting-iv-functie">Resultaten proces Strategie inrichting IV-functie<a class="headerlink" href="#resultaten-proces-strategie-inrichting-iv-functie" title="Permanent link">¶</a></h5>
+<p>Het resultaat van dit proces is beleid voor de IV-organisatie. Hierin worden de structuur, verantwoordelijkheden en bevoegdheden van de gehele IV-functie beschreven.</p>
+<h5 id="kpis-rapportage-items-proces-strategie-inrichting-iv-functie">KPI’s / rapportage items proces Strategie inrichting IV-functie<a class="headerlink" href="#kpis-rapportage-items-proces-strategie-inrichting-iv-functie" title="Permanent link">¶</a></h5>
+<p>Voorbeelden van Key Performance Indicatoren (KPI’s) voor het proces Strategie inrichting IV-functie zijn:</p>
+<ul>
+<li>
+<p>Omvang afwijking huidige beleidsplan t.o.v. vorige (%, geeft indicatie dynamiek)</p>
+</li>
+<li>
+<p>Afwijking beleidsplan vergeleken met reele situatie (de gap)</p>
+</li>
+</ul>
+<h5 id="relaties-met-andere-processen_3">Relaties met andere processen<a class="headerlink" href="#relaties-met-andere-processen_3" title="Permanent link">¶</a></h5>
+<p>Het proces Strategie inrichting IV-functie heeft relaties met alle andere processen in het procescluster Opstellen IV-organisatiestrategie. Binnen de andere processen, Leveranciersmanagement, Relatiemanagement gebruikersorganisatie, Ketenpartners management, wordt beleid op deelterreinen ontwikkeld. De output wordt binnen Strategie inrichting IV-functie gebruikt om een geintegreerd geheel te definieren. Andersom worden eventuele knelpunten die ontstaan bij deze integratie weer teruggegeven om te worden verwerkt.</p>
+<p>Via het proces Informatiecoordinatie wordt het beleid voor de inrichting van de IV-functie afgestemd op de binnen het cluster Opstellen informatiestrategie gedefinieerde strategie voor de informatievoorziening.</p>
+<p>Tot slot vormt het beleid en de uitwerking daarvan in afspraken en richtlijnen uit dit proces de kaders waarbinnen in het cluster Sturende processen kan worden gewerkt.</p>
+<h5 id="in-de-praktijk-onderdeel-van-een-breder-organisatieplan">In de praktijk - Onderdeel van een breder organisatieplan<a class="headerlink" href="#in-de-praktijk-onderdeel-van-een-breder-organisatieplan" title="Permanent link">¶</a></h5>
+<p>Het gehele procescluster Opstellen IV-organisatiestrategie kan van harte worden aanbevolen om de organisatie van de IV-functie op orde te krijgen. Toch maakt de organisatie van de IV-functie vanzelfsprekend onderdeel uit van de organisatie van het gehele bedrijf. Dat is soms wel eens een lastig punt, omdat ten eerste het complete organisatieplan op een andere plaats wordt besproken en bepaald en ten tweede dat in nogal wat bedrijven helemaal geen samenhangend, actueel organisatieplan voorhanden is. Toch kan met behulp van BiSL het voortouw worden genomen en de gewenste organisatie van de IV-functie worden beschreven. Vervolgens kan het heel wat bloed, zweet en tranen kosten om dit onderdeel ook te realiseren.</p>
+<p>BiSL is een standaard in het publieke domein sinds 2005, die wordt beheerd door de ASL BiSL Foundation, voorheen ASL Foundation. Anders dan frameworks als ASL en ITIL richt BiSL zich niet op ICT-organisaties (supply), maar juist op de gebruikersorganisatie (demand). In dit framework staat beschreven, hoe een gebruikersorganisatie ervoor kan zorgen dat informatievoorziening adequaat werkt, hoe men behoeften in het bedrijfsproces vertaalt naar ICT-oplossingen en niet-ICT-oplossingen, hoe men de informatievoorziening en ICT-dienstverlening vanuit een gebruiksoptiek stuurt en hoe men de informatievoorziening op lange termijn vormgeeft. Het is derhalve voor alle organisaties bestemd.</p>
+<p>Het BiSL raamwerk omvat 23 taken op richtinggevend, sturend en uitvoerend niveau en wordt ondersteund door een aantal best practices, waarmee men invulling kan geven aan functioneel beheer en informatiemanagement binnen een organisatie. Het raamwerk wordt al door diverse grote Nederlandse organisaties gebruikt en toegepast en sluit aan op de procesframeworks SLA en ITIL.</p>
+<h3 id="de-positie-van-bisl">De positie van BiSL<a class="headerlink" href="#de-positie-van-bisl" title="Permanent link">¶</a></h3>
+<p>Men onderscheidt in de ICT drie vormen van beheer (beheerdomeinen):</p>
+<h4 id="technisch-beheer-itil">Technisch Beheer (ITIL)<a class="headerlink" href="#technisch-beheer-itil" title="Permanent link">¶</a></h4>
+<p>Richt zich op het in stand houden, beheren en onderhoud van de IT-infrastructuur en heeft ITIL als standaard. De IT-infrastructuur is de basis waarop applicaties kunnen draaien en bestaat uit het netwerk, de computers en operating systems en overige randapparatuur.</p>
+<h4 id="applicatiebeheer-sla-en-itil">Applicatiebeheer (SLA en ITIL)<a class="headerlink" href="#applicatiebeheer-sla-en-itil" title="Permanent link">¶</a></h4>
+<p>Onder dit beheer wordt verstaan het in stand houden van de bedrijfsapplicaties en gegevensverzamelingen van de organisatie. Applicatiebeheer houdt zich bezig met de creatie, beheer en wijzigen van applicaties naar aanleiding van geconstateerde fouten of veranderende technische of functionele eisen. SLA is hiervoor de standaard. SLA is nieuwer dan en deels geïnspireerd door ITIL.</p>
+<h4 id="functioneel-beheer-bisl">Functioneel beheer (BiSL)<a class="headerlink" href="#functioneel-beheer-bisl" title="Permanent link">¶</a></h4>
+<p>Functioneel beheer houdt zich bezig met het beheren van de informatievoorziening in een organisatie. De bedrijfsapplicaties worden gebruikt door de gebruikersorganisatie en moeten eventueel aan veranderende eisen worden aangepast. Het beschrijven van deze wijzigingen, het (laten) doorvoeren van de voorgestelde wijzigingen en het controleren van de wijzigingen behoort tot het takenpakket van Functioneel Beheer. Functioneel Beheer heeft als standaard BiSL.</p>
+<h3 id="indeling">Indeling<a class="headerlink" href="#indeling" title="Permanent link">¶</a></h3>
+<p>Er zijn 7 procesclusters met bijbehorende processen, verdeeld over 3 niveaus:</p>
+<h4 id="strategisch-richtinggevend-niveau">Strategisch / Richtinggevend niveau<a class="headerlink" href="#strategisch-richtinggevend-niveau" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p>Opstellen IV-organisatiestrategie (organisatie)</p>
+<ul>
+<li>Relatiemanagement gebruikersorganisatie</li>
+<li>Strategie inrichting IV-functie</li>
+<li>Leveranciersmanagement</li>
+<li>Ketenpartnersmanagement</li>
+</ul>
+</li>
+<li>
+<p>Verbindende processen (richtinggevend niveau)</p>
+<ul>
+<li>Informatiecoördinatie</li>
+</ul>
+</li>
+<li>
+<p>Opstellen informatiestrategie (vormgeving)</p>
+<ul>
+<li>Informatie lifecyclemanagement</li>
+<li>Informatie portfoliomanagement</li>
+<li>Bepalen keten-ontwikkelingen</li>
+<li>Bepalen technologieontwikkelingen</li>
+<li>Bepalen bedrijfsprocesontwikkelingen</li>
+</ul>
+</li>
+</ul>
+<h4 id="sturend-niveau">Sturend niveau<a class="headerlink" href="#sturend-niveau" title="Permanent link">¶</a></h4>
+<ul>
+<li>Sturende processen (management)<ul>
+<li>Planning en control</li>
+<li>Financieel management</li>
+<li>Behoeftemanagement</li>
+<li>Contractmanagement</li>
+</ul>
+</li>
+</ul>
+<h4 id="uitvoerend-niveau">Uitvoerend niveau<a class="headerlink" href="#uitvoerend-niveau" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p>Gebruiksbeheer (organisatie)</p>
+<ul>
+<li>Gebruikersondersteuning</li>
+<li>Operationele IT-aansturing</li>
+<li>Beheer bedrijfsinformatie</li>
+</ul>
+</li>
+<li>
+<p>Verbindende processen (uitvoerend niveau)</p>
+<ul>
+<li>Wijzigingenbeheer</li>
+<li>Transitie</li>
+</ul>
+</li>
+<li>
+<p>Functionaliteitenbeheer (vormgeving)</p>
+<ul>
+<li>Specificeren</li>
+<li>Vormgeven niet-geautomatiseerde IV</li>
+<li>Voorbereiden transitie</li>
+<li>Toetsen en testen</li>
+</ul>
+</li>
+</ul>
+<p>Meer info : <a href="http://www.bislfoundation.nl">www.bislfoundation.nl</a></p>
+<h1 id="bibliografie">Bibliografie<a class="headerlink" href="#bibliografie" title="Permanent link">¶</a></h1>
+<div class="dataview">list  "_'" + title + "'_ -  **" + authors  + "(" + year + ")** "  + url + "&lt;br/&gt;&lt;br/&gt;"
+from "500 Reading notes" AND (outgoing([[Informatiemanagement]])) sort authors </div>
+<hr/>
+<div class="md-source-file">
+<small>
+    
+      Laatst geüpdatet:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 25, 2022</span>
+</small>
+</div>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Vorige: Extra oefeningen Projectmanagement" class="md-footer__link md-footer__link--prev" href="../Extra%20Oefeningen%20Projectmanagement/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Vorige
+              </span>
+              Extra oefeningen Projectmanagement
+            </div>
+</div>
+</a>
+<a aria-label="Volgende: Kosten- en batenanalyse" class="md-footer__link md-footer__link--next" href="../Kosten%20en%20Batenanalyse/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Volgende
+              </span>
+              Kosten- en batenanalyse
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      Copyright © 2022 Hogeschool PXL
+    </div>
+</div>
+<div class="md-social">
+<a class="md-social__link" href="https://www.linkedin.com/school/hogeschoolpxl/" rel="noopener" target="_blank" title="www.linkedin.com">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+</a>
+<a class="md-social__link" href="https://www.facebook.com/HogeschoolPXL/" rel="noopener" target="_blank" title="www.facebook.com">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>
+</a>
+<a class="md-social__link" href="https://twitter.com/hogeschoolpxl" rel="noopener" target="_blank" title="twitter.com">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+</a>
+<a class="md-social__link" href="https://www.instagram.com/hogeschoolpxl" rel="noopener" target="_blank" title="www.instagram.com">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Gekopieerd naar klembord", "clipboard.copy": "Kopi\u00ebren naar klembord", "search.config.lang": "nl", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Zoeken", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "Geen overeenkomende documenten", "search.result.one": "1 overeenkomende document", "search.result.other": "# overeenkomende documenten", "search.result.placeholder": "Typ om te beginnen met zoeken", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+<script src="../../assets/js/mathjax.js"></script>
+<script src="../../assets/js/utils.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="../../assets/js/tooltipster.bundle.js"></script>
+</body>
+</html>

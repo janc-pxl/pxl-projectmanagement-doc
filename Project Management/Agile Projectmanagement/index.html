@@ -1,0 +1,2138 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="nl">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Projectmanagement 2TIN" name="description"/>
+<link href="https://janc-pxl.github.io/pxl-projectmanagement-doc/Project%20Management/Agile%20Projectmanagement/" rel="canonical"/>
+<link href="../../assets/logo/favicons.png" rel="icon"/>
+<meta content="mkdocs-1.3.1, mkdocs-material-8.3.9" name="generator"/>
+<title>Agile Projectmanagement - PXL Projectmanagement</title>
+<link href="../../assets/stylesheets/main.1d29e8d0.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Karla:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Karla";--md-code-font:"Ubuntu Mono"}</style>
+<link href="../../assets/css/img-grids-floats.css" rel="stylesheet"/>
+<link href="../../assets/css/utils.css" rel="stylesheet"/>
+<link href="../../assets/css/custom_attributes.css" rel="stylesheet"/>
+<link href="../../assets/css/tooltipster.bundle.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+<link href="../../assets/css/grid.css" rel="stylesheet"/>
+<link href="../../assets/css/admonition.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+                $(document).ready(function() {
+                    $('.link-tooltip').tooltipster();
+                });
+        </script>
+<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" referrerpolicy="no-referrer" rel="stylesheet"/>
+<meta content="Agile Projectmanagement" property="og:title"/>
+<meta content="Agile Projectmanagement" name="twitter:title"/>
+<meta content="Projectmanagement 2TIN" name="og:description"/>
+<meta content="Projectmanagement 2TIN" name="twitter:description"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="" property="og:image"/>
+<meta content="" name="twitter:image"/>
+</head>
+<body data-md-color-accent="light-blue" data-md-color-primary="teal" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#agile-projectmanagement">
+          Ga naar inhoud
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="PXL Projectmanagement" class="md-header__button md-logo" data-md-component="logo" href="../.." title="PXL Projectmanagement">
+<img alt="logo" src="../../assets/logo/logo_pxl_bol.png"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            PXL Projectmanagement
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Agile Projectmanagement
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="light-blue" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="teal" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="blue" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"></path></svg>
+</label>
+</form>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Zoeken" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Zoeken" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="PXL Projectmanagement" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="PXL Projectmanagement">
+<img alt="logo" src="../../assets/logo/logo_pxl_bol.png"/>
+</a>
+    PXL Projectmanagement
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+        42TIN1250 Projectmanagement
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2">
+          Project Management
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Project Management" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          Project Management
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Agile Projectmanagement
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Agile Projectmanagement
+      </a>
+<nav aria-label="Inhoudsopgave" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Inhoudsopgave
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wat-betekent-agile">
+    Wat betekent Agile?
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#incrementele-ontwikkeling">
+    Incrementele ontwikkeling
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#iteratieve-ontwikkeling">
+    Iteratieve ontwikkeling
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#daily-standups">
+    Daily standups
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#product-backlog">
+    Product Backlog
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sprints">
+    Sprints
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scrum">
+    Scrum
+  </a>
+<nav aria-label="Scrum" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#empirische-procescontrole">
+    Empirische procescontrole
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#product-owner">
+    Product Owner
+  </a>
+<nav aria-label="Product Owner" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stakeholders">
+    Stakeholders
+  </a>
+<nav aria-label="Stakeholders" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wat-is-een-stakeholder">
+    Wat is een stakeholder?
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stakeholders-identificeren">
+    Stakeholders identificeren
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scrum-master">
+    Scrum Master
+  </a>
+<nav aria-label="Scrum Master" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#impediment">
+    Impediment
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ontwikkelingsteam">
+    Ontwikkelingsteam
+  </a>
+<nav aria-label="Ontwikkelingsteam" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kenmerken-van-het-ontwikkelingsteam">
+    Kenmerken van het Ontwikkelingsteam
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#aantal-developers">
+    Aantal Developers
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#de-drie-rollen-in-scrum">
+    De drie Rollen in Scrum
+  </a>
+<nav aria-label="De drie Rollen in Scrum" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#product-owner_1">
+    Product Owner
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scrum-master_1">
+    Scrum Master
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ontwikkelingsteam_1">
+    Ontwikkelingsteam
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#terminologie-herhaling">
+    Terminologie (herhaling)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sprint-planning">
+    Sprint Planning
+  </a>
+<nav aria-label="Sprint Planning" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#user-stories-en-epics">
+    User stories (en Epics)
+  </a>
+<nav aria-label="User stories (en Epics)" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#acceptance-criteria">
+    Acceptance Criteria
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#product-backlog-item">
+    Product Backlog Item
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sprint-goal">
+    Sprint Goal
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sprint-backlog">
+    Sprint Backlog
+  </a>
+<nav aria-label="Sprint Backlog" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#verschil-tussen-product-backlog-en-sprint-backlog">
+    Verschil tussen Product Backlog en Sprint Backlog
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#product-backlog-refinement">
+    Product Backlog Refinement
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#hulpmiddelen-en-tools-tijdens-de-sprint">
+    Hulpmiddelen en tools tijdens de Sprint
+  </a>
+<nav aria-label="Hulpmiddelen en tools tijdens de Sprint" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#de-burndown-chart">
+    De Burndown Chart
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#velocity">
+    Velocity
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#story-points">
+    Story Points
+  </a>
+<nav aria-label="Story Points" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#story-points-zijn-relatief">
+    Story points zijn relatief
+  </a>
+<nav aria-label="Story points zijn relatief" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wat-betekent-de-relatieve-waarde">
+    Wat betekent de relatieve waarde?
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wat-schat-je-in">
+    Wat schat je in?
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#hoe-kun-je-er-zelf-mee-starten">
+    Hoe kun je er zelf mee starten?
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#samengevat">
+    Samengevat
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#definition-of-done">
+    Definition of Done
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scrum-bord">
+    Scrum bord
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sprint-review">
+    Sprint Review
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sprint-retrospective">
+    Sprint Retrospective
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#overzicht-van-de-5-scrum-events">
+    Overzicht van de 5 Scrum events
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scrum-values">
+    Scrum Values
+  </a>
+<nav aria-label="Scrum Values" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#commitment">
+    Commitment
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#focus">
+    Focus
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#openheid">
+    Openheid
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#respect">
+    Respect
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#moed">
+    Moed
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Extra%20Oefeningen%20Projectmanagement/">
+        Extra oefeningen Projectmanagement
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Informatiemanagement/">
+        Informatiemanagement
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Kosten%20en%20Batenanalyse/">
+        Kosten- en batenanalyse
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Kwaliteitsmanagement/">
+        Kwaliteitsmanagement
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Projectplanning/">
+        Projectplanning
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Risicomanagement/">
+        Risicomanagement
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Wat%20is%20Projectmanagement/">
+        Wat is projectmanagement?
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3">
+          References
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="References" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          References
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40adobeworkfront_2022/">
+        What is Velocity in Agile? Charts &amp; Examples | Adobe Workfront
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40agile4all_2019/">
+        Sprint Planning
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40agilescrumgroup_2017/">
+        Wat is Definition of Done? Check de uitleg en voorbeelden (IT &amp; non-IT)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40agilescrumgroup_2018/">
+        De Sprint Review uitgelegd. Waarom deze meeting? (+ Checklist &amp; Valkuilen)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40cfi_2022/">
+        Internal Rate of Return (IRR)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40coursera_2022/">
+        The 3 Scrum Roles and Responsibilities, Explained
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40cspo_2021/">
+        Quality vs. Grade for PMP
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40doshi_2016/">
+        The Three Pillars of Empiricism (Scrum)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40eby_2016/">
+        Product Backlog 101 Top Advice from Agile ExpertsSmartsheet
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40gomez_2021/">
+        The Difference Between Product and Project Management
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40hiteshbhasin_2015/">
+        What is Product portfolio management ?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40janse_2020/">
+        LEAN management
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40martin_2020/">
+        Incremental Model in SDLC: Use, Advantage &amp; Disadvantage
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40nederlandovn_2021/">
+        Kwaliteitskringen | Optometristen Vereniging Nederland (OVN)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40productplan_2022/">
+        User Story
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40qframe_2021/">
+        @qframe 2021
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40raghuprasad_2019/">
+        Basics of Sprint Planning - WHAT
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40schegget.hamelink_1993/">
+        Netwerkplanning volgens PERT
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40scrumguide_2022/">
+        Het Scrumteam: uitleg en tips bij de verantwoordelijkheid | Scrumguide.nl
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40scrumguide_2022a/">
+        Scrum takenbord | Scrumguide.nl
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40sickipedia_2021/">
+        Het verschil tussen nauwkeurigheid en reproduceerbaarheid
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40sjoerdoldebijvank_2010/">
+        House of Control
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40stanley.etal_2020/">
+        Project management handbook: simplified Agile, Scrum, and DevOps for beginners
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40stevenblom_2018/">
+        Moeten we kiezen tussen de klant en de medewerker?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40userstorymap_2022/">
+        How to Be An Effective Product Owner
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40vanderwardt_2017/">
+        Daily Stand-up: 5 tips voor een goede meeting (+checklist download)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40vanlier_2018/">
+        Stakeholdermanagement in projecten met Scrum
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40vanrooden_2015/">
+        Product Backlog Refinement explained (1/3)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40vanrooden_2015a/">
+        Product Backlog Refinement explained (3/3)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40verheyen_2017/">
+        De kernwaarden van Scrum
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40verheyen_2022/">
+        Scrum Glossary
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40visual-paradigm_2022/">
+        Why Fixed Length Sprints in Scrum?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40visualparadigm_2022/">
+        What are Time-boxed Events in Scrum?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40vlaanderenintern_2014/">
+        Business Case
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40vrielink_2020/">
+        Hoe werken story points?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40wikipediakwaliteitsmanagement_2020/">
+        Kwaliteitsmanagement
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40zentaoteam_2022a/">
+        What Are The Complete Scrum Artifacts? - Agile - ZenTao
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Inhoudsopgave" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Inhoudsopgave
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wat-betekent-agile">
+    Wat betekent Agile?
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#incrementele-ontwikkeling">
+    Incrementele ontwikkeling
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#iteratieve-ontwikkeling">
+    Iteratieve ontwikkeling
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#daily-standups">
+    Daily standups
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#product-backlog">
+    Product Backlog
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sprints">
+    Sprints
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scrum">
+    Scrum
+  </a>
+<nav aria-label="Scrum" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#empirische-procescontrole">
+    Empirische procescontrole
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#product-owner">
+    Product Owner
+  </a>
+<nav aria-label="Product Owner" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stakeholders">
+    Stakeholders
+  </a>
+<nav aria-label="Stakeholders" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wat-is-een-stakeholder">
+    Wat is een stakeholder?
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stakeholders-identificeren">
+    Stakeholders identificeren
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scrum-master">
+    Scrum Master
+  </a>
+<nav aria-label="Scrum Master" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#impediment">
+    Impediment
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ontwikkelingsteam">
+    Ontwikkelingsteam
+  </a>
+<nav aria-label="Ontwikkelingsteam" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kenmerken-van-het-ontwikkelingsteam">
+    Kenmerken van het Ontwikkelingsteam
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#aantal-developers">
+    Aantal Developers
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#de-drie-rollen-in-scrum">
+    De drie Rollen in Scrum
+  </a>
+<nav aria-label="De drie Rollen in Scrum" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#product-owner_1">
+    Product Owner
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scrum-master_1">
+    Scrum Master
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ontwikkelingsteam_1">
+    Ontwikkelingsteam
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#terminologie-herhaling">
+    Terminologie (herhaling)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sprint-planning">
+    Sprint Planning
+  </a>
+<nav aria-label="Sprint Planning" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#user-stories-en-epics">
+    User stories (en Epics)
+  </a>
+<nav aria-label="User stories (en Epics)" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#acceptance-criteria">
+    Acceptance Criteria
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#product-backlog-item">
+    Product Backlog Item
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sprint-goal">
+    Sprint Goal
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sprint-backlog">
+    Sprint Backlog
+  </a>
+<nav aria-label="Sprint Backlog" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#verschil-tussen-product-backlog-en-sprint-backlog">
+    Verschil tussen Product Backlog en Sprint Backlog
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#product-backlog-refinement">
+    Product Backlog Refinement
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#hulpmiddelen-en-tools-tijdens-de-sprint">
+    Hulpmiddelen en tools tijdens de Sprint
+  </a>
+<nav aria-label="Hulpmiddelen en tools tijdens de Sprint" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#de-burndown-chart">
+    De Burndown Chart
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#velocity">
+    Velocity
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#story-points">
+    Story Points
+  </a>
+<nav aria-label="Story Points" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#story-points-zijn-relatief">
+    Story points zijn relatief
+  </a>
+<nav aria-label="Story points zijn relatief" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wat-betekent-de-relatieve-waarde">
+    Wat betekent de relatieve waarde?
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wat-schat-je-in">
+    Wat schat je in?
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#hoe-kun-je-er-zelf-mee-starten">
+    Hoe kun je er zelf mee starten?
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#samengevat">
+    Samengevat
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#definition-of-done">
+    Definition of Done
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scrum-bord">
+    Scrum bord
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sprint-review">
+    Sprint Review
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sprint-retrospective">
+    Sprint Retrospective
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#overzicht-van-de-5-scrum-events">
+    Overzicht van de 5 Scrum events
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scrum-values">
+    Scrum Values
+  </a>
+<nav aria-label="Scrum Values" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#commitment">
+    Commitment
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#focus">
+    Focus
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#openheid">
+    Openheid
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#respect">
+    Respect
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#moed">
+    Moed
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="agile-projectmanagement">Agile Projectmanagement<a class="headerlink" href="#agile-projectmanagement" title="Permanent link">¶</a></h1>
+<p><img alt="Image|600" src="https://i.imgur.com/hxGs2TC.jpg"/></p>
+<p><strong>Hogeschool PXL PXL-Digital:</strong> Professionele bachelor in de toegepaste informatica<br/>
+<strong>42TIN1250 Projectmanagement</strong><br/>
+<strong>Lectoren:</strong> Dhr. Lowie Vangaal, Dhr. Jan Castermans</p>
+<div style="page-break-after: always;"></div>
+<h2 id="wat-betekent-agile">Wat betekent Agile?<a class="headerlink" href="#wat-betekent-agile" title="Permanent link">¶</a></h2>
+<p><img alt="" src="https://i.imgur.com/roA9YqQ.png"/></p>
+<p><strong>Agile</strong> betekent letterlijk <em>“de behendigheid om snel en makkelijk te bewegen”</em>. <br/>
+In projectmanagement is Agile een methodiek die populair is in de computer industrie, maar het wordt veelvuldig in financiële dienstverlening, marketing, industrie, retail en talloze andere branches toegepast.</p>
+<p>Een <em>“methodiek”</em> is eenvoudigweg een manier om iets uit te voeren. Het bestaat uit de methodes, technieken en de aanpak om iets daadwerkelijk af te krijgen. In projectmanagement is Agile is een van de meest gebruikte methodieken.</p>
+<p>Agile begrijp je het best door te kijken hoe het verschilt van de eerder traditionele manieren waarop je projectmanagement uitvoert.</p>
+<p>Zoals we al bekeken, is traditioneel projectmanagement getypeerd door een lineaire <em>(synoniem: stap voor stap; opeenvolgende)</em> aanpak waar we sommige of alle van de volgende stappen zien:</p>
+<ul>
+<li>Initiatie (opstarten van het project)</li>
+<li>Planning</li>
+<li>Uitvoering</li>
+<li>Monitoring</li>
+<li>Afronding</li>
+</ul>
+<p>Agile projectmanagement, voor het eerst gebruikt in de late jaren 80, is gekenmerkt door een niet-lineaire aanpak. Waar vroeger requirements <em>(vertaling: vereisten)</em> en oplossingen al in de “Planning” stap afgehandeld werden, gaan die nu mee-evolueren doorheen het proces, door samenwerking tussen zelf-organiserende, cross-functionele teams.</p>
+<p>De uitvoering van projectwerk gebeurt voortdurend doorheen de levensduur van het project. Agile methoden behandelen adaptieve <em>(synoniem: aanpasbare)</em> planning, evolutionaire <em>(synoniem: “op een geleidelijke manier”)</em> ontwikkeling en continue verbetering <em>(vert. Engels “continuous improvement”)</em>. Agile moedigt een snelle en flexibele reactie op verandering aan.</p>
+<p>Deze methode wordt alsmaar populairder en wordt gebruikt voor het managen van het proces om software te maken. Het spitst zich toe op teamwerk en op een 1-op-1 afhandelen van softwarefeatures. Men gaat 1 feature volledig afwerken voordat naar een volgende feature wordt overgegaan.</p>
+<div class="admonition goal">
+<p class="admonition-title">Samengevat</p>
+<p>Agile is een manier van projectmanagement die zich toespitst op het verdelen van taken in korte werkfases, met veelvuldige reviews (controles) van het project en mogelijke aanpassingen tijdens het uitvoeren. Een Agile aanpak is flexibel en minder strak dan sommige andere manieren van projectmanagement.</p>
+</div>
+<p><a class="link-tooltip" data-tooltip-content="#stanleyetal_2020_tooltip_id" href="../../References/%40stanley.etal_2020/" title="@stanley.etal_2020">@stanley.etal_2020</a></p>
+<p>We bekeken enkele van de belangrijkste gegevens en termen die slaan op projectmanagement. Laten we nu kijken naar enkele concepten en woorden die specifiek slaan op Agile.</p>
+<h2 id="incrementele-ontwikkeling">Incrementele ontwikkeling<a class="headerlink" href="#incrementele-ontwikkeling" title="Permanent link">¶</a></h2>
+<p><img alt="" src="https://i.imgur.com/jWB3oST.jpg"/><br/>
+<a class="link-tooltip" data-tooltip-content="#martin_2020_tooltip_id" href="../../References/%40martin_2020/" title="@martin_2020">@martin_2020</a></p>
+<div class="admonition infobox">
+<p class="admonition-title">Definitie</p>
+<p>Een ‘increment’ is een kleine stap. <strong>Incrementeel</strong> slaat op het voorwaarts bewegen in fasen.</p>
+</div>
+<p>Een van de eigenschappen van Agile is dat het <strong>incrementeel</strong> is. Laten we kijken wat dat betekent.</p>
+<p>Incrementele ontwikkeling is een praktijk waar software progressief <em>(synoniem: incrementeel of stap voor stap)</em> gedesignd, gedeployd en getest wordt, totdat het project afgerond wordt. Telkens wordt er een klein beetje meer toegevoegd. Elke stap bouwt verder op de vorige door extra functionaliteiten toe te voegen.</p>
+<h2 id="iteratieve-ontwikkeling">Iteratieve ontwikkeling<a class="headerlink" href="#iteratieve-ontwikkeling" title="Permanent link">¶</a></h2>
+<p><img alt="" src="https://i.imgur.com/vUrB9hU.png"/> <sup id="fnref:iteratieveontwikkeling"><a class="footnote-ref" href="#fn:iteratieveontwikkeling">1</a></sup> </p>
+<p>Een andere eigenschap van Agile is dat het iteratief is. Laten we dat in meer detail bekijken.</p>
+<div class="admonition infobox">
+<p class="admonition-title">Definitie</p>
+<p><strong>Iteratief</strong> betekent dat we het herhaald gaan uitvoeren.</p>
+</div>
+<p>Iteratieve ontwikkeling slaat op de development van software door herhaalde cyclussen <em>(synoniem: iteraties)</em>. Elk van deze cyclussen voltooit een of andere minimum bruikbaar product <em>(vert. Engels: minimum viable product)</em>.</p>
+<p>Bijvoorbeeld:</p>
+<ul>
+<li>1e iteratie: Maak een simpele homepagina.</li>
+<li>2e iteratie: Voeg de mogelijkheid voor een gebruiker toe om een account te maken en in te loggen.</li>
+<li>3e iteratie: Voeg de mogelijkheid toe om je wachtwoord te veranderen.</li>
+<li>4e iteratie: Voeg een pagina toe die account informatie toont.</li>
+<li>enz.</li>
+</ul>
+<p>Op het eind van elke cyclus is er een afgewerkt product beschikbaar en kan men het product gebruiken.</p>
+<h2 id="daily-standups">Daily standups<a class="headerlink" href="#daily-standups" title="Permanent link">¶</a></h2>
+<p><img alt="" src="https://i.imgur.com/lbKcBA7.png"/> <br/>
+<a class="link-tooltip" data-tooltip-content="#vanderwardt_2017_tooltip_id" href="../../References/%40vanderwardt_2017/" title="@vanderwardt_2017">@vanderwardt_2017</a></p>
+<div class="admonition infobox">
+<p class="admonition-title">definitie</p>
+<p><strong>Daily Standup:</strong> een dagelijks event, met een time-box van 15 minuten of minder, om het Development-werk voor de volgende 24 uur binnen een Sprint te plannen en de best mogelijke voortgang richting Sprint-doelstelling te realiseren. Het resultaat is een bijgewerkte <a class="link-tooltip" data-tooltip-content="#SprintBacklog_tooltip_id" href="./#sprint-backlog" title="Sprint Backlog">Sprint Backlog</a>. <a class="link-tooltip" data-tooltip-content="#verheyen_2022_tooltip_id" href="../../References/%40verheyen_2022/" title="@verheyen_2022">@verheyen_2022</a></p>
+</div>
+<p>Een van de activiteiten in Agile is een wederkerende bijeenkomst die we de daily <em>(dagelijkse)</em> standup noemen.</p>
+<p>De dagelijkse meetings voor de werknemers die aan een project samenwerken noemen we de “Daily standups”. De bedoeling is dat deze maar 5 tot 15 minuten duren. Gebruikelijk staan alle aanwezigen recht. Dit heeft als doel de deelnemers aan te moedigen de vergadering niet nodeloos te rekken. De duurtijd van 15 minuten is een maximum!</p>
+<p>Elke deelnemer vertelt de groep de antwoorden op de volgende 3 vragen:</p>
+<ol>
+<li>Wat heb ik gisteren bereikt?</li>
+<li>Wat ga ik vandaag doen?</li>
+<li>Welke mogelijke obstakels belemmeren mijn vooruitgang?</li>
+</ol>
+<p>Daily standups helpen te verzekeren dat mogelijke belemmeringen om je werk af te ronden snel geïdentificeerd en vlot weggewerkt raken.</p>
+<p>Het uiteindelijke doel van projectmanagement is het afhandelen van taken. Laten we nu kijken hoe we die afhandelen in Agile.</p>
+<h2 id="product-backlog">Product Backlog<a class="headerlink" href="#product-backlog" title="Permanent link">¶</a></h2>
+<p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
+<a class="link-tooltip" data-tooltip-content="#eby_2016_tooltip_id" href="../../References/%40eby_2016/" title="@eby_2016">@eby_2016</a></p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elke taak die nog veronderstelt wordt te gebeuren, beschouwen we als backlog. Het slaat op het aankomend werk dat nog niet aan een persoon toegewezen is of waarvan de afwerkingsdatum nog niet is vastgelegd.</p>
+<div class="admonition infobox">
+<p class="admonition-title">definitie</p>
+<p><strong>Product Backlog:</strong> een evoluerende, geordende lijst die alle items bevat die noodzakelijk worden geacht door de <a class="link-tooltip" data-tooltip-content="#ProductOwner_tooltip_id" href="./#product-owner" title="Product Owner">Product Owner</a> om een product te creëren, te wijzigen, te onderhouden en onderhoudbaar te houden. <a class="link-tooltip" data-tooltip-content="#verheyen_2022_tooltip_id" href="../../References/%40verheyen_2022/" title="@verheyen_2022">@verheyen_2022</a></p>
+</div>
+<p>Als je, bijvoorbeeld, software aan het schrijven bent waarmee je de leden, locaties en rooster van een jeugdbeweging wil vastleggen, zou je wat je moet doen om deze functionaliteit werkelijk te bouwen, opsplitsen in verscheidene individuele taken. Deze lijst is je product backlog. Telkens je een taak afwerkt hebt, zal die verdwijnen van de backlog. </p>
+<p>Laten we nu kijken hoe Agile omgaat met tijd. </p>
+<h2 id="sprints">Sprints<a class="headerlink" href="#sprints" title="Permanent link">¶</a></h2>
+<p><img alt="" src="https://i.imgur.com/jwLYumg.png"/><br/>
+<a class="link-tooltip" data-tooltip-content="#visualparadigm_2022_tooltip_id" href="../../References/%40visual-paradigm_2022/" title="@visual-paradigm_2022">@visual-paradigm_2022</a></p>
+<p>Een <strong>sprint</strong> is een vastgelegde tijdsperiode (gebruikelijk kiest men 1 week, 2 weken of 4 weken) waaraan een afgesproken hoeveelheid werk is toegewezen om af te werken. </p>
+<p>Sprints beginnen en eindigen met vergaderingen waar men taken toewijst en reviews <em>(synoniem: het inspecteren)</em> van de voorbije uitvoering bekijkt en bespreekt.</p>
+<div class="admonition infobox">
+<p class="admonition-title">definitie</p>
+<p><strong>Sprint:</strong> een event dat als een zogenaamd ‘container event’ de overige Scrum-events omvat, met een time-box van niet meer dan vier weken. De overige events in Scrum zijn: Sprint Planning, Daily Scrum, Sprint Review en Sprint Retrospective.<a class="link-tooltip" data-tooltip-content="#verheyen_2022_tooltip_id" href="../../References/%40verheyen_2022/" title="@verheyen_2022">@verheyen_2022</a></p>
+</div>
+<p>Agile gaat de projecten in sprints opdelen. Gedurende elke dag van een sprint hebben de daily standups plaats waar de vooruitgang van het project wordt behoed.</p>
+<p>De <a class="link-tooltip" data-tooltip-content="#SprintGoal_tooltip_id" href="./#sprint-goal" title="Sprint Goal">Sprint Goal</a> is de belangrijkste focus en het uiteindelijke doel van de welbepaalde sprint. Men verwijst hier naar als het ‘thema’ van de sprint.</p>
+<p>Nu dat je een basisbegrip van Agile projectmanagement hebt, kijken we naar de populairste tak (subcategorie) van Agile.</p>
+<h2 id="scrum">Scrum<a class="headerlink" href="#scrum" title="Permanent link">¶</a></h2>
+<p><img alt="" src="https://i.imgur.com/Ybc5orR.jpg"/> <sup id="fnref:rugbyscrum"><a class="footnote-ref" href="#fn:rugbyscrum">2</a></sup> </p>
+<p><strong>Scrum</strong> is een van de mogelijke uitvoeringen van Agile.</p>
+<p>De term ‘Scrum’ komt van een uitdrukking uit de rugbysport waar de teamleden elkaars armen laten ineengrijpen en zo voorwaarts richting de tegenstander drukken.</p>
+<p>In de technologiewereld is Scrum een manier van projectmanagement die bestaat uit:</p>
+<ul>
+<li>strak gecoördineerd teamwerk.</li>
+<li>een sterke organisatie.</li>
+<li>het afwerken van project volgens de vraag van de klant.</li>
+</ul>
+<p>Het gros van de huidige development projecten gebruikt Scrum. Ondanks de verzameling termen en technieken gebruikt in Scrum, draait het allemaal rond teamwerk, het samenspel tussen de leden van het team.<br/>
+Hoewel Scrum oorspronkelijk is bedacht voor softwareontwikkeling, wordt het toegepast in vele andere sectoren, zoals gezondheidszorg, marketing, rechtshandhaving, productontwikkeling en de publieke sector op alle niveaus.</p>
+<p>Waar we Agile beschouwen als een methodologie, spreken we bij Scrum over een framework. De reden dat we dat vermelden is zodat je weet dat er technisch een verschil is tussen beide termen.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Een <strong>methodologie</strong> is een verzameling regels, methoden en gereedschappen die men kan gebruiken om een bepaald doel te bereiken.<br/>
+Spreken we over een <strong>framework</strong>, dan denken we aan een “lossere”, meer flexibele structuur waar we toelaten andere gereedschappen te gebruiken.</p>
+</div>
+<p>Methodologieën definieert men over het algemeen genomen strak, frameworks eerder tolerant.</p>
+<p>Alhoewel men frameworks minder strikt beschouwt tegenover methodologieën, is Scrum nu naar een punt geëvolueerd waar het welbepaalde werkwijzen bevat. </p>
+<div class="admonition infobox">
+<p class="admonition-title">definitie</p>
+<p><strong>Scrum (n):</strong> een eenvoudig framework voor complexe productontwikkeling (1); een eenvoudig framework om complexe uitdagingen te adresseren (2); een eenvoudig framework dat mensen helpt om waarde te genereren uit complexe uitdagingen (3). <a class="link-tooltip" data-tooltip-content="#verheyen_2022_tooltip_id" href="../../References/%40verheyen_2022/" title="@verheyen_2022">@verheyen_2022</a></p>
+</div>
+<p>Alle termen en concepten die we tot nu toe bespraken voor Agile, passen we toe in Scrum, zoals:</p>
+<ul>
+<li>Sprints (vaste periodes van 1 week, 2 weken, enz.)</li>
+<li>Backlogs (overzichten van openstaand werk)</li>
+<li>Standups (dagelijkse bijeenkomsten van het ontwikkelingsteam)</li>
+</ul>
+<p>In Scrum gebruikt men deze terminologie zoals hierboven omschreven, maar toegepast door het woord ‘Scrum’ er aan vast te hangen – zoals <em>“Scrum Sprints”</em> of <em>“Daily Scrum Meeting”</em>. De betekenis is gelijk aan die van Agile, Scrum is Agile</p>
+<p>Een goede manier om de relatie tussen Scrum en Agile te bekijken is het volgende plaatje.<br/>
+<img alt="" src="https://i.imgur.com/dX9M7uX.jpg"/></p>
+<p>Of, om het met een analogie te bekijken.</p>
+<p><img alt="" src="https://i.imgur.com/jwtVfu7.jpg"/><br/>
+<a class="link-tooltip" data-tooltip-content="#stanleyetal_2020_tooltip_id" href="../../References/%40stanley.etal_2020/" title="@stanley.etal_2020">@stanley.etal_2020</a></p>
+<p>In dit voorbeeld bekijk je “sports” als projectmanagement, “basketbal” als Agile en “NBA” (de populairste uitvoering van basketbal) is Scrum.</p>
+<h3 id="empirische-procescontrole">Empirische procescontrole<a class="headerlink" href="#empirische-procescontrole" title="Permanent link">¶</a></h3>
+<div class="admonition infobox">
+<p class="admonition-title">definitie</p>
+<p><strong>Empirische procescontrole</strong> (in het Engels vaak afgekort tot ‘Empiricism’): de vorm van procescontrole waar beslissingen voor aanpassingen gebaseerd zijn op observatie, ervaring en effectieve realisaties. Empirische procescontrole behoeft en creëert transparantie als noodzakelijke ondergrond voor regelmatige inspectie (evaluatie) en aanpassing. <a class="link-tooltip" data-tooltip-content="#verheyen_2022_tooltip_id" href="../../References/%40verheyen_2022/" title="@verheyen_2022">@verheyen_2022</a></p>
+</div>
+<p><img alt="" src="https://i.imgur.com/F5ySO0e.png"/><br/>
+<a class="link-tooltip" data-tooltip-content="#zentaoteam_2022a_tooltip_id" href="../../References/%40zentaoteam_2022a/" title="@zentaoteam_2022a">@zentaoteam_2022a</a></p>
+<p>Scrum is gebaseerd op de filosofie van het empirisme, net als empirisch onderzoek in de wetenschappen. Een stevige basis. Binnen het empirisme gaat men ervan uit dat kennis alleen kan voortkomen uit ervaring. Kennis is gestoeld op (objectieve) observaties en niet op ideeën. Er is een verschil tussen ‘denken’ en ‘weten’. Met andere woorden: je kunt denken dat je weet wat de klant wenst, maar daarmee weet je het nog niet zeker.</p>
+<p>De drie pilaren ondersteunen de ontwikkeling van elke empirisch proces: <strong>transparantie</strong>, <strong>inspectie</strong> en <strong>aanpassing</strong>. Maar wat wil dat nu in mensentaal zeggen?</p>
+<ul>
+<li>
+<p><strong>Transparantie</strong>: Dit betekent de feiten voorstellen zoals ze zijn. Elke betrokken persoon – de klant, de CEO, individuele bijdragers – is goed te controleren in de dagelijkse omgang met anderen. Iedereen vertrouwt de ander, en heeft de moed om elkaar op de hoogte te houden van zowel goed als slecht nieuws. Iedereen streeft naar en werkt samen voor het gemeenschappelijk bedrijfsdoel, en geen enkel persoon heeft een verborgen agenda!</p>
+</li>
+<li>
+<p><strong>Inspectie</strong>: In deze context beschouwen we inspectie niet als iets wat door een inspecteur of auditeur wordt gedaan, maar door iedereen van het Scrum Team. Men kan het product, de processen, menselijk aspecten, praktijken en de voortdurende verbeteringen inspecteren. Het team toont aan het einde van elke Sprint , open en doorzichtig, het product aan de klant om hierdoor waardevolle feedback te krijgen. Wanneer de klant de vereisten <em>(vert. Engels: requirements)</em> na inspectie aanpast, gaat het team niet klagen. Het gaat zich eerder aanpassen en dit te bekijken als een kans om beter samen te werken met de klant, diens vereisten nog duidelijker te zien en de nieuwe veronderstelling uit te testen.</p>
+</li>
+<li>
+<p><strong>Aanpassing</strong>: Aanpassing beschouwen we in deze context als alle voortdurende verbeteringen die we aanbrengen. Als de mogelijkheid om aan te passen, kijkend naar de resultaten van de Inspectie. Iedereen in de organisatie moet op geregelde tijdstippen zich de vraag stellen: <em>“Staan we er beter voor dan gisteren?”</em> Bij bedrijven met doel om winst te maken, is waarde uitgedrukt in termen van winst. De aanpassing zou terug komen naar een van de redenen waarom men Agile ooit ingevoerd heeft, zoals een snellere marktintroductietijd, een hoger rendement op investeringen door op te leveren met waarde of verminderde eigendomskosten door een verhoogde kwaliteit van software en een verbeterde klanten- en medewerkerstevredenheid.<br/>
+<a class="link-tooltip" data-tooltip-content="#doshi_2016_tooltip_id" href="../../References/%40doshi_2016/" title="@doshi_2016">@doshi_2016</a></p>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">tip</p>
+<p>Later, in de <a class="link-tooltip" data-tooltip-content="#ScrumValues_tooltip_id" href="./#scrum-values" title="Scrum Values">Scrum Values</a>, gaan we dieper in op de manier waarop de Empirisch gedachte in Scrum uitgewerkt is. <br/>
+Het kan geen kwaad deze uit te printen, ze op je nachtkastje te leggen, ze af en toe te lezen en een traantje weg te pinken. Beschouw ze als mogelijk de waardevolste lessen die je dankzij Scrum kan leren.</p>
+</div>
+<p>Nu dat je weet wat Scrum is, laten we verder gaan met enkele andere Scrum-gerelateerde woorden en onderwerpen.</p>
+<h2 id="product-owner">Product Owner<a class="headerlink" href="#product-owner" title="Permanent link">¶</a></h2>
+<div class="admonition infobox">
+<p class="admonition-title">definitie</p>
+<p><strong>Product Owner:</strong> de persoon die aansprakelijk is om de waardecreatie te maximaliseren, voornamelijk door het beheren en toelichten van de ideeën en functionele en eindgebruikersverwachtingen opgenomen in de <a class="link-tooltip" data-tooltip-content="#ProductBacklog_tooltip_id" href="./#product-backlog" title="Product Backlog">Product Backlog</a>. <a class="link-tooltip" data-tooltip-content="#verheyen_2022_tooltip_id" href="../../References/%40verheyen_2022/" title="@verheyen_2022">@verheyen_2022</a></p>
+</div>
+<p>In Agile en Scrum is de <strong>Product Owner</strong> de persoon die het gezag heeft de belangen van de klant te vertegenwoordigen.<br/>
+De Product Owner is altijd beschikbaar voor het projectteam (al is die zelf niet betrokken in het ontwikkelen van het project) en is aanwezig bij het merendeel van de vergaderingen. Ze zijn de “baas” <em>(maar neem dat zeker niet letterlijk)</em> van het project, maar ze laten de teamleden toe hun eigen doelen te bepalen en zichzelf te managen.</p>
+<p><img alt="" src="https://i.imgur.com/jLtZtko.png"/><br/>
+<a class="link-tooltip" data-tooltip-content="#userstorymap_2022_tooltip_id" href="../../References/%40userstorymap_2022/" title="@userstorymap_2022">@userstorymap_2022</a></p>
+<p>Typisch is de Product Owner de persoon die met de klant samenzit.</p>
+<p>Sommige van hun taken omvatten:</p>
+<ul>
+<li>het duidelijk omschrijven van backlog taken</li>
+<li>verzekeren dat de backlog zichtbaar en duidelijk is voor iedereen</li>
+<li>verzekeren dat iedereen de prioriteiten kent, en weet wat als volgende taak wordt beschouwd.</li>
+</ul>
+<p>Zoals deze taken al tonen, is de Product Owner verantwoordelijk voor de <a class="link-tooltip" data-tooltip-content="#ProductBacklog_tooltip_id" href="./#product-backlog" title="Product Backlog">Product Backlog</a>.</p>
+<p>Het woord “owner” <em>(vertaling: eigenaar)</em> verwijst naar verantwoordelijkheid – de Product Owner houdt er zicht op dat het product naar behoren wordt ontwikkeld.</p>
+<p>De Product Owner bekijkt projecten vanuit het perspectief van de klant en verzekert dat het werk volgens de visie van de klant wordt uitgevoerd.</p>
+<h3 id="stakeholders">Stakeholders<a class="headerlink" href="#stakeholders" title="Permanent link">¶</a></h3>
+<h4 id="wat-is-een-stakeholder">Wat is een stakeholder?<a class="headerlink" href="#wat-is-een-stakeholder" title="Permanent link">¶</a></h4>
+<div class="admonition infobox">
+<p class="admonition-title">definitie</p>
+<p><strong>Stakeholder:</strong> een persoon van buiten het Scrum Team met een specifiek belang in het product of kennis ervan die noodzakelijk is voor de verdere ontwikkeling van het product. <a class="link-tooltip" data-tooltip-content="#verheyen_2022_tooltip_id" href="../../References/%40verheyen_2022/" title="@verheyen_2022">@verheyen_2022</a></p>
+</div>
+<p>Stakeholders beschouwen we als alle partijen die interesse hebben in een op te leveren product of project. Ze beïnvloeden het project of het project beïnvloedt hen, ze hebben (in)direct invloed en interesse in je Scrum project. <br/>
+Door deze afhankelijkheid zijn ze in staat het project te maken of te breken. Aan de ene kant beschouwen we Stakeholders als mensen die dicht bij je Scrum project staan, zoals je belangrijkste klanten, managers en interne opdrachtgevers. Aan de andere kant als de personen die verder van je af staan, zoals de CEO of de Board of Directors. Wat te denken van de dame achter je in de kassa-rij of de medewerker in het gemeentehuis?</p>
+<h4 id="stakeholders-identificeren">Stakeholders identificeren<a class="headerlink" href="#stakeholders-identificeren" title="Permanent link">¶</a></h4>
+<p><img alt="" src="https://i.imgur.com/eXcq7FX.png"/></p>
+<p>Het identificeren van stakeholders kan je als <a class="link-tooltip" data-tooltip-content="#ProductOwner_tooltip_id" href="./#product-owner" title="Product Owner">Product Owner</a> alleen doen, maar je kan hier goed de hulp van de rest van het Scrum Team bij vragen. Een globale categorisering van stakeholders geeft richting in welke hoek je je stakeholders kunt zoeken. Grofweg maken we een categorisering met interne, externe en interface stakeholders:</p>
+<p>1. <strong>Interne stakeholders</strong>: deze partijen willen vooral dat het project winstgevend en/of efficiënt verloopt. Bijvoorbeeld de afdelingen binnen de organisatie, zoals logistiek, marketing, finance, HR.</p>
+<p>2. <strong>Externe stakeholders</strong>: deze partijen zitten op behoefte-invulling van het project en hebben een emotioneel belang. Het betreft bijvoorbeeld de eindgebruiker, de consument, de betalende klant.</p>
+<p>3. <strong>Interface stakeholders</strong>: deze partijen kunnen van invloed zijn door wet- en regelgeving, bijvoorbeeld de overheid, maatschappij, onderwijs.</p>
+<p><a class="link-tooltip" data-tooltip-content="#vanlier_2018_tooltip_id" href="../../References/%40vanlier_2018/" title="@vanlier_2018">@vanlier_2018</a></p>
+<p>Er is nog een persoon die betrokken is in de dagdagelijkse activiteiten van Scrum.</p>
+<h2 id="scrum-master">Scrum Master<a class="headerlink" href="#scrum-master" title="Permanent link">¶</a></h2>
+<p><img alt="" src="https://i.imgur.com/8IDZ0WM.png"/> <a class="link-tooltip" data-tooltip-content="#qframe_2021_tooltip_id" href="../../References/%40qframe_2021/" title="@qframe_2021">@qframe_2021</a></p>
+<p>De Scrum Master is, in tegenstelling tot de <a class="link-tooltip" data-tooltip-content="#ProductOwner_tooltip_id" href="./#product-owner" title="Product Owner">Product Owner</a>, werkelijk betrokken met de software ontwikkeling. Het is de persoon die de groepsactiviteiten coördineert en laat functioneren. De Scrum Master is er, op het terrein, werk uitvoerend en de mede-teamgenoten helpend. De rol van Scrum Master is niet altijd door dezelfde persoon voor lange tijd opgenomen. Sommige teams hebben voorzien dat deze rol een wisselrol is, zodat elk teamlid dit een bepaalde periode kan uitvoeren.</p>
+<p>Sommige van de taken van deze rol omvatten:</p>
+<ul>
+<li>het verwijderen van obstakels <em>(vert. Engels: <a class="link-tooltip" data-tooltip-content="#Impediment_tooltip_id" href="./#impediment" title="Impediment">Impediment</a>s)</em> tijdens ontwikkelingen.</li>
+<li>het verzekeren dat de ontwikkelomgeving opgezet is zodat het men het project kan afmaken.</li>
+<li>de teamleden opleiden in <a class="link-tooltip" data-tooltip-content="#Scrum_tooltip_id" href="./#scrum" title="Scrum">Scrum</a> en er op toezien dat de uitvoering van de processen correct loopt.</li>
+<li>een goede relatie onderhouden tussen de ontwikkelaars en de <a class="link-tooltip" data-tooltip-content="#ProductOwner_tooltip_id" href="./#product-owner" title="Product Owner">Product Owner</a>, evenals met anderen buiten het team.</li>
+<li>het ontwikkelingsteam behoeden voor verstoringen van buitenaf en andere afleidingen.</li>
+</ul>
+<div class="admonition infobox">
+<p class="admonition-title">definitie</p>
+<p><strong>Scrum Master:</strong> de persoon die aansprakelijk is voor een correct begrip en effectief gebruik van Scrum door Scrum Teams en hun bredere omgeving door technieken als coaching, facilitering, lesgeven en stilzwijgende observatie. <a class="link-tooltip" data-tooltip-content="#verheyen_2022_tooltip_id" href="../../References/%40verheyen_2022/" title="@verheyen_2022">@verheyen_2022</a></p>
+</div>
+<p>De term <em>“master”</em> kenmerkt in deze context niet iemand die anderen voor zich laat werken. Het is eerder te verstaan als <em>“een specialist van een bepaald onderwerp”</em>. Waar we de Scrum Master hebben als iemand die het beste (of zeker een sterk) begrip van Scrum heeft, vergeleken met de rest van de mensen betrokken bij het project. Men beschouwt hen als de <em>‘masters van het Scrum framework’</em>.</p>
+<h3 id="impediment">Impediment<a class="headerlink" href="#impediment" title="Permanent link">¶</a></h3>
+<p><img alt="" src="https://i.imgur.com/NN6ydC2.png"/></p>
+<div class="admonition infobox">
+<p class="admonition-title">definitie</p>
+<p><strong>Impediment:</strong> elke hindernis of obstakel dat het ontwikkelwerk blokkeert of vertraagt, maar niet kan weggenomen worden via zelf-sturing. De verwijdering ervan is onderdeel van de aansprakelijkheid van de Scrum Master. <a class="link-tooltip" data-tooltip-content="#verheyen_2022_tooltip_id" href="../../References/%40verheyen_2022/" title="@verheyen_2022">@verheyen_2022</a>.</p>
+</div>
+<p>Een <strong>impediment</strong> <em>(synoniem: belemmering, hindernis of obstakel)</em> is iets wat vooruitgang blokkeert of vertraagd.</p>
+<p>In een letterlijke betekenis kun je een omgevallen boom die een straat blokkeert een “impediment” noemen.</p>
+<p>In Scrum is een impediment eender wat dat het team tegenhoudt hun volledige potentieel te gebruiken. </p>
+<p>Dit omvat problemen die een project tegenhouden het op tijd en tegen het juiste budget te laten beëindigen. Het is de taak van de <a class="link-tooltip" data-tooltip-content="#ScrumMaster_tooltip_id" href="./#scrum-master" title="Scrum Master">Scrum Master</a> deze impediments te behandelen of te verwijderen.</p>
+<h2 id="ontwikkelingsteam">Ontwikkelingsteam<a class="headerlink" href="#ontwikkelingsteam" title="Permanent link">¶</a></h2>
+<p><img alt="" src="https://i.imgur.com/ttZAC8b.png"/></p>
+<p>Het Ontwikkelingsteam <em>(synoniem: Ontwikkelteam, Development team of ‘De Developers’)</em> bestaat uit professionals die werken aan de taken die horen bij de ontwikkeling van het product. Deze taken bepaald men voor elke sprint in overleg met de Product Owner, die de taken selecteert uit de <a class="link-tooltip" data-tooltip-content="#ProductBacklog_tooltip_id" href="./#product-backlog" title="Product Backlog">Product Backlog</a>. Aan het eind van de sprint is het de bedoeling dat het Ontwikkelingsteam alle taken die geselecteerd waren heeft uitgevoerd.</p>
+<h3 id="kenmerken-van-het-ontwikkelingsteam">Kenmerken van het Ontwikkelingsteam<a class="headerlink" href="#kenmerken-van-het-ontwikkelingsteam" title="Permanent link">¶</a></h3>
+<p>Het Ontwikkelingsteam heeft enkele kenmerken:</p>
+<ul>
+<li>Het team is zelforganiserend. Niemand vertelt het team hoe de geselecteerde <a class="link-tooltip" data-tooltip-content="#ProductBacklogItem_tooltip_id" href="./#product-backlog-item" title="Product Backlog Item">Product Backlog Item</a>s uit te voeren, zelfs de <a class="link-tooltip" data-tooltip-content="#ScrumMaster_tooltip_id" href="./#scrum-master" title="Scrum Master">Scrum Master</a> niet.</li>
+<li>Er is een grote mate van persoonlijk leiderschap. </li>
+<li>Het team is cross-functioneel. De leden van het team bezitten samen minimaal 80% van de vaardigheden om de taken uit te voeren.</li>
+<li>Het team is één. Het is niet toegestaan subteams te maken; het team blijft altijd bij elkaar.</li>
+<li>Het team is samen verantwoordelijk. Als iemand binnen het team die daar de benodigde vaardigheden bepaalde taken uitvoert, is het team alsnog gezamenlijk verantwoordelijk voor het eindresultaat.</li>
+</ul>
+<h3 id="aantal-developers">Aantal Developers<a class="headerlink" href="#aantal-developers" title="Permanent link">¶</a></h3>
+<p>Hoeveel Developers een team bevat, hangt natuurlijk af van de organisatie en het project. Over het algemeen geldt dat een team moet bestaan uit 3 tot 10 leden. Minder dan drie mensen in het team verkleint de interactie, wat leidt tot lagere productiviteit. Daarnaast kan het dat men bepaalde vaardigheden mankeert in het team, waardoor er tegen problemen wordt aangelopen. Meer dan 10 mensen in het team vereist strakkere coördinatie en zorgt voor hogere complexiteit. De <a class="link-tooltip" data-tooltip-content="#ProductOwner_tooltip_id" href="./#product-owner" title="Product Owner">Product Owner</a> en de <a class="link-tooltip" data-tooltip-content="#ScrumMaster_tooltip_id" href="./#scrum-master" title="Scrum Master">Scrum Master</a> horen niet tot de Developers, behalve als ze taken uit de <a class="link-tooltip" data-tooltip-content="#ProductBacklog_tooltip_id" href="./#product-backlog" title="Product Backlog">Product Backlog</a> uitvoeren.</p>
+<p><a class="link-tooltip" data-tooltip-content="#scrumguide_2022_tooltip_id" href="../../References/%40scrumguide_2022/" title="@scrumguide_2022">@scrumguide_2022</a></p>
+<p>Laten we nog de belangrijkste Scrum rollen herhalen om deze nog verder duidelijk te maken.</p>
+<h2 id="de-drie-rollen-in-scrum">De drie Rollen in Scrum<a class="headerlink" href="#de-drie-rollen-in-scrum" title="Permanent link">¶</a></h2>
+<p><img alt="" src="https://i.imgur.com/GXsJBLn.jpg"/> <sup id="fnref:scrumteam"><a class="footnote-ref" href="#fn:scrumteam">3</a></sup></p>
+<p>De drie hoofdrollen in Scrum zijn:</p>
+<h4 id="product-owner_1">Product Owner<a class="headerlink" href="#product-owner_1" title="Permanent link">¶</a></h4>
+<p>Deze persoon is verantwoordelijk voor het uitzetten van het openstaande werk en het voor het prioritiseren van dat werk. <a class="link-tooltip" data-tooltip-content="#ProductOwner_tooltip_id" href="./#product-owner" title="Product Owner">Product Owner</a>s kennen de verwachtingen van het project en nemen een gidsende rol aan naar het team dat het project gaat uitvoeren.</p>
+<p>Product Owners blijven betrokken bij het project gedurende de volledige duurtijd. Dit in tegenstelling tot de baas, die in de meeste gevallen alleen betrokken is in het begin, tijdens de initiële planning. De <a class="link-tooltip" data-tooltip-content="#ProductOwner_tooltip_id" href="./#product-owner" title="Product Owner">Product Owner</a> verzekert dat het product wordt aangepast en geherprioriteerd wanneer nodig.</p>
+<p>Ondanks al deze taken gaat de <a class="link-tooltip" data-tooltip-content="#ProductOwner_tooltip_id" href="./#product-owner" title="Product Owner">Product Owner</a> nooit de activiteiten van het ontwikkelingsteam sturen of controleren - dat wordt afgehandeld door de Scrum Master</p>
+<h4 id="scrum-master_1">Scrum Master<a class="headerlink" href="#scrum-master_1" title="Permanent link">¶</a></h4>
+<p>Een <a class="link-tooltip" data-tooltip-content="#ScrumMaster_tooltip_id" href="./#scrum-master" title="Scrum Master">Scrum Master</a> heeft twee hoofdtaken:</p>
+<ul>
+<li>Ze beschermen het ontwikkelingsteam en verzekeren dat iedereen zich kan focussen op het werk, met minimale afleiding. Dit omvat het isoleren en afhandelen van mogelijke ‘impendiments’ die optreden.</li>
+<li>Ze beschermen het Scrumproces zelf en verzekeren dat het correct uitgevoerd wordt. Hiervoor moet de Scrum Master een nauwkeurige kennis van Agile en Scrum bezitten. Een belangrijk element hierin is het optreden als zowel trainer als coach voor alle teamleden.</li>
+</ul>
+<h4 id="ontwikkelingsteam_1">Ontwikkelingsteam<a class="headerlink" href="#ontwikkelingsteam_1" title="Permanent link">¶</a></h4>
+<p>De personen die de code schrijven.</p>
+<p>Het <a class="link-tooltip" data-tooltip-content="#ontwikkelingsteam_tooltip_id" href="./#ontwikkelingsteam" title="ontwikkelingsteam">ontwikkelingsteam</a> bevat architecten, testers, ontwikkelaars en designers.</p>
+<p>Het team treed samen op om te bepalen hoe ze hun doelen gaan bereiken. De bepaalde features waaraan ze gaan werken zijn gebaseerd op de prioriteiten zoals bepaald door de <a class="link-tooltip" data-tooltip-content="#ProductOwner_tooltip_id" href="./#product-owner" title="Product Owner">Product Owner</a></p>
+<p>Zo, nu dat we project managers, <a class="link-tooltip" data-tooltip-content="#ProductOwner_tooltip_id" href="./#product-owner" title="Product Owner">Product Owner</a>s en Scrum Masters hebben bekeken, nog de verschillen tussen deze drie functies.</p>
+<h2 id="terminologie-herhaling">Terminologie (herhaling)<a class="headerlink" href="#terminologie-herhaling" title="Permanent link">¶</a></h2>
+<p>De termen “<a class="link-tooltip" data-tooltip-content="#ScrumMaster_tooltip_id" href="./#scrum-master" title="Scrum Master">Scrum Master</a>”, “projectmanager” en “<a class="link-tooltip" data-tooltip-content="#ProductOwner_tooltip_id" href="./#product-owner" title="Product Owner">Product Owner</a>” scheppen zo nu en dan verwarring. Ze betekenen allen iets totaal anders.</p>
+<p>De <strong>Scrum Master</strong> is het ontwikkelingsteam-lid welke de coördinatie doet van het werk van de collega-teamleden. Ze verzekeren dat Scrum begrepen is en wordt toegepast door iedere persoon betrokken bij het project.</p>
+<p>Een <strong>Product Owner</strong> is de persoon die de uiteindelijke autoriteit heeft de klantenbelangen te vertegenwoordigen en ze hebben rechtstreekse klanteninteractie.</p>
+<p>De <strong>projectmanager</strong> is de persoon die de totale verantwoordelijkheid voor het volledige project heeft. Technisch gezien is er geen projectmanager-rol in Scrum - de Product Owner en de Scrum Master delen deze taken.</p>
+<p>Scrum Master is een Scrum term. Product Owner is een Agile term die tevens in Scrum gebruikt word. En project manager is een algemene term, gebruikt in vele beroepen en industrieën.</p>
+<h2 id="sprint-planning">Sprint Planning<a class="headerlink" href="#sprint-planning" title="Permanent link">¶</a></h2>
+<p>Bij de start van elke sprint, is er een planningssessie binnen het team: de <strong>Sprint Planning</strong>.</p>
+<p><img alt="" src="https://i.imgur.com/gVPiokj.png"/><br/>
+<a class="link-tooltip" data-tooltip-content="#raghuprasad_2019_tooltip_id" href="../../References/%40raghuprasad_2019/" title="@raghuprasad_2019">@raghuprasad_2019</a></p>
+<div class="admonition infobox">
+<p class="admonition-title">definitie:</p>
+<p><strong>Sprint Planning:</strong> het event dat het begin van een Sprint uitmaakt, met een time-box van acht uur of minder. Tijdens dit event bepaalt het Scrum Team welke selectie van de <a class="link-tooltip" data-tooltip-content="#ProductBacklog_tooltip_id" href="./#product-backlog" title="Product Backlog">Product Backlog</a> in een Sprint wordt opgenomen en identificeert de Sprint Goal en de ontwikkelactiviteiten ervoor. <a class="link-tooltip" data-tooltip-content="#verheyen_2022_tooltip_id" href="../../References/%40verheyen_2022/" title="@verheyen_2022">@verheyen_2022</a></p>
+</div>
+<p>Tijdens de Sprint Planning gaan we de <a class="link-tooltip" data-tooltip-content="#SprintBacklog_tooltip_id" href="./#sprint-backlog" title="Sprint Backlog">Sprint Backlog</a> plannen. Meer bepaald gaat het team dan beslissen welke <a class="link-tooltip" data-tooltip-content="#ProductBacklogitem_tooltip_id" href="./#product-backlog-item" title="Product Backlog item">Product Backlog item</a>s (PBIs) ze aanpakt tijdens de volgende sprint. Ze gaan uit de Product Backlog items nemen die ze plaatsen in de <a class="link-tooltip" data-tooltip-content="#SprintBacklog_tooltip_id" href="./#sprint-backlog" title="Sprint Backlog">Sprint Backlog</a>. Hier kiezen ze, naargelang de belangrijkheid en rekening houdend met de capaciteit van het team, de onderwerpen die ze denken af te ronden in 1 sprint. Belangrijk is hier de capaciteit van het team goed in te schatten. Dat kan door het bekijken van de <a class="link-tooltip" data-tooltip-content="#Velocity_tooltip_id" href="./#velocity" title="Velocity">Velocity</a>, en door rekening te houden met verlofdagen en opleidingen van leden van het team. <br/>
+De<a class="link-tooltip" data-tooltip-content="#SprintBacklog_tooltip_id" href="./#sprint-backlog" title="Sprint Backlog">Sprint Backlog</a> wordt tijdens de Sprint Planning bepaald, en er wordt een duidelijke <a class="link-tooltip" data-tooltip-content="#SprintGoal_tooltip_id" href="./#sprint-goal" title="Sprint Goal">Sprint Goal</a> vastgelegd.</p>
+<p><img alt="" src="https://i.imgur.com/oHybCrv.png"/><br/>
+<a class="link-tooltip" data-tooltip-content="#zentaoteam_2022a_tooltip_id" href="../../References/%40zentaoteam_2022a/" title="@zentaoteam_2022a">@zentaoteam_2022a</a></p>
+<p>Sommige teams kiezen bepaalde taken aan bepaalde ontwikkelaars toe te wijzen, maar dit is niet nodig. Het gros van de teams beslist alleen maar over de <a class="link-tooltip" data-tooltip-content="#SprintBacklog_tooltip_id" href="./#sprint-backlog" title="Sprint Backlog">Sprint Backlog</a>, en laat de teamleden beslissen wie aan welke taak werkt tijdens de uitvoering van de sprint.</p>
+<h3 id="user-stories-en-epics">User stories (en Epics)<a class="headerlink" href="#user-stories-en-epics" title="Permanent link">¶</a></h3>
+<p>Eindgebruikers – de mensen die het product gaan gebruiken wanneer het gemaakt is – beschouwen we als een belangrijk element in Agile en Scrum. Laten we nu eens kijken hoe we de ideeën van de eindgebruiker beschrijven zodat de ontwikkelaars die begrijpen.</p>
+<p><img alt="" src="https://i.imgur.com/2nUIGtg.png"/><br/>
+<a class="link-tooltip" data-tooltip-content="#productplan_2022_tooltip_id" href="../../References/%40productplan_2022/" title="@productplan_2022">@productplan_2022</a></p>
+<p>Een <strong>User Story</strong> is een Agile en Scrum werkinstrument dat als doel heeft software te beschrijven vanuit het standpunt van een eindgebruiker.</p>
+<p>We schrijven ze vanuit het oogpunt van de gebruiker en we gebruiken ze om de taken die de ontwikkelaars uitvoeren te documenteren, door de specifieke features te beschrijven.</p>
+<div class="admonition important">
+<p class="admonition-title">User Story</p>
+<p>User Stories bevatten <strong>het type gebruiker</strong>, <strong>wat ze willen</strong> en <strong>waarom</strong>.</p>
+</div>
+<p>We schrijven ze als volgt: </p>
+<div class="admonition important">
+<p class="admonition-title">Vorm</p>
+<p>“<strong>als</strong> (type gebruiker), <strong>wil ik</strong> (een bepaald doel) <strong>zo dat</strong> (een bepaalde reden)”</p>
+</div>
+<p>voorbeeld:</p>
+<div class="admonition example">
+<p class="admonition-title">Voorbeeld</p>
+<p>“<strong>Als</strong> een gebruiker, <strong>wil ik</strong> in mijn account kunnen inloggen met een gebruikersnaam en wachtwoord, <strong>zo dat</strong> ik toegang kan krijgen tot mijn account informatie”</p>
+</div>
+<p>Agile en Scrum laten typisch ontwikkelaars werken aan taken beschreven door User Stories.</p>
+<p><strong>Epics</strong>, in Agile en Scrum, verwijzen naar grotere blokken werk (grote taken) die we vervolgens verder verdelen in User Stories (kleinere taken)</p>
+<p>Zowel Epics als Stories zijn voorbeelden van <a class="link-tooltip" data-tooltip-content="#ProductBacklogItem_tooltip_id" href="./#product-backlog-item" title="Product Backlog Item">Product Backlog Item</a>s (PBIs).</p>
+<h4 id="acceptance-criteria">Acceptance Criteria<a class="headerlink" href="#acceptance-criteria" title="Permanent link">¶</a></h4>
+<p>Criteria beschrijven de standaarden waartegen iets wordt beoordeeld, de requirements.</p>
+<p><strong>Acceptance criteria</strong> geven een duidelijke beschrijving van wat men verstaat onder “done” (gedaan) in de terminologie van User Stories. </p>
+<div class="admonition example">
+<p class="admonition-title">Voorbeeld</p>
+<p>User story: <strong>Als</strong> een gebruiker van deze website, <strong>wil ik</strong> dat de plaatjes vergroten wanneer ik er met de muis over beweeg, <strong>zo dat</strong> ik onder de indruk ben van de interactiviteit van de site</p>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Voorbeeld</p>
+<p>Acceptance criteria: Alle beelden worden 25% groter wanneer men er met de muis over komt.</p>
+</div>
+<h3 id="product-backlog-item">Product Backlog Item<a class="headerlink" href="#product-backlog-item" title="Permanent link">¶</a></h3>
+<p>Een <strong>“Product Backlog Item”</strong> (wel eens PBI, backlog item of item genoemd) is een eenduidige taak die je moet afronden.</p>
+<p>PBIs omvatten user stories, epics, specificaties, bugs, of change requirements.</p>
+<p>De <a class="link-tooltip" data-tooltip-content="#ProductOwner_tooltip_id" href="./#product-owner" title="Product Owner">Product Owner</a> verzamelt en prioritiseert de <a class="link-tooltip" data-tooltip-content="#ProductBacklog_tooltip_id" href="./#product-backlog" title="Product Backlog">Product Backlog</a> door de dringendste of belangrijkste PBIs bovenaan te plaatsen.</p>
+<p>Bijvoorbeeld, wanneer men een website gaat maken van 10 pagina’s, kun je elke webpagina als een PBI omschrijven.</p>
+<h3 id="sprint-goal">Sprint Goal<a class="headerlink" href="#sprint-goal" title="Permanent link">¶</a></h3>
+<div class="admonition info">
+<p class="admonition-title">definitie</p>
+<p><strong>Sprint Goal:</strong> een korte omschrijving van de overkoepelende doelstelling van een Sprint. <a class="link-tooltip" data-tooltip-content="#verheyen_2022_tooltip_id" href="../../References/%40verheyen_2022/" title="@verheyen_2022">@verheyen_2022</a></p>
+</div>
+<p>De Sprint Goal (of Sprint Doel) is een korte zin van een of twee regels die beschrijft wat het Team wil bereiken in deze <a class="link-tooltip" data-tooltip-content="#Sprint_tooltip_id" href="./#sprint" title="Sprint">Sprint</a>. Deze zin wordt door de <a class="link-tooltip" data-tooltip-content="#ProductOwner_tooltip_id" href="./#product-owner" title="Product Owner">Product Owner</a> en het Team gezamenlijk opgesteld.</p>
+<div class="admonition example">
+<p class="admonition-title">Voorbeeld</p>
+<ul>
+<li>Implementeer een ‘winkelwagen’ functionaliteit met toevoegen, verwijderen en update mogelijkheid.</li>
+<li>Ontwikkel een ‘check out’ mogelijkheid: betalen voor de order, verzending etc.</li>
+</ul>
+</div>
+<p>Het Sprint Doel is handig om <a class="link-tooltip" data-tooltip-content="#Stakeholders_tooltip_id" href="./#stakeholders" title="Stakeholders">Stakeholders</a> op de hoogte te houden. Stakeholders hebben geen behoefte aan alle gedetailleerde items, het doel van de komende Sprint te weten is al genoeg.</p>
+<p>Het succes van deze Sprint wordt beoordeeld in de <a class="link-tooltip" data-tooltip-content="#SprintReview_tooltip_id" href="./#sprint-review" title="Sprint Review">Sprint Review</a>. Het opgeleverde wordt vergeleken met het Sprint Doel. In de Sprint <a class="link-tooltip" data-tooltip-content="#SprintReview_tooltip_id" href="./#sprint-review" title="Sprint Review">Sprint Review</a> kijkt men niet naar de specifieke items, maar beoordeeld men of het doel is behaald.<br/>
+<a class="link-tooltip" data-tooltip-content="#agile4all_2019_tooltip_id" href="../../References/%40agile4all_2019/" title="@agile4all_2019">@agile4all_2019</a></p>
+<h3 id="sprint-backlog">Sprint Backlog<a class="headerlink" href="#sprint-backlog" title="Permanent link">¶</a></h3>
+<p>Een <strong>“sprint backlog”</strong> is de taak (of zijn de taken) die een team hoopt af te ronden tijdens een bepaalde sprint.</p>
+<div class="admonition info">
+<p class="admonition-title">definitie</p>
+<p><strong>Sprint Backlog:</strong> het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. <a class="link-tooltip" data-tooltip-content="#verheyen_2022_tooltip_id" href="../../References/%40verheyen_2022/" title="@verheyen_2022">@verheyen_2022</a></p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">definitie</p>
+<p><strong>Forecast:</strong> het anticiperen van toekomstige evoluties door projecties (verwachtingen) te maken op basis van observaties van het verleden, zoals de verwachting van de implementatie van Product Backlog items voor een huidige of een toekomstige Sprint. <a class="link-tooltip" data-tooltip-content="#verheyen_2022_tooltip_id" href="../../References/%40verheyen_2022/" title="@verheyen_2022">@verheyen_2022</a></p>
+</div>
+<h4 id="verschil-tussen-product-backlog-en-sprint-backlog">Verschil tussen Product Backlog en Sprint Backlog<a class="headerlink" href="#verschil-tussen-product-backlog-en-sprint-backlog" title="Permanent link">¶</a></h4>
+<p>Ten slotte, voor wie het nog niet duidelijk is, hier een overzicht van de verschillen tussen de <a class="link-tooltip" data-tooltip-content="#ProductBacklog_tooltip_id" href="./#product-backlog" title="Product Backlog">Product Backlog</a> en de Sprint Backlog</p>
+<table>
+<thead>
+<tr>
+<th>Product Backlog</th>
+<th>Sprint Backlog</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>De nodige lijst van alle Product Backlog Items zodat het eindproduct kan ontwikkeld worden</td>
+<td>De lijst van items, gekozen uit de Product Backlog, die moeten afgewerkt worden om te bekomen dat de Sprint afgerond is</td>
+</tr>
+<tr>
+<td>De Product Owner is verantwoordelijk voor het verzamelen van de Product Backlog Items en prioriteert en verfijnt ze</td>
+<td>Het team is verantwoordelijk voor het maken van de Sprint Backlog en die te verwerken om de Sprint af te ronden</td>
+</tr>
+<tr>
+<td>De Product Backlog is bepaald door het volledig doel van het product</td>
+<td>De Sprint Backlog is bepaald door de Sprint Goal van een specifieke Sprint</td>
+</tr>
+<tr>
+<td>Kan veranderen afhankelijk van de visie van de klant</td>
+<td>De Sprint Backlog mag uitzonderlijk, in het geval dat de Sprint Goal dezelfde blijft, veranderen</td>
+</tr>
+<tr>
+<td>Alle productkenmerken en storypunten zijn toegewezen aan de individuele User Stories</td>
+<td>De Sprint Backlog gedraagt zich als een todo list voor elke Sprint. De Ontwikkelaar verdeelt de User Stories in taken zodat de ingeschatte tijd om ze af te ronden kan berekend worden.</td>
+</tr>
+<tr>
+<td>De Product Backlog bestaat zolang het hele product wordt ontwikkeld en moet altijd onderhouden worden</td>
+<td>Elke nieuwe Sprint heeft een nieuwe Sprint Backlog, die dan ook eindigt bij het beëindigen van de Sprint</td>
+</tr>
+</tbody>
+</table>
+<h2 id="product-backlog-refinement">Product Backlog Refinement<a class="headerlink" href="#product-backlog-refinement" title="Permanent link">¶</a></h2>
+<p><img alt="" src="https://i.imgur.com/QKHODEO.png"/><br/>
+<a class="link-tooltip" data-tooltip-content="#vanrooden_2015_tooltip_id" href="../../References/%40vanrooden_2015/" title="@vanrooden_2015">@vanrooden_2015</a><br/>
+<img alt="" src="https://i.imgur.com/6NEBVMN.jpg"/><br/>
+<a class="link-tooltip" data-tooltip-content="#vanrooden_2015a_tooltip_id" href="../../References/%40vanrooden_2015a/" title="@vanrooden_2015a">@vanrooden_2015a</a></p>
+<p>Product Backlog refinement is een meeting gedurende de sprint waarin we items van de Product Backlog bespreken en verduidelijken. We proberen in te schatten hoeveel tijd er voor elke PBI (<a class="link-tooltip" data-tooltip-content="#ProductBacklogItem_tooltip_id" href="./#product-backlog-item" title="Product Backlog Item">Product Backlog Item</a>) nodig is om deze af te ronden en we gaan de taken een prioriteit geven.</p>
+<p>Backlog Refinement noemt men “Backlog Grooming” of “Story Time”.</p>
+<div class="admonition infobox">
+<p class="admonition-title">definitie</p>
+<p><strong>Product Backlog refinement:</strong> de regelmatige activiteit om gradueel verfijndere inzichten te creëren in de <a class="link-tooltip" data-tooltip-content="#ProductBacklog_tooltip_id" href="./#product-backlog" title="Product Backlog">Product Backlog</a>. <a class="link-tooltip" data-tooltip-content="#verheyen_2022_tooltip_id" href="../../References/%40verheyen_2022/" title="@verheyen_2022">@verheyen_2022</a></p>
+</div>
+<p>Een belangrijk aspect hierin waarover je zeker van moet leren is de inschatting van moeilijkheid om een taak af te ronden. De twee gebruikelijkste zijn “T-shirt grootte” en “Fibonacci reeks”. Beide methodes duiden aan hoeveel werk er nodig is voor een bepaalde taak.</p>
+<p>De “T-shirt grootte” toepassing betreft het toewijzen van een T-shirt maat aan elke taak, welke de moeilijkheid van uitvoering aangeeft. Gebruikelijk zie je small, medium, large en extra-large.</p>
+<p>De “Fibonacci reeks” uitvoering betreft het toewijzen van een nummer, welke de moeilijkheid aangeeft, aan elke taak. Deze waardes komen van de bekende wiskundige reeks nummers, ooit, eeuwen geleden, ontwikkeld door de Italiaanse wiskundige Fibonacci. Ze zijn een reeks nummers, waar elke nummer de som is van de vorige twee nummers:<br/>
+<img alt="" src="https://i.imgur.com/tdPBA0I.png"/></p>
+<p>1, 1, 2, 3, 5, 8, 13, enz.</p>
+<p>Hoe hoger het getal, hoe moeilijker de taak is.</p>
+<p>Wanneer een bepaalde taak buiten de aanvaardbare range van de T-shirt grootte of Fibonacci reeks valt, wordt bepaald dat ze de taak best opsplitsen in kleinere, behapbare deeltaken. We bekijken dit verderop in detail bij <a class="link-tooltip" data-tooltip-content="#StoryPoints_tooltip_id" href="./#story-points" title="Story Points">Story Points</a></p>
+<h2 id="hulpmiddelen-en-tools-tijdens-de-sprint">Hulpmiddelen en tools tijdens de Sprint<a class="headerlink" href="#hulpmiddelen-en-tools-tijdens-de-sprint" title="Permanent link">¶</a></h2>
+<h3 id="de-burndown-chart">De Burndown Chart<a class="headerlink" href="#de-burndown-chart" title="Permanent link">¶</a></h3>
+<p>Tijdens een sprint toont een burndown chart voor het project hoeveel werkuren er op dagbasis nog over schieten. De dagen zie je van links naar rechts onderaan de grafiek en de uren zie je aan de linkerzijde.</p>
+<p>Kijkend naar de burndown chart kun je zien of een project nog “on target” is, voorloopt of achterophinkt.</p>
+<p><img alt="" src="https://i.imgur.com/lwBujBv.png"/></p>
+<p>Meerdere mogelijke varianten, of manieren waarop je een burndown chart kan opstellen bestaan. Daar je in Scrum eerder in storypunten inschat, kiest men dan de verticale as af te zetten tegen de overgebleven storypunten i.p.v. de uren.</p>
+<h3 id="velocity">Velocity<a class="headerlink" href="#velocity" title="Permanent link">¶</a></h3>
+<div class="admonition infobox">
+<p class="admonition-title">definitie</p>
+<p><strong>Velocity:</strong> een veelgebruikte aanduiding van de gemiddelde hoeveelheid <a class="link-tooltip" data-tooltip-content="#ProductBacklog_tooltip_id" href="./#product-backlog" title="Product Backlog">Product Backlog</a> die een specifiek team met zijn specifieke samenstelling tijdens een Sprint omgezet heeft in één of meerdere Incrementen. <a class="link-tooltip" data-tooltip-content="#verheyen_2022_tooltip_id" href="../../References/%40verheyen_2022/" title="@verheyen_2022">@verheyen_2022</a></p>
+</div>
+<p>Velocity is de snelheid waartegen teams werk afronden. Meer bepaald, de hoeveelheid items (moeilijkheid meegenomen) van de product backlog welke het team kan succesvol afronden in 1 sprint,</p>
+<p>Eenmaal men de velocity kent na een aantal sprints, kan men deze waarde gebruiken om het plannen van projecten te helpen en te voorspellen welke opleverdatum te voorzien.</p>
+<p><img alt="" src="https://i.imgur.com/CyNyN9u.png"/><br/>
+<a class="link-tooltip" data-tooltip-content="#adobeworkfront_2022_tooltip_id" href="../../References/%40adobeworkfront_2022/" title="@adobeworkfront_2022">@adobeworkfront_2022</a></p>
+<h3 id="story-points">Story Points<a class="headerlink" href="#story-points" title="Permanent link">¶</a></h3>
+<p><img alt="" src="https://i.imgur.com/RgJ45Aq.jpg"/></p>
+<h4 id="story-points-zijn-relatief">Story points zijn relatief<a class="headerlink" href="#story-points-zijn-relatief" title="Permanent link">¶</a></h4>
+<p>Story points <em>(vertaling: Storypunten)</em> vertegenwoordigen een waarde die alleen belangrijk is voor het scrumteam door met punten in te schatten hoe groot een item in de backlog is. Het geeft het team de mogelijkheid te bepalen welke items ze oppakken in een sprint. De <a class="link-tooltip" data-tooltip-content="#ProductOwner_tooltip_id" href="./#product-owner" title="Product Owner">Product Owner</a> kan aan de story points zien welke items relatief duur zijn om door het team te laten maken. <strong>De punten geven een beeld van de omvang en de moeite die het kost om de items in de backlog door het team te laten maken.</strong></p>
+<p>De waarde van de storypoints is gebaseerd op de reeks van Fibonacci. Hierin lopen getallen steeds op met het getal ervoor, waarbij de waarden 20, 40 en 100 er vooral zijn om aan te geven dat een item te groot is. In de praktijk splitsen we deze items tot kleinere.</p>
+<p>Dankzij story points kan een scrumteam voor zichzelf een eenheid creëren om user stories in te schatten. De punten representeren een relatieve waarde, en betekenen voor elk team iets anders.</p>
+<p><strong>We raden altijd aan om met story points te werken.</strong><br/>
+Probeer tijdsindicaties te vermijden. Waar het ene teamlid vier uur voor een user story nodig heeft, kost hetzelfde klusje een ander teamlid zes uur.</p>
+<p>Door een eenheid te creëren die voor het hele team hetzelfde is, voorkomen we discussies over tijd en teamleden. In plaats van te kijken hoe lang een user story duurt, richten we ons op de omvang van de klus.</p>
+<h5 id="wat-betekent-de-relatieve-waarde">Wat betekent de relatieve waarde?<a class="headerlink" href="#wat-betekent-de-relatieve-waarde" title="Permanent link">¶</a></h5>
+<p>De story points geven een beeld van de omvang van een user story. Een user story van 3 punten is groter dan een story van 1 punt, en kleiner dan een story van 5. Maar let op! Een story van 2 punten is niet per se precies twee keer zo groot als een story van 1 punt. Vergelijk het met T-shirt maten: maatje M is kleiner dan L, maar L is niet twee keer zo groot.</p>
+<h5 id="wat-schat-je-in">Wat schat je in?<a class="headerlink" href="#wat-schat-je-in" title="Permanent link">¶</a></h5>
+<p>Om het aantal punten van een user story te bepalen, kijkt het team naar drie factoren:</p>
+<p><strong>Moeite</strong><br/>
+Hoeveel moeite kost het om de user story af te ronden, volgens de <a class="link-tooltip" data-tooltip-content="#DefinitionofDone_tooltip_id" href="./#definition-of-done" title="Definition of Done">Definition of Done</a>?</p>
+<p><strong>Complexiteit</strong><br/>
+Hoe ingewikkeld is het om de user story te maken? Is het makkelijk, of juist uitdagend?</p>
+<p><strong>Onzekerheid</strong><br/>
+Hoe groot is de kans dat we verrassingen tegenkomen die we vooraf niet hadden voorspeld?</p>
+<p>Samen bepalen deze factoren de hoeveelheid punten van een user story. Bij een lage complexiteit, risico en moeite, krijgt de story een lage story point.</p>
+<h5 id="hoe-kun-je-er-zelf-mee-starten">Hoe kun je er zelf mee starten?<a class="headerlink" href="#hoe-kun-je-er-zelf-mee-starten" title="Permanent link">¶</a></h5>
+<p>Om met story points te starten, moet je team eerst een <strong>referentie-story bepalen</strong> waarmee je alle andere stories kunt vergelijken. Kies hiervoor een redelijk complexe user story die een zo hoog mogelijk aantal disciplines van je team omvat. Geef deze story 5 of 8 punten. Dan heeft je team nog genoeg ruimte om stappen naar boven en beneden te nemen. Je kunt de referentie-story tijdens <a class="link-tooltip" data-tooltip-content="#ProductBacklogRefinement_tooltip_id" href="./#product-backlog-refinement" title="Product Backlog Refinement">Product Backlog Refinement</a>s gebruiken om te bepalen of een andere user story kleiner of groter is, en welke waarde je hieraan kunt geven.</p>
+<h5 id="samengevat">Samengevat<a class="headerlink" href="#samengevat" title="Permanent link">¶</a></h5>
+<p>Story points zijn een relatieve waarde die je samen met je scrumteam creëert. Ze bieden inzicht in de moeite die het kost om een user story te maken. De product owner kan afwegen om een bepaald item al dan niet te prioriteren. En het team weet hoeveel story points het per sprint kan oppakken.<br/>
+<a class="link-tooltip" data-tooltip-content="#vrielink_2020_tooltip_id" href="../../References/%40vrielink_2020/" title="@vrielink_2020">@vrielink_2020</a></p>
+<h3 id="definition-of-done">Definition of Done<a class="headerlink" href="#definition-of-done" title="Permanent link">¶</a></h3>
+<div class="admonition infobox">
+<p class="admonition-title">definitie</p>
+<p><strong>Definition of Done:</strong> de verzameling kwaliteiten, verwachtingen en criteria waaraan een Increment moet voldoen om te kunnen worden vrijgegeven naar de eindgebruikers – met respect voor overkoepelende organisatierichtlijnen indien beschikbaar. <a class="link-tooltip" data-tooltip-content="#verheyen_2022_tooltip_id" href="../../References/%40verheyen_2022/" title="@verheyen_2022">@verheyen_2022</a></p>
+</div>
+<p>Een Definition of Done geeft een duidelijke omschrijving van hoe een opgeleverde Product Backlog item er uit moet zien. Het is een manier om de kwaliteit van opgeleverde producten binnen <a class="link-tooltip" data-tooltip-content="#Scrum_tooltip_id" href="./#scrum" title="Scrum">Scrum</a> te borgen. Het zorgt voor transparantie en duidelijkheid. Developers geven commitment op het volgen van de Definition of Done.</p>
+<p>Een Definition of Done is een checklist met activiteiten je afgevinkt voor iedere User Story. Dat betekent dat het activiteiten zijn die voor iedere <a class="link-tooltip" data-tooltip-content="#UserStory_tooltip_id" href="./#user-stories-en-epics" title="User Story">User Story</a> van toepassing zijn. </p>
+<p>Je bereikt onder andere het volgende met een goede Definition of Done:</p>
+<ol>
+<li>Overeenstemming tussen het ontwikkelteam en de <a class="link-tooltip" data-tooltip-content="#ProductOwner_tooltip_id" href="./#product-owner" title="Product Owner">Product Owner</a> over wanneer een User Story daadwerkelijk klaar is. Heldere verwachtingen bepalen de basis voor goede samenwerking.</li>
+<li>Het verhogen van de snelheid waarmee werk wordt opgeleverd. Doordat je een algemeen geldende checklist hebt die je kan afvinken kun je snel werk van hoge kwaliteit leveren.</li>
+</ol>
+<p>De Definition of Done wordt tijdens de start van iedere <a class="link-tooltip" data-tooltip-content="#sprint_tooltip_id" href="./#sprints" title="sprint">sprint</a> in de <a class="link-tooltip" data-tooltip-content="#SprintPlanning_tooltip_id" href="./#sprint-planning" title="Sprint Planning">Sprint Planning</a> herhaald. Daarnaast wordt de Definition of Done aangescherpt op basis van voortschrijdend inzicht.</p>
+<div class="admonition example">
+<p class="admonition-title">Voorbeeld van een DoD (Definition of Done)</p>
+<ul>
+<li>Alle code is geschreven (alle ‘to do’ items in de code zijn gedaan).</li>
+<li>Relevante gebruikersdocumentatie is gemaakt en beschikbaar gesteld.</li>
+<li>Er is een installatiehandleiding voor de installatie van de software.</li>
+<li>Alle functionele testen zijn gedraaid.</li>
+<li>Code heeft een peer review ondergaan.</li>
+</ul>
+</div>
+<p><a class="link-tooltip" data-tooltip-content="#agilescrumgroup_2017_tooltip_id" href="../../References/%40agilescrumgroup_2017/" title="@agilescrumgroup_2017">@agilescrumgroup_2017</a></p>
+<h3 id="scrum-bord">Scrum bord<a class="headerlink" href="#scrum-bord" title="Permanent link">¶</a></h3>
+<p><img alt="" src="https://i.imgur.com/iOqDrMR.png"/></p>
+<p>Binnen Scrum wordt gewerkt met een Scrum bord <em>(synoniem: ‘takenbord’ of ‘Kanban-bord’)</em>. Het Scrum takenbord is bedoeld als hulpmiddel bij het overzichtelijk maken van de stand van zaken binnen een sprint. De <a class="link-tooltip" data-tooltip-content="#SprintBacklog_tooltip_id" href="./#sprint-backlog" title="Sprint Backlog">Sprint Backlog</a> bevat alle taken geselecteerd voor een sprint. Die taken hangen op post-its in één van de drie kolommen op het bord: To Do, Doing of Done. De belangrijkste taken hangen boven aan het bord. Dit bord geeft in één oogopslag inzicht in de status van een sprint:</p>
+<ul>
+<li><strong>To do.</strong> Alle taken die men plant uit te voeren binnen de sprint.</li>
+<li><strong>Doing.</strong> De taken binnen de sprint waar op dat moment aan gewerkt wordt.</li>
+<li><strong>Done.</strong> Alle beëindigde taken binnen de sprint.</li>
+</ul>
+<p>Het doel is om aan het einde van iedere sprint alle taken onder de laatste kolom te hebben geplakt. Dat betekent dat alle vooraf bepaalde taken werden uitgevoerd en dat het doel van de sprint behaald is. Het takenbord is voor het Scrumteam de centrale plaats om de aanpak van het resterende werk af te stemmen. Het takenbord wordt een <strong>Scrum Board</strong> genoemd, en wordt gebruikt tijdens de <a class="link-tooltip" data-tooltip-content="#Dailystandups_tooltip_id" href="./#daily-standups" title="Daily standups">Daily standups</a>]</p>
+<p>Wanneer de sprint is afgelopen en niet alle taken staat onder ‘Done’ dan plaatsen we de niet beëindigde taken terug in de <a class="link-tooltip" data-tooltip-content="#ProductBacklog_tooltip_id" href="./#product-backlog" title="Product Backlog">Product Backlog</a>. De <a class="link-tooltip" data-tooltip-content="#ProductOwner_tooltip_id" href="./#product-owner" title="Product Owner">Product Owner</a> kijkt dan vervolgens of deze taken in de volgende sprint passen.</p>
+<p><a class="link-tooltip" data-tooltip-content="#scrumguide_2022a_tooltip_id" href="../../References/%40scrumguide_2022a/" title="@scrumguide_2022a">@scrumguide_2022a</a></p>
+<p>Sprints en vaste vergaderingen sturen Agile en Scrum projecten. Laten we nog kijken naar een meeting die plaatsheeft op het einde van elke sprint.</p>
+<h2 id="sprint-review">Sprint Review<a class="headerlink" href="#sprint-review" title="Permanent link">¶</a></h2>
+<div class="admonition infobox">
+<p class="admonition-title">definitie</p>
+<p><strong>Sprint Review:</strong> het event dat het einde van de ontwikkelactiviteiten van een Sprint uitmaakt, met een time-box van vier uur of minder. Tijdens dit event bespreken het Scrum Team en uitgenodigde belanghebbenden de resultaten van de <a class="link-tooltip" data-tooltip-content="#Sprint_tooltip_id" href="./#sprint" title="Sprint">Sprint</a>, de huidige inhoud van de <a class="link-tooltip" data-tooltip-content="#ProductBacklog_tooltip_id" href="./#product-backlog" title="Product Backlog">Product Backlog</a> en de voortgang op productniveau. Het doel is om potentieel belangrijk werk voor de nabije, of verdere, toekomst te identificeren. Het resultaat is een bijgewerkte Product Backlog. <a class="link-tooltip" data-tooltip-content="#verheyen_2022_tooltip_id" href="../../References/%40verheyen_2022/" title="@verheyen_2022">@verheyen_2022</a></p>
+</div>
+<p>De Sprint Review is bedoeld als het officiële moment tijdens elke sprint waarin het Scrum Team aan de <a class="link-tooltip" data-tooltip-content="#Stakeholders_tooltip_id" href="./#stakeholders" title="Stakeholders">Stakeholders</a> het gemaakte (deel)product toont. De Stakeholders geven hun terugkoppeling op het (deel)product dat gedemonstreerd is.</p>
+<p>Daarnaast tonen we alleen de <a class="link-tooltip" data-tooltip-content="#Userstories_tooltip_id" href="./#user-stories-en-epics" title="User stories">User stories</a> die daadwerkelijk afraakten tijdens de sprint. Items die niet (helemaal) klaar raakten tonen we niet. Dit zou een verkeerde indruk geven van de hoeveelheid waarde die opgeleverd is.</p>
+<p>Het laatste onderdeel van de Sprint Review is het bespreken van de <a class="link-tooltip" data-tooltip-content="#ProductBacklog_tooltip_id" href="./#product-backlog" title="Product Backlog">Product Backlog</a> door de <a class="link-tooltip" data-tooltip-content="#ProductOwner_tooltip_id" href="./#product-owner" title="Product Owner">Product Owner</a>. Deze neemt de <a class="link-tooltip" data-tooltip-content="#Stakeholders_tooltip_id" href="./#stakeholders" title="Stakeholders">Stakeholders</a> mee in de stand van zaken. Welke items hebben de hoogste prioriteit en gaan we tijdens de volgende sprint oppakken? Welke nieuwe items bevat de <a class="link-tooltip" data-tooltip-content="#ProductBacklog_tooltip_id" href="./#product-backlog" title="Product Backlog">Product Backlog</a>?</p>
+<p><a class="link-tooltip" data-tooltip-content="#agilescrumgroup_2018_tooltip_id" href="../../References/%40agilescrumgroup_2018/" title="@agilescrumgroup_2018">@agilescrumgroup_2018</a></p>
+<h2 id="sprint-retrospective">Sprint Retrospective<a class="headerlink" href="#sprint-retrospective" title="Permanent link">¶</a></h2>
+<p>“Retrospect” (terugblik) betekent het reviseren of bevragen van voorbije gebeurtenissen of tijdsperioden.</p>
+<div class="admonition infobox">
+<p class="admonition-title">definitie</p>
+<p><strong>Sprint Retrospective:</strong> het event dat het einde van een Sprint uitmaakt, met een time-box van drie uur of minder. Tijdens dit event kijkt het Scrum Team terug op de aflopende Sprint, met als doel om op basis van de ervaringen in de huidige Sprint het proces en de manier van werken, in brede zin, voor de volgende Sprint te bepalen. <a class="link-tooltip" data-tooltip-content="#verheyen_2022_tooltip_id" href="../../References/%40verheyen_2022/" title="@verheyen_2022">@verheyen_2022</a></p>
+</div>
+<p>Een <strong>Sprint Retrospective</strong> (of kort: een Sprint Retro) is de meeting op het einde van een sprint waar het team bepaald wat men kan wijzigen zodat de volgende sprint meer productief wordt. Sprint Retrospectives verzamelen feedback en geven informatie over hoe de voortgang van een project verloopt.</p>
+<p>De <a class="link-tooltip" data-tooltip-content="#ProductOwner_tooltip_id" href="./#product-owner" title="Product Owner">Product Owner</a> <em>(de persoon verantwoordelijk voor het definiëren van de <a class="link-tooltip" data-tooltip-content="#UserstoriesenEpics_tooltip_id" href="./#user-stories-en-epics" title="User stories en Epics">User stories en Epics</a> en het prioriteren van de backlog)</em> kan toezien op deze meeting, maar in vele gevallen is dit een meeting met alleen maar het ontwikkelingsteam.</p>
+<p>Hier enkele voorbeelden van typische vragen die men kan vragen tijdens een Sprint Retrospectieve</p>
+<ul>
+<li>wat waren onze succesvolle acties gedurende deze sprint?</li>
+<li>wat leerden we van deze sprint?</li>
+<li>wat gaan we blijven doen in de toekomstige sprints?</li>
+<li>wat gaan we beter doen in de toekomstige sprints?</li>
+<li>traden er bugs op?</li>
+<li>heeft er nog iemand een vraag?</li>
+<li>is er nog iets niet duidelijk voor iemand?</li>
+</ul>
+<h2 id="overzicht-van-de-5-scrum-events">Overzicht van de 5 Scrum events<a class="headerlink" href="#overzicht-van-de-5-scrum-events" title="Permanent link">¶</a></h2>
+<p><img alt="" src="https://i.imgur.com/xdg1vMM.png"/><br/>
+<a class="link-tooltip" data-tooltip-content="#visualparadigm_2022_tooltip_id" href="../../References/%40visualparadigm_2022/" title="@visualparadigm_2022">@visualparadigm_2022</a></p>
+<p>We hebben ze nu allemaal gezien, maar hoe hangt Scrum nu alweer aan elkaar? En welke zijn de vijf Scrum Events?</p>
+<p>De vijf Scrum evens zijn:</p>
+<ol>
+<li>De <a class="link-tooltip" data-tooltip-content="#SprintPlanning_tooltip_id" href="./#sprint-planning" title="Sprint Planning">Sprint Planning</a> meeting</li>
+<li>De <a class="link-tooltip" data-tooltip-content="#Dailystandups_tooltip_id" href="./#daily-standups" title="Daily standups">Daily standups</a> <em>(of “Daily Scrum”)</em></li>
+<li>De <a class="link-tooltip" data-tooltip-content="#SprintReview_tooltip_id" href="./#sprint-review" title="Sprint Review">Sprint Review</a> meeting</li>
+<li>De <a class="link-tooltip" data-tooltip-content="#SprintRetrospective_tooltip_id" href="./#sprint-retrospective" title="Sprint Retrospective">Sprint Retrospective</a> meeting</li>
+<li>De <a class="link-tooltip" data-tooltip-content="#Sprint_tooltip_id" href="./#sprints" title="Sprint">Sprint</a></li>
+</ol>
+<p>De Sprint begint met de Sprint Planning waarin we plannen wat we gaan maken, we hebben de dagelijkse Daily Standups waarin we mogelijke impediments zo vlug mogelijk oplossen. Op het eind van een Sprint wordt getoond wat er gemaakt werd tijdens de Sprint Review en ten slotte gaat het team tijdens de Sprint Retrospective terugblikken naar de voorbije Sprint om te bepalen hoe hun werkwijzes nog te verbeteren.</p>
+<p>Merk op dat de <a class="link-tooltip" data-tooltip-content="#ProductBacklogRefinement_tooltip_id" href="./#product-backlog-refinement" title="Product Backlog Refinement">Product Backlog Refinement</a> – al is het een gebruikelijk event, en zeker geen onbelangrijk – niet tussen de vijf officiële Scrum Events staat.  </p>
+<h2 id="scrum-values">Scrum Values<a class="headerlink" href="#scrum-values" title="Permanent link">¶</a></h2>
+<div class="admonition info">
+<p class="admonition-title">definitie</p>
+<p><strong>Scrum Values:</strong> een verzameling van vijf kernwaarden die het Scrum framework schragen: commitment, focus, openheid <em>(Engels: ‘openness’)</em>, respect en moed <em>(Engels: ‘courage’)</em>. <a class="link-tooltip" data-tooltip-content="#verheyen_2022_tooltip_id" href="../../References/%40verheyen_2022/" title="@verheyen_2022">@verheyen_2022</a></p>
+</div>
+<p><img alt="" src="https://i.imgur.com/ASHoG3J.png"/></p>
+<h4 id="commitment">Commitment<a class="headerlink" href="#commitment" title="Permanent link">¶</a></h4>
+<p>Commitment gaat over inzet, toewijding en inspanning, niet zozeer over het behalen van een vooropgesteld resultaat.</p>
+<p>Alle individuele spelers committeren zich aan het team: aan kwaliteit, aan samenwerking en aan voortdurend leren en bijsturen. Er is commitment om hard te werken en te doen wat mogelijk is, elke dag opnieuw. Er is commitment aan de <a class="link-tooltip" data-tooltip-content="#SprintGoal_tooltip_id" href="./#sprint-goal" title="Sprint Goal">Sprint Goal</a>, commitment aan professioneel gedrag. Er is commitment aan zelfsturing, aan de principes beschreven in het Agile Manifesto. Men committeert zich om werkende software op te leveren en er is commitment aan voortdurende openheid voor verbeteringen. Een team committeert zich aan de <a class="link-tooltip" data-tooltip-content="#DefinitionofDone_tooltip_id" href="./#definition-of-done" title="Definition of Done">Definition of Done</a>, aan de regels van het Scrum framework. Er is commitment om waarde op te leveren, om werk daadwerkelijk af te ronden. Er is commitment aan volle transparantie, evenals commitment om elke status quo ter discussie te stellen.</p>
+<h4 id="focus">Focus<a class="headerlink" href="#focus" title="Permanent link">¶</a></h4>
+<p>Scrum moedigt spelers aan om zich te concentreren op wat <em>nu</em> het belangrijkst is, zonder afleiding door wat, wie weet, in een verder onbepaalde toekomst, mogelijk belangrijk is. We focussen op de actueel beschikbare kennis, <em>nu</em>.</p>
+<p>Dankzij de <a class="link-tooltip" data-tooltip-content="#SprintGoal_tooltip_id" href="./#sprint-goal" title="Sprint Goal">Sprint Goal</a> heeft een team een focus, een oriëntatiepunt voor de volgende vier weken of korter. Binnen die periode zorgt de <a class="link-tooltip" data-tooltip-content="#DailyScrum_tooltip_id" href="./#daily-scrum" title="Daily Scrum">Daily Scrum</a> ervoor dat mensen gezamenlijk focus houden op de dagelijkse werkzaamheden die hen naar die doelstelling helpen.</p>
+<h4 id="openheid">Openheid<a class="headerlink" href="#openheid" title="Permanent link">¶</a></h4>
+<p>De <a class="link-tooltip" data-tooltip-content="#empirischeprocesfundamenten_tooltip_id" href="./#empirische-procescontrole" title="empirische procesfundamenten">empirische procesfundamenten</a> van Scrum vereisen transparantie, wat op zich openheid en eerlijkheid impliceert</p>
+<p>Alle spelers delen openlijk de werkelijke status van hun werk, hun voortgang, hun inschattingen, hun problemen en hun moeilijkheden. Alle spelers staan open voor het feit dat softwareontwikkeling gebeurt door en voor <em>mensen</em> en niet door ‘resources’, robots of vervangbare machineonderdelen.</p>
+<p>De spelers tonen openheid voor samenwerking met andere disciplines en functies, openheid om functieomschrijvingen te overstijgen. Ze tonen openheid naar de <a class="link-tooltip" data-tooltip-content="#stakeholders_tooltip_id" href="./#stakeholders" title="stakeholders">stakeholders</a> en de bredere omgeving. Ze delen openlijk feedback en geleerde lessen. De spelers in Scrum staan open voor verandering, omdat ze erkennen dat hun organisatie en de wereld waarin zij en hun organisatie opereren voortdurend veranderen. Onverwacht en onvoorspelbaar, maar telkens voortdurend.</p>
+<h4 id="respect">Respect<a class="headerlink" href="#respect" title="Permanent link">¶</a></h4>
+<p>Binnen het bredere ecosysteem dat ontstaat rond Scrum heerst een sfeer van respect: respect voor mensen, voor de andere spelers en de andere teams; respect voor hun inzichten, kennis en ervaring, respect voor hun afkomst en persoonlijke achtergrond. De spelers respecteren – en waarderen – diversiteit als bron en sleutelelement voor nieuwe en mogelijk conflicterende ideeën. Ze hebben respect voor andere meningen.</p>
+<p>De spelers van de teams tonen respect voor de omliggende organisatie door zich niet te gedragen alsof ze op een afgelegen eiland werken. Er is respect voor klanten, gebruikers en hun veranderlijke verwachtingen of ideeën. Teams tonen respect voor sponsors en geldschieters door geen onnodige features te behouden, die alleen maar de onderhoudskosten van de software verhogen. Teams tonen respect door geen tijd, inspanningen en budget te verkwisten aan taken, producten of productonderdelen die geen waarde hebben, noch voor de gebruikers, noch voor de organisatie. Ze respecteren gebruikers door de problemen die deze ondervinden, op te lossen. Teams tonen zich respectvolle professionals door geen <em>crappy</em> software in productie te zetten.</p>
+<p>Alle spelers respecteren de regels van het Scrum framework en de aansprakelijkheden die daaruit voortvloeien.</p>
+<h4 id="moed">Moed<a class="headerlink" href="#moed" title="Permanent link">¶</a></h4>
+<p>Alle spelers tonen moed door geen software te bouwen waar niemand op zit te wachten. Moed zit vervat in de onderkenning dat requirements nooit perfect zijn, en dat geen plan ooit de complexe werkelijkheid kan voorspellen.</p>
+<p>Men toont moed als men veranderende inzichten, meningen en verwachtingen als een bron van inspiratie en vernieuwing beschouwt, in plaats van als een bron van ergernis. Het vergt moed om tijdelijke opleveringen uit te voeren, software te tonen die niet volledig en perfect lijkt, maar wel waarde levert of toevoegt. Alle spelers tonen moed door op elk gewenst moment de nodige informatie te delen die het team en de organisatie vooruithelpt. Spelers zijn moedig als ze erkennen dat niemand perfect is. Er is de moed om meer of minder radicaal van richting te durven veranderen, om een ander idee dan het eigen idee te omarmen, moed om zowel risico’s als voordelen te delen. Het vereist moed om de oude, valse zekerheden los te laten.</p>
+<p>De spelers tonen moed als ze Scrum correct toelichten als een empirisch proces, vanuit de moed om toe te geven dat aanpasbaarheid de enige manier is om met complexiteit om te gaan. Ze hebben de moed om de kernwaarden van Scrum te leven en te beleven, om een beslissing te nemen, tot actie over te gaan, niet tot een impasse verleid te worden, en vervolgens de moed tonen om genomen beslissingen gemaakt met ervaring opnieuw kritisch tegen het licht te houden en bij te sturen.</p>
+<p><a class="link-tooltip" data-tooltip-content="#verheyen_2017_tooltip_id" href="../../References/%40verheyen_2017/" title="@verheyen_2017">@verheyen_2017</a></p>
+<h1 id="bibliografie">Bibliografie<a class="headerlink" href="#bibliografie" title="Permanent link">¶</a></h1>
+<div class="dataview">list  "_'" + title + "'_ -  **" + authors  + "(" + year + ")** "  + url + "&lt;br/&gt;&lt;br/&gt;"
+from "docs/References" AND (outgoing([[Agile Projectmanagement]])) sort authors </div>
+<div class="footnote">
+<hr/>
+<ol>
+<li id="fn:iteratieveontwikkeling">
+<p>By Planbox - Own work, CC BY-SA 3.0, <a href="https://commons.wikimedia.org/w/index.php?curid=19543504">https://commons.wikimedia.org/w/index.php?curid=19543504</a> <a class="footnote-backref" href="#fnref:iteratieveontwikkeling" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:rugbyscrum">
+<p>By PierreSelim - Own work, CC BY-SA 3.0, <a href="https://commons.wikimedia.org/w/index.php?curid=17336884">https://commons.wikimedia.org/w/index.php?curid=17336884</a> <a class="footnote-backref" href="#fnref:rugbyscrum" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+<li id="fn:scrumteam">
+<p>by Scrum.org - <a href="https://www.scrum.org/resources/blog/equality-accountabilities-scrum">https://www.scrum.org/resources/blog/equality-accountabilities-scrum</a> <a class="footnote-backref" href="#fnref:scrumteam" title="Jump back to footnote 3 in the text">↩</a></p>
+</li>
+</ol>
+</div>
+<hr/>
+<div class="md-source-file">
+<small>
+    
+      Laatst geüpdatet:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 25, 2022</span>
+</small>
+</div>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Vorige: 42TIN1250 Projectmanagement" class="md-footer__link md-footer__link--prev" href="../.." rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Vorige
+              </span>
+              42TIN1250 Projectmanagement
+            </div>
+</div>
+</a>
+<a aria-label="Volgende: Extra oefeningen Projectmanagement" class="md-footer__link md-footer__link--next" href="../Extra%20Oefeningen%20Projectmanagement/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Volgende
+              </span>
+              Extra oefeningen Projectmanagement
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      Copyright © 2022 Hogeschool PXL
+    </div>
+</div>
+<div class="md-social">
+<a class="md-social__link" href="https://www.linkedin.com/school/hogeschoolpxl/" rel="noopener" target="_blank" title="www.linkedin.com">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+</a>
+<a class="md-social__link" href="https://www.facebook.com/HogeschoolPXL/" rel="noopener" target="_blank" title="www.facebook.com">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>
+</a>
+<a class="md-social__link" href="https://twitter.com/hogeschoolpxl" rel="noopener" target="_blank" title="twitter.com">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+</a>
+<a class="md-social__link" href="https://www.instagram.com/hogeschoolpxl" rel="noopener" target="_blank" title="www.instagram.com">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Gekopieerd naar klembord", "clipboard.copy": "Kopi\u00ebren naar klembord", "search.config.lang": "nl", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Zoeken", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "Geen overeenkomende documenten", "search.result.one": "1 overeenkomende document", "search.result.other": "# overeenkomende documenten", "search.result.placeholder": "Typ om te beginnen met zoeken", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+<script src="../../assets/js/mathjax.js"></script>
+<script src="../../assets/js/utils.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="../../assets/js/tooltipster.bundle.js"></script>
+<div class="tooltip_templates"><div id="stanleyetal_2020_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: stanley.etal_2020<br/>
+- <strong>Type</strong>: book<br/>
+- <strong>Title</strong>: Project management handbook: simplified Agile, Scrum, and DevOps for beginners, <br/>
+- <strong>Author</strong>: Stanley, Jack C; Gross, Erik D; Tech Academy<br/>
+- <strong>Year</strong>: 2020 <br/>
+- <strong>ISBN</strong>: 978-0-9973264-8-2</p>
+<p>[!quote] Abstract<br/>
+What is proje…</p></div></div><div class="tooltip_templates"><div id="martin_2020_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: martin_2020<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Incremental Model in SDLC: Use, Advantage &amp; Disadvantage, <br/>
+- <strong>Author</strong>: Martin, Matthew<br/>
+- <strong>Year</strong>: 2020 </p>
+<p>[!quote] Abstract<br/>
+Incremental Methodology is a process of software engineering development where requrements are broken down into multiple …</p></div></div><div class="tooltip_templates"><div id="vanderwardt_2017_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: vanderwardt_2017<br/>
+- <strong>Type</strong>: blogPost<br/>
+- <strong>Title</strong>: Daily Stand-up: 5 tips voor een goede meeting (+checklist download), <br/>
+- <strong>Author</strong>: van der Wardt, Rik<br/>
+- <strong>Journal</strong>: Agile Scrum Group <br/>
+- <strong>Year</strong>: 2017 </p>
+<p>[!quote] Abstract<br/>
+Lees hier onze 5 tips voor een goede Daily Stand-up me…</p></div></div><div class="tooltip_templates"><div id="SprintBacklog_tooltip_id"><p>Een <strong>“sprint backlog”</strong> is de taak (of zijn de taken) die een team hoopt af te ronden tijdens een bepaalde sprint.</p>
+<p>[!info] definitie<br/>
+<strong>Sprint Backlog:</strong> het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p>[!info] definitie<br/>
+<strong>Forecast:</strong> het anticiperen v…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: verheyen_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Scrum Glossary, <br/>
+- <strong>Author</strong>: Verheyen, Gunther<br/>
+- <strong>Journal</strong>: Scrum Glossary <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="eby_2016_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: eby_2016<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Product Backlog 101: Top Advice from Agile ExpertsSmartsheet, <br/>
+- <strong>Author</strong>: Eby, Kate<br/>
+- <strong>Year</strong>: 2016 </p>
+<p>[!quote] Abstract<br/>
+Discover Agile experts’ best advice on building and managing your product backlog with how-tos, checklists, and examples.<br/>
+…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: verheyen_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Scrum Glossary, <br/>
+- <strong>Author</strong>: Verheyen, Gunther<br/>
+- <strong>Journal</strong>: Scrum Glossary <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="visualparadigm_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: visual-paradigm_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Why Fixed Length Sprints in Scrum?, <br/>
+- <strong>Author</strong>: visual-paradigm,<br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!abstract] Files and Links<br/>
+- <strong>Url</strong>: [https://www.visual-paradigm.com/scrum/why-fixed-length-of-sprints-in-scrum/](https://www.visual-paradigm.com/scrum/why-fixed-length-o…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: verheyen_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Scrum Glossary, <br/>
+- <strong>Author</strong>: Verheyen, Gunther<br/>
+- <strong>Journal</strong>: Scrum Glossary <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="SprintGoal_tooltip_id"><p>[!info] definitie<br/>
+<strong>Sprint Goal:</strong> een korte omschrijving van de overkoepelende doelstelling van een Sprint. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: verheyen_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Scrum Glossary, <br/>
+- <strong>Author</strong>: Verheyen, Gunther<br/>
+- <strong>Journal</strong>: Scrum Glossary <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="stanleyetal_2020_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: stanley.etal_2020<br/>
+- <strong>Type</strong>: book<br/>
+- <strong>Title</strong>: Project management handbook: simplified Agile, Scrum, and DevOps for beginners, <br/>
+- <strong>Author</strong>: Stanley, Jack C; Gross, Erik D; Tech Academy<br/>
+- <strong>Year</strong>: 2020 <br/>
+- <strong>ISBN</strong>: 978-0-9973264-8-2</p>
+<p>[!quote] Abstract<br/>
+What is proje…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: verheyen_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Scrum Glossary, <br/>
+- <strong>Author</strong>: Verheyen, Gunther<br/>
+- <strong>Journal</strong>: Scrum Glossary <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="zentaoteam_2022a_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: zentaoteam_2022a<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: What Are The Complete Scrum Artifacts? - Agile - ZenTao, <br/>
+- <strong>Author</strong>: ZenTao team,<br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!abstract] Files and Links<br/>
+- <strong>Url</strong>: [https://www.zentao.pm/blog/What-are-the-complete-Scrum-artifacts-1102.html](https://www.zentao.pm/b…</p></div></div><div class="tooltip_templates"><div id="doshi_2016_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: doshi_2016<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: The Three Pillars of Empiricism (Scrum), <br/>
+- <strong>Author</strong>: Doshi, Hiren<br/>
+- <strong>Journal</strong>: Scrum.org <br/>
+- <strong>Year</strong>: 2016 </p>
+<p>[!quote] Abstract<br/>
+Empiricism means working in a fact-based, experience-based, and evidence-based manner. Scrum implements an empirical process where …</p></div></div><div class="tooltip_templates"><div id="ScrumValues_tooltip_id"><p>[!info] definitie<br/>
+<strong>Scrum Values:</strong> een verzameling van vijf kernwaarden die het Scrum framework schragen: commitment, focus, openheid <em>(Engels: ‘openness’)</em>, respect en moed <em>(Engels: ‘courage’)</em>. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p><img alt="" src="https://i.imgur.com/ASHoG3J.png"/></p>
+<p>Commitment gaat over inzet, toewijding en inspanning, niet zozeer over het behalen van een vooropgesteld res…</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: verheyen_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Scrum Glossary, <br/>
+- <strong>Author</strong>: Verheyen, Gunther<br/>
+- <strong>Journal</strong>: Scrum Glossary <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="userstorymap_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: userstorymap_2022<br/>
+- <strong>Type</strong>: blogPost<br/>
+- <strong>Title</strong>: How to Be An Effective Product Owner, <br/>
+- <strong>Author</strong>: userstorymap,<br/>
+- <strong>Journal</strong>: User Story Map for Jira <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+See what is Product Owner role and how to become an effective one and deliver great products.</p>
+<p>[!abstract] Files…</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: verheyen_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Scrum Glossary, <br/>
+- <strong>Author</strong>: Verheyen, Gunther<br/>
+- <strong>Journal</strong>: Scrum Glossary <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="vanlier_2018_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: vanlier_2018<br/>
+- <strong>Type</strong>: blogPost<br/>
+- <strong>Title</strong>: Stakeholdermanagement in projecten met Scrum, <br/>
+- <strong>Author</strong>: van Lier, Willemijn<br/>
+- <strong>Journal</strong>: Agile Scrum Group <br/>
+- <strong>Year</strong>: 2018 </p>
+<p>[!quote] Abstract<br/>
+Om als Product Owner de waarde van een project of product te maximaliseren, is goed stakeholdermanageme…</p></div></div><div class="tooltip_templates"><div id="qframe_2021_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: qframe_2021<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Scrum Master, Teambuilder of Agile Coach?, <br/>
+- <strong>Author</strong>: qframe,<br/>
+- <strong>Journal</strong>: Qframe <br/>
+- <strong>Year</strong>: 2021 </p>
+<p>[!quote] Abstract<br/>
+Onze kijk op de rol van Scrum Master binnen onze software teams. Een 7-tal jaar geleden evolueerden wij van een IT-bodyshopping bedrij…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="Impediment_tooltip_id"><p><img alt="" src="https://i.imgur.com/NN6ydC2.png"/></p>
+<p>[!infobox] definitie<br/>
+<strong>Impediment:</strong> elke hindernis of obstakel dat het ontwikkelwerk blokkeert of vertraagt, maar niet kan weggenomen worden via zelf-sturing. De verwijdering ervan is onderdeel van de aansprakelijkheid van de Scrum Master. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a>.</p>
+<p>Een <strong>impediment</strong> <em>(synoniem: belemmering, hindernis of obstakel)</em> is iets wat v…</p></div></div><div class="tooltip_templates"><div id="Scrum_tooltip_id"><p><img alt="" src="https://i.imgur.com/Ybc5orR.jpg"/> [^rugbyscrum] </p>
+<p><strong>Scrum</strong> is een van de mogelijke uitvoeringen van Agile.</p>
+<p>De term ‘Scrum’ komt van een uitdrukking uit de rugbysport waar de teamleden elkaars armen laten ineengrijpen en zo voorwaarts richting de tegenstander drukken.</p>
+<p>In de technologiewereld is Scrum een manier van projectmanagement die bestaat uit:</p>
+<li>strak gecoördineerd teamwerk.<br/>
+-…</li></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: verheyen_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Scrum Glossary, <br/>
+- <strong>Author</strong>: Verheyen, Gunther<br/>
+- <strong>Journal</strong>: Scrum Glossary <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: verheyen_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Scrum Glossary, <br/>
+- <strong>Author</strong>: Verheyen, Gunther<br/>
+- <strong>Journal</strong>: Scrum Glossary <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="ScrumMaster_tooltip_id"><p><img alt="" src="https://i.imgur.com/8IDZ0WM.png"/> <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40qframe_2021/">@Qframe 2021</a></p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="ProductBacklogItem_tooltip_id"><p>Een <strong>“Product Backlog Item”</strong> (wel eens PBI, backlog item of item genoemd) is een eenduidige taak die je moet afronden.</p>
+<p>PBIs omvatten user stories, epics, specificaties, bugs, of change requirements.</p></div></div><div class="tooltip_templates"><div id="ScrumMaster_tooltip_id"><p><img alt="" src="https://i.imgur.com/8IDZ0WM.png"/> <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40qframe_2021/">@Qframe 2021</a></p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="ScrumMaster_tooltip_id"><p><img alt="" src="https://i.imgur.com/8IDZ0WM.png"/> <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40qframe_2021/">@Qframe 2021</a></p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="scrumguide_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: scrumguide_2022<br/>
+- <strong>Type</strong>: blogPost<br/>
+- <strong>Title</strong>: Het Scrumteam: uitleg en tips bij de verantwoordelijkheid | Scrumguide.nl, <br/>
+- <strong>Author</strong>: scrumguide,<br/>
+- <strong>Journal</strong>: Scrumguide <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+Het Scrumteam bestaat uit de professionals die werken aan…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="ScrumMaster_tooltip_id"><p><img alt="" src="https://i.imgur.com/8IDZ0WM.png"/> <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40qframe_2021/">@Qframe 2021</a></p></div></div><div class="tooltip_templates"><div id="ontwikkelingsteam_tooltip_id"><p><img alt="" src="https://i.imgur.com/ttZAC8b.png"/></p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="ScrumMaster_tooltip_id"><p><img alt="" src="https://i.imgur.com/8IDZ0WM.png"/> <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40qframe_2021/">@Qframe 2021</a></p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="raghuprasad_2019_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: raghuprasad_2019<br/>
+- <strong>Type</strong>: blogPost<br/>
+- <strong>Title</strong>: Basics of Sprint Planning - WHAT, <br/>
+- <strong>Author</strong>: Raghuprasad,<br/>
+- <strong>Journal</strong>: AgileBAtech <br/>
+- <strong>Year</strong>: 2019 </p>
+<p>[!quote] Abstract<br/>
+Sprint Planning is held on the first day of the Sprint. This key Scrum event is designed to provide the Team and the Product Owner an op…</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: verheyen_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Scrum Glossary, <br/>
+- <strong>Author</strong>: Verheyen, Gunther<br/>
+- <strong>Journal</strong>: Scrum Glossary <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="SprintBacklog_tooltip_id"><p>Een <strong>“sprint backlog”</strong> is de taak (of zijn de taken) die een team hoopt af te ronden tijdens een bepaalde sprint.</p>
+<p>[!info] definitie<br/>
+<strong>Sprint Backlog:</strong> het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p>[!info] definitie<br/>
+<strong>Forecast:</strong> het anticiperen v…</p></div></div><div class="tooltip_templates"><div id="ProductBacklogitem_tooltip_id"><p>Een <strong>“Product Backlog Item”</strong> (wel eens PBI, backlog item of item genoemd) is een eenduidige taak die je moet afronden.</p>
+<p>PBIs omvatten user stories, epics, specificaties, bugs, of change requirements.</p></div></div><div class="tooltip_templates"><div id="SprintBacklog_tooltip_id"><p>Een <strong>“sprint backlog”</strong> is de taak (of zijn de taken) die een team hoopt af te ronden tijdens een bepaalde sprint.</p>
+<p>[!info] definitie<br/>
+<strong>Sprint Backlog:</strong> het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p>[!info] definitie<br/>
+<strong>Forecast:</strong> het anticiperen v…</p></div></div><div class="tooltip_templates"><div id="Velocity_tooltip_id"><p>[!infobox] definitie </p></div></div><div class="tooltip_templates"><div id="SprintBacklog_tooltip_id"><p>Een <strong>“sprint backlog”</strong> is de taak (of zijn de taken) die een team hoopt af te ronden tijdens een bepaalde sprint.</p>
+<p>[!info] definitie<br/>
+<strong>Sprint Backlog:</strong> het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p>[!info] definitie<br/>
+<strong>Forecast:</strong> het anticiperen v…</p></div></div><div class="tooltip_templates"><div id="SprintGoal_tooltip_id"><p>[!info] definitie<br/>
+<strong>Sprint Goal:</strong> een korte omschrijving van de overkoepelende doelstelling van een Sprint. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p></div></div><div class="tooltip_templates"><div id="zentaoteam_2022a_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: zentaoteam_2022a<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: What Are The Complete Scrum Artifacts? - Agile - ZenTao, <br/>
+- <strong>Author</strong>: ZenTao team,<br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!abstract] Files and Links<br/>
+- <strong>Url</strong>: [https://www.zentao.pm/blog/What-are-the-complete-Scrum-artifacts-1102.html](https://www.zentao.pm/b…</p></div></div><div class="tooltip_templates"><div id="SprintBacklog_tooltip_id"><p>Een <strong>“sprint backlog”</strong> is de taak (of zijn de taken) die een team hoopt af te ronden tijdens een bepaalde sprint.</p>
+<p>[!info] definitie<br/>
+<strong>Sprint Backlog:</strong> het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p>[!info] definitie<br/>
+<strong>Forecast:</strong> het anticiperen v…</p></div></div><div class="tooltip_templates"><div id="productplan_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: productplan_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: User Story, <br/>
+- <strong>Author</strong>: productplan,<br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+What is a user story and who is responsible for them? Learn how to write user stories—plus get a free user story template.</p>
+<p>[!abstract] Files and Links<br/>
+- <strong>Url</strong>: [https://www.productplan.com/glossary/user-s…</p></div></div><div class="tooltip_templates"><div id="ProductBacklogItem_tooltip_id"><p>Een <strong>“Product Backlog Item”</strong> (wel eens PBI, backlog item of item genoemd) is een eenduidige taak die je moet afronden.</p>
+<p>PBIs omvatten user stories, epics, specificaties, bugs, of change requirements.</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: verheyen_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Scrum Glossary, <br/>
+- <strong>Author</strong>: Verheyen, Gunther<br/>
+- <strong>Journal</strong>: Scrum Glossary <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="Sprint_tooltip_id"><p><img alt="" src="https://i.imgur.com/jwLYumg.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40visual-paradigm_2022/">@Visual Paradigm 2022</a></p>
+<p>Een <strong>sprint</strong> is een vastgelegde tijdsperiode (gebruikelijk kiest men 1 week, 2 weken of 4 weken) waaraan een afgesproken hoeveelheid werk is toegewezen om af te werken. </p>
+<p>Sprints beginnen en eindigen met vergaderingen waar men taken toewijst en reviews <em>(synoniem: het inspecteren)</em> van de voorbije uitvoering bekijkt en be…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="Stakeholders_tooltip_id"><p>[!infobox] definitie<br/>
+<strong>Stakeholder:</strong> een persoon van buiten het Scrum Team met een specifiek belang in het product of kennis ervan die noodzakelijk is voor de verdere ontwikkeling van het product. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p>Stakeholders beschouwen we als alle partijen die interesse hebben in een op te leveren product of project. Ze beïnvloeden het proje…</p></div></div><div class="tooltip_templates"><div id="SprintReview_tooltip_id"><p>[!infobox] definitie </p></div></div><div class="tooltip_templates"><div id="SprintReview_tooltip_id"><p>[!infobox] definitie </p></div></div><div class="tooltip_templates"><div id="agile4all_2019_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: agile4all_2019<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Sprint Planning, <br/>
+- <strong>Author</strong>: agile4all,<br/>
+- <strong>Journal</strong>: agile4all <br/>
+- <strong>Year</strong>: 2019 </p>
+<p>[!quote] Abstract<br/>
+Sprint Planning is een Scrum Event aan het begin van een Sprint. Het team bepaalt aan welke Product Backlog items ze gaan werken. Lees meer.</p>
+<p>[!abstract] Files and Links<br/>
+- *…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: verheyen_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Scrum Glossary, <br/>
+- <strong>Author</strong>: Verheyen, Gunther<br/>
+- <strong>Journal</strong>: Scrum Glossary <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: verheyen_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Scrum Glossary, <br/>
+- <strong>Author</strong>: Verheyen, Gunther<br/>
+- <strong>Journal</strong>: Scrum Glossary <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="vanrooden_2015_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: vanrooden_2015<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Product Backlog Refinement explained (1/3), <br/>
+- <strong>Author</strong>: van Rooden, Stephan<br/>
+- <strong>Journal</strong>: Scrum.org <br/>
+- <strong>Year</strong>: 2015 </p>
+<p>[!quote] Abstract<br/>
+One of the most challenging activities in Scrum is Product Backlog Refinement. During training courses I get many …</p></div></div><div class="tooltip_templates"><div id="vanrooden_2015a_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: vanrooden_2015a<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Product Backlog Refinement explained (3/3), <br/>
+- <strong>Author</strong>: van Rooden, Stephan<br/>
+- <strong>Journal</strong>: Scrum.org <br/>
+- <strong>Year</strong>: 2015 </p>
+<p>[!quote] Abstract<br/>
+How to facilitate a Product Backlog Refinement meeting? What do you do as a Scrum Master to keep the item under r…</p></div></div><div class="tooltip_templates"><div id="ProductBacklogItem_tooltip_id"><p>Een <strong>“Product Backlog Item”</strong> (wel eens PBI, backlog item of item genoemd) is een eenduidige taak die je moet afronden.</p>
+<p>PBIs omvatten user stories, epics, specificaties, bugs, of change requirements.</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: verheyen_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Scrum Glossary, <br/>
+- <strong>Author</strong>: Verheyen, Gunther<br/>
+- <strong>Journal</strong>: Scrum Glossary <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="StoryPoints_tooltip_id"><p><img alt="" src="https://i.imgur.com/RgJ45Aq.jpg"/></p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: verheyen_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Scrum Glossary, <br/>
+- <strong>Author</strong>: Verheyen, Gunther<br/>
+- <strong>Journal</strong>: Scrum Glossary <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="adobeworkfront_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: adobeworkfront_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: What is Velocity in Agile? Charts &amp; Examples | Adobe Workfront, <br/>
+- <strong>Author</strong>: Adobe Workfront,<br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!abstract] Files and Links<br/>
+- <strong>Url</strong>: [https://www.workfront.com/project-management/methodologies/agile/velocity](htt…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="DefinitionofDone_tooltip_id"><p>[!infobox] definitie<br/>
+<strong>Definition of Done:</strong> de verzameling kwaliteiten, verwachtingen en criteria waaraan een Increment moet voldoen om te kunnen worden vrijgegeven naar de eindgebruikers – met respect voor overkoepelende organisatierichtlijnen indien beschikbaar. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p></div></div><div class="tooltip_templates"><div id="ProductBacklogRefinement_tooltip_id"><p><img alt="" src="https://i.imgur.com/QKHODEO.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40vanrooden_2015/">@Vanrooden 2015</a><br/>
+<img alt="" src="https://i.imgur.com/6NEBVMN.jpg"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40vanrooden_2015a/">@Vanrooden 2015A</a></p></div></div><div class="tooltip_templates"><div id="vrielink_2020_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: vrielink_2020<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Hoe werken story points?, <br/>
+- <strong>Author</strong>: Vrielink, Martijn<br/>
+- <strong>Year</strong>: 2020 </p>
+<p>[!quote] Abstract<br/>
+Een beproefde methode binnen scrum om product backlog items in te schatten is die van de story points. Wat zijn story points eigenlijk? En hoe gebruik je ze?</p>
+<p>[!abstract] Files an…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: verheyen_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Scrum Glossary, <br/>
+- <strong>Author</strong>: Verheyen, Gunther<br/>
+- <strong>Journal</strong>: Scrum Glossary <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="Scrum_tooltip_id"><p><img alt="" src="https://i.imgur.com/Ybc5orR.jpg"/> [^rugbyscrum] </p>
+<p><strong>Scrum</strong> is een van de mogelijke uitvoeringen van Agile.</p>
+<p>De term ‘Scrum’ komt van een uitdrukking uit de rugbysport waar de teamleden elkaars armen laten ineengrijpen en zo voorwaarts richting de tegenstander drukken.</p>
+<p>In de technologiewereld is Scrum een manier van projectmanagement die bestaat uit:</p>
+<li>strak gecoördineerd teamwerk.<br/>
+-…</li></div></div><div class="tooltip_templates"><div id="UserStory_tooltip_id"></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="sprint_tooltip_id"><p><img alt="" src="https://i.imgur.com/jwLYumg.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40visual-paradigm_2022/">@Visual Paradigm 2022</a></p>
+<p>Een <strong>sprint</strong> is een vastgelegde tijdsperiode (gebruikelijk kiest men 1 week, 2 weken of 4 weken) waaraan een afgesproken hoeveelheid werk is toegewezen om af te werken. </p>
+<p>Sprints beginnen en eindigen met vergaderingen waar men taken toewijst en reviews <em>(synoniem: het inspecteren)</em> van de voorbije uitvoering bekijkt en be…</p></div></div><div class="tooltip_templates"><div id="SprintPlanning_tooltip_id"><p>Bij de start van elke sprint, is er een planningssessie binnen het team: de <strong>Sprint Planning</strong>.</p>
+<p><img alt="" src="https://i.imgur.com/gVPiokj.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40raghuprasad_2019/">@Raghuprasad 2019</a></p>
+<p>[!infobox] definitie: </p></div></div><div class="tooltip_templates"><div id="agilescrumgroup_2017_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: agilescrumgroup_2017<br/>
+- <strong>Type</strong>: blogPost<br/>
+- <strong>Title</strong>: Wat is Definition of Done? Check de uitleg en voorbeelden (IT &amp; non-IT), <br/>
+- <strong>Author</strong>: Agile Scrum Group,<br/>
+- <strong>Journal</strong>: Agile Scrum Group <br/>
+- <strong>Year</strong>: 2017 </p>
+<p>[!quote] Abstract<br/>
+In dit artikel lees je wat een Definition …</p></div></div><div class="tooltip_templates"><div id="SprintBacklog_tooltip_id"><p>Een <strong>“sprint backlog”</strong> is de taak (of zijn de taken) die een team hoopt af te ronden tijdens een bepaalde sprint.</p>
+<p>[!info] definitie<br/>
+<strong>Sprint Backlog:</strong> het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p>[!info] definitie<br/>
+<strong>Forecast:</strong> het anticiperen v…</p></div></div><div class="tooltip_templates"><div id="Dailystandups_tooltip_id"><p><img alt="" src="https://i.imgur.com/lbKcBA7.png"/> <br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40vanderwardt_2017/">@Vanderwardt 2017</a></p>
+<p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="scrumguide_2022a_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: scrumguide_2022a<br/>
+- <strong>Type</strong>: blogPost<br/>
+- <strong>Title</strong>: Scrum takenbord | Scrumguide.nl, <br/>
+- <strong>Author</strong>: Scrumguide,<br/>
+- <strong>Journal</strong>: Scrumguide <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+Het Scrum takenbord Binnen Scrum wordt gewerkt met een takenbord. Het Scrum takenbord is bedoeld als hulpmiddel bij het overzichtelijk maken…</p></div></div><div class="tooltip_templates"><div id="Sprint_tooltip_id"><p><img alt="" src="https://i.imgur.com/jwLYumg.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40visual-paradigm_2022/">@Visual Paradigm 2022</a></p>
+<p>Een <strong>sprint</strong> is een vastgelegde tijdsperiode (gebruikelijk kiest men 1 week, 2 weken of 4 weken) waaraan een afgesproken hoeveelheid werk is toegewezen om af te werken. </p>
+<p>Sprints beginnen en eindigen met vergaderingen waar men taken toewijst en reviews <em>(synoniem: het inspecteren)</em> van de voorbije uitvoering bekijkt en be…</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: verheyen_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Scrum Glossary, <br/>
+- <strong>Author</strong>: Verheyen, Gunther<br/>
+- <strong>Journal</strong>: Scrum Glossary <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="Stakeholders_tooltip_id"><p>[!infobox] definitie<br/>
+<strong>Stakeholder:</strong> een persoon van buiten het Scrum Team met een specifiek belang in het product of kennis ervan die noodzakelijk is voor de verdere ontwikkeling van het product. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p>Stakeholders beschouwen we als alle partijen die interesse hebben in een op te leveren product of project. Ze beïnvloeden het proje…</p></div></div><div class="tooltip_templates"><div id="Userstories_tooltip_id"></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="Stakeholders_tooltip_id"><p>[!infobox] definitie<br/>
+<strong>Stakeholder:</strong> een persoon van buiten het Scrum Team met een specifiek belang in het product of kennis ervan die noodzakelijk is voor de verdere ontwikkeling van het product. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p>Stakeholders beschouwen we als alle partijen die interesse hebben in een op te leveren product of project. Ze beïnvloeden het proje…</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="agilescrumgroup_2018_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: agilescrumgroup_2018<br/>
+- <strong>Type</strong>: blogPost<br/>
+- <strong>Title</strong>: De Sprint Review uitgelegd. Waarom deze meeting? (+ Checklist &amp; Valkuilen), <br/>
+- <strong>Author</strong>: Agile Scrum Group,<br/>
+- <strong>Journal</strong>: Agile Scrum Group <br/>
+- <strong>Year</strong>: 2018 </p>
+<p>[!quote] Abstract<br/>
+Wat is de Sprint Review? Waarom is d…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: verheyen_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Scrum Glossary, <br/>
+- <strong>Author</strong>: Verheyen, Gunther<br/>
+- <strong>Journal</strong>: Scrum Glossary <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="UserstoriesenEpics_tooltip_id"></div></div><div class="tooltip_templates"><div id="visualparadigm_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: visualparadigm_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: What are Time-boxed Events in Scrum?, <br/>
+- <strong>Author</strong>: Visual Paradigm,<br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!abstract] Files and Links<br/>
+- <strong>Url</strong>: [https://www.visual-paradigm.com/scrum/what-are-scrum-time-boxed-events/](https://www.visual-paradigm.com/scrum/what-are-scrum-time…</p></div></div><div class="tooltip_templates"><div id="SprintPlanning_tooltip_id"><p>Bij de start van elke sprint, is er een planningssessie binnen het team: de <strong>Sprint Planning</strong>.</p>
+<p><img alt="" src="https://i.imgur.com/gVPiokj.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40raghuprasad_2019/">@Raghuprasad 2019</a></p>
+<p>[!infobox] definitie: </p></div></div><div class="tooltip_templates"><div id="Dailystandups_tooltip_id"><p><img alt="" src="https://i.imgur.com/lbKcBA7.png"/> <br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40vanderwardt_2017/">@Vanderwardt 2017</a></p>
+<p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="SprintReview_tooltip_id"><p>[!infobox] definitie </p></div></div><div class="tooltip_templates"><div id="SprintRetrospective_tooltip_id"><p>“Retrospect” (terugblik) betekent het reviseren of bevragen van voorbije gebeurtenissen of tijdsperioden.</p>
+<p>[!infobox] definitie<br/>
+<strong>Sprint Retrospective:</strong> het event dat het einde van een Sprint uitmaakt, met een time-box van drie uur of minder. Tijdens dit event kijkt het Scrum Team terug op de aflopende Sprint, met als doel om op basis van de ervaringen in de huidige Spr…</p></div></div><div class="tooltip_templates"><div id="Sprint_tooltip_id"><p><img alt="" src="https://i.imgur.com/jwLYumg.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40visual-paradigm_2022/">@Visual Paradigm 2022</a></p>
+<p>Een <strong>sprint</strong> is een vastgelegde tijdsperiode (gebruikelijk kiest men 1 week, 2 weken of 4 weken) waaraan een afgesproken hoeveelheid werk is toegewezen om af te werken. </p>
+<p>Sprints beginnen en eindigen met vergaderingen waar men taken toewijst en reviews <em>(synoniem: het inspecteren)</em> van de voorbije uitvoering bekijkt en be…</p></div></div><div class="tooltip_templates"><div id="ProductBacklogRefinement_tooltip_id"><p><img alt="" src="https://i.imgur.com/QKHODEO.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40vanrooden_2015/">@Vanrooden 2015</a><br/>
+<img alt="" src="https://i.imgur.com/6NEBVMN.jpg"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40vanrooden_2015a/">@Vanrooden 2015A</a></p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: verheyen_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Scrum Glossary, <br/>
+- <strong>Author</strong>: Verheyen, Gunther<br/>
+- <strong>Journal</strong>: Scrum Glossary <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="SprintGoal_tooltip_id"><p>[!info] definitie<br/>
+<strong>Sprint Goal:</strong> een korte omschrijving van de overkoepelende doelstelling van een Sprint. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p></div></div><div class="tooltip_templates"><div id="DefinitionofDone_tooltip_id"><p>[!infobox] definitie<br/>
+<strong>Definition of Done:</strong> de verzameling kwaliteiten, verwachtingen en criteria waaraan een Increment moet voldoen om te kunnen worden vrijgegeven naar de eindgebruikers – met respect voor overkoepelende organisatierichtlijnen indien beschikbaar. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p></div></div><div class="tooltip_templates"><div id="SprintGoal_tooltip_id"><p>[!info] definitie<br/>
+<strong>Sprint Goal:</strong> een korte omschrijving van de overkoepelende doelstelling van een Sprint. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p></div></div><div class="tooltip_templates"><div id="DailyScrum_tooltip_id"></div></div><div class="tooltip_templates"><div id="empirischeprocesfundamenten_tooltip_id"><p>[!infobox] definitie <br/>
+<strong>Empirische procescontrole</strong> (in het Engels vaak afgekort tot ‘Empiricism’): de vorm van procescontrole waar beslissingen voor aanpassingen gebaseerd zijn op observatie, ervaring en effectieve realisaties. Empirische procescontrole behoeft en creëert transparantie als noodzakelijke ondergrond voor regelmatige inspectie (evaluatie) en aanpass…</p></div></div><div class="tooltip_templates"><div id="stakeholders_tooltip_id"><p>[!infobox] definitie<br/>
+<strong>Stakeholder:</strong> een persoon van buiten het Scrum Team met een specifiek belang in het product of kennis ervan die noodzakelijk is voor de verdere ontwikkeling van het product. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p>Stakeholders beschouwen we als alle partijen die interesse hebben in een op te leveren product of project. Ze beïnvloeden het proje…</p></div></div><div class="tooltip_templates"><div id="verheyen_2017_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: verheyen_2017<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: De kernwaarden van Scrum, <br/>
+- <strong>Author</strong>: Verheyen, Gunther<br/>
+- <strong>Journal</strong>: Ullizee-Inc <br/>
+- <strong>Year</strong>: 2017 </p>
+<p>[!quote] Abstract<br/>
+Scrum is een samenhangend framework van regels, rollen en principes die mensen en organisaties ondersteunen, maar dat afhankelijk van de exacte situati…</p></div></div></body>
+</html>

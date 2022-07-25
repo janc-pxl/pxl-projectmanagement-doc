@@ -1,0 +1,1650 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="nl">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Projectmanagement 2TIN" name="description"/>
+<link href="https://janc-pxl.github.io/pxl-projectmanagement-doc/Project%20Management/Kosten%20en%20Batenanalyse/" rel="canonical"/>
+<link href="../../assets/logo/favicons.png" rel="icon"/>
+<meta content="mkdocs-1.3.1, mkdocs-material-8.3.9" name="generator"/>
+<title>Kosten- en batenanalyse - PXL Projectmanagement</title>
+<link href="../../assets/stylesheets/main.1d29e8d0.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Karla:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Karla";--md-code-font:"Ubuntu Mono"}</style>
+<link href="../../assets/css/img-grids-floats.css" rel="stylesheet"/>
+<link href="../../assets/css/utils.css" rel="stylesheet"/>
+<link href="../../assets/css/custom_attributes.css" rel="stylesheet"/>
+<link href="../../assets/css/tooltipster.bundle.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+<link href="../../assets/css/grid.css" rel="stylesheet"/>
+<link href="../../assets/css/admonition.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+                $(document).ready(function() {
+                    $('.link-tooltip').tooltipster();
+                });
+        </script>
+<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" referrerpolicy="no-referrer" rel="stylesheet"/>
+<meta content="Kosten- en batenanalyse" property="og:title"/>
+<meta content="Kosten- en batenanalyse" name="twitter:title"/>
+<meta content="Projectmanagement 2TIN" name="og:description"/>
+<meta content="Projectmanagement 2TIN" name="twitter:description"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="" property="og:image"/>
+<meta content="" name="twitter:image"/>
+</head>
+<body data-md-color-accent="light-blue" data-md-color-primary="teal" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#kosten-en-batenanalyse">
+          Ga naar inhoud
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="PXL Projectmanagement" class="md-header__button md-logo" data-md-component="logo" href="../.." title="PXL Projectmanagement">
+<img alt="logo" src="../../assets/logo/logo_pxl_bol.png"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            PXL Projectmanagement
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Kosten- en batenanalyse
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="light-blue" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="teal" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="blue" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"></path></svg>
+</label>
+</form>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Zoeken" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Zoeken" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="PXL Projectmanagement" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="PXL Projectmanagement">
+<img alt="logo" src="../../assets/logo/logo_pxl_bol.png"/>
+</a>
+    PXL Projectmanagement
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+        42TIN1250 Projectmanagement
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2">
+          Project Management
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Project Management" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          Project Management
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Agile%20Projectmanagement/">
+        Agile Projectmanagement
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Extra%20Oefeningen%20Projectmanagement/">
+        Extra oefeningen Projectmanagement
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Informatiemanagement/">
+        Informatiemanagement
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Kosten- en batenanalyse
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Kosten- en batenanalyse
+      </a>
+<nav aria-label="Inhoudsopgave" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Inhoudsopgave
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inleiding">
+    Inleiding
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kosten-en-opbrengstenstructuur">
+    Kosten- en opbrengstenstructuur
+  </a>
+<nav aria-label="Kosten- en opbrengstenstructuur" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kostenstructuur">
+    Kostenstructuur
+  </a>
+<nav aria-label="Kostenstructuur" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#de-kosten-van-systeemontwikkeling-eenmalige-kosten-ontwikkelingskosten">
+    De kosten van systeemontwikkeling (eenmalige kosten, ontwikkelingskosten)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#werkingskosten-bedrijfskosten-exploitatiekosten">
+    Werkingskosten (Bedrijfskosten, exploitatiekosten)
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#opbrengstenstructuur">
+    Opbrengstenstructuur
+  </a>
+<nav aria-label="Opbrengstenstructuur" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#besparingen-werkingskosten">
+    Besparingen werkingskosten
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#andere-kwantificeerbare-opbrengsten">
+    Andere kwantificeerbare opbrengsten
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#moeilijk-te-kwantificeren-opbrengsten">
+    Moeilijk te kwantificeren opbrengsten
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#alternatieve-uitvoeringen-van-een-kosten-batenanalyse">
+    Alternatieve uitvoeringen van een kosten- &amp; batenanalyse
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#de-terugverdientijd">
+    De terugverdientijd
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#de-netto-contante-waarde">
+    De netto-contante-waarde
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#interne-rentabiliteit">
+    Interne rentabiliteit
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#een-uitgewerkt-voorbeeld">
+    Een uitgewerkt voorbeeld
+  </a>
+<nav aria-label="Een uitgewerkt voorbeeld" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#totale-kosten-per-categorie-voor-het-project">
+    Totale kosten per categorie voor het project:
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#berekende-opbrengsten">
+    Berekende opbrengsten:
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#gevraagd">
+    Gevraagd
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#opgaven-kosten-batenanalyse">
+    Opgaven Kosten- &amp; batenanalyse
+  </a>
+<nav aria-label="Opgaven Kosten- &amp; batenanalyse" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#opgave-1">
+    Opgave 1
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#opgave-2">
+    Opgave 2
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#extra-opgave-3">
+    Extra opgave 3
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Kwaliteitsmanagement/">
+        Kwaliteitsmanagement
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Projectplanning/">
+        Projectplanning
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Risicomanagement/">
+        Risicomanagement
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Wat%20is%20Projectmanagement/">
+        Wat is projectmanagement?
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3">
+          References
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="References" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          References
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40adobeworkfront_2022/">
+        What is Velocity in Agile? Charts &amp; Examples | Adobe Workfront
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40agile4all_2019/">
+        Sprint Planning
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40agilescrumgroup_2017/">
+        Wat is Definition of Done? Check de uitleg en voorbeelden (IT &amp; non-IT)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40agilescrumgroup_2018/">
+        De Sprint Review uitgelegd. Waarom deze meeting? (+ Checklist &amp; Valkuilen)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40cfi_2022/">
+        Internal Rate of Return (IRR)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40coursera_2022/">
+        The 3 Scrum Roles and Responsibilities, Explained
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40cspo_2021/">
+        Quality vs. Grade for PMP
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40doshi_2016/">
+        The Three Pillars of Empiricism (Scrum)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40eby_2016/">
+        Product Backlog 101 Top Advice from Agile ExpertsSmartsheet
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40gomez_2021/">
+        The Difference Between Product and Project Management
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40hiteshbhasin_2015/">
+        What is Product portfolio management ?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40janse_2020/">
+        LEAN management
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40martin_2020/">
+        Incremental Model in SDLC: Use, Advantage &amp; Disadvantage
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40nederlandovn_2021/">
+        Kwaliteitskringen | Optometristen Vereniging Nederland (OVN)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40productplan_2022/">
+        User Story
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40qframe_2021/">
+        @qframe 2021
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40raghuprasad_2019/">
+        Basics of Sprint Planning - WHAT
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40schegget.hamelink_1993/">
+        Netwerkplanning volgens PERT
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40scrumguide_2022/">
+        Het Scrumteam: uitleg en tips bij de verantwoordelijkheid | Scrumguide.nl
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40scrumguide_2022a/">
+        Scrum takenbord | Scrumguide.nl
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40sickipedia_2021/">
+        Het verschil tussen nauwkeurigheid en reproduceerbaarheid
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40sjoerdoldebijvank_2010/">
+        House of Control
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40stanley.etal_2020/">
+        Project management handbook: simplified Agile, Scrum, and DevOps for beginners
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40stevenblom_2018/">
+        Moeten we kiezen tussen de klant en de medewerker?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40userstorymap_2022/">
+        How to Be An Effective Product Owner
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40vanderwardt_2017/">
+        Daily Stand-up: 5 tips voor een goede meeting (+checklist download)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40vanlier_2018/">
+        Stakeholdermanagement in projecten met Scrum
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40vanrooden_2015/">
+        Product Backlog Refinement explained (1/3)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40vanrooden_2015a/">
+        Product Backlog Refinement explained (3/3)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40verheyen_2017/">
+        De kernwaarden van Scrum
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40verheyen_2022/">
+        Scrum Glossary
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40visual-paradigm_2022/">
+        Why Fixed Length Sprints in Scrum?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40visualparadigm_2022/">
+        What are Time-boxed Events in Scrum?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40vlaanderenintern_2014/">
+        Business Case
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40vrielink_2020/">
+        Hoe werken story points?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40wikipediakwaliteitsmanagement_2020/">
+        Kwaliteitsmanagement
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../References/%40zentaoteam_2022a/">
+        What Are The Complete Scrum Artifacts? - Agile - ZenTao
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Inhoudsopgave" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Inhoudsopgave
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inleiding">
+    Inleiding
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kosten-en-opbrengstenstructuur">
+    Kosten- en opbrengstenstructuur
+  </a>
+<nav aria-label="Kosten- en opbrengstenstructuur" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kostenstructuur">
+    Kostenstructuur
+  </a>
+<nav aria-label="Kostenstructuur" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#de-kosten-van-systeemontwikkeling-eenmalige-kosten-ontwikkelingskosten">
+    De kosten van systeemontwikkeling (eenmalige kosten, ontwikkelingskosten)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#werkingskosten-bedrijfskosten-exploitatiekosten">
+    Werkingskosten (Bedrijfskosten, exploitatiekosten)
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#opbrengstenstructuur">
+    Opbrengstenstructuur
+  </a>
+<nav aria-label="Opbrengstenstructuur" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#besparingen-werkingskosten">
+    Besparingen werkingskosten
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#andere-kwantificeerbare-opbrengsten">
+    Andere kwantificeerbare opbrengsten
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#moeilijk-te-kwantificeren-opbrengsten">
+    Moeilijk te kwantificeren opbrengsten
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#alternatieve-uitvoeringen-van-een-kosten-batenanalyse">
+    Alternatieve uitvoeringen van een kosten- &amp; batenanalyse
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#de-terugverdientijd">
+    De terugverdientijd
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#de-netto-contante-waarde">
+    De netto-contante-waarde
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#interne-rentabiliteit">
+    Interne rentabiliteit
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#een-uitgewerkt-voorbeeld">
+    Een uitgewerkt voorbeeld
+  </a>
+<nav aria-label="Een uitgewerkt voorbeeld" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#totale-kosten-per-categorie-voor-het-project">
+    Totale kosten per categorie voor het project:
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#berekende-opbrengsten">
+    Berekende opbrengsten:
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#gevraagd">
+    Gevraagd
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#opgaven-kosten-batenanalyse">
+    Opgaven Kosten- &amp; batenanalyse
+  </a>
+<nav aria-label="Opgaven Kosten- &amp; batenanalyse" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#opgave-1">
+    Opgave 1
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#opgave-2">
+    Opgave 2
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#extra-opgave-3">
+    Extra opgave 3
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="kosten-en-batenanalyse">Kosten- en batenanalyse<a class="headerlink" href="#kosten-en-batenanalyse" title="Permanent link">¶</a></h1>
+<p><img alt="Image|600" src="https://i.imgur.com/hxGs2TC.jpg"/></p>
+<p><strong>Hogeschool PXL PXL-Digital:</strong> Professionele bachelor in de toegepaste informatica<br/>
+<strong>42TIN1250 Projectmanagement</strong><br/>
+<strong>Lectoren:</strong> Dhr. Lowie Vangaal, Dhr. Jan Castermans</p>
+<div style="page-break-after: always;"></div>
+<h2 id="inleiding">Inleiding<a class="headerlink" href="#inleiding" title="Permanent link">¶</a></h2>
+<p><img alt="" src="https://i.imgur.com/E9YtlPL.png"/><br/>
+Kosten-batenanalyse is een monetaire evaluatiemethode, waarbij de verwachte kosten worden afgewogen ten opzichte van de te verwachten baten voor één of meerdere onderwerpen, zodat de meest voordelige oplossing kan worden gekozen. De analyse kan bijvoorbeeld berekeningen van initiële en verwachte opbrengst bevatten. Bijvoorbeeld een productmanager kan kosten voor productie en marketing ten opzichte van verwachte verkopen van een bepaald product vergelijken. Op grond van deze afweging kan de opname van een product in het assortiment worden genomen.</p>
+<p>Over het algemeen worden investeringen ter verbetering van processen ook met hulp van kosten-batenanalyses genomen. Ook analyses op basis van return on investment helpen mee in dit beslissingsproces. Een moeilijk onderdeel van de kosten-batenanalyse is het kwantificeren (monetariseren) van aspecten, zoals verlies van een reputatie, het aanbieden van een compleet productenpakket, langetermijnstrategie, enzovoort. De analyses worden veel gemaakt in de private sector, maar ook in de publieke sector worden dergelijke afwegingen gemaakt. Een voorbeeld is de vastgoedontwikkeling door een gemeente. De kosten-batenanalyse wordt ook gebruikt voor make-or-buy beslissingen.</p>
+<blockquote>
+<p><img alt="" src="https://i.imgur.com/W8maNsl.png"/></p>
+</blockquote>
+<p>Een belangrijke maat voor het succes is voor de meeste projecten financieel van aard, ongeacht de omvang van het project en ongeacht de organisatie. De doelen van een project zijn vaak niet duidelijk financieel van aard, maar de meeste organisaties moeten werken binnen strakke financiële grenzen.</p>
+<p>Projecten die meer kosten dan ze opleveren, hebben een dubieuze basis. Elk project moet, ongeacht zijn omvang, een of ander voordeel opleveren. Gewoonlijk moet dit voordeel zowel in een geldbedrag als op andere wijze worden gemeten.</p>
+<p><strong>Voorbeeld:</strong></p>
+<p>Stel dat men het voorraadsysteem wil automatiseren en dat men beschikt over de volgende schattingen:</p>
+<ul>
+<li>Raming van de kosten die met de ontwikkeling van een nieuw voorraadsysteem gepaard gaan worden ingeschat op €10.000</li>
+<li>Raming van de jaarlijkse besparing die het nieuwe voorraadsysteem zal opleveren: €5.000</li>
+<li>Teneinde het gevaar van veroudering uit te sluiten wordt een verwachte levensduur van dit nieuwe systeem van <strong>5 jaar</strong> vooropgesteld.</li>
+</ul>
+<p><strong>Probleemstelling:</strong></p>
+<ul>
+<li>Is de aanvaarding van dit voorstel een verantwoorde economische keuze?</li>
+<li>Op welk criteria baseert men de keuze ?</li>
+</ul>
+<p>Oplossingen worden geleverd via de zogenaamde kosten- &amp; batenanalyse. De bedoeling van een investering is een verwacht monetair rendement. Wanneer loont een investering? Tegen de achtergrond van het economische principe der keuzemogelijkheden, levert de zogenaamde investeringsanalyse een aantal criteria om een verantwoorde economische keuze te bepalen.</p>
+<p>Vermits investeringsprojecten zoals het opzetten van een nieuw voorraadsysteem toekomstige kosten alsook toekomstige baten inhouden, zullen de kosten- en batenramingen die uiteraard vandaag worden gemaakt, gekenmerkt worden door een zogenaamde risicofactor. De basis van een goede investeringsanalyse is zodoende een betrouwbare schatting van de toekomstige kosten en baten.</p>
+<h2 id="kosten-en-opbrengstenstructuur">Kosten- en opbrengstenstructuur<a class="headerlink" href="#kosten-en-opbrengstenstructuur" title="Permanent link">¶</a></h2>
+<p><img alt="" src="https://i.imgur.com/rgJyeht.png"/><br/>
+Het ontwikkelen van een automatiseringsproject is een investering. Gedurende het ontwikkelingsproces moeten middelen vrijgemaakt worden. Om nu de kosten en baten te gaan vergelijken van het oude met het nieuw te ontwikkelen systeem moet de analist ze eerst schatten. Hiervoor heeft men de kosten- en opbrengstenstructuur.</p>
+<h3 id="kostenstructuur">Kostenstructuur<a class="headerlink" href="#kostenstructuur" title="Permanent link">¶</a></h3>
+<p>De kostenstructuur bestaat uit twee kostensoorten:</p>
+<h4 id="de-kosten-van-systeemontwikkeling-eenmalige-kosten-ontwikkelingskosten">De kosten van systeemontwikkeling (eenmalige kosten, ontwikkelingskosten)<a class="headerlink" href="#de-kosten-van-systeemontwikkeling-eenmalige-kosten-ontwikkelingskosten" title="Permanent link">¶</a></h4>
+<p>Deze kosten zijn dus eenmalig en kunnen ingedeeld worden per fase van de levenscyclus van het systeem. De analist schat deze kosten betreffende benodigdheden, manuren, de kosten van gebruik van apparatuur, het gebruik van hulpmiddelen, vaste en externe factoren (vb. advieskosten).</p>
+<p>Hierna volgt een controlelijst met een overzicht van de ontwikkelingskosten :</p>
+<p><strong>A. Kosten voor het bouwen van het systeem</strong></p>
+<p><strong><u>Personeel</u></strong></p>
+<ul>
+<li>
+<p>Analisten</p>
+<ul>
+<li>Interviews afnemen</li>
+<li>Verslagen ontwerpen</li>
+<li>Documenteren</li>
+<li>Nadenken</li>
+<li>Procedures ontwerpen</li>
+<li>Het systeem testen</li>
+<li>Inspecties en voortgangsbijeenkomsten bijwonen</li>
+<li>Operateurs opleiden</li>
+<li>Administratieve krachten opleiden</li>
+<li>Advies inwinnen bij gebruikers</li>
+<li>Advies inwinnen bij programmeurs</li>
+<li>Leidinggeven aan proefdraaien</li>
+<li>Leidinggeven aan bestandsconversies</li>
+<li>Formulieren ontwerpen</li>
+<li>Formele presentaties geven/bijwonen</li>
+</ul>
+</li>
+<li>
+<p>Programmeurs</p>
+<ul>
+<li>Programma’s schrijven</li>
+<li>Documenteren</li>
+<li>Foutloos maken</li>
+<li>Inspecties en voortgangsbijeenkomsten bijwonen</li>
+<li>Standaardprogrammatuur op maat maken</li>
+<li>Advies inwinnen bij analisten</li>
+<li>Advies inwinnen bij programmeurs</li>
+<li>Formele presentaties geven/bijwonen</li>
+</ul>
+</li>
+<li>
+<p>Operateurs</p>
+<ul>
+<li>Converteren</li>
+<li>Opleidingen volgen</li>
+<li>Assisteren programmeurs</li>
+<li>Advies inwinnen bij analisten</li>
+</ul>
+</li>
+<li>
+<p>Management</p>
+<ul>
+<li>Leiding geven</li>
+<li>Advies inwinnen bij analisten</li>
+</ul>
+</li>
+<li>
+<p>Administratief personeel</p>
+<ul>
+<li>Converteren</li>
+<li>Opleidingen volgen</li>
+<li>Advies inwinnen bij analisten</li>
+</ul>
+</li>
+<li>
+<p>Andere personeelsleden</p>
+<ul>
+<li>Gegevens invoeren</li>
+<li>Grafische vormgeving</li>
+<li>Technische documentatie opstellen</li>
+</ul>
+</li>
+</ul>
+<p><strong><u>Apparatuur</u></strong></p>
+<ul>
+<li>Kapitaalinvesteringen</li>
+<li>Nieuwe apparatuur</li>
+<li>Standaardprogrammatuur</li>
+<li>Apparatuur installeren</li>
+<li>Apparatuur testen en foutloos laten werken</li>
+<li>Gebruik van bestaande apparatuur</li>
+<li>Testtijd en tijd voor foutloos maken</li>
+<li>Schijfruimte</li>
+<li>Informatiedragers</li>
+<li>Andere hulpmiddelen</li>
+<li>Bestanden converteren</li>
+<li>Het systeem testen</li>
+</ul>
+<p><strong><u>Materiaal en hulpmiddelen</u></strong></p>
+<ul>
+<li>Procedures bekendmaken</li>
+<li>Papier, kettingformulieren</li>
+<li>Nieuwe formulieren ontwerpen</li>
+<li>Kopiëren</li>
+</ul>
+<p><strong><u>Vaste kosten</u></strong></p>
+<ul>
+<li>Ondersteuning door het management</li>
+<li>Ondersteuning van secretariaat</li>
+<li>Verwarming en verlichting</li>
+</ul>
+<p><strong><u>Externe kosten</u></strong></p>
+<ul>
+<li>Advieskosten</li>
+<li>Specifieke opleidingen</li>
+</ul>
+<p><strong>B) Kosten van installeren van het systeem</strong></p>
+<ul>
+<li>Opleiding gebruikers</li>
+<li>Conversiekosten database</li>
+<li>Kosten installatie door de leveranciers (nieuwe hardware, TC-apparatuur, software)</li>
+<li>Kosten schaduwdraaien</li>
+<li>Kosten van de ontwikkelingsgroep</li>
+</ul>
+<h4 id="werkingskosten-bedrijfskosten-exploitatiekosten">Werkingskosten (Bedrijfskosten, exploitatiekosten)<a class="headerlink" href="#werkingskosten-bedrijfskosten-exploitatiekosten" title="Permanent link">¶</a></h4>
+<p>Wanneer het systeem eenmaal is geïmplementeerd begint fase 6 van SDM: gebruik en beheer. De ontwikkelingskosten vormen de investering, de werkingskosten zijn uitgaven. Operators moeten grote systemen draaiende houden. Administratieve krachten gebruiken het systeem, programmeurs onderhouden en wijzigen de software, er worden back-ups gemaakt, er wordt papier verbruikt. En dan zijn er nog de vaste kosten zoals verwarming en verlichting, administratie, enz.</p>
+<p>Hierna volgt een overzicht van die werkingskosten. Ook hier komen dezelfde kostenrubrieken aan bod.</p>
+<p><strong>A. Kosten van hardware</strong></p>
+<ul>
+<li>Aanlogtijd op de computer</li>
+<li>Gebruik van het interne geheugen</li>
+<li>Gebruik van servers</li>
+<li>Lees-schrijfopdrachten</li>
+<li>Gebruik van het externe geheugen</li>
+<li>Gebruik van databases</li>
+<li>Onderhoud</li>
+</ul>
+<p><strong>B. Personeelskosten</strong></p>
+<ul>
+<li>Ondersteuning van operateurs</li>
+<li>Ondersteuning van administratieve krachten</li>
+<li>Onderhoud door programmeurs</li>
+<li>Directe ondersteuning door het management</li>
+</ul>
+<p><strong>C. Materiaalkosten</strong></p>
+<ul>
+<li>Formulieren</li>
+<li>Papier</li>
+<li>Informatiedragers</li>
+<li>Uitval, afval</li>
+<li>Voorraadkosten</li>
+</ul>
+<p><strong>D. Vaste kosten</strong></p>
+<p><strong>E. Externe kosten</strong></p>
+<ul>
+<li>Lease-kosten</li>
+<li>Te betalen rente : kosten van het geld</li>
+<li>Kosten van uitbesteding</li>
+<li>Kosten van externe controles</li>
+</ul>
+<p><strong>F. Kosten van de storingen</strong></p>
+<h3 id="opbrengstenstructuur">Opbrengstenstructuur<a class="headerlink" href="#opbrengstenstructuur" title="Permanent link">¶</a></h3>
+<p>Aan de andere kant hoopt de onderneming iets terug te krijgen van de investering: de baten of opbrengsten. Deze kan men afleiden uit de opbrengstenstructuur. De algemene doelstelling van een onderneming is immers winst maken. Ook voor een automatiseringsproject geldt de eenvoudige winstvergelijking :</p>
+<blockquote>
+<p>WINST = OPBRENGSTEN - KOSTEN</p>
+</blockquote>
+<p>Opbrengsten zijn ingaande geldstromen zoals verkoopopbrengsten. Kosten zijn uitgaande geldstromen zoals salarissen, materiaalkosten, te betalen rente, enz. De winst kan nu op twee manieren tot stand komen: ofwel vermindert men de kosten ofwel vergroot men de opbrengsten.</p>
+<p>De baten worden door Yourdon ingedeeld in tactische en strategische baten</p>
+<div class="admonition note">
+<p class="admonition-title">Definitie</p>
+<ul>
+<li><strong>Tactische baten</strong> zijn baten die de organisatie in staat stellen dezelfde zaken tegen lagere kosten voort te zetten</li>
+<li><strong>Strategische baten</strong> zijn de mogelijkheden om de organisatie dingen te laten doen die met het huidige systeem niet mogelijk zijn.</li>
+</ul>
+</div>
+<h4 id="besparingen-werkingskosten">Besparingen werkingskosten<a class="headerlink" href="#besparingen-werkingskosten" title="Permanent link">¶</a></h4>
+<p>De besparingen kunnen we berekenen als we de werkingskosten van het oud systeem (<span class="arithmatex"><span class="MathJax_Preview">K_o</span><script type="math/tex">K_o</script></span>) met de werkingskosten van het nieuw systeem (<span class="arithmatex"><span class="MathJax_Preview">K_n</span><script type="math/tex">K_n</script></span>) vergelijken. Deze werkingskosten moeten uiteraard eerst geschat worden. De besparing wordt dus als volgt berekend:</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">K = K_o - K_n</div>
+<script type="math/tex; mode=display">K = K_o - K_n</script>
+</div>
+<p>Besparingen kunnen positief, nul of negatief zijn. Deze besparingen moeten we ook in de tijd projecteren gedurende de levensduur van het project. Meestal neemt men voor de levensduur 5 jaren. Om dit overzichtelijk voor te stellen kan men een project-calculatie formulier of een tool vb. MS-Project gebruiken.</p>
+<p>Enkele voorbeelden:</p>
+<ul>
+<li>Personeelsbesparing: terugbrengen omvang administratief personeel;</li>
+<li>Besparing op onderhoudskosten;</li>
+<li>Besparing op computeruitrusting;</li>
+<li>Zakelijke transacties sneller laten verlopen.</li>
+</ul>
+<h4 id="andere-kwantificeerbare-opbrengsten">Andere kwantificeerbare opbrengsten<a class="headerlink" href="#andere-kwantificeerbare-opbrengsten" title="Permanent link">¶</a></h4>
+<p>Enkele voorbeelden:</p>
+<ul>
+<li>Betere voorraadbeheersing: die is vb. mogelijk door een beter inkoopbeleid (daling bestelkosten);</li>
+<li>Een lagere gemiddelde voorraad (men zou kunnen gaan kwantificeren welk bedrag men gemiddeld minder moet investeren in de voorraad);</li>
+<li>Lagere debiteurenstand: een daling van het bedrag van de uitstaande vorderingen;</li>
+<li>Daling van de verkoopkosten door het automatiseren van marktanalyses.</li>
+</ul>
+<p>Om deze opbrengsten af te wegen : oud tegenover het nieuwe systeem :</p>
+<div class="admonition info">
+<p class="admonition-title">formule voor opbrengsten</p>
+<p><span class="arithmatex"><span class="MathJax_Preview">O = O_n - O_o</span><script type="math/tex">O = O_n - O_o</script></span></p>
+<ul>
+<li><span class="arithmatex"><span class="MathJax_Preview">O_n</span><script type="math/tex">O_n</script></span> : de opbrengsten van het nieuwe systeem</li>
+<li><span class="arithmatex"><span class="MathJax_Preview">O_o</span><script type="math/tex">O_o</script></span> : de opbrengsten van het oude systeem</li>
+</ul>
+</div>
+<h4 id="moeilijk-te-kwantificeren-opbrengsten">Moeilijk te kwantificeren opbrengsten<a class="headerlink" href="#moeilijk-te-kwantificeren-opbrengsten" title="Permanent link">¶</a></h4>
+<p>Er zijn automatiseringsvoordelen die echter moeilijk kwantificeerbaar zijn.</p>
+<p>Enkele voorbeelden:</p>
+<ul>
+<li>Bevriezing van de kosten: een toename van de te verwerken gegevens vergt geen bijkomende kosten en personeel of bijkomende investeringen qua apparatuur.</li>
+<li>Actualisering van de informatie: wat is de waarde van gegevens die sneller up-to-date en ter beschikking zijn waardoor het management sneller afwijkingen ziet en kan bijsturen</li>
+<li>Het gebruik van Operationele Research technieken zoals Lineaire Programmering, PERT, wachtlijntheorie, simulaties, e.a.</li>
+</ul>
+<p>Wanneer men deze niet-meetbare opbrengsten toch meetbaar wil maken, zou men op zoek kunnen gaan naar verschillende kengetallen die een beeld geven van de verbetering van de presentaties van het systeem. Gemakshalve vallen deze kosten buiten beschouwing.</p>
+<p>De netto-opbrengst (Z) wordt enerzijds gevormd door besparingen in werkingskosten van het nieuwe tegenover het oude systeem en anderzijds door andere meeropbrengsten van het nieuwe systeem. In een formule wordt dit:</p>
+<div class="admonition info">
+<p class="admonition-title">formule voor netto-opbrengst</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">Z = (K_o - K_n) + (O_n - O_o)</div>
+<script type="math/tex; mode=display">Z = (K_o - K_n) + (O_n - O_o)</script>
+</div>
+</div>
+<p>De manier waarop de analist de kosten en opbrengsten gaat schatten is niet eenvoudig.</p>
+<p>Een eerste stap om de ontwikkelingskosten te schatten is het uiteenrafelen van de belangrijkste kostensoorten. Deze schatting is uiteraard nog zeer onnauwkeurig (50 %). Bij latere fasen kan de analist posten als personeel, apparatuur en materiaal apart schatten. Zo zal men de kosten van het projectteam bij het detailontwerp splitsen in kosten voor de programmeurs, analist programmeur, operateur, administratief personeel …</p>
+<p>In het algemeen kunnen we stellen dat slechts een paar systeemcomponenten het leeuwenaandeel van de kosten veroorzaken. In de literatuur staat dit bekend als de “80 20 regel”. Tachtig procent van de kosten wordt veroorzaakt door twintig procent van de componenten. Voor de werkingskosten kan de analist beroep doen op historische gegevens van voorgaande projecten. Begrotingen vormen een andere bron van kosteninformatie.</p>
+<h4 id="alternatieve-uitvoeringen-van-een-kosten-batenanalyse">Alternatieve uitvoeringen van een kosten- &amp; batenanalyse<a class="headerlink" href="#alternatieve-uitvoeringen-van-een-kosten-batenanalyse" title="Permanent link">¶</a></h4>
+<p>Uitgaande van een betrouwbare schatting van de ontwikkelingskosten van een systeem (typische kapitaalsinvestering), de bedrijfskosten (continue uitgaven verbonden aan het geïmplementeerde systeem), en de verwachte opbrengsten, stellen we een drietal kengetallen voor die als leidraad kunnen dienen voor het bepalen van de keuzen.</p>
+<p>Daar de baten van een nieuw systeem in de toekomst liggen, zullen deze omgerekend moeten worden naar hun actuele waarde. Het “contant maken” van toekomstige bedragen gebeurt via de actueel geldende marktrente.</p>
+<p>Zie het inleidend voorbeeld van het voorraadsysteem. Dagelijks moet dit voorraadsysteem een overzicht opstellen van de te bestellen artikelen voor de inkoopafdeling. Stel dat de analist in onderling overleg met de gebruiker een raming heeft gemaakt. Uitgaande van zijn ervaring in analyse en programmatie raamt de analist het ontwikkelingswerk op 5 manmaanden. Dit maakt tegen €2.000 per maand een totaal van €10.000. Onderstaande tabel geeft een overzicht van de kosten en baten.</p>
+<p><strong>Ontwikkelingskosten</strong></p>
+<p>€10.000</p>
+<p><strong>Opbrengsten</strong></p>
+<table>
+<thead>
+<tr>
+<th>Jaar</th>
+<th>Bedrag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>€5.000</td>
+</tr>
+<tr>
+<td>2</td>
+<td>€5.000</td>
+</tr>
+<tr>
+<td>3</td>
+<td>€5.000</td>
+</tr>
+<tr>
+<td>4</td>
+<td>€5.000</td>
+</tr>
+<tr>
+<td>5</td>
+<td>€5.000</td>
+</tr>
+</tbody>
+</table>
+<p><em>Tabel 1 - Kosten en baten van het voorraadsysteem</em></p>
+<p>Welk bedrag zijn we bereid te investeren wanneer we daarvoor volgend jaar €5.000 terug krijgen? In elk geval geen €5.000. Verder redenerend kunnen we zeggen dat wanneer we die €5.000 niet volgend jaar maar pas over vijf jaar zullen ontvangen we slechts veel minder dan €5.000 willen investeren. Die €5.000 van vandaag heeft niet dezelfde waarde als €5.000 volgend jaar of over 5 jaren. Geld heeft immers een tijdswaarde. De waarde van het geld in de tijd wordt meestal als rente aangeduid.</p>
+<p>Stel dat we op tijdstip 0 over <span class="arithmatex"><span class="MathJax_Preview">P_0</span><script type="math/tex">P_0</script></span> € beschikken. We beleggen dit kapitaal gedurende 1 jaar aan een interest van i %. Indien we die interest niet afhalen wordt het kapitaal 1 jaar later:</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">P_1 = P_0 + iP_0 = P_0(1 + i)</div>
+<script type="math/tex; mode=display">P_1 = P_0 + iP_0 = P_0(1 + i)</script>
+</div>
+<p>Dit kapitaal <span class="arithmatex"><span class="MathJax_Preview">P_1</span><script type="math/tex">P_1</script></span> brengt een interest van i % per jaar op en dus krijgen we na nog eens een jaar,</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">P_2 = P_1 + iP_1 = P_1(1 + i)</div>
+<script type="math/tex; mode=display">P_2 = P_1 + iP_1 = P_1(1 + i)</script>
+</div>
+<p>of</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">P_2 = P_0 (1 + i)^2</div>
+<script type="math/tex; mode=display">P_2 = P_0 (1 + i)^2</script>
+</div>
+<p>n jaar na tijdstip 0 is het kapitaal geworden,</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">P_n = P_0(1 + i)^n</div>
+<script type="math/tex; mode=display">P_n = P_0(1 + i)^n</script>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Formule van de samengestelde interest</p>
+<p>Dit wordt de formule van de samengestelde interest genoemd omdat we veronderstellen dat de interesten die jaarlijks vrijkomen opnieuw geïnvesteerd worden tegen dezelfde interestvoet i.</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">P_n = P_o(1 + i)^n</div>
+<script type="math/tex; mode=display">P_n = P_o(1 + i)^n</script>
+</div>
+<p>P<span class="arithmatex"><span class="MathJax_Preview">_n</span><script type="math/tex">_n</script></span> : kapitaal of waarde van de investering na n jaren<br/>
+P<span class="arithmatex"><span class="MathJax_Preview">_o</span><script type="math/tex">_o</script></span> : huidige waarde van de investering ( op tijdstip 0)<br/>
+i: rentepercentage<br/>
+n: n-periode</p>
+</div>
+<p>Wanneer we €10.000 voor een periode van 5 jaar tegen 10% uitlenen, dan is de waarde van die €10.000 na vijf jaar opgelopen tot:</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">P_5 = 10000 EUR * (1 + 0.10)^5 = 16105 EUR</div>
+<script type="math/tex; mode=display">P_5 = 10000 EUR * (1 + 0.10)^5 = 16105 EUR</script>
+</div>
+<p>In figuur 1 kennen we de investering van dit jaar. M.a.w. we kennen de contante waarde ervan. De contante waarde van de baten kunnen we niet berekenen zonder de tijdswaarde van het geld te bekijken. We moeten dus de baten ‘contant maken’.</p>
+<p>Welk bedrag willen we nu investeren als we daarvoor gerekend met de huidige rentestand over vijf jaar €5.000 voor terug krijgen. Het antwoord hierop luidt: de contante waarde van de baten. Bij het berekenen van de contante waarde van deze baten gaan we uit van de formule van de samengestelde interest.</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">P_n = P_0(1 + i)^n</div>
+<script type="math/tex; mode=display">P_n = P_0(1 + i)^n</script>
+</div>
+<p>Uit deze vergelijking halen we P<sub>o</sub> en we krijgen</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">P_0=\frac{ P_n }{ (1 + i)^n }</div>
+<script type="math/tex; mode=display">P_0=\frac{ P_n }{ (1 + i)^n }</script>
+</div>
+<p>In ons voorbeeld krijgen we dus </p>
+<div class="arithmatex">
+<div class="MathJax_Preview">\frac{5000}{(1 + 0.10)^5}= 3104.60 EUR</div>
+<script type="math/tex; mode=display">\frac{5000}{(1 + 0.10)^5}= 3104.60 EUR</script>
+</div>
+<p>Indien we nu €3.104.60 investeren, ontvangen we over 5 jaar €5.000.</p>
+<table>
+<thead>
+<tr>
+<th>Jaar</th>
+<th>Toekomstige waarde</th>
+<th>(1+i)<sup>n</sup></th>
+<th>Contante waarde</th>
+<th>Cumulatieve contante waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>€5000</td>
+<td>1.10</td>
+<td>€4545.45</td>
+<td>€-5454.55</td>
+</tr>
+<tr>
+<td>2</td>
+<td>€5000</td>
+<td>1.21</td>
+<td>€4132.225</td>
+<td>€-1322.31</td>
+</tr>
+<tr>
+<td>3</td>
+<td>€5000</td>
+<td>1.33</td>
+<td>€3756.575</td>
+<td>€2434.26</td>
+</tr>
+<tr>
+<td>4</td>
+<td>€5000</td>
+<td>1.46</td>
+<td>€3415.075</td>
+<td>€5849.33</td>
+</tr>
+<tr>
+<td>5</td>
+<td>€5000</td>
+<td>1.61</td>
+<td>€3104.60</td>
+<td>€8953.93</td>
+</tr>
+</tbody>
+</table>
+<p><em>Tabel 2 - De contante waarde en de cumulatieve waarde van de jaarlijkse baten</em></p>
+<p>In de praktijk nemen we voor het percentage om contant te maken de huidige marktrente. Betalen de banken 10 % rente op beleggingsbewijzen dan is die 10 % rente een goede vergelijkingsbasis. Grote ondernemingen kunnen immers tegen dit percentage hun geld te allen tijde beleggen. Dit is dan een risicoloze belegging. Het opzetten van een automatiseringsproject is een riskante bezigheid. Wanneer we van het vooropgestelde systeem geen hoger rendement verwachten, dan is het aanbod van de bank met het lage risico een betere investering.<br/>
+</p>
+<h3 id="de-terugverdientijd">De terugverdientijd<a class="headerlink" href="#de-terugverdientijd" title="Permanent link">¶</a></h3>
+<p>Dit is de periode waarin de cumulatieve baten (contant gemaakt) gelijk zijn aan het oorspronkelijk geïnvesteerde bedrag. De terugverdienperiode is een erg traditionele economische maatstaf, en mag niet de enige informatie zijn waarop we onze beslissing baseren. Gebruiken we deze maatstaf echter in combinatie met andere kengetallen, dan is de betekenis van de terugverdienperiode veel groter, zeker wanneer technische veroudering een rol speelt.</p>
+<p>Wanneer we naar tabel 2 kijken, merken we bij de cumulatieve contante waarde dat van de initiële investering na 2 jaar is teruggewonnen: €8.677,675. Dit betekent dat we gedurende het derde jaar nog €1.322,325 moeten terugverdienen. Tijdens dat derde jaar winnen we €3.756,575 terug.</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">\frac{1322.325}{3756.575}=0.352</div>
+<script type="math/tex; mode=display">\frac{1322.325}{3756.575}=0.352</script>
+</div>
+<p>Dit zijn 0,352*365 = 128,48 dagen.</p>
+<p>De terugverdientijd bedraagt dus 2 jaar en 4 maanden en 8 dagen!</p>
+<h3 id="de-netto-contante-waarde">De netto-contante-waarde<a class="headerlink" href="#de-netto-contante-waarde" title="Permanent link">¶</a></h3>
+<p>Dit is het verschil tussen de cumulatieve-contante-waarde der baten enerzijds en de waarde van de investering anderzijds. De netto contante waarde kunnen we zien als het bedrag dat we extra hadden kunnen verdienen t.o.v. een denkbeeldige, risico-vrije belegging.</p>
+<p>Uitgeschreven in symbolen wordt dit:</p>
+<div class="admonition important">
+<p class="admonition-title">Formule Netto Contante Waarde</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">NCW=\sum_{n=1}^N \frac{Z_n}{(1 + i)^n} - C</div>
+<script type="math/tex; mode=display">NCW=\sum_{n=1}^N \frac{Z_n}{(1 + i)^n} - C</script>
+</div>
+<ul>
+<li><span class="arithmatex"><span class="MathJax_Preview">Z_n</span><script type="math/tex">Z_n</script></span> = Netto-opbrengsten van het project in jaar n</li>
+<li>C = het kapitaal geïnvesteerd op tijdstip 0</li>
+<li>N = de levensduur van het project</li>
+<li>i = de discontovoet.</li>
+</ul>
+</div>
+<p>Voor ons voorbeeld wordt dit €18.953,925 - €10.000 = €8.953,925.</p>
+<p>Is de netto-contante-waarde gelijk aan nul, dan levert het project ons hetzelfde bedrag op als de risicoloze investering bij de bank en het project is daardoor waarschijnlijk niet echt aantrekkelijk. Wanneer de netto-contante-waarde negatief is dan is het project zeker niet de moeite waard, omdat we met de denkbeeldige risicovrije investering meer kunnen verdienen.</p>
+<p>Proberen we de alternatieve investeringsmogelijkheden te vergelijken, dan kunnen we de netto-contante-waarde uitdrukken als percentage van het geïnvesteerde bedrag.</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">\frac{8953.925}{10000}=89.54\%</div>
+<script type="math/tex; mode=display">\frac{8953.925}{10000}=89.54\%</script>
+</div>
+<h3 id="interne-rentabiliteit">Interne rentabiliteit<a class="headerlink" href="#interne-rentabiliteit" title="Permanent link">¶</a></h3>
+<p>De bedoeling van dit kengetal is een rentepercentage uit te rekenen dat vergelijkbaar is met de marktrente op de beleggingsmarkt.</p>
+<p>De interne rendementsgraad (<em>Internal Rate of Return = IRR</em>) van een project is die waarde van de actualiseringsfactor waarvoor de netto-contante-waarde gelijk wordt aan nul.</p>
+<div class="admonition important">
+<p class="admonition-title">Formule interne rentabiliteit</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">O = NCW=\sum_{n=1}^N \frac{Z_n}{(1 + IRR)^n} - C</div>
+<script type="math/tex; mode=display">O = NCW=\sum_{n=1}^N \frac{Z_n}{(1 + IRR)^n} - C</script>
+</div>
+<ul>
+<li><span class="arithmatex"><span class="MathJax_Preview">Z_n</span><script type="math/tex">Z_n</script></span> = Netto-opbrengsten van het project in jaar n</li>
+<li>C = het kapitaal geïnvesteerd op tijdstip 0</li>
+<li>N = de levensduur van het project</li>
+<li>IRR = de discontovoet.</li>
+</ul>
+</div>
+<p><a class="link-tooltip" data-tooltip-content="#cfi_2022_tooltip_id" href="../../References/%40cfi_2022/" title="@cfi_2022">@cfi_2022</a></p>
+<p>Rangschikken we de termen, dan krijgen we :</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">\frac{Z_1}{(1+IRR)} + \frac{Z_1}{(1+IRR)^2} + \frac{Z_1}{(1+IRR)^3} + \frac{Z_1}{(1+IRR)^4} + \frac{Z_1}{(1+IRR)^5}–C=0</div>
+<script type="math/tex; mode=display">\frac{Z_1}{(1+IRR)} + \frac{Z_1}{(1+IRR)^2} + \frac{Z_1}{(1+IRR)^3} + \frac{Z_1}{(1+IRR)^4} + \frac{Z_1}{(1+IRR)^5}–C=0</script>
+</div>
+<div class="arithmatex">
+<div class="MathJax_Preview">\frac{5000}{(1.41)^1}+\frac{5000}{(1.41)^2}+\frac{5000}{(1.41)^3}+\frac{5000}{(1.41)^4}+\frac{5000}{(1.41)^5}–10000=0</div>
+<script type="math/tex; mode=display">\frac{5000}{(1.41)^1}+\frac{5000}{(1.41)^2}+\frac{5000}{(1.41)^3}+\frac{5000}{(1.41)^4}+\frac{5000}{(1.41)^5}–10000=0</script>
+</div>
+<p>Dit is een polynoom. De meeste elektronische werkbladen bevatten een IRR-functie waarmee de gebruiker zeer snel de interne rendabiliteit kan berekenen.</p>
+<p>Met dit voorbeeld bedraagt de interne rendabiliteit 41 % met de IRR-functie van EXCEL.</p>
+<h2 id="een-uitgewerkt-voorbeeld">Een uitgewerkt voorbeeld<a class="headerlink" href="#een-uitgewerkt-voorbeeld" title="Permanent link">¶</a></h2>
+<p><img alt="" src="https://i.imgur.com/ODumMrG.png"/></p>
+<p><strong>Electroshop N.V. wil de administratie van het hoofdfiliaal volledig automatiseren.</strong></p>
+<p>Tijdens de definitiestudie heeft de analist de volgende kosten/baten geschat voor het nieuwe geautomatiseerde systeem.</p>
+<p>Aanpassing van het systeem o.a. zwaardere servers, extra terminals.</p>
+<p>Tussen de aanschaf van softwarepakketten of het volledig in eigen beheer ontwikkelen van een systeem kan nog gekozen worden. Het zelf ontwikkelen maakt het bedrijf minder afhankelijk van derden, maar leidt tot hogere kosten. De schaal van het project is aanzienlijk, maar niet ongewoon voor veel grotere IT-projecten. (In duizend euro’s) De levensduur wordt geschat op 5 jaar.</p>
+<h4 id="totale-kosten-per-categorie-voor-het-project">Totale kosten per categorie voor het project:<a class="headerlink" href="#totale-kosten-per-categorie-voor-het-project" title="Permanent link">¶</a></h4>
+<ul>
+<li>Kosten systeemontwikkeling <strong>€6.250</strong></li>
+<li>Apparatuur <strong>€7.750</strong></li>
+<li>Softwarelicenties <strong>€575 per jaar</strong></li>
+<li>Onderhoud hard-/software <strong>€356 per jaar</strong></li>
+<li>Kosten helpdesk <strong>€275 per jaar</strong></li>
+</ul>
+<p><u>Personeelskosten</u> van het oude systeem voor de administratie : <strong>€13.750 per jaar</strong>, jaarlijkse kost <u>overuren</u> <strong>€100</strong>.</p>
+<p><u>Personeelskosten</u> voor het <u>nieuwe systeem</u> worden geschat op :</p>
+<ul>
+<li>jaar 1: <strong>€7.500</strong></li>
+<li>jaar 2: <strong>€6.250</strong></li>
+<li>jaar 3: <strong>€5.500</strong></li>
+<li>jaar 4: <strong>€5.500</strong></li>
+<li>jaar 5: <strong>€5.500</strong></li>
+</ul>
+<p>De <u>overuren</u> voor het nieuwe systeem worden geraamd als volgt:</p>
+<ul>
+<li>1ste jaar ongewijzigd</li>
+<li><strong>€60</strong> in het 2de jaar</li>
+<li><strong>€35</strong> in het 3de jaar</li>
+<li><strong>€20</strong> in het 4de en 5de jaar</li>
+</ul>
+<h4 id="berekende-opbrengsten">Berekende opbrengsten:<a class="headerlink" href="#berekende-opbrengsten" title="Permanent link">¶</a></h4>
+<p><u>Lagere voorraadkosten</u></p>
+<ul>
+<li><strong>€15</strong> in het 1<sup>e</sup> jaar</li>
+<li><strong>€25</strong> in het 2<sup>e</sup> jaar</li>
+<li><strong>€30</strong> in het 3<sup>e</sup> en de volgende jaren</li>
+</ul>
+<p><u>Rente debiteuren</u></p>
+<ul>
+<li><strong>€15</strong> in het 1<sup>ste</sup> jaar</li>
+<li><strong>€30</strong> in het 2<sup>de</sup> jaar</li>
+<li><strong>€50</strong> voor de volgende jaren</li>
+</ul>
+<p>Het project start in januari 2022 en moet in december 2026 zijn afgewerkt.</p>
+<h4 id="gevraagd">Gevraagd<a class="headerlink" href="#gevraagd" title="Permanent link">¶</a></h4>
+<p>Evalueer het project aan de hand van een project-calculatieformulier en gebruik de kengetallen: netto-contante-waarde (NCW) en terugverdientijd (TVT) De huidige marktrente bedraagt 8%.</p>
+<p>We gaan nu alles in het zogenaamde project-calculatieformulier invullen.</p>
+<p>Eerste rangschikken we alle eenmalige kosten :</p>
+<ul>
+<li>kosten van systeemontwikkeling</li>
+<li>apparatuur.</li>
+</ul>
+<p>Dit totaal wordt ingevuld bij Totaal Eenmalige kosten.</p>
+<p>Vervolgens kijken we naar de werkingskosten van het oude en nieuwe systeem.</p>
+<p>Voor het oude systeem hebben we de kostensoorten:</p>
+<ul>
+<li>Personeelskosten</li>
+<li>Overuren</li>
+</ul>
+<p>Voor het nieuwe systeem hebben we de kostensoorten:</p>
+<ul>
+<li>Personeelskosten</li>
+<li>Softwarelicenties</li>
+<li>Onderhoud hard-/software</li>
+<li>Kosten helpdesk</li>
+<li>Overuren.</li>
+</ul>
+<p>Door de kosten van het nieuwe systeem af te trekken van de kosten van het oude systeem bekomen we de besparingen. Het berekende bedrag wordt ingevuld bij Totaal Besparingen.</p>
+<p>De indirecte of andere opbrengsten zijn hier:</p>
+<ul>
+<li>Lagere voorraadkosten</li>
+<li>Rente debiteuren.</li>
+</ul>
+<p>Ook dit totaal wordt ingeschreven bij totaal andere opbrengsten.</p>
+<p>Besparingen en andere opbrengsten vormen samen ‘totaal opbrengsten’.</p>
+<p>Deze bedragen kunnen nu geactualiseerd worden, behalve het beginjaar. Zo kunnen we de cumulatieve geactualiseerde baten berekenen. Wanneer we in het begin de initiële investeringskosten (de eenmalige kosten) aftrekken bekomen we op het laatste jaar de netto-contant-waarde. Daar de NCW positief is, blijkt het project een goede investering te zijn.</p>
+<table>
+<thead>
+<tr>
+<th>Project Calculatieformulier</th>
+<th>2022</th>
+<th>2023</th>
+<th>2024</th>
+<th>2025</th>
+<th>2026</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EENMALIGE KOSTEN</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Systeemontwikkeling</td>
+<td>€6.250</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Apparatuur</td>
+<td>€7.750</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>TOTAAL EENMALIGE KOSTEN</td>
+<td><strong>€14.000</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>EXPLOITATIE OUDE SYSTEEM</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Totaal personeelskosten</td>
+<td>€13.750</td>
+<td>€13.750</td>
+<td>€13.750</td>
+<td>€13.750</td>
+<td>€13.750</td>
+</tr>
+<tr>
+<td>Overuren</td>
+<td>€100</td>
+<td>€100</td>
+<td>€100</td>
+<td>€100</td>
+<td>€100</td>
+</tr>
+<tr>
+<td>TOTALE WERKINGSKOSTEN OS</td>
+<td><strong>€13.850</strong></td>
+<td><strong>€13.850</strong></td>
+<td><strong>€13.850</strong></td>
+<td><strong>€13.850</strong></td>
+<td>€13.850</td>
+</tr>
+<tr>
+<td>EXPLOITATIE NIEUWE SYSTEEM</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Personeelskosten</td>
+<td>€7.500</td>
+<td>€6.250</td>
+<td>€5.500</td>
+<td>€5.500</td>
+<td>€5.500</td>
+</tr>
+<tr>
+<td>Softwarelicenties</td>
+<td>€575</td>
+<td>€575</td>
+<td>€575</td>
+<td>€575</td>
+<td>€575</td>
+</tr>
+<tr>
+<td>Onderhoud hard-/software</td>
+<td>€356</td>
+<td>€356</td>
+<td>€356</td>
+<td>€356</td>
+<td>€356</td>
+</tr>
+<tr>
+<td>Kosten helpdesk</td>
+<td>€275</td>
+<td>€275</td>
+<td>€275</td>
+<td>€275</td>
+<td>€275</td>
+</tr>
+<tr>
+<td>Overuren</td>
+<td>€100</td>
+<td>€60</td>
+<td>€35</td>
+<td>€20</td>
+<td>€20</td>
+</tr>
+<tr>
+<td>TOTALE WERKINGSKOSTEN NS</td>
+<td><strong>€8.806</strong></td>
+<td><strong>€7.516</strong></td>
+<td><strong>€6.741</strong></td>
+<td><strong>€6.726</strong></td>
+<td>€6.726</td>
+</tr>
+<tr>
+<td>TOTALE BESPARINGEN</td>
+<td><strong>€5.044</strong></td>
+<td><strong>€6.334</strong></td>
+<td><strong>€7.109</strong></td>
+<td><strong>€7.124</strong></td>
+<td>€7.124</td>
+</tr>
+<tr>
+<td>ANDERE OPBRENGSTEN</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Lagere voorraadkosten</td>
+<td>€15</td>
+<td>€25</td>
+<td>€30</td>
+<td>€30</td>
+<td>€30</td>
+</tr>
+<tr>
+<td>Rente debiteuren</td>
+<td>€15</td>
+<td>€30</td>
+<td>€50</td>
+<td>€50</td>
+<td>€50</td>
+</tr>
+<tr>
+<td>TOTAAL ANDERE OPBRENGSTEN</td>
+<td><strong>€30</strong></td>
+<td><strong>€55</strong></td>
+<td><strong>€80</strong></td>
+<td><strong>€80</strong></td>
+<td>€80</td>
+</tr>
+<tr>
+<td>TOTAAL OPBRENGSTEN</td>
+<td><strong>€5.074</strong></td>
+<td><strong>€6.389</strong></td>
+<td><strong>€7.189</strong></td>
+<td><strong>€7.204</strong></td>
+<td>€7.204</td>
+</tr>
+<tr>
+<td>Actualisering opbrengsten</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- €14.000</td>
+<td>€5.074</td>
+<td>€5.916</td>
+<td>€6.163</td>
+<td>€5.719</td>
+<td>€5.295</td>
+</tr>
+<tr>
+<td>NETTO CONTANTE WAARDE</td>
+<td>€- 8.926</td>
+<td>€-3.010</td>
+<td>€3.153</td>
+<td>€8.872</td>
+<td>€14.167</td>
+</tr>
+</tbody>
+</table>
+<h2 id="opgaven-kosten-batenanalyse">Opgaven Kosten- &amp; batenanalyse<a class="headerlink" href="#opgaven-kosten-batenanalyse" title="Permanent link">¶</a></h2>
+<p><img alt="" src="https://i.imgur.com/PXkTkWX.png"/></p>
+<h3 id="opgave-1">Opgave 1<a class="headerlink" href="#opgave-1" title="Permanent link">¶</a></h3>
+<p>Een bedrijf wil starten met computerautomatisering.</p>
+<p>Men gaat twee terminals aankopen en via timesharing computertijd huren bij het groot systeem van een software-house.</p>
+<p>Deze oplossing heeft de volgende financiële gevolgen:</p>
+<p><strong>Verwachte kosten</strong></p>
+<ul>
+<li>kosten voor systeemgebruik en beheer: <strong>€25.000</strong> voor het eerste, tweede en derde jaar, <strong>€27.500</strong> in het vierde jaar en <strong>€32.500</strong> vanaf jaar 5.</li>
+<li>kosten voor de systeemontwikkeling : <strong>€37.500</strong></li>
+<li>twee terminals : <strong>€13.750</strong></li>
+<li>huur telefoonlijn : <strong>€1.750</strong> voor het eerste jaar, en de volgende jaren elk €2.125</li>
+<li>conversie en invoeringskosten : <strong>€6.250</strong></li>
+<li>aankoop modems : <strong>€1.875</strong></li>
+<li>diverse eenmalige kosten : <strong>€3.750</strong></li>
+</ul>
+<p><strong>Verwachte baten</strong></p>
+<ul>
+<li>besparing personeelskosten: <strong>€8.750</strong> voor het eerste jaar, <strong>€20.000</strong> voor het tweede, <strong>€22.500</strong>, <strong>€27.500</strong> en <strong>€35.000</strong> voor de volgende jaren</li>
+<li>andere meetbare opbrengsten: <strong>€30.000</strong> voor het eerste jaar, <strong>€31.250</strong> voor het tweede, <strong>€27.500</strong>, <strong>€37.500</strong> en <strong>€55.000</strong> voor de volgende jaren.</li>
+</ul>
+<p><strong>Gevraagd</strong></p>
+<p>Evalueer het automatiseringsproject met de geschatte kosten en baten.<br/>
+De huidige marktrente bedraagt <strong>4 %</strong>.</p>
+<h3 id="opgave-2">Opgave 2<a class="headerlink" href="#opgave-2" title="Permanent link">¶</a></h3>
+<p>De drukkerij Plantijn wil haar salarisbetaling gaan automatiseren. Voorlopig verzorgt een sociaal secretariaat de salarisberekening en de betaling. Wekelijks geeft de drukkerij de gepresteerde uren van haar werknemers door aan een sociaal secretariaat.</p>
+<p>De drukkerij stelt <strong>100</strong> werknemers te werk.</p>
+<p>Per betaling rekent het sociaal secretariaat <strong>€3</strong> aan. Wekelijks worden de betalingen gestort via de bank.</p>
+<p>De analist die gestart is met de definitiestudie van een eigen geautomatiseerd salarissysteem schat volgende kosten in:</p>
+<ul>
+<li>De reeds gedane kosten van de definitiestudie en het basisontwerp: <strong>€7.000</strong></li>
+<li>Voor het detailontwerp zijn de volgende schattingen gemaakt voor de benodigde programma’s:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>gegevensinvoer</td>
+<td><strong>€625</strong></td>
+</tr>
+<tr>
+<td>salarissen</td>
+<td><strong>€4.000</strong></td>
+</tr>
+<tr>
+<td>eindejaarverwerking</td>
+<td><strong>€625</strong></td>
+</tr>
+<tr>
+<td>personeelsadministratie</td>
+<td><strong>€1.000</strong></td>
+</tr>
+<tr>
+<td>bestandsontwerp</td>
+<td><strong>€500</strong></td>
+</tr>
+<tr>
+<td>formulierenontwerp</td>
+<td><strong>€750</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Voor de programmering en de implementatie van het systeem worden volgende kosten geschat</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>gegevensinvoer</td>
+<td><strong>€500</strong></td>
+</tr>
+<tr>
+<td>salarissenberekening</td>
+<td><strong>€4.000</strong></td>
+</tr>
+<tr>
+<td>salarissenberekening</td>
+<td><strong>€625</strong></td>
+</tr>
+<tr>
+<td>personeelsadministratie</td>
+<td><strong>€1.000</strong></td>
+</tr>
+<tr>
+<td>opleidingskosten</td>
+<td><strong>€1.000</strong></td>
+</tr>
+<tr>
+<td>bestandscreatie</td>
+<td><strong>€750</strong></td>
+</tr>
+</tbody>
+</table>
+<p>De drukkerij beschikt reeds over een groot computersysteem.<br/>
+Voor de salarisadministratie dient men enkel een terminal en een modem aan te schaffen</p>
+<p>Kostprijs</p>
+<ul>
+<li>Terminal : <strong>€750</strong></li>
+<li>Modem : <strong>€312</strong></li>
+</ul>
+<p>De kosten van onderhoud worden jaarlijks op <strong>€1250</strong> geschat.</p>
+<p>De bijkomende arbeid en benodigde materiaal wordt maandelijks op <strong>€75</strong> gerekend.</p>
+<p>Andere meetbare meeropbrengsten worden niet in rekening gebracht.</p>
+<p><strong><em>Evalueer het project met de geschatte kosten en baten en vul het project-calculatie-formulier in.</em></strong></p>
+<p>(Optioneel) Gevraagd:</p>
+<ul>
+<li>Is het investeringsproject economisch rendabel wanneer beleggingsprojecten op eenzelfde termijn 8% opbrengen ?</li>
+<li>Illustreer je antwoord aan de hand van 2 rentabiliteitskentallen</li>
+</ul>
+<h3 id="extra-opgave-3">Extra opgave 3<a class="headerlink" href="#extra-opgave-3" title="Permanent link">¶</a></h3>
+<p>Hoewel het fusioneren van gemeenten talrijke gunstige gevolgen heeft gehad bracht ze ook nieuwe problemen met zich mee voor de resterende gemeentebesturen. Ook de fusiegemeente Leopoldsburg-Heppen ervaart in haar dagdagelijkse werking de gevolgen van deze hervormingen. Praktisch gezien betekent dit dat de administratieve taken niet meer kunnen uitgevoerd worden met het huidige personeelsbestand omdat zij niet over de nodige capaciteiten beschikken.</p>
+<p>Bewust van deze situatie heeft het gemeentebestuur volgende keuze : blijven werken met het huidige personeelsbestand. Vanuit werkgelegenheidsstandpunt is dit zeker positief, maar bedenk dat de centrale overheid niet graag in dergelijke werkwijze toestemt en bovendien werkt de organisatie niet efficiënt.</p>
+<p>Het tweede alternatief is de uitbreiding van de computerconfiguratie. De geruchten uit gemeenten die deze stap reeds gezet hebben zijn overwegend positief, maar toch heeft men er een beetje schik van, alleen al voor het bijkomend werk in het begin en de eruit voortvloeiende reorganisatie. De uiteindelijke beslissing hangt af van het resultaat van een rentabiliteitsstudie waarvoor volgende cijfers beschikbaar zijn:</p>
+<p><strong>Jaarlijkse besparingen :</strong></p>
+<ul>
+<li>Brutoloonkosten (door afslanking personeel) <strong>€52.500</strong></li>
+<li>Snellere en betere inning van de gemeentebelasting <strong>€7.500</strong></li>
+</ul>
+<p>De staat subsidieert de gemeenten die automatiseren. Dit bedrag wordt in functie gesteld van het aantal inwoners. Voor Leopoldsburg-Heppen zou deze jaarlijkse subsidie <strong>€2.250</strong> bedragen.</p>
+<p><strong>De éénmalige ontwikkelingskosten voor de automatisatie bedragen:</strong></p>
+<ul>
+<li>Systeemanalyse en –ontwikkeling <strong>€32.500</strong></li>
+<li>Aankoopprijs hardware <strong>€65.000</strong></li>
+<li>Aankoopprijs software <strong>€20.000</strong></li>
+</ul>
+<p><strong>De jaarlijkse werkingskosten bedragen :</strong></p>
+<ul>
+<li>Onderhoud hardware en software <strong>€6.500</strong></li>
+<li>Datatransmissiekosten <strong>€19.500</strong></li>
+</ul>
+<p>Indien voor de uitbreiding van het computersysteem geopteerd wordt dient men het geld te lenen bij de bank tegen een intrestvoet van <strong>3,50 %</strong>. Dit tarief wordt dan ook als actualiseringsvoet aangehouden voor een periode van <strong>5 jaar</strong>. Dit is zowel uit boekhoudkundig standpunt (=afschrijvingen) als omwille van de snelle evolutie in de informaticabranche een aanvaardbare termijn.</p>
+<p><strong>Geef het gemeentebestuur een gemotiveerd antwoord op de volgende vragen :</strong></p>
+<ul>
+<li>Welke van beide alternatieven (personeel behoudt of uitbreiding computerconfiguratie) is het goedkoopst?</li>
+<li>Zijn er eventueel nog andere factoren die hierbij een rol kunnen spelen?</li>
+<li>Wat is de terugverdientijd bij uitbreiding van het computersysteem?</li>
+</ul>
+<h1 id="bibliografie">Bibliografie<a class="headerlink" href="#bibliografie" title="Permanent link">¶</a></h1>
+<div class="dataview">list  "_'" + title + "'_ -  **" + authors  + "(" + year + ")** "  + url + "&lt;br/&gt;&lt;br/&gt;"
+from "500 Reading notes" AND (outgoing([[Kosten en Batenanalyse]])) sort authors </div>
+<hr/>
+<div class="md-source-file">
+<small>
+    
+      Laatst geüpdatet:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 25, 2022</span>
+</small>
+</div>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Vorige: Informatiemanagement" class="md-footer__link md-footer__link--prev" href="../Informatiemanagement/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Vorige
+              </span>
+              Informatiemanagement
+            </div>
+</div>
+</a>
+<a aria-label="Volgende: Kwaliteitsmanagement" class="md-footer__link md-footer__link--next" href="../Kwaliteitsmanagement/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Volgende
+              </span>
+              Kwaliteitsmanagement
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      Copyright © 2022 Hogeschool PXL
+    </div>
+</div>
+<div class="md-social">
+<a class="md-social__link" href="https://www.linkedin.com/school/hogeschoolpxl/" rel="noopener" target="_blank" title="www.linkedin.com">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+</a>
+<a class="md-social__link" href="https://www.facebook.com/HogeschoolPXL/" rel="noopener" target="_blank" title="www.facebook.com">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>
+</a>
+<a class="md-social__link" href="https://twitter.com/hogeschoolpxl" rel="noopener" target="_blank" title="twitter.com">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+</a>
+<a class="md-social__link" href="https://www.instagram.com/hogeschoolpxl" rel="noopener" target="_blank" title="www.instagram.com">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Gekopieerd naar klembord", "clipboard.copy": "Kopi\u00ebren naar klembord", "search.config.lang": "nl", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Zoeken", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "Geen overeenkomende documenten", "search.result.one": "1 overeenkomende document", "search.result.other": "# overeenkomende documenten", "search.result.placeholder": "Typ om te beginnen met zoeken", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+<script src="../../assets/js/mathjax.js"></script>
+<script src="../../assets/js/utils.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="../../assets/js/tooltipster.bundle.js"></script>
+<div class="tooltip_templates"><div id="cfi_2022_tooltip_id"><p>[!info] Metadata<br/>
+- <strong>CiteKey</strong>: cfi_2022<br/>
+- <strong>Type</strong>: webpage<br/>
+- <strong>Title</strong>: Internal Rate of Return (IRR), <br/>
+- <strong>Author</strong>: CFI,<br/>
+- <strong>Journal</strong>: Corporate Finance Institute <br/>
+- <strong>Year</strong>: 2022 </p>
+<p>[!quote] Abstract<br/>
+The Internal Rate of Return (IRR) is the discount rate that makes the NPV of a project zero. Learn how to use the IRR formula.</p>
+<p>[!abstract] F…</p></div></div></body>
+</html>
