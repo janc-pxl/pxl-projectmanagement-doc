@@ -13,30 +13,32 @@
 <link href="../../assets/stylesheets/main.1d29e8d0.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css?family=Karla:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
-<style>:root{--md-text-font:"Karla";--md-code-font:"Ubuntu Mono"}</style>
-<link href="../../assets/css/img-grids-floats.css" rel="stylesheet"/>
-<link href="../../assets/css/utils.css" rel="stylesheet"/>
-<link href="../../assets/css/custom_attributes.css" rel="stylesheet"/>
-<link href="../../assets/css/tooltipster.bundle.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Ubuntu";--md-code-font:"Ubuntu Mono"}</style>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
-<link href="../../assets/css/grid.css" rel="stylesheet"/>
+<link href="../../assets/css/template/blog.css" rel="stylesheet"/>
+<link href="../../assets/css/template/grid.css" rel="stylesheet"/>
+<link href="../../assets/css/template/img-grids-float.css" rel="stylesheet"/>
+<link href="../../assets/css/template/tooltipster.bundle.min.css" rel="stylesheet"/>
+<link href="../../assets/css/template/utils.css" rel="stylesheet"/>
 <link href="../../assets/css/admonition.css" rel="stylesheet"/>
+<link href="../../assets/css/custom_attributes.css" rel="stylesheet"/>
+<link href="../../assets/css/customization.css" rel="stylesheet"/>
 <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
-                $(document).ready(function() {
-                    $('.link-tooltip').tooltipster();
-                });
-        </script>
+    $(document).ready(function () {
+      $('.link-tooltip').tooltipster();
+    });
+  </script>
 <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" referrerpolicy="no-referrer" rel="stylesheet"/>
 <meta content="Agile Projectmanagement" property="og:title"/>
 <meta content="Agile Projectmanagement" name="twitter:title"/>
 <meta content="Projectmanagement 2TIN" name="og:description"/>
 <meta content="Projectmanagement 2TIN" name="twitter:description"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="" property="og:image"/>
-<meta content="" name="twitter:image"/>
+<meta content="https://janc-pxl.github.io/pxl-projectmanagement-doc/assets/logo/SEO.png" property="og:image"/>
+<meta content="https://janc-pxl.github.io/pxl-projectmanagement-doc/assets/logo/SEO.png" name="twitter:image"/>
 </head>
 <body data-md-color-accent="light-blue" data-md-color-primary="teal" data-md-color-scheme="default" dir="ltr">
 <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
@@ -1564,8 +1566,9 @@ Hoe groot is de kans dat we verrassingen tegenkomen die we vooraf niet hadden vo
 <p>De spelers tonen moed als ze Scrum correct toelichten als een empirisch proces, vanuit de moed om toe te geven dat aanpasbaarheid de enige manier is om met complexiteit om te gaan. Ze hebben de moed om de kernwaarden van Scrum te leven en te beleven, om een beslissing te nemen, tot actie over te gaan, niet tot een impasse verleid te worden, en vervolgens de moed tonen om genomen beslissingen gemaakt met ervaring opnieuw kritisch tegen het licht te houden en bij te sturen.</p>
 <p><a class="link-tooltip" data-tooltip-content="#verheyen_2017_tooltip_id" href="../../References/%40verheyen_2017/" title="@verheyen_2017">@verheyen_2017</a></p>
 <h1 id="bibliografie">Bibliografie<a class="headerlink" href="#bibliografie" title="Permanent link">¶</a></h1>
-<div class="dataview">list  "_'" + title + "'_ -  **" + authors  + "(" + year + ")** "  + url + "&lt;br/&gt;&lt;br/&gt;"
-from "docs/References" AND (outgoing([[Agile Projectmanagement]])) sort authors </div>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>list  "_'" + title + "'_ -  **" + authors  + "(" + year + ")** "  + url + "&lt;br/&gt;&lt;br/&gt;"
+<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>from "docs/References" AND (outgoing([[Agile Projectmanagement]])) sort authors 
+</code></pre></div>
 <div class="footnote">
 <hr/>
 <ol>
@@ -1656,483 +1659,523 @@ from "docs/References" AND (outgoing([[Agile Projectmanagement]])) sort authors 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="../../assets/js/tooltipster.bundle.js"></script>
-<div class="tooltip_templates"><div id="stanleyetal_2020_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: stanley.etal_2020<br/>
-- <strong>Type</strong>: book<br/>
-- <strong>Title</strong>: Project management handbook: simplified Agile, Scrum, and DevOps for beginners, <br/>
-- <strong>Author</strong>: Stanley, Jack C; Gross, Erik D; Tech Academy<br/>
-- <strong>Year</strong>: 2020 <br/>
-- <strong>ISBN</strong>: 978-0-9973264-8-2</p>
-<p>[!quote] Abstract<br/>
-What is proje…</p></div></div><div class="tooltip_templates"><div id="martin_2020_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: martin_2020<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Incremental Model in SDLC: Use, Advantage &amp; Disadvantage, <br/>
-- <strong>Author</strong>: Martin, Matthew<br/>
-- <strong>Year</strong>: 2020 </p>
-<p>[!quote] Abstract<br/>
-Incremental Methodology is a process of software engineering development where requrements are broken down into multiple …</p></div></div><div class="tooltip_templates"><div id="vanderwardt_2017_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: vanderwardt_2017<br/>
-- <strong>Type</strong>: blogPost<br/>
-- <strong>Title</strong>: Daily Stand-up: 5 tips voor een goede meeting (+checklist download), <br/>
-- <strong>Author</strong>: van der Wardt, Rik<br/>
-- <strong>Journal</strong>: Agile Scrum Group <br/>
-- <strong>Year</strong>: 2017 </p>
-<p>[!quote] Abstract<br/>
-Lees hier onze 5 tips voor een goede Daily Stand-up me…</p></div></div><div class="tooltip_templates"><div id="SprintBacklog_tooltip_id"><p>Een <strong>“sprint backlog”</strong> is de taak (of zijn de taken) die een team hoopt af te ronden tijdens een bepaalde sprint.</p>
-<p>[!info] definitie<br/>
-<strong>Sprint Backlog:</strong> het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
-<p>[!info] definitie<br/>
-<strong>Forecast:</strong> het anticiperen v…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: verheyen_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Scrum Glossary, <br/>
-- <strong>Author</strong>: Verheyen, Gunther<br/>
-- <strong>Journal</strong>: Scrum Glossary <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="eby_2016_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: eby_2016<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Product Backlog 101: Top Advice from Agile ExpertsSmartsheet, <br/>
-- <strong>Author</strong>: Eby, Kate<br/>
-- <strong>Year</strong>: 2016 </p>
-<p>[!quote] Abstract<br/>
-Discover Agile experts’ best advice on building and managing your product backlog with how-tos, checklists, and examples.<br/>
-…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: verheyen_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Scrum Glossary, <br/>
-- <strong>Author</strong>: Verheyen, Gunther<br/>
-- <strong>Journal</strong>: Scrum Glossary <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="visualparadigm_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: visual-paradigm_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Why Fixed Length Sprints in Scrum?, <br/>
-- <strong>Author</strong>: visual-paradigm,<br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!abstract] Files and Links<br/>
-- <strong>Url</strong>: [https://www.visual-paradigm.com/scrum/why-fixed-length-of-sprints-in-scrum/](https://www.visual-paradigm.com/scrum/why-fixed-length-o…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: verheyen_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Scrum Glossary, <br/>
-- <strong>Author</strong>: Verheyen, Gunther<br/>
-- <strong>Journal</strong>: Scrum Glossary <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="SprintGoal_tooltip_id"><p>[!info] definitie<br/>
-<strong>Sprint Goal:</strong> een korte omschrijving van de overkoepelende doelstelling van een Sprint. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: verheyen_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Scrum Glossary, <br/>
-- <strong>Author</strong>: Verheyen, Gunther<br/>
-- <strong>Journal</strong>: Scrum Glossary <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="stanleyetal_2020_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: stanley.etal_2020<br/>
-- <strong>Type</strong>: book<br/>
-- <strong>Title</strong>: Project management handbook: simplified Agile, Scrum, and DevOps for beginners, <br/>
-- <strong>Author</strong>: Stanley, Jack C; Gross, Erik D; Tech Academy<br/>
-- <strong>Year</strong>: 2020 <br/>
-- <strong>ISBN</strong>: 978-0-9973264-8-2</p>
-<p>[!quote] Abstract<br/>
-What is proje…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: verheyen_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Scrum Glossary, <br/>
-- <strong>Author</strong>: Verheyen, Gunther<br/>
-- <strong>Journal</strong>: Scrum Glossary <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="zentaoteam_2022a_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: zentaoteam_2022a<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: What Are The Complete Scrum Artifacts? - Agile - ZenTao, <br/>
-- <strong>Author</strong>: ZenTao team,<br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!abstract] Files and Links<br/>
-- <strong>Url</strong>: [https://www.zentao.pm/blog/What-are-the-complete-Scrum-artifacts-1102.html](https://www.zentao.pm/b…</p></div></div><div class="tooltip_templates"><div id="doshi_2016_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: doshi_2016<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: The Three Pillars of Empiricism (Scrum), <br/>
-- <strong>Author</strong>: Doshi, Hiren<br/>
-- <strong>Journal</strong>: Scrum.org <br/>
-- <strong>Year</strong>: 2016 </p>
-<p>[!quote] Abstract<br/>
-Empiricism means working in a fact-based, experience-based, and evidence-based manner. Scrum implements an empirical process where …</p></div></div><div class="tooltip_templates"><div id="ScrumValues_tooltip_id"><p>[!info] definitie<br/>
-<strong>Scrum Values:</strong> een verzameling van vijf kernwaarden die het Scrum framework schragen: commitment, focus, openheid <em>(Engels: ‘openness’)</em>, respect en moed <em>(Engels: ‘courage’)</em>. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<div class="tooltip_templates"><div id="stanleyetal_2020_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: stanley.etal_2020</li>
+<li><strong>Type</strong>: book</li>
+<li><strong>Title</strong>: Project management handbook: simplified Agile, Scrum, and DevOps for beginners, </li>
+<li><strong>Author</strong>: Stanley, Jack C; Gross, Erik D; Tech Academy</li>
+<li><strong>Year</strong>: 2020 </li>
+<li><strong>ISBN</strong>: 978-0-9973264-8-2</li>
+<p class="admonition-title">Abstract</p>
+<p>What is project management? Scrum? Agile? DevOps? Project management simply refers to managing groups in the interest …</p></div></div><div class="tooltip_templates"><div id="martin_2020_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: martin_2020</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Incremental Model in SDLC: Use, Advantage &amp; Disadvantage, </li>
+<li><strong>Author</strong>: Martin, Matthew</li>
+<li><strong>Year</strong>: 2020 </li>
+<p class="admonition-title">Abstract</p>
+<p>Incremental Methodology is a process of software engineering development where requrements are broken down into multiple standalone modules of software development cycle. Incremental development is done in steps from analysis…</p></div></div><div class="tooltip_templates"><div id="vanderwardt_2017_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: vanderwardt_2017</li>
+<li><strong>Type</strong>: blogPost</li>
+<li><strong>Title</strong>: Daily Stand-up: 5 tips voor een goede meeting (+checklist download), </li>
+<li><strong>Author</strong>: van der Wardt, Rik</li>
+<li><strong>Journal</strong>: Agile Scrum Group </li>
+<li><strong>Year</strong>: 2017 </li>
+<p class="admonition-title">Abstract</p>
+<p>Lees hier onze 5 tips voor een goede Daily Stand-up meeting. Wat wel doen? En wat niet? Ook de 4 valkuilen hebben we voor je opgesomd!</p>
+<p>!!! abstract “Files and…</p></div></div><div class="tooltip_templates"><div id="SprintBacklog_tooltip_id"><p>Een <strong>“sprint backlog”</strong> is de taak (of zijn de taken) die een team hoopt af te ronden tijdens een bepaalde sprint.</p>
+<p class="admonition-title">definitie</p>
+<p><strong>Sprint Backlog:</strong> het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p class="admonition-title">definitie</p>
+<p><strong>Forecast:</strong> het anticiperen van toekomstige evoluties door projecties (verwachtingen) te maken op basis van observaties van het v…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: verheyen_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Scrum Glossary, </li>
+<li><strong>Author</strong>: Verheyen, Gunther</li>
+<li><strong>Journal</strong>: Scrum Glossary </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against time. Daily Scrum: a daily event, time-boxed to 15 minutes or less, to re-plan the development work during …</p></div></div><div class="tooltip_templates"><div id="eby_2016_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: eby_2016</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Product Backlog 101: Top Advice from Agile ExpertsSmartsheet, </li>
+<li><strong>Author</strong>: Eby, Kate</li>
+<li><strong>Year</strong>: 2016 </li>
+<p class="admonition-title">Abstract</p>
+<p>Discover Agile experts’ best advice on building and managing your product backlog with how-tos, checklists, and examples.</p>
+<p class="admonition-title">Files and Links</p>
+<li><strong>Url</strong>: [https://www.smartsheet.com/best-advice-scrum-and-agile-expe…</li></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: verheyen_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Scrum Glossary, </li>
+<li><strong>Author</strong>: Verheyen, Gunther</li>
+<li><strong>Journal</strong>: Scrum Glossary </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against time. Daily Scrum: a daily event, time-boxed to 15 minutes or less, to re-plan the development work during …</p></div></div><div class="tooltip_templates"><div id="visualparadigm_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: visual-paradigm_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Why Fixed Length Sprints in Scrum?, </li>
+<li><strong>Author</strong>: visual-paradigm,</li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Files and Links</p>
+<li><strong>Url</strong>: <a href="https://www.visual-paradigm.com/scrum/why-fixed-length-of-sprints-in-scrum/">https://www.visual-paradigm.com/scrum/why-fixed-length-of-sprints-in-scrum/</a></li>
+<li><strong>Uri</strong>: [http://zotero.org/groups/4724240/items/YC4LLIK7](http://zotero.org/gro…</li></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: verheyen_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Scrum Glossary, </li>
+<li><strong>Author</strong>: Verheyen, Gunther</li>
+<li><strong>Journal</strong>: Scrum Glossary </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against time. Daily Scrum: a daily event, time-boxed to 15 minutes or less, to re-plan the development work during …</p></div></div><div class="tooltip_templates"><div id="SprintGoal_tooltip_id"><p class="admonition-title">definitie</p>
+<p><strong>Sprint Goal:</strong> een korte omschrijving van de overkoepelende doelstelling van een Sprint. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: verheyen_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Scrum Glossary, </li>
+<li><strong>Author</strong>: Verheyen, Gunther</li>
+<li><strong>Journal</strong>: Scrum Glossary </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against time. Daily Scrum: a daily event, time-boxed to 15 minutes or less, to re-plan the development work during …</p></div></div><div class="tooltip_templates"><div id="stanleyetal_2020_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: stanley.etal_2020</li>
+<li><strong>Type</strong>: book</li>
+<li><strong>Title</strong>: Project management handbook: simplified Agile, Scrum, and DevOps for beginners, </li>
+<li><strong>Author</strong>: Stanley, Jack C; Gross, Erik D; Tech Academy</li>
+<li><strong>Year</strong>: 2020 </li>
+<li><strong>ISBN</strong>: 978-0-9973264-8-2</li>
+<p class="admonition-title">Abstract</p>
+<p>What is project management? Scrum? Agile? DevOps? Project management simply refers to managing groups in the interest …</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: verheyen_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Scrum Glossary, </li>
+<li><strong>Author</strong>: Verheyen, Gunther</li>
+<li><strong>Journal</strong>: Scrum Glossary </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against time. Daily Scrum: a daily event, time-boxed to 15 minutes or less, to re-plan the development work during …</p></div></div><div class="tooltip_templates"><div id="zentaoteam_2022a_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: zentaoteam_2022a</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: What Are The Complete Scrum Artifacts? - Agile - ZenTao, </li>
+<li><strong>Author</strong>: ZenTao team,</li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Files and Links</p>
+<li><strong>Url</strong>: <a href="https://www.zentao.pm/blog/What-are-the-complete-Scrum-artifacts-1102.html">https://www.zentao.pm/blog/What-are-the-complete-Scrum-artifacts-1102.html</a></li>
+<li><strong>Uri</strong>: [http://zotero.org/users/9685140/items/…</li></div></div><div class="tooltip_templates"><div id="doshi_2016_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: doshi_2016</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: The Three Pillars of Empiricism (Scrum), </li>
+<li><strong>Author</strong>: Doshi, Hiren</li>
+<li><strong>Journal</strong>: Scrum.org </li>
+<li><strong>Year</strong>: 2016 </li>
+<p class="admonition-title">Abstract</p>
+<p>Empiricism means working in a fact-based, experience-based, and evidence-based manner. Scrum implements an empirical process where progress is based on observations of reality, not fictitious plans. Scrum also places great emphasis on m…</p></div></div><div class="tooltip_templates"><div id="ScrumValues_tooltip_id"><p class="admonition-title">definitie</p>
+<p><strong>Scrum Values:</strong> een verzameling van vijf kernwaarden die het Scrum framework schragen: commitment, focus, openheid <em>(Engels: ‘openness’)</em>, respect en moed <em>(Engels: ‘courage’)</em>. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
 <p><img alt="" src="https://i.imgur.com/ASHoG3J.png"/></p>
-<p>Commitment gaat over inzet, toewijding en inspanning, niet zozeer over het behalen van een vooropgesteld res…</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p>Commitment gaat over inzet, toewijding en inspanning, niet zozeer over het behalen van een vooropgesteld resultaat.</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
 <p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
-<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: verheyen_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Scrum Glossary, <br/>
-- <strong>Author</strong>: Verheyen, Gunther<br/>
-- <strong>Journal</strong>: Scrum Glossary <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="userstorymap_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: userstorymap_2022<br/>
-- <strong>Type</strong>: blogPost<br/>
-- <strong>Title</strong>: How to Be An Effective Product Owner, <br/>
-- <strong>Author</strong>: userstorymap,<br/>
-- <strong>Journal</strong>: User Story Map for Jira <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-See what is Product Owner role and how to become an effective one and deliver great products.</p>
-<p>[!abstract] Files…</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elke taak die nog veronderstelt wordt te gebeuren, beschouwen we als backlog. Het slaat op het aankomen…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: verheyen_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Scrum Glossary, </li>
+<li><strong>Author</strong>: Verheyen, Gunther</li>
+<li><strong>Journal</strong>: Scrum Glossary </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against time. Daily Scrum: a daily event, time-boxed to 15 minutes or less, to re-plan the development work during …</p></div></div><div class="tooltip_templates"><div id="userstorymap_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: userstorymap_2022</li>
+<li><strong>Type</strong>: blogPost</li>
+<li><strong>Title</strong>: How to Be An Effective Product Owner, </li>
+<li><strong>Author</strong>: userstorymap,</li>
+<li><strong>Journal</strong>: User Story Map for Jira </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>See what is Product Owner role and how to become an effective one and deliver great products.</p>
+<p class="admonition-title">Files and Links</p>
+<li><strong>Url</strong>: [https://www.userstorymap.io/being-an-effective-product-owner/](https://www.users…</li></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
 <p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
-<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: verheyen_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Scrum Glossary, <br/>
-- <strong>Author</strong>: Verheyen, Gunther<br/>
-- <strong>Journal</strong>: Scrum Glossary <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="vanlier_2018_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: vanlier_2018<br/>
-- <strong>Type</strong>: blogPost<br/>
-- <strong>Title</strong>: Stakeholdermanagement in projecten met Scrum, <br/>
-- <strong>Author</strong>: van Lier, Willemijn<br/>
-- <strong>Journal</strong>: Agile Scrum Group <br/>
-- <strong>Year</strong>: 2018 </p>
-<p>[!quote] Abstract<br/>
-Om als Product Owner de waarde van een project of product te maximaliseren, is goed stakeholdermanageme…</p></div></div><div class="tooltip_templates"><div id="qframe_2021_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: qframe_2021<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Scrum Master, Teambuilder of Agile Coach?, <br/>
-- <strong>Author</strong>: qframe,<br/>
-- <strong>Journal</strong>: Qframe <br/>
-- <strong>Year</strong>: 2021 </p>
-<p>[!quote] Abstract<br/>
-Onze kijk op de rol van Scrum Master binnen onze software teams. Een 7-tal jaar geleden evolueerden wij van een IT-bodyshopping bedrij…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="Impediment_tooltip_id"><p><img alt="" src="https://i.imgur.com/NN6ydC2.png"/></p>
-<p>[!infobox] definitie<br/>
-<strong>Impediment:</strong> elke hindernis of obstakel dat het ontwikkelwerk blokkeert of vertraagt, maar niet kan weggenomen worden via zelf-sturing. De verwijdering ervan is onderdeel van de aansprakelijkheid van de Scrum Master. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a>.</p>
-<p>Een <strong>impediment</strong> <em>(synoniem: belemmering, hindernis of obstakel)</em> is iets wat v…</p></div></div><div class="tooltip_templates"><div id="Scrum_tooltip_id"><p><img alt="" src="https://i.imgur.com/Ybc5orR.jpg"/> [^rugbyscrum] </p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elke taak die nog veronderstelt wordt te gebeuren, beschouwen we als backlog. Het slaat op het aankomen…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: verheyen_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Scrum Glossary, </li>
+<li><strong>Author</strong>: Verheyen, Gunther</li>
+<li><strong>Journal</strong>: Scrum Glossary </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against time. Daily Scrum: a daily event, time-boxed to 15 minutes or less, to re-plan the development work during …</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="vanlier_2018_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: vanlier_2018</li>
+<li><strong>Type</strong>: blogPost</li>
+<li><strong>Title</strong>: Stakeholdermanagement in projecten met Scrum, </li>
+<li><strong>Author</strong>: van Lier, Willemijn</li>
+<li><strong>Journal</strong>: Agile Scrum Group </li>
+<li><strong>Year</strong>: 2018 </li>
+<p class="admonition-title">Abstract</p>
+<p>Om als Product Owner de waarde van een project of product te maximaliseren, is goed stakeholdermanagement vereist. Dit is hoe dat moet.</p>
+<p class="admonition-title">Files and Links</p>
+<li><strong>Url</strong>: [https://agilescrumgroup.nl/…</li></div></div><div class="tooltip_templates"><div id="qframe_2021_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: qframe_2021</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Scrum Master, Teambuilder of Agile Coach?, </li>
+<li><strong>Author</strong>: qframe,</li>
+<li><strong>Journal</strong>: Qframe </li>
+<li><strong>Year</strong>: 2021 </li>
+<p class="admonition-title">Abstract</p>
+<p>Onze kijk op de rol van Scrum Master binnen onze software teams. Een 7-tal jaar geleden evolueerden wij van een IT-bodyshopping bedrijf naar een bedrijf met een TaaS aanpak ofte ‘team as a service’. Die switch kwam natuurlijk niet zomaar u…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="Impediment_tooltip_id"><p><img alt="" src="https://i.imgur.com/NN6ydC2.png"/></p>
+<p class="admonition-title">definitie</p>
+<p><strong>Impediment:</strong> elke hindernis of obstakel dat het ontwikkelwerk blokkeert of vertraagt, maar niet kan weggenomen worden via zelf-sturing. De verwijdering ervan is onderdeel van de aansprakelijkheid van de Scrum Master. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a>.</p>
+<p>Een <strong>impediment</strong> <em>(synoniem: belemmering, hindernis of obstakel)</em> is iets wat vooruitgang blokkeert of vertraagd.</p>
+<p>In een letterlijke betekenis kun je een omgevallen boom die een …</p></div></div><div class="tooltip_templates"><div id="Scrum_tooltip_id"><p><img alt="" src="https://i.imgur.com/Ybc5orR.jpg"/> [^rugbyscrum] </p>
 <p><strong>Scrum</strong> is een van de mogelijke uitvoeringen van Agile.</p>
 <p>De term ‘Scrum’ komt van een uitdrukking uit de rugbysport waar de teamleden elkaars armen laten ineengrijpen en zo voorwaarts richting de tegenstander drukken.</p>
 <p>In de technologiewereld is Scrum een manier van projectmanagement die bestaat uit:</p>
-<li>strak gecoördineerd teamwerk.<br/>
--…</li></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: verheyen_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Scrum Glossary, <br/>
-- <strong>Author</strong>: Verheyen, Gunther<br/>
-- <strong>Journal</strong>: Scrum Glossary <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: verheyen_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Scrum Glossary, <br/>
-- <strong>Author</strong>: Verheyen, Gunther<br/>
-- <strong>Journal</strong>: Scrum Glossary <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="ScrumMaster_tooltip_id"><p><img alt="" src="https://i.imgur.com/8IDZ0WM.png"/> <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40qframe_2021/">@Qframe 2021</a></p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<li>strak gecoördineerd teamwerk.</li>
+<li>een sterke organisatie.</li>
+<li>het afwerken van project volgens de vraag van de klant.</li>
+<p>Het gros van de …</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: verheyen_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Scrum Glossary, </li>
+<li><strong>Author</strong>: Verheyen, Gunther</li>
+<li><strong>Journal</strong>: Scrum Glossary </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against time. Daily Scrum: a daily event, time-boxed to 15 minutes or less, to re-plan the development work during …</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: verheyen_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Scrum Glossary, </li>
+<li><strong>Author</strong>: Verheyen, Gunther</li>
+<li><strong>Journal</strong>: Scrum Glossary </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against time. Daily Scrum: a daily event, time-boxed to 15 minutes or less, to re-plan the development work during …</p></div></div><div class="tooltip_templates"><div id="ScrumMaster_tooltip_id"><p><img alt="" src="https://i.imgur.com/8IDZ0WM.png"/> <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40qframe_2021/">@Qframe 2021</a></p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
 <p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
-<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="ProductBacklogItem_tooltip_id"><p>Een <strong>“Product Backlog Item”</strong> (wel eens PBI, backlog item of item genoemd) is een eenduidige taak die je moet afronden.</p>
-<p>PBIs omvatten user stories, epics, specificaties, bugs, of change requirements.</p></div></div><div class="tooltip_templates"><div id="ScrumMaster_tooltip_id"><p><img alt="" src="https://i.imgur.com/8IDZ0WM.png"/> <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40qframe_2021/">@Qframe 2021</a></p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="ScrumMaster_tooltip_id"><p><img alt="" src="https://i.imgur.com/8IDZ0WM.png"/> <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40qframe_2021/">@Qframe 2021</a></p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elke taak die nog veronderstelt wordt te gebeuren, beschouwen we als backlog. Het slaat op het aankomen…</p></div></div><div class="tooltip_templates"><div id="ProductBacklogItem_tooltip_id"><p>Een <strong>“Product Backlog Item”</strong> (wel eens PBI, backlog item of item genoemd) is een eenduidige taak die je moet afronden.</p>
+<p>PBIs omvatten user stories, epics, specificaties, bugs, of change requirements.</p></div></div><div class="tooltip_templates"><div id="ScrumMaster_tooltip_id"><p><img alt="" src="https://i.imgur.com/8IDZ0WM.png"/> <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40qframe_2021/">@Qframe 2021</a></p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="ScrumMaster_tooltip_id"><p><img alt="" src="https://i.imgur.com/8IDZ0WM.png"/> <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40qframe_2021/">@Qframe 2021</a></p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
 <p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
-<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="scrumguide_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: scrumguide_2022<br/>
-- <strong>Type</strong>: blogPost<br/>
-- <strong>Title</strong>: Het Scrumteam: uitleg en tips bij de verantwoordelijkheid | Scrumguide.nl, <br/>
-- <strong>Author</strong>: scrumguide,<br/>
-- <strong>Journal</strong>: Scrumguide <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-Het Scrumteam bestaat uit de professionals die werken aan…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="ScrumMaster_tooltip_id"><p><img alt="" src="https://i.imgur.com/8IDZ0WM.png"/> <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40qframe_2021/">@Qframe 2021</a></p></div></div><div class="tooltip_templates"><div id="ontwikkelingsteam_tooltip_id"><p><img alt="" src="https://i.imgur.com/ttZAC8b.png"/></p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="ScrumMaster_tooltip_id"><p><img alt="" src="https://i.imgur.com/8IDZ0WM.png"/> <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40qframe_2021/">@Qframe 2021</a></p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="raghuprasad_2019_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: raghuprasad_2019<br/>
-- <strong>Type</strong>: blogPost<br/>
-- <strong>Title</strong>: Basics of Sprint Planning - WHAT, <br/>
-- <strong>Author</strong>: Raghuprasad,<br/>
-- <strong>Journal</strong>: AgileBAtech <br/>
-- <strong>Year</strong>: 2019 </p>
-<p>[!quote] Abstract<br/>
-Sprint Planning is held on the first day of the Sprint. This key Scrum event is designed to provide the Team and the Product Owner an op…</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elke taak die nog veronderstelt wordt te gebeuren, beschouwen we als backlog. Het slaat op het aankomen…</p></div></div><div class="tooltip_templates"><div id="scrumguide_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: scrumguide_2022</li>
+<li><strong>Type</strong>: blogPost</li>
+<li><strong>Title</strong>: Het Scrumteam: uitleg en tips bij de verantwoordelijkheid | Scrumguide.nl, </li>
+<li><strong>Author</strong>: scrumguide,</li>
+<li><strong>Journal</strong>: Scrumguide </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>Het Scrumteam bestaat uit de professionals die werken aan uitvoerende projecttaken in een scrumproject. Het Scrum team gemakkelijk uitgelegd.</p>
+<p>!!! abstract “Files…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="ScrumMaster_tooltip_id"><p><img alt="" src="https://i.imgur.com/8IDZ0WM.png"/> <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40qframe_2021/">@Qframe 2021</a></p></div></div><div class="tooltip_templates"><div id="ontwikkelingsteam_tooltip_id"><p><img alt="" src="https://i.imgur.com/ttZAC8b.png"/></p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="ScrumMaster_tooltip_id"><p><img alt="" src="https://i.imgur.com/8IDZ0WM.png"/> <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40qframe_2021/">@Qframe 2021</a></p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="raghuprasad_2019_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: raghuprasad_2019</li>
+<li><strong>Type</strong>: blogPost</li>
+<li><strong>Title</strong>: Basics of Sprint Planning - WHAT, </li>
+<li><strong>Author</strong>: Raghuprasad,</li>
+<li><strong>Journal</strong>: AgileBAtech </li>
+<li><strong>Year</strong>: 2019 </li>
+<p class="admonition-title">Abstract</p>
+<p>Sprint Planning is held on the first day of the Sprint. This key Scrum event is designed to provide the Team and the Product Owner an opportunity to</p>
+<p class="admonition-title">Files and Links</p>
+<li><strong>Url</strong>: [https://agilebatech.com/what-is-sprint-planning…</li></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
 <p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
-<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: verheyen_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Scrum Glossary, <br/>
-- <strong>Author</strong>: Verheyen, Gunther<br/>
-- <strong>Journal</strong>: Scrum Glossary <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="SprintBacklog_tooltip_id"><p>Een <strong>“sprint backlog”</strong> is de taak (of zijn de taken) die een team hoopt af te ronden tijdens een bepaalde sprint.</p>
-<p>[!info] definitie<br/>
-<strong>Sprint Backlog:</strong> het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
-<p>[!info] definitie<br/>
-<strong>Forecast:</strong> het anticiperen v…</p></div></div><div class="tooltip_templates"><div id="ProductBacklogitem_tooltip_id"><p>Een <strong>“Product Backlog Item”</strong> (wel eens PBI, backlog item of item genoemd) is een eenduidige taak die je moet afronden.</p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elke taak die nog veronderstelt wordt te gebeuren, beschouwen we als backlog. Het slaat op het aankomen…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: verheyen_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Scrum Glossary, </li>
+<li><strong>Author</strong>: Verheyen, Gunther</li>
+<li><strong>Journal</strong>: Scrum Glossary </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against time. Daily Scrum: a daily event, time-boxed to 15 minutes or less, to re-plan the development work during …</p></div></div><div class="tooltip_templates"><div id="SprintBacklog_tooltip_id"><p>Een <strong>“sprint backlog”</strong> is de taak (of zijn de taken) die een team hoopt af te ronden tijdens een bepaalde sprint.</p>
+<p class="admonition-title">definitie</p>
+<p><strong>Sprint Backlog:</strong> het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p class="admonition-title">definitie</p>
+<p><strong>Forecast:</strong> het anticiperen van toekomstige evoluties door projecties (verwachtingen) te maken op basis van observaties van het v…</p></div></div><div class="tooltip_templates"><div id="ProductBacklogitem_tooltip_id"><p>Een <strong>“Product Backlog Item”</strong> (wel eens PBI, backlog item of item genoemd) is een eenduidige taak die je moet afronden.</p>
 <p>PBIs omvatten user stories, epics, specificaties, bugs, of change requirements.</p></div></div><div class="tooltip_templates"><div id="SprintBacklog_tooltip_id"><p>Een <strong>“sprint backlog”</strong> is de taak (of zijn de taken) die een team hoopt af te ronden tijdens een bepaalde sprint.</p>
-<p>[!info] definitie<br/>
-<strong>Sprint Backlog:</strong> het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
-<p>[!info] definitie<br/>
-<strong>Forecast:</strong> het anticiperen v…</p></div></div><div class="tooltip_templates"><div id="Velocity_tooltip_id"><p>[!infobox] definitie </p></div></div><div class="tooltip_templates"><div id="SprintBacklog_tooltip_id"><p>Een <strong>“sprint backlog”</strong> is de taak (of zijn de taken) die een team hoopt af te ronden tijdens een bepaalde sprint.</p>
-<p>[!info] definitie<br/>
-<strong>Sprint Backlog:</strong> het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
-<p>[!info] definitie<br/>
-<strong>Forecast:</strong> het anticiperen v…</p></div></div><div class="tooltip_templates"><div id="SprintGoal_tooltip_id"><p>[!info] definitie<br/>
-<strong>Sprint Goal:</strong> een korte omschrijving van de overkoepelende doelstelling van een Sprint. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p></div></div><div class="tooltip_templates"><div id="zentaoteam_2022a_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: zentaoteam_2022a<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: What Are The Complete Scrum Artifacts? - Agile - ZenTao, <br/>
-- <strong>Author</strong>: ZenTao team,<br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!abstract] Files and Links<br/>
-- <strong>Url</strong>: [https://www.zentao.pm/blog/What-are-the-complete-Scrum-artifacts-1102.html](https://www.zentao.pm/b…</p></div></div><div class="tooltip_templates"><div id="SprintBacklog_tooltip_id"><p>Een <strong>“sprint backlog”</strong> is de taak (of zijn de taken) die een team hoopt af te ronden tijdens een bepaalde sprint.</p>
-<p>[!info] definitie<br/>
-<strong>Sprint Backlog:</strong> het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
-<p>[!info] definitie<br/>
-<strong>Forecast:</strong> het anticiperen v…</p></div></div><div class="tooltip_templates"><div id="productplan_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: productplan_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: User Story, <br/>
-- <strong>Author</strong>: productplan,<br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-What is a user story and who is responsible for them? Learn how to write user stories—plus get a free user story template.</p>
-<p>[!abstract] Files and Links<br/>
-- <strong>Url</strong>: [https://www.productplan.com/glossary/user-s…</p></div></div><div class="tooltip_templates"><div id="ProductBacklogItem_tooltip_id"><p>Een <strong>“Product Backlog Item”</strong> (wel eens PBI, backlog item of item genoemd) is een eenduidige taak die je moet afronden.</p>
-<p>PBIs omvatten user stories, epics, specificaties, bugs, of change requirements.</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p class="admonition-title">definitie</p>
+<p><strong>Sprint Backlog:</strong> het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p class="admonition-title">definitie</p>
+<p><strong>Forecast:</strong> het anticiperen van toekomstige evoluties door projecties (verwachtingen) te maken op basis van observaties van het v…</p></div></div><div class="tooltip_templates"><div id="Velocity_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="SprintBacklog_tooltip_id"><p>Een <strong>“sprint backlog”</strong> is de taak (of zijn de taken) die een team hoopt af te ronden tijdens een bepaalde sprint.</p>
+<p class="admonition-title">definitie</p>
+<p><strong>Sprint Backlog:</strong> het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p class="admonition-title">definitie</p>
+<p><strong>Forecast:</strong> het anticiperen van toekomstige evoluties door projecties (verwachtingen) te maken op basis van observaties van het v…</p></div></div><div class="tooltip_templates"><div id="SprintGoal_tooltip_id"><p class="admonition-title">definitie</p>
+<p><strong>Sprint Goal:</strong> een korte omschrijving van de overkoepelende doelstelling van een Sprint. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p></div></div><div class="tooltip_templates"><div id="zentaoteam_2022a_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: zentaoteam_2022a</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: What Are The Complete Scrum Artifacts? - Agile - ZenTao, </li>
+<li><strong>Author</strong>: ZenTao team,</li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Files and Links</p>
+<li><strong>Url</strong>: <a href="https://www.zentao.pm/blog/What-are-the-complete-Scrum-artifacts-1102.html">https://www.zentao.pm/blog/What-are-the-complete-Scrum-artifacts-1102.html</a></li>
+<li><strong>Uri</strong>: [http://zotero.org/users/9685140/items/…</li></div></div><div class="tooltip_templates"><div id="SprintBacklog_tooltip_id"><p>Een <strong>“sprint backlog”</strong> is de taak (of zijn de taken) die een team hoopt af te ronden tijdens een bepaalde sprint.</p>
+<p class="admonition-title">definitie</p>
+<p><strong>Sprint Backlog:</strong> het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p class="admonition-title">definitie</p>
+<p><strong>Forecast:</strong> het anticiperen van toekomstige evoluties door projecties (verwachtingen) te maken op basis van observaties van het v…</p></div></div><div class="tooltip_templates"><div id="productplan_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: productplan_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: User Story, </li>
+<li><strong>Author</strong>: productplan,</li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>What is a user story and who is responsible for them? Learn how to write user stories—plus get a free user story template.</p>
+<p class="admonition-title">Files and Links</p>
+<li><strong>Url</strong>: <a href="https://www.productplan.com/glossary/user-story/">https://www.productplan.com/glossary/user-story/</a></li>
+<li><strong>Uri</strong>: [http://zotero.org/groups/4724240/i…</li></div></div><div class="tooltip_templates"><div id="ProductBacklogItem_tooltip_id"><p>Een <strong>“Product Backlog Item”</strong> (wel eens PBI, backlog item of item genoemd) is een eenduidige taak die je moet afronden.</p>
+<p>PBIs omvatten user stories, epics, specificaties, bugs, of change requirements.</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
 <p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
-<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: verheyen_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Scrum Glossary, <br/>
-- <strong>Author</strong>: Verheyen, Gunther<br/>
-- <strong>Journal</strong>: Scrum Glossary <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="Sprint_tooltip_id"><p><img alt="" src="https://i.imgur.com/jwLYumg.png"/><br/>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elke taak die nog veronderstelt wordt te gebeuren, beschouwen we als backlog. Het slaat op het aankomen…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: verheyen_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Scrum Glossary, </li>
+<li><strong>Author</strong>: Verheyen, Gunther</li>
+<li><strong>Journal</strong>: Scrum Glossary </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against time. Daily Scrum: a daily event, time-boxed to 15 minutes or less, to re-plan the development work during …</p></div></div><div class="tooltip_templates"><div id="Sprint_tooltip_id"><p><img alt="" src="https://i.imgur.com/jwLYumg.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40visual-paradigm_2022/">@Visual Paradigm 2022</a></p>
 <p>Een <strong>sprint</strong> is een vastgelegde tijdsperiode (gebruikelijk kiest men 1 week, 2 weken of 4 weken) waaraan een afgesproken hoeveelheid werk is toegewezen om af te werken. </p>
-<p>Sprints beginnen en eindigen met vergaderingen waar men taken toewijst en reviews <em>(synoniem: het inspecteren)</em> van de voorbije uitvoering bekijkt en be…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="Stakeholders_tooltip_id"><p>[!infobox] definitie<br/>
-<strong>Stakeholder:</strong> een persoon van buiten het Scrum Team met een specifiek belang in het product of kennis ervan die noodzakelijk is voor de verdere ontwikkeling van het product. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
-<p>Stakeholders beschouwen we als alle partijen die interesse hebben in een op te leveren product of project. Ze beïnvloeden het proje…</p></div></div><div class="tooltip_templates"><div id="SprintReview_tooltip_id"><p>[!infobox] definitie </p></div></div><div class="tooltip_templates"><div id="SprintReview_tooltip_id"><p>[!infobox] definitie </p></div></div><div class="tooltip_templates"><div id="agile4all_2019_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: agile4all_2019<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Sprint Planning, <br/>
-- <strong>Author</strong>: agile4all,<br/>
-- <strong>Journal</strong>: agile4all <br/>
-- <strong>Year</strong>: 2019 </p>
-<p>[!quote] Abstract<br/>
-Sprint Planning is een Scrum Event aan het begin van een Sprint. Het team bepaalt aan welke Product Backlog items ze gaan werken. Lees meer.</p>
-<p>[!abstract] Files and Links<br/>
-- *…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: verheyen_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Scrum Glossary, <br/>
-- <strong>Author</strong>: Verheyen, Gunther<br/>
-- <strong>Journal</strong>: Scrum Glossary <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: verheyen_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Scrum Glossary, <br/>
-- <strong>Author</strong>: Verheyen, Gunther<br/>
-- <strong>Journal</strong>: Scrum Glossary <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p>Sprints beginnen en eindigen met vergaderingen waar men taken toewijst en reviews <em>(synoniem: het inspecteren)</em> van de voorbije uitvoering bekijkt en bespreekt.</p>
+<p class="admonition-title">definitie</p>
+<p><strong>Sprint:</strong> een event dat als een zogenaamd ‘container event’ de …</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="Stakeholders_tooltip_id"><p class="admonition-title">definitie</p>
+<p><strong>Stakeholder:</strong> een persoon van buiten het Scrum Team met een specifiek belang in het product of kennis ervan die noodzakelijk is voor de verdere ontwikkeling van het product. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p>Stakeholders beschouwen we als alle partijen die interesse hebben in een op te leveren product of project. Ze beïnvloeden het project of het project beïnvloedt hen, ze hebben (in)direct invloed en interesse in je Scrum project. <br/>
+Do…</p></div></div><div class="tooltip_templates"><div id="SprintReview_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="SprintReview_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="agile4all_2019_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: agile4all_2019</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Sprint Planning, </li>
+<li><strong>Author</strong>: agile4all,</li>
+<li><strong>Journal</strong>: agile4all </li>
+<li><strong>Year</strong>: 2019 </li>
+<p class="admonition-title">Abstract</p>
+<p>Sprint Planning is een Scrum Event aan het begin van een Sprint. Het team bepaalt aan welke Product Backlog items ze gaan werken. Lees meer.</p>
+<p class="admonition-title">Files and Links</p>
+<li><strong>Url</strong>: <a href="https://www.agile4all.nl/sprint-planning/">https://www.agile4all.nl/sprint-planning/</a></li>
+<li><strong>Uri</strong>…</li></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: verheyen_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Scrum Glossary, </li>
+<li><strong>Author</strong>: Verheyen, Gunther</li>
+<li><strong>Journal</strong>: Scrum Glossary </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against time. Daily Scrum: a daily event, time-boxed to 15 minutes or less, to re-plan the development work during …</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: verheyen_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Scrum Glossary, </li>
+<li><strong>Author</strong>: Verheyen, Gunther</li>
+<li><strong>Journal</strong>: Scrum Glossary </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against time. Daily Scrum: a daily event, time-boxed to 15 minutes or less, to re-plan the development work during …</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
 <p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
-<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="vanrooden_2015_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: vanrooden_2015<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Product Backlog Refinement explained (1/3), <br/>
-- <strong>Author</strong>: van Rooden, Stephan<br/>
-- <strong>Journal</strong>: Scrum.org <br/>
-- <strong>Year</strong>: 2015 </p>
-<p>[!quote] Abstract<br/>
-One of the most challenging activities in Scrum is Product Backlog Refinement. During training courses I get many …</p></div></div><div class="tooltip_templates"><div id="vanrooden_2015a_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: vanrooden_2015a<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Product Backlog Refinement explained (3/3), <br/>
-- <strong>Author</strong>: van Rooden, Stephan<br/>
-- <strong>Journal</strong>: Scrum.org <br/>
-- <strong>Year</strong>: 2015 </p>
-<p>[!quote] Abstract<br/>
-How to facilitate a Product Backlog Refinement meeting? What do you do as a Scrum Master to keep the item under r…</p></div></div><div class="tooltip_templates"><div id="ProductBacklogItem_tooltip_id"><p>Een <strong>“Product Backlog Item”</strong> (wel eens PBI, backlog item of item genoemd) is een eenduidige taak die je moet afronden.</p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elke taak die nog veronderstelt wordt te gebeuren, beschouwen we als backlog. Het slaat op het aankomen…</p></div></div><div class="tooltip_templates"><div id="vanrooden_2015_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: vanrooden_2015</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Product Backlog Refinement explained (1/3), </li>
+<li><strong>Author</strong>: van Rooden, Stephan</li>
+<li><strong>Journal</strong>: Scrum.org </li>
+<li><strong>Year</strong>: 2015 </li>
+<p class="admonition-title">Abstract</p>
+<p>One of the most challenging activities in Scrum is Product Backlog Refinement. During training courses I get many questions on this activity. What do you do during Product Backlog refinement? How do you prevent discussi…</p></div></div><div class="tooltip_templates"><div id="vanrooden_2015a_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: vanrooden_2015a</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Product Backlog Refinement explained (3/3), </li>
+<li><strong>Author</strong>: van Rooden, Stephan</li>
+<li><strong>Journal</strong>: Scrum.org </li>
+<li><strong>Year</strong>: 2015 </li>
+<p class="admonition-title">Abstract</p>
+<p>How to facilitate a Product Backlog Refinement meeting? What do you do as a Scrum Master to keep the item under refinement on track? When do you estimate and what do you do when you need more time for discussion? In th…</p></div></div><div class="tooltip_templates"><div id="ProductBacklogItem_tooltip_id"><p>Een <strong>“Product Backlog Item”</strong> (wel eens PBI, backlog item of item genoemd) is een eenduidige taak die je moet afronden.</p>
 <p>PBIs omvatten user stories, epics, specificaties, bugs, of change requirements.</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
 <p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
-<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: verheyen_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Scrum Glossary, <br/>
-- <strong>Author</strong>: Verheyen, Gunther<br/>
-- <strong>Journal</strong>: Scrum Glossary <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="StoryPoints_tooltip_id"><p><img alt="" src="https://i.imgur.com/RgJ45Aq.jpg"/></p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elke taak die nog veronderstelt wordt te gebeuren, beschouwen we als backlog. Het slaat op het aankomen…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: verheyen_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Scrum Glossary, </li>
+<li><strong>Author</strong>: Verheyen, Gunther</li>
+<li><strong>Journal</strong>: Scrum Glossary </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against time. Daily Scrum: a daily event, time-boxed to 15 minutes or less, to re-plan the development work during …</p></div></div><div class="tooltip_templates"><div id="StoryPoints_tooltip_id"><p><img alt="" src="https://i.imgur.com/RgJ45Aq.jpg"/></p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
 <p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
-<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: verheyen_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Scrum Glossary, <br/>
-- <strong>Author</strong>: Verheyen, Gunther<br/>
-- <strong>Journal</strong>: Scrum Glossary <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="adobeworkfront_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: adobeworkfront_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: What is Velocity in Agile? Charts &amp; Examples | Adobe Workfront, <br/>
-- <strong>Author</strong>: Adobe Workfront,<br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!abstract] Files and Links<br/>
-- <strong>Url</strong>: [https://www.workfront.com/project-management/methodologies/agile/velocity](htt…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="DefinitionofDone_tooltip_id"><p>[!infobox] definitie<br/>
-<strong>Definition of Done:</strong> de verzameling kwaliteiten, verwachtingen en criteria waaraan een Increment moet voldoen om te kunnen worden vrijgegeven naar de eindgebruikers – met respect voor overkoepelende organisatierichtlijnen indien beschikbaar. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p></div></div><div class="tooltip_templates"><div id="ProductBacklogRefinement_tooltip_id"><p><img alt="" src="https://i.imgur.com/QKHODEO.png"/><br/>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elke taak die nog veronderstelt wordt te gebeuren, beschouwen we als backlog. Het slaat op het aankomen…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: verheyen_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Scrum Glossary, </li>
+<li><strong>Author</strong>: Verheyen, Gunther</li>
+<li><strong>Journal</strong>: Scrum Glossary </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against time. Daily Scrum: a daily event, time-boxed to 15 minutes or less, to re-plan the development work during …</p></div></div><div class="tooltip_templates"><div id="adobeworkfront_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: adobeworkfront_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: What is Velocity in Agile? Charts &amp; Examples | Adobe Workfront, </li>
+<li><strong>Author</strong>: Adobe Workfront,</li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Files and Links</p>
+<li><strong>Url</strong>: <a href="https://www.workfront.com/project-management/methodologies/agile/velocity">https://www.workfront.com/project-management/methodologies/agile/velocity</a></li>
+<li><strong>Uri</strong>: [http://zotero.org/g…</li></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="DefinitionofDone_tooltip_id"><p class="admonition-title">definitie</p>
+<p><strong>Definition of Done:</strong> de verzameling kwaliteiten, verwachtingen en criteria waaraan een Increment moet voldoen om te kunnen worden vrijgegeven naar de eindgebruikers – met respect voor overkoepelende organisatierichtlijnen indien beschikbaar. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p></div></div><div class="tooltip_templates"><div id="ProductBacklogRefinement_tooltip_id"><p><img alt="" src="https://i.imgur.com/QKHODEO.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40vanrooden_2015/">@Vanrooden 2015</a><br/>
 <img alt="" src="https://i.imgur.com/6NEBVMN.jpg"/><br/>
-<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40vanrooden_2015a/">@Vanrooden 2015A</a></p></div></div><div class="tooltip_templates"><div id="vrielink_2020_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: vrielink_2020<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Hoe werken story points?, <br/>
-- <strong>Author</strong>: Vrielink, Martijn<br/>
-- <strong>Year</strong>: 2020 </p>
-<p>[!quote] Abstract<br/>
-Een beproefde methode binnen scrum om product backlog items in te schatten is die van de story points. Wat zijn story points eigenlijk? En hoe gebruik je ze?</p>
-<p>[!abstract] Files an…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: verheyen_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Scrum Glossary, <br/>
-- <strong>Author</strong>: Verheyen, Gunther<br/>
-- <strong>Journal</strong>: Scrum Glossary <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="Scrum_tooltip_id"><p><img alt="" src="https://i.imgur.com/Ybc5orR.jpg"/> [^rugbyscrum] </p>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40vanrooden_2015a/">@Vanrooden 2015A</a></p></div></div><div class="tooltip_templates"><div id="vrielink_2020_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: vrielink_2020</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Hoe werken story points?, </li>
+<li><strong>Author</strong>: Vrielink, Martijn</li>
+<li><strong>Year</strong>: 2020 </li>
+<p class="admonition-title">Abstract</p>
+<p>Een beproefde methode binnen scrum om product backlog items in te schatten is die van de story points. Wat zijn story points eigenlijk? En hoe gebruik je ze?</p>
+<p class="admonition-title">Files and Links</p>
+<li><strong>Url</strong>: [https://www.incentro.com/nl-NL/blog/story-points-hoe-werken-ze-eigenlijk](https://…</li></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: verheyen_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Scrum Glossary, </li>
+<li><strong>Author</strong>: Verheyen, Gunther</li>
+<li><strong>Journal</strong>: Scrum Glossary </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against time. Daily Scrum: a daily event, time-boxed to 15 minutes or less, to re-plan the development work during …</p></div></div><div class="tooltip_templates"><div id="Scrum_tooltip_id"><p><img alt="" src="https://i.imgur.com/Ybc5orR.jpg"/> [^rugbyscrum] </p>
 <p><strong>Scrum</strong> is een van de mogelijke uitvoeringen van Agile.</p>
 <p>De term ‘Scrum’ komt van een uitdrukking uit de rugbysport waar de teamleden elkaars armen laten ineengrijpen en zo voorwaarts richting de tegenstander drukken.</p>
 <p>In de technologiewereld is Scrum een manier van projectmanagement die bestaat uit:</p>
-<li>strak gecoördineerd teamwerk.<br/>
--…</li></div></div><div class="tooltip_templates"><div id="UserStory_tooltip_id"></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="sprint_tooltip_id"><p><img alt="" src="https://i.imgur.com/jwLYumg.png"/><br/>
+<li>strak gecoördineerd teamwerk.</li>
+<li>een sterke organisatie.</li>
+<li>het afwerken van project volgens de vraag van de klant.</li>
+<p>Het gros van de …</p></div></div><div class="tooltip_templates"><div id="UserStory_tooltip_id"></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="sprint_tooltip_id"><p><img alt="" src="https://i.imgur.com/jwLYumg.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40visual-paradigm_2022/">@Visual Paradigm 2022</a></p>
 <p>Een <strong>sprint</strong> is een vastgelegde tijdsperiode (gebruikelijk kiest men 1 week, 2 weken of 4 weken) waaraan een afgesproken hoeveelheid werk is toegewezen om af te werken. </p>
-<p>Sprints beginnen en eindigen met vergaderingen waar men taken toewijst en reviews <em>(synoniem: het inspecteren)</em> van de voorbije uitvoering bekijkt en be…</p></div></div><div class="tooltip_templates"><div id="SprintPlanning_tooltip_id"><p>Bij de start van elke sprint, is er een planningssessie binnen het team: de <strong>Sprint Planning</strong>.</p>
+<p>Sprints beginnen en eindigen met vergaderingen waar men taken toewijst en reviews <em>(synoniem: het inspecteren)</em> van de voorbije uitvoering bekijkt en bespreekt.</p>
+<p class="admonition-title">definitie</p>
+<p><strong>Sprint:</strong> een event dat als een zogenaamd ‘container event’ de …</p></div></div><div class="tooltip_templates"><div id="SprintPlanning_tooltip_id"><p>Bij de start van elke sprint, is er een planningssessie binnen het team: de <strong>Sprint Planning</strong>.</p>
 <p><img alt="" src="https://i.imgur.com/gVPiokj.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40raghuprasad_2019/">@Raghuprasad 2019</a></p>
-<p>[!infobox] definitie: </p></div></div><div class="tooltip_templates"><div id="agilescrumgroup_2017_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: agilescrumgroup_2017<br/>
-- <strong>Type</strong>: blogPost<br/>
-- <strong>Title</strong>: Wat is Definition of Done? Check de uitleg en voorbeelden (IT &amp; non-IT), <br/>
-- <strong>Author</strong>: Agile Scrum Group,<br/>
-- <strong>Journal</strong>: Agile Scrum Group <br/>
-- <strong>Year</strong>: 2017 </p>
-<p>[!quote] Abstract<br/>
-In dit artikel lees je wat een Definition …</p></div></div><div class="tooltip_templates"><div id="SprintBacklog_tooltip_id"><p>Een <strong>“sprint backlog”</strong> is de taak (of zijn de taken) die een team hoopt af te ronden tijdens een bepaalde sprint.</p>
-<p>[!info] definitie<br/>
-<strong>Sprint Backlog:</strong> het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
-<p>[!info] definitie<br/>
-<strong>Forecast:</strong> het anticiperen v…</p></div></div><div class="tooltip_templates"><div id="Dailystandups_tooltip_id"><p><img alt="" src="https://i.imgur.com/lbKcBA7.png"/> <br/>
+<p class="admonition-title">definitie:</p></div></div><div class="tooltip_templates"><div id="agilescrumgroup_2017_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: agilescrumgroup_2017</li>
+<li><strong>Type</strong>: blogPost</li>
+<li><strong>Title</strong>: Wat is Definition of Done? Check de uitleg en voorbeelden (IT &amp; non-IT), </li>
+<li><strong>Author</strong>: Agile Scrum Group,</li>
+<li><strong>Journal</strong>: Agile Scrum Group </li>
+<li><strong>Year</strong>: 2017 </li>
+<p class="admonition-title">Abstract</p>
+<p>In dit artikel lees je wat een Definition of Done is en worden voorbeelden gegeven. Zowel voor IT Scrumteams als non-IT Scrumteams.</p>
+<p>!!! abstract “…</p></div></div><div class="tooltip_templates"><div id="SprintBacklog_tooltip_id"><p>Een <strong>“sprint backlog”</strong> is de taak (of zijn de taken) die een team hoopt af te ronden tijdens een bepaalde sprint.</p>
+<p class="admonition-title">definitie</p>
+<p><strong>Sprint Backlog:</strong> het evoluerend werkplan dat de Sprint Goal en alle ontwikkelwerkzaamheden bevat die noodzakelijk zijn om de Forecast en de Sprint Goal te realiseren. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p class="admonition-title">definitie</p>
+<p><strong>Forecast:</strong> het anticiperen van toekomstige evoluties door projecties (verwachtingen) te maken op basis van observaties van het v…</p></div></div><div class="tooltip_templates"><div id="Dailystandups_tooltip_id"><p><img alt="" src="https://i.imgur.com/lbKcBA7.png"/> <br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40vanderwardt_2017/">@Vanderwardt 2017</a></p>
-<p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
 <p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
-<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="scrumguide_2022a_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: scrumguide_2022a<br/>
-- <strong>Type</strong>: blogPost<br/>
-- <strong>Title</strong>: Scrum takenbord | Scrumguide.nl, <br/>
-- <strong>Author</strong>: Scrumguide,<br/>
-- <strong>Journal</strong>: Scrumguide <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-Het Scrum takenbord Binnen Scrum wordt gewerkt met een takenbord. Het Scrum takenbord is bedoeld als hulpmiddel bij het overzichtelijk maken…</p></div></div><div class="tooltip_templates"><div id="Sprint_tooltip_id"><p><img alt="" src="https://i.imgur.com/jwLYumg.png"/><br/>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elke taak die nog veronderstelt wordt te gebeuren, beschouwen we als backlog. Het slaat op het aankomen…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="scrumguide_2022a_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: scrumguide_2022a</li>
+<li><strong>Type</strong>: blogPost</li>
+<li><strong>Title</strong>: Scrum takenbord | Scrumguide.nl, </li>
+<li><strong>Author</strong>: Scrumguide,</li>
+<li><strong>Journal</strong>: Scrumguide </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>Het Scrum takenbord Binnen Scrum wordt gewerkt met een takenbord. Het Scrum takenbord is bedoeld als hulpmiddel bij het overzichtelijk maken van de stand van zaken binnen een sprint. Alle taken die voor een sprint geselecteerd zijn, worden opgen…</p></div></div><div class="tooltip_templates"><div id="Sprint_tooltip_id"><p><img alt="" src="https://i.imgur.com/jwLYumg.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40visual-paradigm_2022/">@Visual Paradigm 2022</a></p>
 <p>Een <strong>sprint</strong> is een vastgelegde tijdsperiode (gebruikelijk kiest men 1 week, 2 weken of 4 weken) waaraan een afgesproken hoeveelheid werk is toegewezen om af te werken. </p>
-<p>Sprints beginnen en eindigen met vergaderingen waar men taken toewijst en reviews <em>(synoniem: het inspecteren)</em> van de voorbije uitvoering bekijkt en be…</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p>Sprints beginnen en eindigen met vergaderingen waar men taken toewijst en reviews <em>(synoniem: het inspecteren)</em> van de voorbije uitvoering bekijkt en bespreekt.</p>
+<p class="admonition-title">definitie</p>
+<p><strong>Sprint:</strong> een event dat als een zogenaamd ‘container event’ de …</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
 <p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
-<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: verheyen_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Scrum Glossary, <br/>
-- <strong>Author</strong>: Verheyen, Gunther<br/>
-- <strong>Journal</strong>: Scrum Glossary <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="Stakeholders_tooltip_id"><p>[!infobox] definitie<br/>
-<strong>Stakeholder:</strong> een persoon van buiten het Scrum Team met een specifiek belang in het product of kennis ervan die noodzakelijk is voor de verdere ontwikkeling van het product. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
-<p>Stakeholders beschouwen we als alle partijen die interesse hebben in een op te leveren product of project. Ze beïnvloeden het proje…</p></div></div><div class="tooltip_templates"><div id="Userstories_tooltip_id"></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elke taak die nog veronderstelt wordt te gebeuren, beschouwen we als backlog. Het slaat op het aankomen…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: verheyen_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Scrum Glossary, </li>
+<li><strong>Author</strong>: Verheyen, Gunther</li>
+<li><strong>Journal</strong>: Scrum Glossary </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against time. Daily Scrum: a daily event, time-boxed to 15 minutes or less, to re-plan the development work during …</p></div></div><div class="tooltip_templates"><div id="Stakeholders_tooltip_id"><p class="admonition-title">definitie</p>
+<p><strong>Stakeholder:</strong> een persoon van buiten het Scrum Team met een specifiek belang in het product of kennis ervan die noodzakelijk is voor de verdere ontwikkeling van het product. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p>Stakeholders beschouwen we als alle partijen die interesse hebben in een op te leveren product of project. Ze beïnvloeden het project of het project beïnvloedt hen, ze hebben (in)direct invloed en interesse in je Scrum project. <br/>
+Do…</p></div></div><div class="tooltip_templates"><div id="Userstories_tooltip_id"></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
 <p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
-<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="Stakeholders_tooltip_id"><p>[!infobox] definitie<br/>
-<strong>Stakeholder:</strong> een persoon van buiten het Scrum Team met een specifiek belang in het product of kennis ervan die noodzakelijk is voor de verdere ontwikkeling van het product. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
-<p>Stakeholders beschouwen we als alle partijen die interesse hebben in een op te leveren product of project. Ze beïnvloeden het proje…</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elke taak die nog veronderstelt wordt te gebeuren, beschouwen we als backlog. Het slaat op het aankomen…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="Stakeholders_tooltip_id"><p class="admonition-title">definitie</p>
+<p><strong>Stakeholder:</strong> een persoon van buiten het Scrum Team met een specifiek belang in het product of kennis ervan die noodzakelijk is voor de verdere ontwikkeling van het product. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p>Stakeholders beschouwen we als alle partijen die interesse hebben in een op te leveren product of project. Ze beïnvloeden het project of het project beïnvloedt hen, ze hebben (in)direct invloed en interesse in je Scrum project. <br/>
+Do…</p></div></div><div class="tooltip_templates"><div id="ProductBacklog_tooltip_id"><p>Je hebt zeker al het woord ‘backlog’ horen vallen wanneer het gaat over achterstallig werk, of over werk dat over tijd is. Bijvoorbeeld als je al een maand lang je mails niet meer beantwoord hebt, zou je een backlog van e-mails hebben.</p>
 <p><img alt="" src="https://i.imgur.com/1pEgAWG.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40eby_2016/">@Eby 2016</a></p>
-<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elk…</p></div></div><div class="tooltip_templates"><div id="agilescrumgroup_2018_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: agilescrumgroup_2018<br/>
-- <strong>Type</strong>: blogPost<br/>
-- <strong>Title</strong>: De Sprint Review uitgelegd. Waarom deze meeting? (+ Checklist &amp; Valkuilen), <br/>
-- <strong>Author</strong>: Agile Scrum Group,<br/>
-- <strong>Journal</strong>: Agile Scrum Group <br/>
-- <strong>Year</strong>: 2018 </p>
-<p>[!quote] Abstract<br/>
-Wat is de Sprint Review? Waarom is d…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: verheyen_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Scrum Glossary, <br/>
-- <strong>Author</strong>: Verheyen, Gunther<br/>
-- <strong>Journal</strong>: Scrum Glossary <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="UserstoriesenEpics_tooltip_id"></div></div><div class="tooltip_templates"><div id="visualparadigm_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: visualparadigm_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: What are Time-boxed Events in Scrum?, <br/>
-- <strong>Author</strong>: Visual Paradigm,<br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!abstract] Files and Links<br/>
-- <strong>Url</strong>: [https://www.visual-paradigm.com/scrum/what-are-scrum-time-boxed-events/](https://www.visual-paradigm.com/scrum/what-are-scrum-time…</p></div></div><div class="tooltip_templates"><div id="SprintPlanning_tooltip_id"><p>Bij de start van elke sprint, is er een planningssessie binnen het team: de <strong>Sprint Planning</strong>.</p>
+<p>In Agile definieer je een backlog anders. Het betekent simpelweg: het openstaande werk. Elke taak die nog veronderstelt wordt te gebeuren, beschouwen we als backlog. Het slaat op het aankomen…</p></div></div><div class="tooltip_templates"><div id="agilescrumgroup_2018_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: agilescrumgroup_2018</li>
+<li><strong>Type</strong>: blogPost</li>
+<li><strong>Title</strong>: De Sprint Review uitgelegd. Waarom deze meeting? (+ Checklist &amp; Valkuilen), </li>
+<li><strong>Author</strong>: Agile Scrum Group,</li>
+<li><strong>Journal</strong>: Agile Scrum Group </li>
+<li><strong>Year</strong>: 2018 </li>
+<p class="admonition-title">Abstract</p>
+<p>Wat is de Sprint Review? Waarom is deze meeting belangrijk? Wat zijn valkuilen voor deze meeting? Lees alles hierover in deze blog.</p>
+<p>!!! abst…</p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: verheyen_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Scrum Glossary, </li>
+<li><strong>Author</strong>: Verheyen, Gunther</li>
+<li><strong>Journal</strong>: Scrum Glossary </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against time. Daily Scrum: a daily event, time-boxed to 15 minutes or less, to re-plan the development work during …</p></div></div><div class="tooltip_templates"><div id="ProductOwner_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="UserstoriesenEpics_tooltip_id"></div></div><div class="tooltip_templates"><div id="visualparadigm_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: visualparadigm_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: What are Time-boxed Events in Scrum?, </li>
+<li><strong>Author</strong>: Visual Paradigm,</li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Files and Links</p>
+<li><strong>Url</strong>: <a href="https://www.visual-paradigm.com/scrum/what-are-scrum-time-boxed-events/">https://www.visual-paradigm.com/scrum/what-are-scrum-time-boxed-events/</a></li>
+<li><strong>Uri</strong>: [http://zotero.org/groups/4724240/items/U69W97VV](http://zotero.org/groups/4…</li></div></div><div class="tooltip_templates"><div id="SprintPlanning_tooltip_id"><p>Bij de start van elke sprint, is er een planningssessie binnen het team: de <strong>Sprint Planning</strong>.</p>
 <p><img alt="" src="https://i.imgur.com/gVPiokj.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40raghuprasad_2019/">@Raghuprasad 2019</a></p>
-<p>[!infobox] definitie: </p></div></div><div class="tooltip_templates"><div id="Dailystandups_tooltip_id"><p><img alt="" src="https://i.imgur.com/lbKcBA7.png"/> <br/>
+<p class="admonition-title">definitie:</p></div></div><div class="tooltip_templates"><div id="Dailystandups_tooltip_id"><p><img alt="" src="https://i.imgur.com/lbKcBA7.png"/> <br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40vanderwardt_2017/">@Vanderwardt 2017</a></p>
-<p>[!infobox] definitie</p></div></div><div class="tooltip_templates"><div id="SprintReview_tooltip_id"><p>[!infobox] definitie </p></div></div><div class="tooltip_templates"><div id="SprintRetrospective_tooltip_id"><p>“Retrospect” (terugblik) betekent het reviseren of bevragen van voorbije gebeurtenissen of tijdsperioden.</p>
-<p>[!infobox] definitie<br/>
-<strong>Sprint Retrospective:</strong> het event dat het einde van een Sprint uitmaakt, met een time-box van drie uur of minder. Tijdens dit event kijkt het Scrum Team terug op de aflopende Sprint, met als doel om op basis van de ervaringen in de huidige Spr…</p></div></div><div class="tooltip_templates"><div id="Sprint_tooltip_id"><p><img alt="" src="https://i.imgur.com/jwLYumg.png"/><br/>
+<p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="SprintReview_tooltip_id"><p class="admonition-title">definitie</p></div></div><div class="tooltip_templates"><div id="SprintRetrospective_tooltip_id"><p>“Retrospect” (terugblik) betekent het reviseren of bevragen van voorbije gebeurtenissen of tijdsperioden.</p>
+<p class="admonition-title">definitie</p>
+<p><strong>Sprint Retrospective:</strong> het event dat het einde van een Sprint uitmaakt, met een time-box van drie uur of minder. Tijdens dit event kijkt het Scrum Team terug op de aflopende Sprint, met als doel om op basis van de ervaringen in de huidige Sprint het proces en de manier van werken, in brede zin, voor de volgende Sprint te bepalen. [[@verheye…</p></div></div><div class="tooltip_templates"><div id="Sprint_tooltip_id"><p><img alt="" src="https://i.imgur.com/jwLYumg.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40visual-paradigm_2022/">@Visual Paradigm 2022</a></p>
 <p>Een <strong>sprint</strong> is een vastgelegde tijdsperiode (gebruikelijk kiest men 1 week, 2 weken of 4 weken) waaraan een afgesproken hoeveelheid werk is toegewezen om af te werken. </p>
-<p>Sprints beginnen en eindigen met vergaderingen waar men taken toewijst en reviews <em>(synoniem: het inspecteren)</em> van de voorbije uitvoering bekijkt en be…</p></div></div><div class="tooltip_templates"><div id="ProductBacklogRefinement_tooltip_id"><p><img alt="" src="https://i.imgur.com/QKHODEO.png"/><br/>
+<p>Sprints beginnen en eindigen met vergaderingen waar men taken toewijst en reviews <em>(synoniem: het inspecteren)</em> van de voorbije uitvoering bekijkt en bespreekt.</p>
+<p class="admonition-title">definitie</p>
+<p><strong>Sprint:</strong> een event dat als een zogenaamd ‘container event’ de …</p></div></div><div class="tooltip_templates"><div id="ProductBacklogRefinement_tooltip_id"><p><img alt="" src="https://i.imgur.com/QKHODEO.png"/><br/>
 <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40vanrooden_2015/">@Vanrooden 2015</a><br/>
 <img alt="" src="https://i.imgur.com/6NEBVMN.jpg"/><br/>
-<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40vanrooden_2015a/">@Vanrooden 2015A</a></p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: verheyen_2022<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: Scrum Glossary, <br/>
-- <strong>Author</strong>: Verheyen, Gunther<br/>
-- <strong>Journal</strong>: Scrum Glossary <br/>
-- <strong>Year</strong>: 2022 </p>
-<p>[!quote] Abstract<br/>
-English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against ti…</p></div></div><div class="tooltip_templates"><div id="SprintGoal_tooltip_id"><p>[!info] definitie<br/>
-<strong>Sprint Goal:</strong> een korte omschrijving van de overkoepelende doelstelling van een Sprint. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p></div></div><div class="tooltip_templates"><div id="DefinitionofDone_tooltip_id"><p>[!infobox] definitie<br/>
-<strong>Definition of Done:</strong> de verzameling kwaliteiten, verwachtingen en criteria waaraan een Increment moet voldoen om te kunnen worden vrijgegeven naar de eindgebruikers – met respect voor overkoepelende organisatierichtlijnen indien beschikbaar. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p></div></div><div class="tooltip_templates"><div id="SprintGoal_tooltip_id"><p>[!info] definitie<br/>
-<strong>Sprint Goal:</strong> een korte omschrijving van de overkoepelende doelstelling van een Sprint. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p></div></div><div class="tooltip_templates"><div id="DailyScrum_tooltip_id"></div></div><div class="tooltip_templates"><div id="empirischeprocesfundamenten_tooltip_id"><p>[!infobox] definitie <br/>
-<strong>Empirische procescontrole</strong> (in het Engels vaak afgekort tot ‘Empiricism’): de vorm van procescontrole waar beslissingen voor aanpassingen gebaseerd zijn op observatie, ervaring en effectieve realisaties. Empirische procescontrole behoeft en creëert transparantie als noodzakelijke ondergrond voor regelmatige inspectie (evaluatie) en aanpass…</p></div></div><div class="tooltip_templates"><div id="stakeholders_tooltip_id"><p>[!infobox] definitie<br/>
-<strong>Stakeholder:</strong> een persoon van buiten het Scrum Team met een specifiek belang in het product of kennis ervan die noodzakelijk is voor de verdere ontwikkeling van het product. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
-<p>Stakeholders beschouwen we als alle partijen die interesse hebben in een op te leveren product of project. Ze beïnvloeden het proje…</p></div></div><div class="tooltip_templates"><div id="verheyen_2017_tooltip_id"><p>[!info] Metadata<br/>
-- <strong>CiteKey</strong>: verheyen_2017<br/>
-- <strong>Type</strong>: webpage<br/>
-- <strong>Title</strong>: De kernwaarden van Scrum, <br/>
-- <strong>Author</strong>: Verheyen, Gunther<br/>
-- <strong>Journal</strong>: Ullizee-Inc <br/>
-- <strong>Year</strong>: 2017 </p>
-<p>[!quote] Abstract<br/>
-Scrum is een samenhangend framework van regels, rollen en principes die mensen en organisaties ondersteunen, maar dat afhankelijk van de exacte situati…</p></div></div></body>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40vanrooden_2015a/">@Vanrooden 2015A</a></p></div></div><div class="tooltip_templates"><div id="verheyen_2022_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: verheyen_2022</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: Scrum Glossary, </li>
+<li><strong>Author</strong>: Verheyen, Gunther</li>
+<li><strong>Journal</strong>: Scrum Glossary </li>
+<li><strong>Year</strong>: 2022 </li>
+<p class="admonition-title">Abstract</p>
+<p>English Burn-down chart: a chart showing the decrease of remaining work against time. Burn-up chart: a chart showing the increase of a parameter, like value, against time. Daily Scrum: a daily event, time-boxed to 15 minutes or less, to re-plan the development work during …</p></div></div><div class="tooltip_templates"><div id="SprintGoal_tooltip_id"><p class="admonition-title">definitie</p>
+<p><strong>Sprint Goal:</strong> een korte omschrijving van de overkoepelende doelstelling van een Sprint. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p></div></div><div class="tooltip_templates"><div id="DefinitionofDone_tooltip_id"><p class="admonition-title">definitie</p>
+<p><strong>Definition of Done:</strong> de verzameling kwaliteiten, verwachtingen en criteria waaraan een Increment moet voldoen om te kunnen worden vrijgegeven naar de eindgebruikers – met respect voor overkoepelende organisatierichtlijnen indien beschikbaar. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p></div></div><div class="tooltip_templates"><div id="SprintGoal_tooltip_id"><p class="admonition-title">definitie</p>
+<p><strong>Sprint Goal:</strong> een korte omschrijving van de overkoepelende doelstelling van een Sprint. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p></div></div><div class="tooltip_templates"><div id="DailyScrum_tooltip_id"></div></div><div class="tooltip_templates"><div id="empirischeprocesfundamenten_tooltip_id"><p class="admonition-title">definitie</p>
+<p><strong>Empirische procescontrole</strong> (in het Engels vaak afgekort tot ‘Empiricism’): de vorm van procescontrole waar beslissingen voor aanpassingen gebaseerd zijn op observatie, ervaring en effectieve realisaties. Empirische procescontrole behoeft en creëert transparantie als noodzakelijke ondergrond voor regelmatige inspectie (evaluatie) en aanpassing. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p><img alt="" src="https://i.imgur.com/F5ySO0e.png"/><br/>
+<a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40zentaoteam_2022a/">@Zentaoteam 2022A</a></p>
+<p>Scrum is gebasee…</p></div></div><div class="tooltip_templates"><div id="stakeholders_tooltip_id"><p class="admonition-title">definitie</p>
+<p><strong>Stakeholder:</strong> een persoon van buiten het Scrum Team met een specifiek belang in het product of kennis ervan die noodzakelijk is voor de verdere ontwikkeling van het product. <a class="wikilink" href="https://janc-pxl.github.io/pxl-projectmanagement-doc/References/%40verheyen_2022/">@Verheyen 2022</a></p>
+<p>Stakeholders beschouwen we als alle partijen die interesse hebben in een op te leveren product of project. Ze beïnvloeden het project of het project beïnvloedt hen, ze hebben (in)direct invloed en interesse in je Scrum project. <br/>
+Do…</p></div></div><div class="tooltip_templates"><div id="verheyen_2017_tooltip_id"><p class="admonition-title">Metadata</p>
+<li><strong>CiteKey</strong>: verheyen_2017</li>
+<li><strong>Type</strong>: webpage</li>
+<li><strong>Title</strong>: De kernwaarden van Scrum, </li>
+<li><strong>Author</strong>: Verheyen, Gunther</li>
+<li><strong>Journal</strong>: Ullizee-Inc </li>
+<li><strong>Year</strong>: 2017 </li>
+<p class="admonition-title">Abstract</p>
+<p>Scrum is een samenhangend framework van regels, rollen en principes die mensen en organisaties ondersteunen, maar dat afhankelijk van de exacte situatie en context ingevuld kan worden. Scrum is een…</p>
+<p class="admonition-title">Files and Links</p>
+<li><strong>Url</strong>: [https://gunt…</li></div></div></body>
 </html>
