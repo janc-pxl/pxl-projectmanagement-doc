@@ -43,4 +43,4 @@ def on_env(env, config, files, **kwargs):
     env.filters['page_exists'] = page_exists
     env.filters['url_decode'] = url_decode
     env.filters['logging'] = logging
-    return env 
+    return env
